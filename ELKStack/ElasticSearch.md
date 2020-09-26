@@ -48,4 +48,42 @@ curl -H "Content-Type: application/json" -XGET '127.0.0.1:9200/shakespeare/_sear
 }  
 }'  
 
+# Mapping and Indexing data
+
+## Connecting to your cluster
+
+### Open SSH, ES and Kibana ports on your VM
+VM -> Settings -> Network -> Advanced -> Port Forwarding -> Add (+)
+Name = SSH
+Protocol = TCP
+Host IP = 127.0.0.1
+Host Port = 22
+Guest Port = 22
+
+Name = Elasticsearch
+Protocol = TCP
+Host IP = 127.0.0.1
+Host Port = 9200
+Guest Port = 9200
+
+Name = Kibana
+Protocol = TCP
+Host IP = 127.0.0.1
+Host Port = 5601
+Guest Port = 5601
+
+#### Connect to Ubuntu machine using PuTTY/ Terminal using SSH
+In real world, you would usually never login to Elasticsearch machine directly. You would SSH to it from a remote machine.
+
+
+## Download dataset
+
+Download movielens dataset from http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
+
+
+
+
+
+
 
