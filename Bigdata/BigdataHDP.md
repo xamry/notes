@@ -134,74 +134,94 @@ SSH to VM, login as maria_dev. su root
     spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.0 MongoSpark.py  
 
 ## Using Mongo Shell
-mongo (takes you to mongo shell)  
-use movielens;  
-db.users.find();  
-db.users.find({user_id:100});  
+
+    mongo (takes you to mongo shell)  
+    use movielens;  
+    db.users.find();  
+    db.users.find({user_id:100});  
 
 ### Explain plan for the above query
-db.users.explain().find({user_id:100});  
+
+    db.users.explain().find({user_id:100});  
 
 ### Create index on user_id for faster queries (Unlike cassandra, mongodb will not create index on your PK by default)
-db.users.createIndex({user_id : 1});  
+
+    db.users.createIndex({user_id : 1});  
 
 ### Now check again the explain plan to see the fetch is from index
-db.users.explain().find({user_id:100});  
+
+    db.users.explain().find({user_id:100});  
 
 
 ### Find Average age of users for each occupation
-db.users.aggregate([  
-{$group:  {_id : {occupaton : "$occupation"}, avgAge: {$avg : "$age"}  }}  
-]);  
+
+    db.users.aggregate([  
+    {$group:  {_id : {occupaton : "$occupation"}, avgAge: {$avg : "$age"}  }}  
+    ]);  
 
 ### Find number of users
-db.users.count();
+
+    db.users.count();
 
 ### See all collections
-db.getCollectionInfos();
+
+    db.getCollectionInfos();
 
 ### Drop table
-db.users.drop();
+
+    db.users.drop();
 
 ### Exit
-exit
+
+    exit
 
 #### Do remember to shutdown mongodb in Ambari
 
 
 # Apache Drill
 ## Load ratings data in Hive using Hive view
-CREATE DATABASE movielens;  
+
+    CREATE DATABASE movielens;  
+
 #### Then Upload rating data (u.data) using Hive View
 
 ## Load data into MongoDB
 ### SSH via admin
-su root  
-spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.0 MongoSpark.py  
+
+    su root  
+    spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.0 MongoSpark.py  
 
 ## Install drill
-wget http://archive.apache.org/dist/drill/drill-1.12.0/apache-drill-1.12.0.tar.gz  
-tar -zxvf apache-drill-1.12.0.tar.gz  
+
+    wget http://archive.apache.org/dist/drill/drill-1.12.0/apache-drill-1.12.0.tar.gz  
+    tar -zxvf apache-drill-1.12.0.tar.gz  
 
 ## Start drill
-bin/drillbit.sh start -Ddrill.exec.http.port=8765    (Open this port to be used to access this from your host. HDP has this port unused, so we can use this pretty easily. use drill.exec.port if it doesn't work)  
+`bin/drillbit.sh start -Ddrill.exec.http.port=8765`    (Open this port to be used to access this from your host. HDP has this port unused, so we can use this pretty easily. use drill.exec.port if it doesn't work)  
 
 ## Access Drill from your web browser
-http://localhost:8765/  
 
-## Connect drill to MongoDB and Hive (Click Storage menu and enable both. Also make sure ap and dfs are enabled to access Json files on local/hdfs)
+    http://localhost:8765/ 
 
-## Update hive.metastore.uris for Hive. (Click Update, change hive.metastore.uris from "" to "thrift://localhost:9083")
+ 
 
-## Explore Drill Query menu, hit few SQL queries. SHOW DATABASES  will show hive.movielens and mongo.movielens)
-select * from mongo.movielens.users limit 10;  
-select * from hive.movielens.ratings limit 10;  
+#### Connect drill to MongoDB and Hive (Click Storage menu and enable both. Also make sure ap and dfs are enabled to access Json files on local/hdfs)
+
+#### Update hive.metastore.uris for Hive. (Click Update, change hive.metastore.uris from "" to "thrift://localhost:9083")
+
+#### Explore Drill Query menu, hit few SQL queries. SHOW DATABASES  will show hive.movielens and mongo.movielens)
+
+    select * from mongo.movielens.users limit 10;  
+    select * from hive.movielens.ratings limit 10;  
 
 ## Find total number of ratings given by users for each occupation
-SELECT u.occupation, COUNT(*) FROM hive.movielens.ratings r JOIN mongo.movielens.users u ON r.user_id = u.user_id  GROUP BY u.occupation;  
+
+    SELECT u.occupation, COUNT(*) FROM hive.movielens.ratings r JOIN mongo.movielens.users u ON r.user_id = u.user_id  GROUP BY u.occupation;  
 
 ## Clean up the mess
-bin/drillbit.sh stop  
+
+    bin/drillbit.sh stop  
+
 (Stop mongoDB from Ambari)  
 
 
@@ -209,13 +229,17 @@ bin/drillbit.sh stop
 ## Ensure HBase is started
 
 ## Install Phoenix
-su root  
-yum install phoenix  
-cd /usr/hdp/current/phoenix-client/bin  
-python sqlline.py  -- kick off phoenix and launch command line interface  
+
+    su root  
+    yum install phoenix  
+    cd /usr/hdp/current/phoenix-client/bin  
+    python sqlline.py  -- kick off phoenix and launch command line interface  
 
 ## List tables
-!tables  
+
+    !tables 
+
+ 
 
 CREATE TABLE IF NOT EXISTS us_population(  
  state CHAR(2) NOT NULL,  
@@ -506,6 +530,7 @@ SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movie
 # Hue (Hadoop User Experience)
 ### gethue.com -> Try Hue now -> un/pw: demo/demo
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDc1MDk4Nl19
+eyJoaXN0b3J5IjpbLTExNDE5MDE5MDRdfQ==
 -->
