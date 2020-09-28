@@ -159,7 +159,7 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
     curl -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json
 
-(or you could have used 
+(or you could have used -d 'Entire JSON' option as well)
 
 
 
@@ -170,6 +170,6 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTU5MDkxMSwtMjExNDg3MDMyMCwtNz
+eyJoaXN0b3J5IjpbLTQxMjM0NTQxMywtMjExNDg3MDMyMCwtNz
 Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
