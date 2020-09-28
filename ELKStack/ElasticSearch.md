@@ -152,7 +152,9 @@ To avoid typing -h "Content-Type: application/json" every time
 ## Use Bulk API to import multiple records
 ### Download the dataset to bulk import
 The Bulk API accepts dataset in JSON format, so let's download it
-wget 
+
+    wget http://media.sundog-soft.com/es7/movies.json
+
 
 
 
@@ -165,6 +167,6 @@ wget
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTM0NDU4OCwtNzQ4MjMyNDY5LC03Mj
-M0NTY3NDgsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbLTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNz
+IzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
 -->
