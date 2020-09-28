@@ -195,7 +195,7 @@ curl -XPOST localhost:9200/movies/_doc/109487/_update -d '
 
     curl -XGET localhost:9200/movies/_doc/109487?pretty
 
-
+## Deleting documents
 
 
 
@@ -203,7 +203,7 @@ curl -XPOST localhost:9200/movies/_doc/109487/_update -d '
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxNzkxMTcxLDcyMDA4NTQ1NywtMTA0Nj
-cyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3
-NDgsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbMTYwNTM2MTAxNyw3MjAwODU0NTcsLTEwND
+Y3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNzIzNDU2
+NzQ4LC0xNTkyOTMzMzhdfQ==
 -->
