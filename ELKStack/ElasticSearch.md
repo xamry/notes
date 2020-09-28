@@ -150,7 +150,9 @@ To avoid typing -h "Content-Type: application/json" every time
     curl -XGET localhost:9200/movies/_search?pretty
 
 ## Use Bulk API to import multiple records
-
+### Download the dataset to bulk import
+The Bulk API accepts dataset in JSON format, so let's download it
+wget 
 
 
 
@@ -163,6 +165,6 @@ To avoid typing -h "Content-Type: application/json" every time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNT
-kyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTc4NTM0NDU4OCwtNzQ4MjMyNDY5LC03Mj
+M0NTY3NDgsLTE1OTI5MzMzOF19
 -->
