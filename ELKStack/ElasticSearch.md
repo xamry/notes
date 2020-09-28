@@ -193,6 +193,7 @@ curl -XPOST localhost:9200/movies/_doc/109487/_update -d '
     	}
     }'
 
+    curl -XGET localhost:9200/movies/_doc/109487?pretty
 
 
 
@@ -202,7 +203,7 @@ curl -XPOST localhost:9200/movies/_doc/109487/_update -d '
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NzcwNzExLDcyMDA4NTQ1NywtMTA0Nj
+eyJoaXN0b3J5IjpbNjMxNzkxMTcxLDcyMDA4NTQ1NywtMTA0Nj
 cyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3
 NDgsLTE1OTI5MzMzOF19
 -->
