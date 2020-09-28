@@ -109,16 +109,17 @@ source .profile
 which curl  
 
 ### Create Mapping
-curl -XPUT localhost:9200/movies -d '  
-{  
-    "mappings" : {  
-        "properties" : {  
-            "year" : {  
-                "type" : "date"  
-            }           
-        }       
-    }  
-}'  
+
+    curl -XPUT localhost:9200/movies -d '  
+    {  
+        "mappings" : {  
+            "properties" : {  
+                "year" : {  
+                    "type" : "date"  
+                }           
+            }       
+        }  
+    }'  
 
 curl -XGET localhost:9200/movies/_mapping  
 
@@ -144,6 +145,8 @@ curl -XGET localhost:9200/movies/_search?pretty
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
+eyJoaXN0b3J5IjpbLTgyNjQ3OTk1MiwtNzIzNDU2NzQ4LC0xNT
+kyOTMzMzhdfQ==
 -->
