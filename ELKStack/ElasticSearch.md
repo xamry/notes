@@ -107,20 +107,23 @@ Character Filter - For example remove HTML encoding, convert & to and etc.
 Tokenizer - Split strings on whitespaces, punctuations, non-letters etc.  
 Token Filter - Lowercasing, stemming, synonyms, stopwords etc.  
 
-"analyzer" : "standard|whitespace|simple|english"  
+    "analyzer" : "standard|whitespace|simple|english" 
+
+ 
 
 ## Import a single record
 ### Write your own curl
 To avoid typing -h "Content-Type: application/json" every time  
-mkdir bin
-cd bin  
-vi curl  
-#!/bin/bash  
-/usr/bin/curl -H "Content-Type:application/json" "$@" 
-chmod a+x curl    
-cd ~   
-source .profile  
-which curl  
+
+    mkdir bin
+    cd bin  
+    vi curl  
+    #!/bin/bash  
+    /usr/bin/curl -H "Content-Type:application/json" "$@" 
+    chmod a+x curl    
+    cd ~   
+    source .profile  
+    which curl  
 
 ### Create Mapping
 
@@ -135,17 +138,18 @@ which curl
         }  
     }'  
 
-curl -XGET localhost:9200/movies/_mapping  
+    curl -XGET localhost:9200/movies/_mapping  
 
 ### Insert a record
-curl -XPOST localhost:9200/movies/_doc/109487 -d '  
-{  
-    "genre" : ["IMAX", "Sci-Fi"],  
-    "title" : "Interstellar",  
-    "year" : 2014  
-}'  
 
-curl -XGET localhost:9200/movies/_search?pretty
+    curl -XPOST localhost:9200/movies/_doc/109487 -d '  
+    {  
+        "genre" : ["IMAX", "Sci-Fi"],  
+        "title" : "Interstellar",  
+        "year" : 2014  
+    }'  
+
+    curl -XGET localhost:9200/movies/_search?pretty
 
 ### Use Bulk API to import multiple records
 
@@ -161,6 +165,6 @@ curl -XGET localhost:9200/movies/_search?pretty
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMzEwODgsLTcyMzQ1Njc0OCwtMTU5Mj
-kzMzM4XX0=
+eyJoaXN0b3J5IjpbLTExMTYzNzE0NDQsLTcyMzQ1Njc0OCwtMT
+U5MjkzMzM4XX0=
 -->
