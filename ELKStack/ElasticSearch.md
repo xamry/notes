@@ -161,6 +161,10 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
 (or you could have used -d 'Entire JSON' option as well)
 
+### Print the inserted documents
+
+    curl -XGET localhost:9200/movies/_search?pretty
+
 
 
 
@@ -170,6 +174,6 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjM0NTQxMywtMjExNDg3MDMyMCwtNz
+eyJoaXN0b3J5IjpbLTI4NjMwOTg2NCwtMjExNDg3MDMyMCwtNz
 Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
