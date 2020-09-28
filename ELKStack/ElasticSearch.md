@@ -185,6 +185,13 @@ Notice the _version (it will change to 2)
 
 ### Updating existing document using POST
 You can provide only the field you want to change
+curl -XPOST localhost:9200/movies/_doc/109487/_update -d '
+
+    {
+    	"doc" : {
+    		"title" : "Interstellar"
+    	}
+    }'
 
 
 
@@ -195,7 +202,7 @@ You can provide only the field you want to change
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMT
-E0ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5Mjkz
-MzM4XX0=
+eyJoaXN0b3J5IjpbMzg5NzcwNzExLDcyMDA4NTQ1NywtMTA0Nj
+cyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3
+NDgsLTE1OTI5MzMzOF19
 -->
