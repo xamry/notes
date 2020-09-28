@@ -172,7 +172,7 @@ When we update a document, an new document with incremented _version is created,
 Elasticsearch will do a cleanup operation at an appropriate time at later stage.
 
 ### Updating existing document using PUT
-
+You have to provide the entire data as if you're inserting entire new document
      curl -XPUT localhost:9200/movies/_doc/109487?pretty -d '
      {
     	 "genre" : ["IMAX", "Sci-Fi"],
@@ -181,7 +181,10 @@ Elasticsearch will do a cleanup operation at an appropriate time at later stage.
      }'
 Notice the _version (it will change to 2)
 
+    curl -XGET localhost:9200/movies/_doc/109487?pretty
+
 ### Updating existing document using POST
+You can provide only the field you want to change
 
 
 
@@ -192,7 +195,7 @@ Notice the _version (it will change to 2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI1MTQ5NzQsLTEwNDY3MjgyODYsLT
-IxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNTky
-OTMzMzhdfQ==
+eyJoaXN0b3J5IjpbNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMT
+E0ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5Mjkz
+MzM4XX0=
 -->
