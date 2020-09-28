@@ -204,13 +204,15 @@ Delete the movie Dark Knight
 
 ### Delete the document
 
+    curl -XDELETE localhost:9200/movies/_doc/58559?pretty
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg0MDUzMzksMTYwNTM2MTAxNyw3Mj
-AwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIz
-MjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTUxOTY2NTc1MywxNjA1MzYxMDE3LDcyMD
+A4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMy
+NDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
