@@ -109,7 +109,7 @@ Token Filter - Lowercasing, stemming, synonyms, stopwords etc.
 
     "analyzer" : "standard|whitespace|simple|english"  
 
-## Import a single record
+## Indexing a single document
 ### Write your own curl
 To avoid typing -h "Content-Type: application/json" every time  
 
@@ -138,7 +138,7 @@ To avoid typing -h "Content-Type: application/json" every time
 
     curl -XGET localhost:9200/movies/_mapping  
 
-### Insert a record
+### Insert a document
 
     curl -XPOST localhost:9200/movies/_doc/109487 -d '  
     {  
@@ -149,19 +149,19 @@ To avoid typing -h "Content-Type: application/json" every time
 
     curl -XGET localhost:9200/movies/_search?pretty
 
-## Use Bulk API to import multiple records
-### Download the dataset to bulk import
+## Use Bulk API to index multiple documents
+### Download the dataset to bulk index
 The Bulk API accepts dataset in JSON format, so let's download it
 
     wget http://media.sundog-soft.com/es7/movies.json
 
-### Bulk import data from the file 
+### Bulk index documents from the file 
 
     curl -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json
 
 (or you could have used -d 'Entire JSON' option as well)
 
-### Print the inserted documents
+### Print the indexed documents
 
     curl -XGET localhost:9200/movies/_search?pretty
 
@@ -174,6 +174,6 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjMwOTg2NCwtMjExNDg3MDMyMCwtNz
-Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbMTg0MDYxMzI3LC0yMTE0ODcwMzIwLC03ND
+gyMzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
 -->
