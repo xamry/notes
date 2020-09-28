@@ -132,7 +132,7 @@ curl -XPOST localhost:9200/movies/_doc/109487 -d '
 
 curl -XGET localhost:9200/movies/_search?pretty
 
-### Use Bulk API to im
+### Use Bulk API to import multiple records
 
 
 
@@ -144,5 +144,5 @@ curl -XGET localhost:9200/movies/_search?pretty
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTQ5NjUzXX0=
+eyJoaXN0b3J5IjpbLTE1OTI5MzMzOF19
 -->
