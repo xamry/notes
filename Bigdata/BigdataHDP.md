@@ -17,95 +17,121 @@ For running command locally
     ambari-admin-password-reset   (will restart ambari)  
 
 # Sqoop
-mysql -u root -p   (password=hortonworks1)  
-create database movielens;  
+
+    mysql -u root -p   (password=hortonworks1)  
+    create database movielens;  
+
 ### To handle international characters in movielens dataset
-set NAMES 'utf8';  
-SET CHARACTER SET utf8;  
-use movielens;  
+
+    set NAMES 'utf8';  
+    SET CHARACTER SET utf8;  
+    use movielens;  
+
 ### Load dataset into mysql
-wget http://media.sundog-soft.com/hadoop/movielens.sql  
-source movielens.sql;  
+
+    wget http://media.sundog-soft.com/hadoop/movielens.sql  
+    source movielens.sql; 
+
+ 
 ### Find most popular movies
-SELECT movies.title, COUNT(ratings.movie_id) AS ratingCount FROM movies INNER JOIN ratings ON movies.id = ratings.movie_id GROUP BY movies.id ORDER BY ratingCount;  
+
+    SELECT movies.title, COUNT(ratings.movie_id) AS ratingCount FROM movies INNER JOIN ratings ON movies.id = ratings.movie_id GROUP BY movies.id ORDER BY ratingCount;  
+
 ### Grant all privileges to sqoop to read mysql data
-CREATE USER 'sqoop'@'localhost' IDENTIFIED WITH mysql_native_password by 'p4ssw0rd';  
-GRANT ALL PRIVILEGES ON movielens.* TO 'sqoop'@'localhost';  
+
+    CREATE USER 'sqoop'@'localhost' IDENTIFIED WITH mysql_native_password by 'p4ssw0rd';  
+    GRANT ALL PRIVILEGES ON movielens.* TO 'sqoop'@'localhost';  
 
 ### Import directly to HDFS
-sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies --username sqoop -P -m 1  
+
+    sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies --username sqoop -P -m 1 
+
+ 
 
 ### Import to Hive
-sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies --username sqoop -P -m 1 --hive-import  
+
+    sqoop import --connect jdbc:mysql://localhost/movielens --driver com.mysql.jdbc.Driver --table movies --username sqoop -P -m 1 --hive-import  
 
 ### Export from Hive to Mysql
-CREATE TABLE exported_movies(id INTEGER, title VARCHAR(255), releaseDate DATE);  
-sqoop export --connect jdbc:mysql://localhost/movielens --username sqoop -P -m 1 --driver com.mysql.jdbc.Driver --table exported_movies --export-dir /apps/hive/warehouse/movies --input-fields-terminated-by '\0001'  
+
+    CREATE TABLE exported_movies(id INTEGER, title VARCHAR(255), releaseDate DATE);  
+    sqoop export --connect jdbc:mysql://localhost/movielens --username sqoop -P -m 1 --driver com.mysql.jdbc.Driver --table exported_movies --export-dir /apps/hive/warehouse/movies --input-fields-terminated-by '\0001'  
 
 # HBase
 ## HBase REST
 Setup port forwarding on VM Settings -> Network -> Advanced -> Port forwarding  
-HBase Rest - 127.0.0.1 8000 8000  
+
+    HBase Rest - 127.0.0.1 8000 8000  
+
 Login to Ambari as admin and start hbase  
 SSH to VM, login as maria_dev. su root  
-/usr/hdp/current/hbase-master/bin/hbase-daemon.sh start rest -p 8000 --infoport 8001  
-/usr/hdp/current/hbase-master/bin/hbase-daemon.sh stop rest  
+
+    /usr/hdp/current/hbase-master/bin/hbase-daemon.sh start rest -p 8000 --infoport 8001  
+    /usr/hdp/current/hbase-master/bin/hbase-daemon.sh stop rest  
 
 
 ## HBase commands
-hbase shell  //takes you to hbase shell (Press Ctrl+C to exit)  
-list  //lists all tables  
-create 'users','userinfo'   //Create table users with column family userinfo  
-scan 'users'  
-disable 'users'  
-drop 'users'  
+
+    hbase shell  //takes you to hbase shell (Press Ctrl+C to exit)  
+    list  //lists all tables  
+    create 'users','userinfo'   //Create table users with column family userinfo  
+    scan 'users'  
+    disable 'users'  
+    drop 'users'  
 
 # Cassandra
 ## Install Cassandra
-vi /etc/yum.repos.d/datastax.repo  
 
-[datastax]  
-name = DataStax Repo for Apache Cassandra  
-baseurl = http://rpm.datastax.com/community  
-enabled = 1  
-gpgcheck = 0  
-
-su root  
-yum install dsc30  
-
-python --version (should be >=2.7, if not, upgrade)  
-yum install python-pip   (needed for running cqlsh)  
-pip --version  
-
-service cassandra start  
-cqlsh --cqlversion="3.4.0"   (version optional, provide only if you see version mismatch error)  
+    vi /etc/yum.repos.d/datastax.repo  
+    
+    [datastax]  
+    name = DataStax Repo for Apache Cassandra  
+    baseurl = http://rpm.datastax.com/community  
+    enabled = 1  
+    gpgcheck = 0  
+    
+    su root  
+    yum install dsc30  
+    
+    python --version (should be >=2.7, if not, upgrade)  
+    yum install python-pip   (needed for running cqlsh)  
+    pip --version  
+    
+    service cassandra start  
+    cqlsh --cqlversion="3.4.0"   (version optional, provide only if you see version mismatch error)  
 
 
 ## Put some data into cassandra
-create KEYSPACE movielens WITH replication  = {'class' : 'SimpleStrategy', 'replication_factor' : '1'} AND durable_writes=true;  
-USE movielens;  
-CREATE TABLE users(user_id int, age int, gender text, occupation text, zip text, PRIMARY KEY(user_id));  
 
-spark-submit --packages datastax:spark-cassandra-connector:2.4.0-s_2.11 CassandraSpark.py  (To be able to use org.apache.spark.sql.cassandra, u need to specify this connector, viz Spark 2 connector for Spark 2)       
+    create KEYSPACE movielens WITH replication  = {'class' : 'SimpleStrategy', 'replication_factor' : '1'} AND durable_writes=true;  
+    USE movielens;  
+    CREATE TABLE users(user_id int, age int, gender text, occupation text, zip text, PRIMARY KEY(user_id));  
+    
+    spark-submit --packages datastax:spark-cassandra-connector:2.4.0-s_2.11 CassandraSpark.py  (To be able to use org.apache.spark.sql.cassandra, u need to specify this connector, viz Spark 2 connector for Spark 2)       
 
 ## Clean up
-cqlsh>exit
-service cassandra stop
+
+    cqlsh>exit
+    service cassandra stop
 
 # MongoDB
 ## Install MongoDB
-su root  
-cd /var/lib/ambari-server/resources/stacks/HDP/2.6/services  
-git clone http://github.com/nikunjness/mongo-ambari.git    (Mongo Ambari connector)  
-sudo service ambari-server restart  
-sudo service ambari-agent restart  
+
+    su root  
+    cd /var/lib/ambari-server/resources/stacks/HDP/2.6/services  
+    git clone http://github.com/nikunjness/mongo-ambari.git    (Mongo Ambari connector)  
+    sudo service ambari-server restart  
+    sudo service ambari-agent restart  
+
 (Login to Ambari as admin and add MongoDB from Action-> Add Service->MongoDB, accept defaults and Deploy)  
-exit   (exit from root account, was only needed for installation)  
+
+    exit   (exit from root account, was only needed for installation)  
 
 ## Writing to and reading data from MongoDB using Spark
-pip install pymongo  
-wget http://media.sundog-soft.com/hadoop/MongoSpark.py  
-spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.0 MongoSpark.py  
+
+    pip install pymongo  
+    wget http://media.sundog-soft.com/hadoop/MongoSpark.py  
+    spark-submit --packages org.mongodb.spark:mongo-spark-connector_2.11:2.3.0 MongoSpark.py  
 
 ## Using Mongo Shell
 mongo (takes you to mongo shell)  
@@ -479,6 +505,7 @@ SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movie
 
 # Hue (Hadoop User Experience)
 ### gethue.com -> Try Hue now -> un/pw: demo/demo
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzc2MzY5Ml19
+eyJoaXN0b3J5IjpbLTU4NDc1MDk4Nl19
 -->
