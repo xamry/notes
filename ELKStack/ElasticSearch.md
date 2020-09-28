@@ -50,11 +50,11 @@
 
     curl -H "Content-Type: application/json" -XGET '127.0.0.1:9200/shakespeare/_search?pretty' -d '  
     {  
-    "query" : {  
-    "match_phrase" : {  
-    "text_entry" : "to be or not to be"  
-    }  
-    }  
+      "query" : {  
+        "match_phrase" : {  
+        "text_entry" : "to be or not to be"  
+        }  
+      }  
     }'  
 
 # Mapping and Indexing data
@@ -165,6 +165,6 @@ To avoid typing -h "Content-Type: application/json" every time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYzNzE0NDQsLTcyMzQ1Njc0OCwtMT
-U5MjkzMzM4XX0=
+eyJoaXN0b3J5IjpbMTA1NTc2ODg0NCwtNzIzNDU2NzQ4LC0xNT
+kyOTMzMzhdfQ==
 -->
