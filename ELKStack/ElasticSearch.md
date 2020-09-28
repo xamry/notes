@@ -171,6 +171,18 @@ But every document has a _version field.
 When we update a document, an new document with incremented _version is created, while the older document is marked for deletion.
 Elasticsearch will do a cleanup operation at an appropriate time at later stage.
 
+### Updating existing document using PUT
+
+     curl -XPUT localhost:9200/movies/_doc/109487?pretty -d '
+     {
+    	 "genre" : ["IMAX", "Sci-Fi"],
+    	 "title" : "Interstellar 2",
+    	 "year" : 2014
+     }'
+Notice the _version (it will change to 2)
+
+### Updating existing document using POST
+
 
 
 
@@ -180,6 +192,7 @@ Elasticsearch will do a cleanup operation at an appropriate time at later stage.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLT
-c0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbLTE5OTI1MTQ5NzQsLTEwNDY3MjgyODYsLT
+IxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNTky
+OTMzMzhdfQ==
 -->
