@@ -1,17 +1,20 @@
 # Map Reduce
 SSH with maria_dev/maria_dev  
 For running command locally  
-python RatingsBreakdown.py u.data  
+
+    python RatingsBreakdown.py u.data  
 
 ### For running command on cluster. (In real env, you would provide hdfs path of u.data instead of local path)  
-python RatingsBreakdown.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
 
-python TopMovies.py u.data
+    python RatingsBreakdown.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
+    
+    python TopMovies.py u.data
 
 ### Set Admin User and set its password
-SSH with maria_dev/maria_dev  
-su root  (Default root password is hadoop)  
-ambari-admin-password-reset   (will restart ambari)  
+
+    SSH with maria_dev/maria_dev  
+    su root  (Default root password is hadoop)  
+    ambari-admin-password-reset   (will restart ambari)  
 
 # Sqoop
 mysql -u root -p   (password=hortonworks1)  
@@ -476,3 +479,6 @@ SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movie
 
 # Hue (Hadoop User Experience)
 ### gethue.com -> Try Hue now -> un/pw: demo/demo
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUwNzc2MzY5Ml19
+-->
