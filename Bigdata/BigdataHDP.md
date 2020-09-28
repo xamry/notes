@@ -348,58 +348,68 @@ SSH to VM, login as maria_dev. su root
  
 
 ### Enable thrift on cassandra (in order for presto to talk to cassandra)
-nodetool enablethrift  
+
+    nodetool enablethrift  
 
 ### Check the users table in cassandra
-cqlsh  
-describe keyspaces;  
-use movielens;  
-select * from users limit 10;  
-quit  
+
+    cqlsh  
+    describe keyspaces;  
+    use movielens;  
+    select * from users limit 10;  
+    quit  
 
 ### Goto presto and configure cassandra catalog
-cd presto-server-0.240/etc/catalog  
-vi cassandra.properties  
-connector.name=cassandra  
-cassandra.contact-points=127.0.0.1  
+
+    cd presto-server-0.240/etc/catalog  
+    vi cassandra.properties  
+    connector.name=cassandra  
+    cassandra.contact-points=127.0.0.1  
+
 ## Start Presto
-cd ../..  
-bin/launcher start  
+
+    cd ../..  
+    bin/launcher start  
 
 ## Goto Presto CLI
-bin/presto --server localhost:8090 --catalog hive,cassandra  
+
+    bin/presto --server localhost:8090 --catalog hive,cassandra  
 
 ## Check cassandra and hive tables
-show tables from cassandra.movielens;  
-show tables from hive.movielens;  
-describe cassandra.movielens.users;  
-describe hive.movielens.ratings;  
 
-select * from cassandra.movielens.users limit 10;  
-select * from hive.movielens.ratings limit 10;  
+    show tables from cassandra.movielens;  
+    show tables from hive.movielens;  
+    describe cassandra.movielens.users;  
+    describe hive.movielens.ratings;  
+    
+    select * from cassandra.movielens.users limit 10;  
+    select * from hive.movielens.ratings limit 10;  
 
 ## Count ratings given by users in each occupation
-select u.occupation, count(*) from hive.movielens.ratings r join cassandra.movielens.users u on r.user_id = u.user_id group by u.occupation;  
+
+    select u.occupation, count(*) from hive.movielens.ratings r join cassandra.movielens.users u on r.user_id = u.user_id group by u.occupation;  
 
 ## Clean up the mess
-quit  
-bin/launcher stop --Stop presto  
-service cassandra stop  
+
+    quit  
+    bin/launcher stop --Stop presto  
+    service cassandra stop  
 
 # Compare MapReduce and Tez Perormance
 ## Run below query on Hive view
-DROP VIEW IF EXISTS topMovieIDs;  
 
-CREATE VIEW topMovieIDs AS  
-SELECT movie_id, count(movie_id) as ratingCount  
-FROM movielens.ratings  
-GROUP BY movie_id  
-ORDER BY ratingCount DESC;  
+    DROP VIEW IF EXISTS topMovieIDs;  
+    
+    CREATE VIEW topMovieIDs AS  
+    SELECT movie_id, count(movie_id) as ratingCount  
+    FROM movielens.ratings  
+    GROUP BY movie_id  
+    ORDER BY ratingCount DESC;  
+    
+    SELECT n.name, ratingCount  
+    FROM topMovieIDs t JOIN movielens.names n on t.movie_id = n.movie_id;  
 
-SELECT n.name, ratingCount  
-FROM topMovieIDs t JOIN movielens.names n on t.movie_id = n.movie_id;  
-
-## Click gear icon and set hive.execution.engine to either mr or tez before executing the query. Compare the time using a stop watch
+#### Click gear icon and set hive.execution.engine to either mr or tez before executing the query. Compare the time using a stop watch
 
 
 # Zookeeper
@@ -558,5 +568,5 @@ SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movie
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDkwNDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbNDI4ODE1MTIwXX0=
 -->
