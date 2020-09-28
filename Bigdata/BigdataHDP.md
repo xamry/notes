@@ -237,91 +237,115 @@ SSH to VM, login as maria_dev. su root
 
 ## List tables
 
-    !tables 
+    !tables  
 
- 
-
-CREATE TABLE IF NOT EXISTS us_population(  
- state CHAR(2) NOT NULL,  
- city VARCHAR NOT NULL,  
- population BIGINT  
-CONSTRAINT my_pk PRIMARY KEY(state,city)  
-);  
-
-!tables  
-select * from us_population;  
+    CREATE TABLE IF NOT EXISTS us_population(  
+     state CHAR(2) NOT NULL,  
+     city VARCHAR NOT NULL,  
+     population BIGINT  
+    CONSTRAINT my_pk PRIMARY KEY(state,city)  
+    );  
+    
+    !tables  
+    select * from us_population;  
 
 ## INSERT won't work in Phoenix, use UPSERT instead
-UPSERT INTO us_population VALUES('NY', 'Ney York', 34241221);  
-UPSERT INTO us_population VALUES('CA', 'Los Angeles', 845452424);  
+
+    UPSERT INTO us_population VALUES('NY', 'Ney York', 34241221);  
+    UPSERT INTO us_population VALUES('CA', 'Los Angeles', 845452424); 
+ 
 
 ## Clean up the mess
-DROP TABLE us_population;  
-!quit  
+
+    DROP TABLE us_population;  
+    !quit  
 
 
 ## Use pig to load data into HBase using Phoenix
-cd /usr/hdp/current/phoenix-client/bin  
-python sqlline.py  
+
+    cd /usr/hdp/current/phoenix-client/bin  
+    python sqlline.py  
+
 ### First create the users table
-CREATE TABLE users(USERID INTEGER NOT NULL, AGE INTEGER, GENDER CHAR(1), OCCUPATION VARCHAR, ZIP VARCHAR CONSTRAINT pk PRIMARY KEY(USERID));  
-!tables  
-!quit  
- 
-cd /home/maria_dev  
-wget http://media.sundog-soft.com/hadoop/phoenix.pig  
-pig phoenix.pig  
+
+    CREATE TABLE users(USERID INTEGER NOT NULL, AGE INTEGER, GENDER CHAR(1), OCCUPATION VARCHAR, ZIP VARCHAR CONSTRAINT pk PRIMARY KEY(USERID));  
+    !tables  
+    !quit  
+     
+
+    cd /home/maria_dev  
+    wget http://media.sundog-soft.com/hadoop/phoenix.pig  
+    pig phoenix.pig  
 
 ## Clean up the mess
-cd /usr/hdp/current/phoenix-client/bin  
-python sqlline.py  
-SELECT * from USERS LIMIT 10;  
-DROP TABLE users;  
-!quit  
+
+    cd /usr/hdp/current/phoenix-client/bin  
+    python sqlline.py  
+    SELECT * from USERS LIMIT 10;  
+    DROP TABLE users;  
+    !quit  
+
 ### Shut down HBase
 
 # Presto
 ## Install Presto
-su root  
-Goto prestodb.io, find the link to tarball under Docs -> Deploying Presto  
-wget https://repo1.maven.org/maven2/com/facebook/presto/presto-server/0.240/presto-server-0.240.tar.gz  
-tar -zxvf presto-server-0.240.tar.gz  
-cd presto-server-0.240  
-### Create an etc directory and put configuration into it as described at https://prestodb.io/docs/current/installation/deployment.html
-### OR download one from sundog-soft for demo purpose
-wget http://media.sundog-soft.com/hadoop/presto-hdp-config.tgz  
-tar -zxvf presto-hdp-config.tgz  
+
+    su root  
+    Goto prestodb.io, find the link to tarball under Docs -> Deploying Presto  
+    wget https://repo1.maven.org/maven2/com/facebook/presto/presto-server/0.240/presto-server-0.240.tar.gz  
+    tar -zxvf presto-server-0.240.tar.gz  
+    cd presto-server-0.240  
+
+##### Create an etc directory and put configuration into it as described at https://prestodb.io/docs/current/installation/deployment.html
+##### OR download one from sundog-soft for demo purpose
+
+    wget http://media.sundog-soft.com/hadoop/presto-hdp-config.tgz  
+    tar -zxvf presto-hdp-config.tgz  
 
 ## Install Presto CLI
-Goto https://prestodb.io/docs/current/installation/cli.html and copy the path of presto-cli  
-cd bin  
-wget https://repo1.maven.org/maven2/com/facebook/presto/presto-cli/0.240/presto-cli-0.240-executable.jar  
+
+    Goto https://prestodb.io/docs/current/installation/cli.html and copy the path of presto-cli  
+    cd bin  
+    wget https://repo1.maven.org/maven2/com/facebook/presto/presto-cli/0.240/presto-cli-0.240-executable.jar
+
+  
 ### Rename it to a convenient name and make it executable
-mv presto-cli-0.240-executable.jar presto  
-chmod +x presto  
+
+    mv presto-cli-0.240-executable.jar presto  
+    chmod +x presto  
 
 ## Start Presto
-bin/launcher start  
+
+    bin/launcher start  
 
 ## Open Presto dashboard
-http://localhost:8090/  
+
+    http://localhost:8090/ 
+
+ 
 
 ## Open CLI (Make sure ratings table is already there in hive)
-bin/presto --server localhost:8090 --catalog hive  
+
+    bin/presto --server localhost:8090 --catalog hive  
 
 ## Browse data on presto CLI
-show tables from movielens;  
-select * from movielens.ratings limit 10;  
+
+    show tables from movielens;  
+    select * from movielens.ratings limit 10;  
 
 ### Observe the queries ran on browser console by unchecking Finished
 
 ## Exit Presto CLI and stop presto
-quit  
-bin/launcher stop  
+
+    quit  
+    bin/launcher stop  
 
 ## Use presto to Query both Cassandra and Hive at once
 ### Start cassandra
-service cassandra start  
+
+    service cassandra start 
+
+ 
 
 ### Enable thrift on cassandra (in order for presto to talk to cassandra)
 nodetool enablethrift  
@@ -531,6 +555,8 @@ SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movie
 ### gethue.com -> Try Hue now -> un/pw: demo/demo
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE5MDE5MDRdfQ==
+eyJoaXN0b3J5IjpbLTIxMDkwNDQ2MzJdfQ==
 -->
