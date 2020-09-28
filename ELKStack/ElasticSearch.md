@@ -165,6 +165,8 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
     curl -XGET localhost:9200/movies/_search?pretty
 
+## Updating a document
+Elasticsearch documents are immutable
 
 
 
@@ -174,6 +176,6 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDYxMzI3LC0yMTE0ODcwMzIwLC03ND
-gyMzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
+eyJoaXN0b3J5IjpbMTUzNjk2MTk3MCwtMjExNDg3MDMyMCwtNz
+Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
