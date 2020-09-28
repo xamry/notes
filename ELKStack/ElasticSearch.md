@@ -197,8 +197,12 @@ curl -XPOST localhost:9200/movies/_doc/109487/_update -d '
 
 ## Deleting documents
 Delete the movie Dark Knight
+
 ### First search the document
 
+    curl -XGET localhost:9200/movies/_search?q=Dark
+
+### Delete the document
 
 
 
@@ -206,7 +210,7 @@ Delete the movie Dark Knight
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY1NTk3MDksMTYwNTM2MTAxNyw3Mj
+eyJoaXN0b3J5IjpbLTE3NDg0MDUzMzksMTYwNTM2MTAxNyw3Mj
 AwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIz
 MjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
 -->
