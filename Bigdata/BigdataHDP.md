@@ -560,37 +560,45 @@ Let's see what version we're working with.
     val lines = sc.textFile("hdfs:///tmp/ml-100k/u.data").map(x => {val fields = x.split("\t"); Rating(fields(1).toInt, fields(2).toInt)})  
 
 ### Convert RDD to Data Frame (DF)
-import sqlContext.implicits._  
-val ratingsDF = lines.toDF()  
+
+    import sqlContext.implicits._  
+    val ratingsDF = lines.toDF()  
 
 ### Print top movies
-val topMovieIDs = ratingsDF.groupBy("movieID").count().orderBy(desc("count")).cache()  
-topMovieIDs.show()  
+
+    val topMovieIDs = ratingsDF.groupBy("movieID").count().orderBy(desc("count")).cache()  
+    topMovieIDs.show()  
 
 ### Use SparkSQL to perform queries on DF
 #### Create SparkSQL table from DF
-ratingsDF.registerTempTable("ratings")  
+
+    ratingsDF.registerTempTable("ratings")  
 
 ### Run SparkSQL query
-%sql  
-SELECT * FROM ratings LIMIT 10  
+
+    %sql  
+    SELECT * FROM ratings LIMIT 10  
 
 ### Find how many have rated each ratings
-SELECT rating, COUNT(*) as count FROM ratings GROUP BY rating  
+
+    SELECT rating, COUNT(*) as count FROM ratings GROUP BY rating  
 
 ### Create DF for Movie titles
-final case class Movie(movieID: Int, title: String)  
-val lines = sc.textFile("hdfs:///tmp/ml-100k/u.item").map(x => {val fields = x.split('|'); Movie(fields(0).toInt, fields(1))})  
-import sqlContext.implicits._  
-val moviesDF = lines.toDF()  
-moviesDF.show()  
+
+    final case class Movie(movieID: Int, title: String)  
+    val lines = sc.textFile("hdfs:///tmp/ml-100k/u.item").map(x => {val fields = x.split('|'); Movie(fields(0).toInt, fields(1))})  
+    import sqlContext.implicits._  
+    val moviesDF = lines.toDF()  
+    moviesDF.show()  
 
 ### Create SparkSQL table from DF
-moviesDF.registerTempTable("titles")  
+
+    moviesDF.registerTempTable("titles")  
 
 ### Run Join query (Find popular movie titles)
-%sql  
-SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movieID GROUP BY t.title ORDER BY cnt DESC LIMIT 20  
+
+    %sql  
+    SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movieID GROUP BY t.title ORDER BY cnt DESC LIMIT 20  
 
 # Hue (Hadoop User Experience)
 ### gethue.com -> Try Hue now -> un/pw: demo/demo
@@ -599,5 +607,5 @@ SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movie
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzE5NDY1OF19
+eyJoaXN0b3J5IjpbMzkzNTIwOTk0XX0=
 -->
