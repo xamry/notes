@@ -168,7 +168,9 @@ The Bulk API accepts dataset in JSON format, so let's download it
 ## Updating a document
 Elasticsearch documents are immutable
 But every document has a _version field.
-When we update a document, an new document with incremented _version is created, while the older _version is marked for deletion.
+When we update a document, an new document with incremented _version is created, while the older document is marked for deletion.
+Elasticsearch will do a cleanup operation at an appropriate time at later stage.
+
 
 
 
@@ -178,6 +180,6 @@ When we update a document, an new document with incremented _version is created,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjY5NzQ0MSwtMjExNDg3MDMyMCwtNz
-Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLT
+c0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
 -->
