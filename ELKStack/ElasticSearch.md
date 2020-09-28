@@ -149,7 +149,7 @@ To avoid typing -h "Content-Type: application/json" every time
 
     curl -XGET localhost:9200/movies/_search?pretty
 
-### Use Bulk API to import multiple records
+## Use Bulk API to import multiple records
 
 
 
@@ -163,6 +163,6 @@ To avoid typing -h "Content-Type: application/json" every time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDkyMTQ0LC03MjM0NTY3NDgsLTE1OT
-I5MzMzOF19
+eyJoaXN0b3J5IjpbLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNT
+kyOTMzMzhdfQ==
 -->
