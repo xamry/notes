@@ -155,8 +155,11 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
     wget http://media.sundog-soft.com/es7/movies.json
 
+### Bulk import data from the file 
 
+    curl -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json
 
+(or you could have used 
 
 
 
@@ -167,6 +170,6 @@ The Bulk API accepts dataset in JSON format, so let's download it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNz
-IzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbLTU4NTU5MDkxMSwtMjExNDg3MDMyMCwtNz
+Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
