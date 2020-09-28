@@ -413,34 +413,44 @@ SSH to VM, login as maria_dev. su root
 
 
 # Zookeeper
-su root  
-cd /usr/hdp/current/zookeeper-client/bin  
+
+    su root  
+    cd /usr/hdp/current/zookeeper-client/bin  
 
 ## Use ZK CLI to connect to ZK server (which starts automatically with sandbox)
-./zkCli.sh  
+
+    ./zkCli.sh 
+
+ 
 
 ## See what's at root level
-ls /  
+
+    ls /  
 
 ## Create an ephemeral znode named testmaster with some data (ephemeral and persistent and two types of znodes)
-create -e /testmaster "127.0.0.1:2223"  
+
+    create -e /testmaster "127.0.0.1:2223" 
+
+ 
 
 ## Trying to create the same znode again will throw an error since it's locked.
 
 ## Inspect/get a znode
-get /testmaster  
 
-##Quit, this will delete the testmaster since it was ephemeral, and the client (ZK-CLI) that created it has died
-quit  
-
-##Now another client can create the znode /testmaster since there is no lock on it.
+    get /testmaster  
+    
+    ##Quit, this will delete the testmaster since it was ephemeral, and the client (ZK-CLI) that created it has died
+    quit  
+    
+    ##Now another client can create the znode /testmaster since there is no lock on it.
 
 
 # Oozie
 ### Install extjs on sandbox. Oozie won't work without this.
-su root  
-wget http://public-repo-1.hortonworks.com/HDP-UTILS-GPL-1.1.0.22/repos/centos6/extjs/extjs-2.2-1.noarch.rpm  
-rpm -ivh extjs-2.2-1.noarch.rpm  
+
+    su root  
+    wget http://public-repo-1.hortonworks.com/HDP-UTILS-GPL-1.1.0.22/repos/centos6/extjs/extjs-2.2-1.noarch.rpm  
+    rpm -ivh extjs-2.2-1.noarch.rpm  
 
 ### Now restart oozie in Ambari, you'e done.
 
@@ -449,7 +459,8 @@ rpm -ivh extjs-2.2-1.noarch.rpm
 #### Create job.properties for any configuration your workflow might want to read
 
 ### Run oozie job
-oozie job --oozie http://localhost:11000/oozie --config /home/maria_dev/job.properties -run  
+
+    oozie job --oozie http://localhost:11000/oozie --config /home/maria_dev/job.properties -run  
 
 ### Monitor progress at localhost:10000/oozie
 ### Oozie coordinators schedules the Oozie workflow execution
@@ -461,33 +472,43 @@ oozie job --oozie http://localhost:11000/oozie --config /home/maria_dev/job.prop
 #### Setup Mysql and scoop as per sqoop section
 
 ### Get hive script
-wget http://media.sundog-soft.com/hadoop/oldmovies.sql  
+
+    wget http://media.sundog-soft.com/hadoop/oldmovies.sql  
 
 ### Get workflow.xml
-wget http://media.sundog-soft.com/hadoop/workflow.xml   (remember to edit sqoop command by adding --username sqoop)  
+
+    wget http://media.sundog-soft.com/hadoop/workflow.xml   (remember to edit sqoop command by adding --username sqoop)  
 
 ### Get job.properties
-wget http://media.sundog-soft.com/hadoop/job.properties  
+
+    wget http://media.sundog-soft.com/hadoop/job.properties  
 
 ### Upload workflow.xml into HDFS
-hadoop fs -put workflow.xml /user/maria_dev  
+
+    hadoop fs -put workflow.xml /user/maria_dev 
+
+ 
 
 ### Upload hive script at required place
-hadoop fs -put oldmovies.sql /user/maria_dev  
+
+    hadoop fs -put oldmovies.sql /user/maria_dev  
 
 ### Install sqoop mysql connector (not installed in HDP by default)
-hadoop fs -put /usr/share/java/mysql-connector-java.jar /user/oozie/share/lib/lib_20180618160835/sqoop  
+
+    hadoop fs -put /usr/share/java/mysql-connector-java.jar /user/oozie/share/lib/lib_20180618160835/sqoop  
 
 ### Restart oozie beause configuration has changed
 #### Restart from Ambari
 
 ### Execute the oozie workflow
-oozie job -oozie http://localhost:11000/oozie -config /home/maria_dev/job.properties -run  
+
+    oozie job -oozie http://localhost:11000/oozie -config /home/maria_dev/job.properties -run  
 
 ### Observe oozie web console and see the output under /user/maria_dev/oldmovies using Ambari Files View
 
 ### To kill a running oozie job
-oozie job -oozie http://localhost:11000/oozie -kill 0000000-200915155855519-oozie-oozi-W  
+
+    oozie job -oozie http://localhost:11000/oozie -kill 0000000-200915155855519-oozie-oozi-W  
 
 
 # Zeppelin
@@ -496,37 +517,47 @@ oozie job -oozie http://localhost:11000/oozie -kill 0000000-200915155855519-oozi
 - Set default interpreter (1st) to spark. md should be next (2nd) - by clicking on gear icon  
 
 ### Write some markdown paragraph text and press shift+enter
-%md  
+
+    %md 
+
+ 
 
 ### Let's make sure Spark 2 is working first!
 
 Let's see what version we're working with.  
 
 ### Print Spark version
-sc.version  
+
+    sc.version 
+
+ 
 
 ### Download dataset to /tmp using shell interpreter
-%sh  
-wget http://media.sundog-soft.com/hadoop/ml-100k/u.data -O /tmp/u.data   
-wget http://media.sundog-soft.com/hadoop/ml-100k/u.item -O /tmp/u.item  
-echo "Dataset downloaded!"  
+
+    %sh  
+    wget http://media.sundog-soft.com/hadoop/ml-100k/u.data -O /tmp/u.data   
+    wget http://media.sundog-soft.com/hadoop/ml-100k/u.item -O /tmp/u.item  
+    echo "Dataset downloaded!"  
 
 ### Copy the dataset into HDFS
-%sh  
-hadoop fs -rm -r -f /tmp/ml-100k/  
-hadoop fs -mkdir /tmp/ml-100k/  
-hadoop fs -put /tmp/u.data /tmp/ml-100k/  
-hadoop fs -put /tmp/u.item /tmp/ml-100k/  
-echo "Dataset loaded into HDFS."  
+
+    %sh  
+    hadoop fs -rm -r -f /tmp/ml-100k/  
+    hadoop fs -mkdir /tmp/ml-100k/  
+    hadoop fs -put /tmp/u.data /tmp/ml-100k/  
+    hadoop fs -put /tmp/u.item /tmp/ml-100k/  
+    echo "Dataset loaded into HDFS."  
 
 ### List the dataset from HDFS
-%sh  
 
-hadoop fs -ls /tmp/ml-100k/  
+    %sh  
+
+    hadoop fs -ls /tmp/ml-100k/  
 
 ### Analyze data using scala code
-final case class Rating(movieID: Int, rating: Int)  
-val lines = sc.textFile("hdfs:///tmp/ml-100k/u.data").map(x => {val fields = x.split("\t"); Rating(fields(1).toInt, fields(2).toInt)})  
+
+    final case class Rating(movieID: Int, rating: Int)  
+    val lines = sc.textFile("hdfs:///tmp/ml-100k/u.data").map(x => {val fields = x.split("\t"); Rating(fields(1).toInt, fields(2).toInt)})  
 
 ### Convert RDD to Data Frame (DF)
 import sqlContext.implicits._  
@@ -568,5 +599,5 @@ SELECT t.title, count(*) cnt FROM ratings r JOIN titles t ON r.movieID = t.movie
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4ODE1MTIwXX0=
+eyJoaXN0b3J5IjpbMTQ3MzE5NDY1OF19
 -->
