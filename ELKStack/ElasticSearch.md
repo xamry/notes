@@ -107,9 +107,7 @@ Character Filter - For example remove HTML encoding, convert & to and etc.
 Tokenizer - Split strings on whitespaces, punctuations, non-letters etc.  
 Token Filter - Lowercasing, stemming, synonyms, stopwords etc.  
 
-    "analyzer" : "standard|whitespace|simple|english" 
-
- 
+    "analyzer" : "standard|whitespace|simple|english"  
 
 ## Import a single record
 ### Write your own curl
@@ -165,6 +163,6 @@ To avoid typing -h "Content-Type: application/json" every time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTc2ODg0NCwtNzIzNDU2NzQ4LC0xNT
-kyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbMjA3NDkyMTQ0LC03MjM0NTY3NDgsLTE1OT
+I5MzMzOF19
 -->
