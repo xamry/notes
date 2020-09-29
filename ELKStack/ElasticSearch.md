@@ -222,13 +222,14 @@ Manually retry update with fresh sequence number or use retry_on_conflict=N to a
     {
     "title" : "Interstellar 2"
     }'
+Try updating with the same sequence number and primary term, and ES would throw version_conflict_engine_exception.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI4MDE1MjQsOTk2MDM2ODU0LDQwMj
-I3NjcwLDE1MTk2NjU3NTMsMTYwNTM2MTAxNyw3MjAwODU0NTcs
-LTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNz
-IzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTEzODE5MjYzNSw5OTYwMzY4NTQsNDAyMj
+c2NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3LDcyMDA4NTQ1Nywt
+MTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03Mj
+M0NTY3NDgsLTE1OTI5MzMzOF19
 -->
