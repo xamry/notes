@@ -214,7 +214,7 @@ _primary_term : Primary shard that owns that sequence
 Change a records specifying _seq_no and _primary_term
 Only one of the client will succeed if using the same sequence number and primary term
 If sequence number was already incremented for other client, elasticsearch will throw an error for this client
-Manually retry update with fresh sequence number or use retry_on_conflict=N to automatically retry
+Manually retry update with fresh sequence number and primary term, OR use retry_on_conflict=N to automatically retry
 
 ### Update a document for given sequence
 
@@ -229,8 +229,8 @@ Try updating with the same sequence number and primary term, and ES would throw 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg5OTkwNzYsOTk2MDM2ODU0LDQwMj
-I3NjcwLDE1MTk2NjU3NTMsMTYwNTM2MTAxNyw3MjAwODU0NTcs
-LTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNz
-IzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTE1MTM5MTY4MywtMTExODk5OTA3Niw5OT
+YwMzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3
+LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNz
+Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
