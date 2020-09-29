@@ -207,13 +207,23 @@ Delete the movie Dark Knight
     curl -XDELETE localhost:9200/movies/_doc/58559?pretty
 
 ## Dealing with concurrency
+### Optimistic Concurrency Control
+_seq_no  : Sequence number of document
+_primary_term : Primary shard that owns that sequence
 
+Change a records specifying _seq_no and _primary_term
+Only one of the client will succeed if using the same sequence number and primary term
+If sequence number was already incremented for other client, elasticsearch will throw an error for this client
+Manually retry update with fresh sequence number or use retry_on_conflict=N to automatically retry
+
+### Update a document for given sequence
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyMjc2NzAsMTUxOTY2NTc1MywxNjA1Mz
-YxMDE3LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMy
-MCwtNzQ4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbOTk2MDM2ODU0LDQwMjI3NjcwLDE1MTk2Nj
+U3NTMsMTYwNTM2MTAxNyw3MjAwODU0NTcsLTEwNDY3MjgyODYs
+LTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNT
+kyOTMzMzhdfQ==
 -->
