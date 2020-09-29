@@ -98,7 +98,8 @@ Download movielens dataset from http://files.grouplens.org/datasets/movielens/ml
     "type" : "String|byte|short|integer|long|float|double|boolean|date"
 
 #### Field Index
-
+Whether analyzed or not (whether exact match or partial match)
+ 
     "index" : "not_analyzed"
 
 #### Field Analyzer
@@ -238,9 +239,9 @@ Update using retry_on_conflict:
 ## Using Analyzers and Tokenizers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUzMDAwODEsMTE1MTM5MTY4MywtMT
-ExODk5OTA3Niw5OTYwMzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1
-MywxNjA1MzYxMDE3LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMj
-ExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5
-MzMzOF19
+eyJoaXN0b3J5IjpbLTEzMjY4ODIzMTksLTIwMzUzMDAwODEsMT
+E1MTM5MTY4MywtMTExODk5OTA3Niw5OTYwMzY4NTQsNDAyMjc2
+NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3LDcyMDA4NTQ1NywtMT
+A0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0
+NTY3NDgsLTE1OTI5MzMzOF19
 -->
