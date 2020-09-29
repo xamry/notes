@@ -218,12 +218,17 @@ Manually retry update with fresh sequence number or use retry_on_conflict=N to a
 
 ### Update a document for given sequence
 
+     curl -XPOST "localhost:9200/movies/_doc/109487?if_seq_no=6&if_primary_term=2" -d '
+    {
+    "title" : "Interstellar 2"
+    }'
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2MDM2ODU0LDQwMjI3NjcwLDE1MTk2Nj
-U3NTMsMTYwNTM2MTAxNyw3MjAwODU0NTcsLTEwNDY3MjgyODYs
-LTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNT
-kyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbLTE2MTI4MDE1MjQsOTk2MDM2ODU0LDQwMj
+I3NjcwLDE1MTk2NjU3NTMsMTYwNTM2MTAxNyw3MjAwODU0NTcs
+LTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIzMjQ2OSwtNz
+IzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
 -->
