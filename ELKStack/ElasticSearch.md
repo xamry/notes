@@ -226,11 +226,20 @@ Try updating with the same sequence number and primary term, and ES would throw 
 
     [109487]: version conflict, required seqNo [6], primary term [2]. current document has seqNo [12] and primary term [3]"
 
+Update using retry_on_conflict:
+
+    curl -XPOST "localhost:9200/movies/_doc/109487/_update?retry_on_conflict=5" -d '
+    {
+    "doc": {
+    	"title" : "Interstellar 4"
+    	}
+    }'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTM5MTY4MywtMTExODk5OTA3Niw5OT
-YwMzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3
-LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNz
-Q4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbLTM3MTc3NDI3MywxMTUxMzkxNjgzLC0xMT
+E4OTk5MDc2LDk5NjAzNjg1NCw0MDIyNzY3MCwxNTE5NjY1NzUz
+LDE2MDUzNjEwMTcsNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMT
+E0ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5Mjkz
+MzM4XX0=
 -->
