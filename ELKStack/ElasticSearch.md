@@ -234,12 +234,13 @@ Update using retry_on_conflict:
     	"title" : "Interstellar 4"
     	}
     }'
-
+    
+## Using Analyzers and Tokenizers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTc3NDI3MywxMTUxMzkxNjgzLC0xMT
-E4OTk5MDc2LDk5NjAzNjg1NCw0MDIyNzY3MCwxNTE5NjY1NzUz
-LDE2MDUzNjEwMTcsNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMT
-E0ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5Mjkz
-MzM4XX0=
+eyJoaXN0b3J5IjpbLTIwMzUzMDAwODEsMTE1MTM5MTY4MywtMT
+ExODk5OTA3Niw5OTYwMzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1
+MywxNjA1MzYxMDE3LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMj
+ExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5
+MzMzOF19
 -->
