@@ -603,9 +603,10 @@ Let's see what version we're working with.
 # Hue (Hadoop User Experience)
 ### gethue.com -> Try Hue now -> un/pw: demo/demo
 
+# Kafka
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbLTE4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
 -->
