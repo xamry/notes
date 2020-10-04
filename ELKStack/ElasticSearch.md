@@ -248,7 +248,7 @@ Example of partial match: Searching All movies with Star Trek in title (Notice t
         	}
            }
         }'
-Example of lowercasing:
+Example of lowercasing and partial match:
 
     curl -XGET localhost:9200/movies/_search?pretty -d '
             {
@@ -260,11 +260,13 @@ Example of lowercasing:
             }'
 ### Change the default behavior
 #### Recreate the Index with modified mappings
-
+Make genre keyword match, and apply english analyzer on title
     curl -XDELETE localhost:9200/movies
+    curl -XPUT localhost:9200/movies -d '
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDgwOTkzMSwtMTMyNjg4MjMxOSwtMj
+eyJoaXN0b3J5IjpbMjEyNDY1NTA5MSwtMTMyNjg4MjMxOSwtMj
 AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
 Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
 IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
