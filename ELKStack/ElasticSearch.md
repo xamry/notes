@@ -237,7 +237,7 @@ Update using retry_on_conflict:
     }'
     
 ## Using Analyzers and Tokenizers
-
+#### Searching All movies with Star Trek in title (Notice the score in search result)
     curl -XGET localhost:9200/movies/_search?pretty -d '
     {
     	"query" : {
@@ -248,7 +248,7 @@ Update using retry_on_conflict:
     }'
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzM1NTc0NywtMTMyNjg4MjMxOSwtMj
+eyJoaXN0b3J5IjpbLTkzMTg5ODk1NCwtMTMyNjg4MjMxOSwtMj
 AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
 Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
 IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
