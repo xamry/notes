@@ -237,14 +237,20 @@ Update using retry_on_conflict:
     }'
     
 ## Using Analyzers and Tokenizers
-curl -XGET localhost:9200/movies/_search?pretty -d '
-{
-	"query" : 
-}
+
+    curl -XGET localhost:9200/movies/_search?pretty -d '
+    {
+    	"query" : {
+    		"match" {
+    		"title" : "Star Trek"	
+    	}
+       }
+    }'
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzU3NDU0MSwtMTMyNjg4MjMxOSwtMj
-AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
-Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
-IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
-MzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
+eyJoaXN0b3J5IjpbNzA1Mzc2Mjc3LC0xMzI2ODgyMzE5LC0yMD
+M1MzAwMDgxLDExNTEzOTE2ODMsLTExMTg5OTkwNzYsOTk2MDM2
+ODU0LDQwMjI3NjcwLDE1MTk2NjU3NTMsMTYwNTM2MTAxNyw3Mj
+AwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIz
+MjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
 -->
