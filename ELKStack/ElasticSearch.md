@@ -262,13 +262,20 @@ Example of lowercasing and partial match:
 #### Recreate the Index with modified mappings
 Make genre keyword match, and apply english analyzer on title
     curl -XDELETE localhost:9200/movies
-    curl -XPUT localhost:9200/movies -d '
-    
+curl -XPUT localhost:9200/movies -d '
+{
+	"mappings" {
+		"properties" {
+		"id" {"type" : "integer"},
+	"year" : {"type" : "date"},	
+	}
+   }
+}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDY1NTA5MSwtMTMyNjg4MjMxOSwtMj
-AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
-Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
-IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
-MzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
+eyJoaXN0b3J5IjpbLTE3MDM0ODQ3NTMsLTEzMjY4ODIzMTksLT
+IwMzUzMDAwODEsMTE1MTM5MTY4MywtMTExODk5OTA3Niw5OTYw
+MzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3LD
+cyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4
+MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
