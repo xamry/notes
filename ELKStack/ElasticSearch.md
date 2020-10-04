@@ -287,9 +287,19 @@ Returns nothing (Has to be exact match Sci-Fi, case sensitive)
                 	}
                    }
                 }'
-Returns only Star Trek, not star 
+Returns both Star Trek, not star wars:
+
+    curl -XGET localhost:9200/movies/_search?pretty -d '
+            {
+            	"query" : {
+            		"match": {
+            		"title" : "Star Trek"	
+            	}
+               }
+            }'
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDM2NDI3MCwtMTMyMjQxMzI0NSwtMT
+eyJoaXN0b3J5IjpbLTE4NTQxMTk5OCwtMTMyMjQxMzI0NSwtMT
 MyNjg4MjMxOSwtMjAzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4
 OTk5MDc2LDk5NjAzNjg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLD
 E2MDUzNjEwMTcsNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0
