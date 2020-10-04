@@ -237,20 +237,21 @@ Update using retry_on_conflict:
     }'
     
 ## Using Analyzers and Tokenizers
-#### Searching All movies with Star Trek in title (Notice the score in search result)
-    curl -XGET localhost:9200/movies/_search?pretty -d '
-    {
-    	"query" : {
-    		"match": {
-    		"title" : "Star Trek"	
-    	}
-       }
-    }'
+Searching All movies with Star Trek in title (Notice the score in search result)   
+
+     curl -XGET localhost:9200/movies/_search?pretty -d '
+        {
+        	"query" : {
+        		"match": {
+        		"title" : "Star Trek"	
+        	}
+           }
+        }'
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTg5ODk1NCwtMTMyNjg4MjMxOSwtMj
-AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
-Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
-IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
-MzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
+eyJoaXN0b3J5IjpbOTgyMTU3NjkwLC0xMzI2ODgyMzE5LC0yMD
+M1MzAwMDgxLDExNTEzOTE2ODMsLTExMTg5OTkwNzYsOTk2MDM2
+ODU0LDQwMjI3NjcwLDE1MTk2NjU3NTMsMTYwNTM2MTAxNyw3Mj
+AwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIz
+MjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
 -->
