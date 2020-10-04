@@ -248,18 +248,20 @@ Example of partial match: Searching All movies with Star Trek in title (Notice t
            }
         }'
 Example of lowercasing:
-curl -XGET localhost:9200/movies/_search?pretty -d '
-        {
-        	"query" : {
-        		"match_phrase": {
-        		"genre" : "sci"	
-        	}
-           }
-        }'
+
+    curl -XGET localhost:9200/movies/_search?pretty -d '
+            {
+            	"query" : {
+            		"match_phrase": {
+            		"genre" : "sci"	
+            	}
+               }
+            }'
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTMyOTYwMCwtMTMyNjg4MjMxOSwtMj
-AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
-Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
-IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
-MzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
+eyJoaXN0b3J5IjpbLTE2MDY4NjA2NzIsLTEzMjY4ODIzMTksLT
+IwMzUzMDAwODEsMTE1MTM5MTY4MywtMTExODk5OTA3Niw5OTYw
+MzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3LD
+cyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4
+MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
