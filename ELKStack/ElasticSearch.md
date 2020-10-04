@@ -277,13 +277,22 @@ Make genre keyword match, and apply english analyzer on title
     curl -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json
 
 ### Check search behavior again after modified mappings
- 
+Returns nothing
+
+     curl -XGET localhost:9200/movies/_search?pretty -d '
+                {
+                	"query" : {
+                		"match_phrase": {
+                		"genre" : "sci"	
+                	}
+                   }
+                }'
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzQyOTIxNiwtMTMyMjQxMzI0NSwtMT
-MyNjg4MjMxOSwtMjAzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4
-OTk5MDc2LDk5NjAzNjg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLD
-E2MDUzNjEwMTcsNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0
-ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMz
-M4XX0=
+eyJoaXN0b3J5IjpbLTEzODQwNDE3MzQsLTEzMjI0MTMyNDUsLT
+EzMjY4ODIzMTksLTIwMzUzMDAwODEsMTE1MTM5MTY4MywtMTEx
+ODk5OTA3Niw5OTYwMzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1My
+wxNjA1MzYxMDE3LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjEx
+NDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5Mz
+MzOF19
 -->
