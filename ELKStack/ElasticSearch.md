@@ -276,12 +276,14 @@ Make genre keyword match, and apply english analyzer on title
     }'
     curl -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json
 
+### Check search behavior again after modified mappings
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMzg2ODk5LC0xMzIyNDEzMjQ1LC0xMz
-I2ODgyMzE5LC0yMDM1MzAwMDgxLDExNTEzOTE2ODMsLTExMTg5
-OTkwNzYsOTk2MDM2ODU0LDQwMjI3NjcwLDE1MTk2NjU3NTMsMT
-YwNTM2MTAxNyw3MjAwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4
-NzAzMjAsLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMz
-hdfQ==
+eyJoaXN0b3J5IjpbMTE5MzQyOTIxNiwtMTMyMjQxMzI0NSwtMT
+MyNjg4MjMxOSwtMjAzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4
+OTk5MDc2LDk5NjAzNjg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLD
+E2MDUzNjEwMTcsNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0
+ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMz
+M4XX0=
 -->
