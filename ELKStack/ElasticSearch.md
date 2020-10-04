@@ -262,25 +262,26 @@ Example of lowercasing and partial match:
 #### Recreate the Index with modified mappings
 Make genre keyword match, and apply english analyzer on title
 
-curl -XDELETE localhost:9200/movies
-curl -XPUT localhost:9200/movies -d '
-{
-	"mappings": {
-		"properties": {
-		"id": {"type" : "integer"},
-		"year" : {"type" : "date"},
-		"genre" : {"type" : "keyword"},
-		"title" : {"type" : "text", "analyzer" : "english"}	
-	}
-   }
-}'
-curl -XPUT localhost:9200/_bulk
+    curl -XDELETE localhost:9200/movies
+    curl -XPUT localhost:9200/movies -d '
+    {
+    	"mappings": {
+    		"properties": {
+    		"id": {"type" : "integer"},
+    		"year" : {"type" : "date"},
+    		"genre" : {"type" : "keyword"},
+    		"title" : {"type" : "text", "analyzer" : "english"}	
+    	}
+       }
+    }'
+    curl -XPUT localhost:9200/_bulk?pretty --data-binary @movies.json
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjAyOTA4OSwtMTMyMjQxMzI0NSwtMT
-MyNjg4MjMxOSwtMjAzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4
-OTk5MDc2LDk5NjAzNjg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLD
-E2MDUzNjEwMTcsNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0
-ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMz
-M4XX0=
+eyJoaXN0b3J5IjpbMzEzMzg2ODk5LC0xMzIyNDEzMjQ1LC0xMz
+I2ODgyMzE5LC0yMDM1MzAwMDgxLDExNTEzOTE2ODMsLTExMTg5
+OTkwNzYsOTk2MDM2ODU0LDQwMjI3NjcwLDE1MTk2NjU3NTMsMT
+YwNTM2MTAxNyw3MjAwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4
+NzAzMjAsLTc0ODIzMjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMz
+hdfQ==
 -->
