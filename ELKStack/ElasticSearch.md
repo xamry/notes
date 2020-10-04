@@ -237,7 +237,7 @@ Update using retry_on_conflict:
     }'
     
 ## Using Analyzers and Tokenizers
-Searching All movies with Star Trek in title (Notice the score in search result)   
+Example of partial match: Searching All movies with Star Trek in title (Notice the score in search result)   
 
      curl -XGET localhost:9200/movies/_search?pretty -d '
         {
@@ -247,11 +247,19 @@ Searching All movies with Star Trek in title (Notice the score in search result)
         	}
            }
         }'
-
+Example of lowercasing:
+curl -XGET localhost:9200/movies/_search?pretty -d '
+        {
+        	"query" : {
+        		"match_phrase": {
+        		"genre" : "sci"	
+        	}
+           }
+        }'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyMTU3NjkwLC0xMzI2ODgyMzE5LC0yMD
-M1MzAwMDgxLDExNTEzOTE2ODMsLTExMTg5OTkwNzYsOTk2MDM2
-ODU0LDQwMjI3NjcwLDE1MTk2NjU3NTMsMTYwNTM2MTAxNyw3Mj
-AwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIz
-MjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTU1MTMyOTYwMCwtMTMyNjg4MjMxOSwtMj
+AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
+Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
+IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
+MzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
 -->
