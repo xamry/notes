@@ -298,12 +298,12 @@ Returns both Star Trek and star wars, due to analyzer:
                }
             }'
 ## Data Modelling in elasticsearch
-
+Whether to normalize or denormalize your data in elastic search. The answer is that both can be done.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzODI4NzQsLTEzMjI0MTMyNDUsLTEzMj
-Y4ODIzMTksLTIwMzUzMDAwODEsMTE1MTM5MTY4MywtMTExODk5
-OTA3Niw5OTYwMzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1MywxNj
-A1MzYxMDE3LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3
-MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF
-19
+eyJoaXN0b3J5IjpbLTE1NTgyNTk5MzcsNjkzODI4NzQsLTEzMj
+I0MTMyNDUsLTEzMjY4ODIzMTksLTIwMzUzMDAwODEsMTE1MTM5
+MTY4MywtMTExODk5OTA3Niw5OTYwMzY4NTQsNDAyMjc2NzAsMT
+UxOTY2NTc1MywxNjA1MzYxMDE3LDcyMDA4NTQ1NywtMTA0Njcy
+ODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3ND
+gsLTE1OTI5MzMzOF19
 -->
