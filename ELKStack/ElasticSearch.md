@@ -259,14 +259,14 @@ Example of lowercasing:
                }
             }'
 ### Change the default behavior
-#### Recreate the Index
+#### Recreate the Index with modified mappings
 
     curl -XDELETE localhost:9200/movies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNTYzMTkxLC0xMzI2ODgyMzE5LC0yMD
-M1MzAwMDgxLDExNTEzOTE2ODMsLTExMTg5OTkwNzYsOTk2MDM2
-ODU0LDQwMjI3NjcwLDE1MTk2NjU3NTMsMTYwNTM2MTAxNyw3Mj
-AwODU0NTcsLTEwNDY3MjgyODYsLTIxMTQ4NzAzMjAsLTc0ODIz
-MjQ2OSwtNzIzNDU2NzQ4LC0xNTkyOTMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTY5MDgwOTkzMSwtMTMyNjg4MjMxOSwtMj
+AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
+Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
+IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
+MzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
 -->
