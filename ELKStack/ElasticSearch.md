@@ -237,11 +237,14 @@ Update using retry_on_conflict:
     }'
     
 ## Using Analyzers and Tokenizers
-
+curl -XGET localhost:9200/movies/_search?pretty -d '
+{
+	"query" : 
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY4ODIzMTksLTIwMzUzMDAwODEsMT
-E1MTM5MTY4MywtMTExODk5OTA3Niw5OTYwMzY4NTQsNDAyMjc2
-NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3LDcyMDA4NTQ1NywtMT
-A0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0
-NTY3NDgsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbMTI5NzU3NDU0MSwtMTMyNjg4MjMxOSwtMj
+AzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4OTk5MDc2LDk5NjAz
+Njg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLDE2MDUzNjEwMTcsNz
+IwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0ODcwMzIwLC03NDgy
+MzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMzM4XX0=
 -->
