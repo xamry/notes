@@ -237,6 +237,7 @@ Update using retry_on_conflict:
     }'
     
 ## Using Analyzers and Tokenizers
+### Default Behavior
 Example of partial match: Searching All movies with Star Trek in title (Notice the score in search result)   
 
      curl -XGET localhost:9200/movies/_search?pretty -d '
@@ -257,9 +258,11 @@ Example of lowercasing:
             	}
                }
             }'
-
+### Change the default behavior
+#### Recreate the Index
+curl -XDELET
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY4NjA2NzIsLTEzMjY4ODIzMTksLT
+eyJoaXN0b3J5IjpbLTE0NDk4MDM1MTQsLTEzMjY4ODIzMTksLT
 IwMzUzMDAwODEsMTE1MTM5MTY4MywtMTExODk5OTA3Niw5OTYw
 MzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3LD
 cyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4
