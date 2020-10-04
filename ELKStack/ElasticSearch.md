@@ -287,7 +287,7 @@ Returns nothing (Has to be exact match Sci-Fi, case sensitive)
                 	}
                    }
                 }'
-Returns both Star Trek, not star wars:
+Returns both Star Trek and star wars, due to analyzer:
 
     curl -XGET localhost:9200/movies/_search?pretty -d '
             {
@@ -297,12 +297,13 @@ Returns both Star Trek, not star wars:
             	}
                }
             }'
+## Data Modelling in elasticsearch
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQxMTk5OCwtMTMyMjQxMzI0NSwtMT
-MyNjg4MjMxOSwtMjAzNTMwMDA4MSwxMTUxMzkxNjgzLC0xMTE4
-OTk5MDc2LDk5NjAzNjg1NCw0MDIyNzY3MCwxNTE5NjY1NzUzLD
-E2MDUzNjEwMTcsNzIwMDg1NDU3LC0xMDQ2NzI4Mjg2LC0yMTE0
-ODcwMzIwLC03NDgyMzI0NjksLTcyMzQ1Njc0OCwtMTU5MjkzMz
-M4XX0=
+eyJoaXN0b3J5IjpbNjkzODI4NzQsLTEzMjI0MTMyNDUsLTEzMj
+Y4ODIzMTksLTIwMzUzMDAwODEsMTE1MTM5MTY4MywtMTExODk5
+OTA3Niw5OTYwMzY4NTQsNDAyMjc2NzAsMTUxOTY2NTc1MywxNj
+A1MzYxMDE3LDcyMDA4NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3
+MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF
+19
 -->
