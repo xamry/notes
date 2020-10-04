@@ -299,11 +299,13 @@ Returns both Star Trek and star wars, due to analyzer:
             }'
 ## Data Modelling in elasticsearch
 Whether to normalize or denormalize your data in elastic search. The answer is that both can be done.
+Parent/ Child relationship
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgyNTk5MzcsNjkzODI4NzQsLTEzMj
-I0MTMyNDUsLTEzMjY4ODIzMTksLTIwMzUzMDAwODEsMTE1MTM5
-MTY4MywtMTExODk5OTA3Niw5OTYwMzY4NTQsNDAyMjc2NzAsMT
-UxOTY2NTc1MywxNjA1MzYxMDE3LDcyMDA4NTQ1NywtMTA0Njcy
-ODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyNDY5LC03MjM0NTY3ND
-gsLTE1OTI5MzMzOF19
+eyJoaXN0b3J5IjpbLTE2Mzc1MjI3ODAsLTE1NTgyNTk5MzcsNj
+kzODI4NzQsLTEzMjI0MTMyNDUsLTEzMjY4ODIzMTksLTIwMzUz
+MDAwODEsMTE1MTM5MTY4MywtMTExODk5OTA3Niw5OTYwMzY4NT
+QsNDAyMjc2NzAsMTUxOTY2NTc1MywxNjA1MzYxMDE3LDcyMDA4
+NTQ1NywtMTA0NjcyODI4NiwtMjExNDg3MDMyMCwtNzQ4MjMyND
+Y5LC03MjM0NTY3NDgsLTE1OTI5MzMzOF19
 -->
