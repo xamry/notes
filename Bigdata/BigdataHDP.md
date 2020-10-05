@@ -665,10 +665,11 @@ We'll use in-built File Connector that comes with Kafka
 	topics=log-test
 	
 	vi connect-file-source.properties
-	
+	file=/home/maria_dev/access_log_small.txt
+	topic=log-test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2Nzk3OTcsLTIwMTI1MTUwNjIsODA3NT
-IzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcw
-LC0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMT
-g5MjI3NjgxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbNTY1ODU0OTk2LC0yMDEyNTE1MDYyLDgwNz
+UyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3
+MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLTEyMTc2NTczNDUsLT
+E4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
 -->
