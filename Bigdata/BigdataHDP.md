@@ -630,8 +630,11 @@ Kafka comes preinstalled with HDP.
     ./kafka-topics.sh --list --zookeeper localhost:2181
 
 ### Produce some data into this topic
- ./kafka-console-producer.sh --broker-list localhost:6667
+//Open Kafka port is 6667. The shell script is a command line producer that listens to lines of input from standard input 
+
+     ./kafka-console-producer.sh --broker-list localhost:6667 --topic my-topic
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzczNDUxLDQxOTE4MTMxMCwtMTIxNz
-Y1NzM0NSwtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMj
+E3NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
 -->
