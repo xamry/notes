@@ -686,11 +686,11 @@ We'll use in-built File Connector that comes with Kafka
 
      cd /usr/hdp/current/kafka-broker/bin/
      ./connect-standalone.sh ~/connect-standalone.properties ~/connect-file-source.properties ~/connect-file-sink.properties
-
+(Observe the ~/logout.txt)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk1NDM1NjcsLTc0NDE2MTg0MiwtMz
-k0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0
-NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMS
-w0MTkxODEzMTAsLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkz
-NTIwOTk0XX0=
+eyJoaXN0b3J5IjpbMTYxMTE3MTQ1NiwtMjAyOTU0MzU2NywtNz
+Q0MTYxODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIz
+OTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC
+0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5
+MjI3NjgxNywzOTM1MjA5OTRdfQ==
 -->
