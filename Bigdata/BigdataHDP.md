@@ -698,8 +698,10 @@ We'll use in-built File Connector that comes with Kafka
 
 ### Cleanup the mess
 Close all windows, shutdown kafka from Ambari
+
+# Flume
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDgyOTk0NSwtMjAyOTU0MzU2NywtNz
+eyJoaXN0b3J5IjpbMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNz
 Q0MTYxODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIz
 OTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC
 0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5
