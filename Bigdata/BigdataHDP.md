@@ -630,8 +630,8 @@ Kafka comes preinstalled with HDP.
     ./kafka-topics.sh --list --zookeeper localhost:2181
 
 ### Produce some data into this topic
- 
+ ./kafka-console-producer.sh --broker-list localhost:6667
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYwOTM1NDQsNDE5MTgxMzEwLC0xMj
-E3NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbLTUxNzczNDUxLDQxOTE4MTMxMCwtMTIxNz
+Y1NzM0NSwtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ==
 -->
