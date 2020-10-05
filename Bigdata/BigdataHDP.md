@@ -622,8 +622,14 @@ Kafka comes preinstalled with HDP.
 
 ### Create a topic
 (Kafka needs zookeeper to keep track of it)
-./kafka-topics.sh --create --zookeeper sandbox.hortonworks.com:2181 --replication-factor 1 --partitions 1 --topic my-topic
+
+    ./kafka-topics.sh --create --zookeeper sandbox.hortonworks.com:2181 --replication-factor 1 --partitions 1 --topic my-topic
+
+### List all topics created on this instance
+
+    ./kafka-topics.sh --list --zookeeper sandbox.hortonworks.com:2181
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgyOTY5NDMsLTEyMTc2NTczNDUsLT
-E4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbMTMzMDc0NDYzMiwtMTIxNzY1NzM0NSwtMT
+g5MjI3NjgxNywzOTM1MjA5OTRdfQ==
 -->
