@@ -651,12 +651,15 @@ We'll use in-built File Connector that comes with Kafka
     cd /usr/hdp/current/kafka-broker/conf
     ls
 #### Create backup first
-cp connect-standalone.properties ~/
-cp connect-file-sink.properties ~/
-cp connect-file-source.properties ~/
+
+    cp connect-standalone.properties ~/
+    cp connect-file-sink.properties ~/
+    cp connect-file-source.properties ~/
+vi connect-standalone.properties
+bootstrap-servers=sandbo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTkxOTY5NywtMjAxMjUxNTA2Miw4MD
-c1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5
-NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC
-0xODkyMjc2ODE3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbLTE5MzUxODQ4NzYsLTIwMTI1MTUwNjIsOD
+A3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQy
+OTcwLC0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NS
+wtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ==
 -->
