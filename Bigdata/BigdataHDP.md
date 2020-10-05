@@ -649,9 +649,10 @@ We'll use in-built File Connector that comes with Kafka
 ### Configure
 
     cd /usr/hdp/current/kafka-broker/config
+#### Create backup first
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NzcxNzMzLC0yMDEyNTE1MDYyLDgwNz
+eyJoaXN0b3J5IjpbNDAxOTEyNTg5LC0yMDEyNTE1MDYyLDgwNz
 UyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3
 MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLTEyMTc2NTczNDUsLT
 E4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
