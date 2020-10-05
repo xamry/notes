@@ -621,7 +621,8 @@ Kafka comes preinstalled with HDP.
     ls
 
 ### Create a topic
+./kafka-topics.sh --create --zookeeper sand
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcsMz
-kzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbOTU4MjY2MTAwLC0xMjE3NjU3MzQ1LC0xOD
+kyMjc2ODE3LDM5MzUyMDk5NF19
 -->
