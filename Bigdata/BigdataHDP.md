@@ -637,10 +637,13 @@ Kafka comes preinstalled with HDP.
     I am sending this to topic my-topic
 
 ### Consume the data from topic
-cd /usr/hdp/current/kafka-broker/bin/
+
+    cd /usr/hdp/current/kafka-broker/bin/
+    //In absence of from-beginning, only new messages would be consumed
+    ./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667 --topic my-topic --from-beginning
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDE3MzczMiw1NDQ2OTk4OTQsLTIwMT
+eyJoaXN0b3J5IjpbMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMT
 YxNDI5NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3
 MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
 -->
