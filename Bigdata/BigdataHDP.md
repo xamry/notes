@@ -608,14 +608,20 @@ Kafka is a general purpose publish/ subscribe messaging system.
 
 ## Setup and publish some data
 Kafka comes preinstalled with HDP.
-Log in to Ambari with admin user, click on Kafka and start it (if not already started)
-SSH to Sandbox with Maria_dev/maria_dev
-cd /usr/hdp/current/kafka-broker
-ls
-cd bin
 
+ - Log in to Ambari with admin user, click on Kafka and start it (if not
+   already started) 
+ - SSH to Sandbox with Maria_dev/maria_dev
+ 
+### Navigate to Kafka directory
 
+    cd /usr/hdp/current/kafka-broker
+    ls
+    cd bin
+    ls
+
+### Create a topic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4ODMzOTc3LC0xODkyMjc2ODE3LDM5Mz
-UyMDk5NF19
+eyJoaXN0b3J5IjpbLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcsMz
+kzNTIwOTk0XX0=
 -->
