@@ -641,11 +641,12 @@ Kafka comes preinstalled with HDP.
     cd /usr/hdp/current/kafka-broker/bin/
     //In absence of from-beginning, only new messages would be consumed
     ./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667 --topic my-topic --from-beginning
-    //Try producing and consuming messages from both producer and consumer windows, and close them when you're done.
+    //Try producing and consuming messages from both producer and consumer windows, and close them (Ctrl+C) when you're done.
 
+## Publish weblogs with Kafka
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Nj
-k5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5NjMxLDQxOTE4MTMx
-MCwtMTIxNzY1NzM0NSwtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ
-==
+eyJoaXN0b3J5IjpbLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0Nj
+cyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5
+NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3NjgxNy
+wzOTM1MjA5OTRdfQ==
 -->
