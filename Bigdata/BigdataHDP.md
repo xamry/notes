@@ -647,10 +647,12 @@ Kafka comes preinstalled with HDP.
 We'll use in-built File Connector that comes with Kafka
 
 ### Configure
-cd /usr/hdp/current/kafka-broker/config
+
+    cd /usr/hdp/current/kafka-broker/config
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTAzMjEwNywtMjAxMjUxNTA2Miw4MD
-c1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5
-NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC
-0xODkyMjc2ODE3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbNzQ5NzcxNzMzLC0yMDEyNTE1MDYyLDgwNz
+UyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3
+MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLTEyMTc2NTczNDUsLT
+E4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
 -->
