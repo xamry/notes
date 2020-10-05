@@ -632,13 +632,13 @@ Kafka comes preinstalled with HDP.
 ### Produce some data into this topic
 //Open Kafka port is 6667. The shell script is a command line producer that listens to lines of input from standard input 
 
-     ./kafka-console-producer.sh --broker-list localhost:6667 --topic my-topic
+     ./kafka-console-producer.sh --broker-list sandbox-hdp.hortonworks.com:6667 --topic my-topic
     This is a line of data
     I am sending this to topic my-topic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYxNDI5NzAsLTE4NDg0OTk2MzEsND
-E5MTgxMzEwLC0xMjE3NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUy
-MDk5NF19
+eyJoaXN0b3J5IjpbOTU5NjkwNDY0LC0yMDE2MTQyOTcwLC0xOD
+Q4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3
+NjgxNywzOTM1MjA5OTRdfQ==
 -->
