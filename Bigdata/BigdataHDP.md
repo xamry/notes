@@ -673,11 +673,14 @@ cd ~
 wget http://media.sundog-soft.com/hadoop/access_log_small.txt
 
 #### Start a consumer to print the messages
-cd /usr/hdp/current/kafka-broker/bin/
-./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667 --topic my-topic --from-beginning
+(In a new window)
+
+    cd /usr/hdp/current/kafka-broker/bin/   
+    ./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667 --topic log-test --from-beginning
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzY0MTI1MzcsLTM5NDQ3OTAyNiwtMj
-AxMjUxNTA2Miw4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4
-OTQsLTIwMTYxNDI5NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC
-0xMjE3NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbLTc5NDg3NjA3MywtMzk0NDc5MDI2LC0yMD
+EyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5
+NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLT
+EyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
 -->
