@@ -646,9 +646,11 @@ Kafka comes preinstalled with HDP.
 ## Publish weblogs with Kafka
 We'll use in-built File Connector that comes with Kafka
 
+### Configure
+cd /usr/hdp/current/kafka-broker/config
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU5MDMzNTksLTIwMTI1MTUwNjIsOD
-A3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQy
-OTcwLC0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NS
-wtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbLTY5MTAzMjEwNywtMjAxMjUxNTA2Miw4MD
+c1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5
+NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC
+0xODkyMjc2ODE3LDM5MzUyMDk5NF19
 -->
