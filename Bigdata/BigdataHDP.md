@@ -657,20 +657,23 @@ We'll use in-built File Connector that comes with Kafka
     cp connect-file-source.properties ~/
     
 #### Modify config files    
-cd ~   
-    vi connect-standalone.properties
-    bootstrap-servers=sandbox-hdp.hortonworks.com:6667
-	
-	vi connect-file-sink.properties
-	file=/home/maria_dev/logout.txt
-	topics=log-test
-	
-	vi connect-file-source.properties
-	file=/home/maria_dev/access_log_small.txt
-	topic=log-test
+
+	    cd ~   
+	    
+        vi connect-standalone.properties
+        bootstrap-servers=sandbox-hdp.hortonworks.com:6667
+    	
+    	vi connect-file-sink.properties
+    	file=/home/maria_dev/logout.txt
+    	topics=log-test
+    	
+    	vi connect-file-source.properties
+    	file=/home/maria_dev/access_log_small.txt
+    	topic=log-test
 	
 #### Download access log file
-wget http://media.sundog-soft.com/hadoop/access_log_small.txt
+	cd ~
+    wget http://media.sundog-soft.com/hadoop/access_log_small.txt
 
 #### Start a consumer to print the messages
 (In a new window)
@@ -679,7 +682,7 @@ wget http://media.sundog-soft.com/hadoop/access_log_small.txt
     ./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667 --topic log-test --from-beginning
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDg3NjA3MywtMzk0NDc5MDI2LC0yMD
+eyJoaXN0b3J5IjpbLTc0NDE2MTg0MiwtMzk0NDc5MDI2LC0yMD
 EyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5
 NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLT
 EyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
