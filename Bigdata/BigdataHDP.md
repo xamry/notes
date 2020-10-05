@@ -657,6 +657,7 @@ We'll use in-built File Connector that comes with Kafka
     cp connect-file-source.properties ~/
     
 #### Modify config files    
+cd ~   
     vi connect-standalone.properties
     bootstrap-servers=sandbox-hdp.hortonworks.com:6667
 	
@@ -667,9 +668,10 @@ We'll use in-built File Connector that comes with Kafka
 	vi connect-file-source.properties
 	file=/home/maria_dev/access_log_small.txt
 	topic=log-test
+wget http://media.sundog-soft.com/hadoop/access_log_small.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1ODU0OTk2LC0yMDEyNTE1MDYyLDgwNz
-UyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3
-MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLTEyMTc2NTczNDUsLT
-E4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MD
+c1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5
+NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC
+0xODkyMjc2ODE3LDM5MzUyMDk5NF19
 -->
