@@ -604,9 +604,10 @@ Let's see what version we're working with.
 ### gethue.com -> Try Hue now -> un/pw: demo/demo
 
 # Kafka
-
+Kafka is a general purpose publish/ subscribe messaging system.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbLTE1MzI3ODIxMywtMTg5MjI3NjgxNywzOT
+M1MjA5OTRdfQ==
 -->
