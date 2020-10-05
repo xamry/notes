@@ -636,9 +636,10 @@ Kafka comes preinstalled with HDP.
     This is a line of data
     I am sending this to topic my-topic
 
-
+### Consume the data from topic
+cd /usr/hdp/current/kafka-broker/bin/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NjkwNDY0LC0yMDE2MTQyOTcwLC0xOD
+eyJoaXN0b3J5IjpbNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xOD
 Q4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3
 NjgxNywzOTM1MjA5OTRdfQ==
 -->
