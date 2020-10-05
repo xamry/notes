@@ -638,8 +638,9 @@ Kafka comes preinstalled with HDP.
 
 ### Consume the data from topic
 cd /usr/hdp/current/kafka-broker/bin/
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xOD
-Q4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3
-NjgxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbMTUwNDE3MzczMiw1NDQ2OTk4OTQsLTIwMT
+YxNDI5NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3
+MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
 -->
