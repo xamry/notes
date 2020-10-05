@@ -671,19 +671,22 @@ We'll use in-built File Connector that comes with Kafka
     	file=/home/maria_dev/access_log_small.txt
     	topic=log-test
 	
-#### Download access log file
+### Download access log file
 	cd ~
     wget http://media.sundog-soft.com/hadoop/access_log_small.txt
 
-#### Start a consumer to print the messages
+### Start a consumer to print the messages
 (In a new window)
 
     cd /usr/hdp/current/kafka-broker/bin/   
     ./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667 --topic log-test --from-beginning
+    
+### Listen to changes in weblog and publish
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDE2MTg0MiwtMzk0NDc5MDI2LC0yMD
-EyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5
-NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLT
-EyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbLTE5ODg5OTE0MDksLTc0NDE2MTg0MiwtMz
+k0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0
+NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMS
+w0MTkxODEzMTAsLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkz
+NTIwOTk0XX0=
 -->
