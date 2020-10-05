@@ -682,11 +682,13 @@ We'll use in-built File Connector that comes with Kafka
     ./kafka-console-consumer.sh --bootstrap-server sandbox-hdp.hortonworks.com:6667 --topic log-test --from-beginning
     
 ### Listen to changes in weblog and publish
-
+(In a new window)
+ cd /usr/hdp/current/kafka-broker/bin/
+ ./connect-standalone.sh 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg5OTE0MDksLTc0NDE2MTg0MiwtMz
-k0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0
-NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMS
-w0MTkxODEzMTAsLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkz
-NTIwOTk0XX0=
+eyJoaXN0b3J5IjpbLTM1OTQ3MjUyOSwtNzQ0MTYxODQyLC0zOT
+Q0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0NjcyMjQ1
+MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5NjMxLD
+QxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3NjgxNywzOTM1
+MjA5OTRdfQ==
 -->
