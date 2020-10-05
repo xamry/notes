@@ -655,10 +655,13 @@ We'll use in-built File Connector that comes with Kafka
     cp connect-standalone.properties ~/
     cp connect-file-sink.properties ~/
     cp connect-file-source.properties ~/
-vi connect-standalone.properties
-bootstrap-servers=sandbo
+    
+    vi connect-standalone.properties
+    bootstrap-servers=sandbox-hdp.hortonworks.com:6667
+	vi connect-file-sink.properties
+	file=/home/maria_dev/logout.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUxODQ4NzYsLTIwMTI1MTUwNjIsOD
+eyJoaXN0b3J5IjpbLTE3ODg3Mzg0OTUsLTIwMTI1MTUwNjIsOD
 A3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQy
 OTcwLC0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NS
 wtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ==
