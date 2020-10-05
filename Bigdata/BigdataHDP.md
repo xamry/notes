@@ -629,7 +629,9 @@ Kafka comes preinstalled with HDP.
 
     ./kafka-topics.sh --list --zookeeper sandbox.hortonworks.com:2181
 
+### Produce some data into this topic
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDc0NDYzMiwtMTIxNzY1NzM0NSwtMT
-g5MjI3NjgxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC0xOD
+kyMjc2ODE3LDM5MzUyMDk5NF19
 -->
