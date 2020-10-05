@@ -633,8 +633,12 @@ Kafka comes preinstalled with HDP.
 //Open Kafka port is 6667. The shell script is a command line producer that listens to lines of input from standard input 
 
      ./kafka-console-producer.sh --broker-list localhost:6667 --topic my-topic
+    This is a line of data
+    I am sending this to topic my-topic
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMj
-E3NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbLTIwMTYxNDI5NzAsLTE4NDg0OTk2MzEsND
+E5MTgxMzEwLC0xMjE3NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUy
+MDk5NF19
 -->
