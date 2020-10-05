@@ -644,9 +644,11 @@ Kafka comes preinstalled with HDP.
     //Try producing and consuming messages from both producer and consumer windows, and close them (Ctrl+C) when you're done.
 
 ## Publish weblogs with Kafka
+We'll use in-built File Connector that comes with Kafka
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0Nj
-cyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5
-NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3NjgxNy
-wzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MDU5MDMzNTksLTIwMTI1MTUwNjIsOD
+A3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQy
+OTcwLC0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NS
+wtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ==
 -->
