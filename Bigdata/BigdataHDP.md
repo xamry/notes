@@ -609,9 +609,10 @@ Kafka is a general purpose publish/ subscribe messaging system.
 ## Setup and publish some data
 Kafka comes preinstalled with HDP.
 Log in to Ambari with admin user, click on Kafka and start it.
+SSH to Sandbox with Maria_dev/maria_dev
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODMxMjM3NSwtMTg5MjI3NjgxNywzOT
+eyJoaXN0b3J5IjpbLTY4ODk0ODU3NiwtMTg5MjI3NjgxNywzOT
 M1MjA5OTRdfQ==
 -->
