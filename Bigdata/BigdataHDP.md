@@ -606,8 +606,12 @@ Let's see what version we're working with.
 # Kafka
 Kafka is a general purpose publish/ subscribe messaging system.
 
+## Setup and publish some data
+Kafka comes preinstalled with HDP.
+Log in to Ambari with admin user, click on Kafka and start it.
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI3ODIxMywtMTg5MjI3NjgxNywzOT
+eyJoaXN0b3J5IjpbMjA0ODMxMjM3NSwtMTg5MjI3NjgxNywzOT
 M1MjA5OTRdfQ==
 -->
