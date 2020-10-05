@@ -683,12 +683,14 @@ We'll use in-built File Connector that comes with Kafka
     
 ### Listen to changes in weblog and publish
 (In a new window)
- cd /usr/hdp/current/kafka-broker/bin/
- ./connect-standalone.sh 
+
+     cd /usr/hdp/current/kafka-broker/bin/
+     ./connect-standalone.sh ~/connect-standalone.properties ~/connect-file-source.properties ~/connect-file-sink.properties
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTQ3MjUyOSwtNzQ0MTYxODQyLC0zOT
-Q0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0NjcyMjQ1
-MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5NjMxLD
-QxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3NjgxNywzOTM1
-MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbLTIwMjk1NDM1NjcsLTc0NDE2MTg0MiwtMz
+k0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0
+NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMS
+w0MTkxODEzMTAsLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkz
+NTIwOTk0XX0=
 -->
