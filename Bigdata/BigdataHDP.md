@@ -696,10 +696,12 @@ We'll use in-built File Connector that comes with Kafka
 
 (Observe the consumer window and logout.txt)
 
+### Cleanup the mess
+Close all windows, shutdown kafka from Ambari
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMzM4Mzk1LC0yMDI5NTQzNTY3LC03ND
-QxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1MjM5
-MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5NzAsLT
-E4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC0xODky
-Mjc2ODE3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbMTY3NDgyOTk0NSwtMjAyOTU0MzU2NywtNz
+Q0MTYxODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIz
+OTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC
+0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5
+MjI3NjgxNywzOTM1MjA5OTRdfQ==
 -->
