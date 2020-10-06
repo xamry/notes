@@ -703,13 +703,13 @@ Close all windows, shutdown kafka from Ambari
 (For streaming data into cluster, just like Kafka. Originally made to handle log aggregation. Made from start with Hadoop in mind. Built in sinks for HDFS and HBase.)
 ### Flume Agent
 Components of Flume Agent:
- - Source   (Where data is coming from,
- - Channel   
- - Sink
+ - Source   (Where data is coming from, can optionally have channel selectors and interceptors)
+ - Channel   (How the data is transferred (via memory or files)
+ - Sink (where data is going
 
 Example:  Web servers => Source => Channel => Sink => HBase
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4NjIxOTMyLDE5NDAzODIxODgsMTU5ND
+eyJoaXN0b3J5IjpbNTkxODAyMjAyLDE5NDAzODIxODgsMTU5ND
 g5NTA2LDE5NTAxNDgyNzcsLTIwMjk1NDM1NjcsLTc0NDE2MTg0
 MiwtMzk0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxND
 Y3MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5
