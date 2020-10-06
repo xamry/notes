@@ -700,10 +700,12 @@ We'll use in-built File Connector that comes with Kafka
 Close all windows, shutdown kafka from Ambari
 
 # Flume
+(For streaming data into cluster, just like Kafka. Originally made to han)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNz
-Q0MTYxODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIz
-OTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC
-0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5
-MjI3NjgxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbMTM1Nzk5MDUyNSwxOTUwMTQ4Mjc3LC0yMD
+I5NTQzNTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUx
+NTA2Miw4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLT
+IwMTYxNDI5NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3
+NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
 -->
