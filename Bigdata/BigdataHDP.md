@@ -713,8 +713,11 @@ Example:  Web servers => Source => Channel => Sink => HBase
 Spooling directory, Avro, Kafka, Exec, Thrift, Netcat, HTTP, Custom, and more!
 #### Built in Sink types
 HDFS, Hive, HBase, Avro, Thrift, Elasticsearch, Kafka, Custom, and more!
+
+Using Avro, Agents can connect to other Agents as well.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTM4NzgwNCwxOTQwMzgyMTg4LDE1OT
+eyJoaXN0b3J5IjpbMTg0ODk5MDAyMSwxOTQwMzgyMTg4LDE1OT
 Q4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4
 NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMT
 Q2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5NzAsLTE4NDg0
