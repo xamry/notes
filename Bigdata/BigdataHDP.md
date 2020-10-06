@@ -754,11 +754,12 @@ SSH to sandbox with maria_dev user
 
 ## Test the Flume agent
 Send a message from source and observe it getting printed into Flume logs.
-netcat is a unix utility 
+netcat is a unix utility that monitors the network traffic.
+sudo yum install telnet
 telnet localhost 44444
 Hello, How are you doing today!  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTkwNjk2NiwtODAzNDU3MzE1LDMwNj
+eyJoaXN0b3J5IjpbLTkzMTMyNTczNywtODAzNDU3MzE1LDMwNj
 g5NDkxMiwtMTIyMDE5OTMzMywtMTgyMzc5MzM0NSwxOTQwMzgy
 MTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQzNTY3LC
 03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1
