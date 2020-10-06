@@ -717,9 +717,9 @@ HDFS, Hive, HBase, Avro, Thrift, Elasticsearch, Kafka, Custom, and more!
 Using Avro, Agents can connect to other Agents as well. Avro acts as Glue that can bind different Flume agents together.
 Flume acts as a buffer between your data and your cluster.
 
-## Set up F
+## Set up Flume
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTY4NDk2MSwtMTgyMzc5MzM0NSwxOT
+eyJoaXN0b3J5IjpbMTUwMDY1NjU0NCwtMTgyMzc5MzM0NSwxOT
 QwMzgyMTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQz
 NTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Mi
 w4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYx
