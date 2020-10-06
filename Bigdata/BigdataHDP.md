@@ -714,13 +714,15 @@ Spooling directory, Avro, Kafka, Exec, Thrift, Netcat, HTTP, Custom, and more!
 #### Built in Sink types
 HDFS, Hive, HBase, Avro, Thrift, Elasticsearch, Kafka, Custom, and more!
 
-Using Avro, Agents can connect to other Agents as well.
+Using Avro, Agents can connect to other Agents as well. Avro acts as Glue that can bind different Flume agents together.
+Flume acts as a buffer between your data and your cluster.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODk5MDAyMSwxOTQwMzgyMTg4LDE1OT
-Q4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4
-NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMT
-Q2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5NzAsLTE4NDg0
-OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC0xODkyMjc2OD
-E3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbLTE4MjM3OTMzNDUsMTk0MDM4MjE4OCwxNT
+k0ODk1MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYx
+ODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LD
+E0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4
+NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3Nj
+gxNywzOTM1MjA5OTRdfQ==
 -->
