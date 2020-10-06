@@ -705,14 +705,14 @@ Close all windows, shutdown kafka from Ambari
 Components of Flume Agent:
  - Source   (Where data is coming from, can optionally have channel selectors and interceptors)
  - Channel   (How the data is transferred (via memory or files)
- - Sink (where data is going
+ - Sink (where data is going, can be organized into sink groups, A sink can be connected to only one channel. Channel is notified to delete the message once sink processes it.)
 
 Example:  Web servers => Source => Channel => Sink => HBase
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxODAyMjAyLDE5NDAzODIxODgsMTU5ND
-g5NTA2LDE5NTAxNDgyNzcsLTIwMjk1NDM1NjcsLTc0NDE2MTg0
-MiwtMzk0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxND
-Y3MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5
-OTYzMSw0MTkxODEzMTAsLTEyMTc2NTczNDUsLTE4OTIyNzY4MT
-csMzkzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbLTIwMDI2NTQyMzksMTk0MDM4MjE4OCwxNT
+k0ODk1MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYx
+ODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LD
+E0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4
+NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3Nj
+gxNywzOTM1MjA5OTRdfQ==
 -->
