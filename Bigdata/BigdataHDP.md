@@ -708,8 +708,10 @@ Components of Flume Agent:
  - Sink (where data is going, can be organized into sink groups, A sink can be connected to only one channel. Channel is notified to delete the message once sink processes it.)
 
 Example:  Web servers => Source => Channel => Sink => HBase
+
+#### Built in Source types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI2NTQyMzksMTk0MDM4MjE4OCwxNT
+eyJoaXN0b3J5IjpbLTE3MzAyNzg4MzIsMTk0MDM4MjE4OCwxNT
 k0ODk1MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYx
 ODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LD
 E0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4
