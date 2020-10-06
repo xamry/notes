@@ -701,7 +701,7 @@ Close all windows, shutdown kafka from Ambari
 
 # Flume
 (For streaming data into cluster, just like Kafka. Originally made to handle log aggregation. Made from start with Hadoop in mind. Built in sinks for HDFS and HBase.)
-### Flume Agent
+## Flume Agent
 Components of Flume Agent:
  - Source   (Where data is coming from, can optionally have channel selectors and interceptors)
  - Channel   (How the data is transferred (via memory or files)
@@ -709,20 +709,20 @@ Components of Flume Agent:
 
 Example:  Web servers => Source => Channel => Sink => HBase
 
-#### Built in Source types
+### Built in Source types
 Spooling directory, Avro, Kafka, Exec, Thrift, Netcat, HTTP, Custom, and more!
-#### Built in Sink types
+### Built in Sink types
 HDFS, Hive, HBase, Avro, Thrift, Elasticsearch, Kafka, Custom, and more!
 
 Using Avro, Agents can connect to other Agents as well. Avro acts as Glue that can bind different Flume agents together.
 Flume acts as a buffer between your data and your cluster.
 
-
+## Set up F
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM3OTMzNDUsMTk0MDM4MjE4OCwxNT
-k0ODk1MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYx
-ODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LD
-E0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4
-NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3Nj
-gxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbMTEzNTY4NDk2MSwtMTgyMzc5MzM0NSwxOT
+QwMzgyMTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQz
+NTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Mi
+w4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYx
+NDI5NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3Mz
+Q1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
 -->
