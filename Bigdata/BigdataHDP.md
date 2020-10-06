@@ -720,8 +720,9 @@ Flume acts as a buffer between your data and your cluster.
 ## Set up Flume
 Source (netcat) => Channel (Memory) => Sink (logger)
 SSH to sandbox with maria_dev user
-vi example.conf
 
+    cd ~
+    vi example.conf
     # example.conf: A single-node Flume configuration
         
     # Name the components on this agent (Agent 1 or a1. r1, k1, c1 are source1, sink1 and channel1 respectively.)
@@ -745,14 +746,16 @@ vi example.conf
     # Bind the source and sink to the channel
     a1.sources.r1.channels = c1
     a1.sinks.k1.channel = c1
-Start Fl
+    
+## Start Flume Agent
 cd /usr/hdp/current/flume-server
+bin/flume-ng agent --conf conf --conf-file ~/example.conf --name a1 -Dflu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc1NDc2MTEsMzA2ODk0OTEyLC0xMj
-IwMTk5MzMzLC0xODIzNzkzMzQ1LDE5NDAzODIxODgsMTU5NDg5
-NTA2LDE5NTAxNDgyNzcsLTIwMjk1NDM1NjcsLTc0NDE2MTg0Mi
-wtMzk0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3
-MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OT
-YzMSw0MTkxODEzMTAsLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcs
-MzkzNTIwOTk0XX0=
+eyJoaXN0b3J5IjpbMTk0MjM3NjY3LDMwNjg5NDkxMiwtMTIyMD
+E5OTMzMywtMTgyMzc5MzM0NSwxOTQwMzgyMTg4LDE1OTQ4OTUw
+NiwxOTUwMTQ4Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4NDIsLT
+M5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMTQ2NzIy
+NDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5NzAsLTE4NDg0OTk2Mz
+EsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC0xODkyMjc2ODE3LDM5
+MzUyMDk5NF19
 -->
