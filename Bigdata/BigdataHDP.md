@@ -724,7 +724,7 @@ vi example.conf
 
     # example.conf: A single-node Flume configuration
         
-    # Name the components on this agent
+    # Name the components on this agent (Agent 1 or a1. r1, k1, c1 are source1, sink1 and channel1 respectively.)
     a1.sources = r1
     a1.sinks = k1
     a1.channels = c1
@@ -747,10 +747,11 @@ vi example.conf
     a1.sinks.k1.channel = c1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAxOTkzMzMsLTE4MjM3OTMzNDUsMT
-k0MDM4MjE4OCwxNTk0ODk1MDYsMTk1MDE0ODI3NywtMjAyOTU0
-MzU2NywtNzQ0MTYxODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNj
-IsODA3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2
-MTQyOTcwLC0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1Nz
-M0NSwtMTg5MjI3NjgxNywzOTM1MjA5OTRdfQ==
+eyJoaXN0b3J5IjpbMzA2ODk0OTEyLC0xMjIwMTk5MzMzLC0xOD
+IzNzkzMzQ1LDE5NDAzODIxODgsMTU5NDg5NTA2LDE5NTAxNDgy
+NzcsLTIwMjk1NDM1NjcsLTc0NDE2MTg0MiwtMzk0NDc5MDI2LC
+0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5
+OTg5NCwtMjAxNjE0Mjk3MCwtMTg0ODQ5OTYzMSw0MTkxODEzMT
+AsLTEyMTc2NTczNDUsLTE4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
+
 -->
