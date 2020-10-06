@@ -748,14 +748,16 @@ SSH to sandbox with maria_dev user
     a1.sinks.k1.channel = c1
     
 ## Start Flume Agent
-cd /usr/hdp/current/flume-server
-bin/flume-ng agent --conf conf --conf-file ~/example.conf --name a1 -Dflu
+
+    cd /usr/hdp/current/flume-server
+    bin/flume-ng agent --conf conf --conf-file ~/example.conf --name a1 -Dflume.root.logger=INFO,console
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjM3NjY3LDMwNjg5NDkxMiwtMTIyMD
-E5OTMzMywtMTgyMzc5MzM0NSwxOTQwMzgyMTg4LDE1OTQ4OTUw
-NiwxOTUwMTQ4Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4NDIsLT
-M5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMTQ2NzIy
-NDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5NzAsLTE4NDg0OTk2Mz
-EsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC0xODkyMjc2ODE3LDM5
-MzUyMDk5NF19
+eyJoaXN0b3J5IjpbLTgwMzQ1NzMxNSwzMDY4OTQ5MTIsLTEyMj
+AxOTkzMzMsLTE4MjM3OTMzNDUsMTk0MDM4MjE4OCwxNTk0ODk1
+MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYxODQyLC
+0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0Njcy
+MjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5Nj
+MxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5MjI3NjgxNywz
+OTM1MjA5OTRdfQ==
 -->
