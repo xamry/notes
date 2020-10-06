@@ -718,9 +718,12 @@ Using Avro, Agents can connect to other Agents as well. Avro acts as Glue that c
 Flume acts as a buffer between your data and your cluster.
 
 ## Set up Flume
-Sou
+Source (netcat) => Channel (Memory) => Sink (logger)
+SSH to sandbox with maria_dev user
+vi example.conf
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQzMDMyNTEsLTE4MjM3OTMzNDUsMT
+eyJoaXN0b3J5IjpbLTEwMzYzNjI5MzIsLTE4MjM3OTMzNDUsMT
 k0MDM4MjE4OCwxNTk0ODk1MDYsMTk1MDE0ODI3NywtMjAyOTU0
 MzU2NywtNzQ0MTYxODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNj
 IsODA3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2
