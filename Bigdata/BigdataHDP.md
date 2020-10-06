@@ -700,12 +700,12 @@ We'll use in-built File Connector that comes with Kafka
 Close all windows, shutdown kafka from Ambari
 
 # Flume
-(For streaming data into cluster, just like Kafka. Originally made to han)
+(For streaming data into cluster, just like Kafka. Originally made to handle log aggregation. Made from start with Hadoop in mind. Built in sinks for HDFS and HBase.)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Nzk5MDUyNSwxOTUwMTQ4Mjc3LC0yMD
-I5NTQzNTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUx
-NTA2Miw4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLT
-IwMTYxNDI5NzAsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3
-NjU3MzQ1LC0xODkyMjc2ODE3LDM5MzUyMDk5NF19
+eyJoaXN0b3J5IjpbMTU5NDg5NTA2LDE5NTAxNDgyNzcsLTIwMj
+k1NDM1NjcsLTc0NDE2MTg0MiwtMzk0NDc5MDI2LC0yMDEyNTE1
+MDYyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMj
+AxNjE0Mjk3MCwtMTg0ODQ5OTYzMSw0MTkxODEzMTAsLTEyMTc2
+NTczNDUsLTE4OTIyNzY4MTcsMzkzNTIwOTk0XX0=
 -->
