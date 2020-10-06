@@ -756,19 +756,20 @@ SSH to sandbox with maria_dev user
 ## Test the Flume agent
 Send a message from source and observe it getting printed into Flume logs.
 netcat is a unix utility that monitors the network traffic.
+See the content in /var/log/flume/flume.log if it's not available on console for some reason.
 
-    sudo yum install telnet
-    telnet localhost 44444
-    Hello, How are you doing today!  
+sudo yum install telnet
+telnet localhost 44444
+Hello, How are you doing today!  
 
-Ctrl+] to get out of telnet, Ctrl+C to stop the flume agent
+Ctrl+] to get out of telnet, Ctrl+C to stop the flume agent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjc4MzQ2LDM0MTk1Mjc3Niw2Mzk4Mj
-M4NjIsLTgwMzQ1NzMxNSwzMDY4OTQ5MTIsLTEyMjAxOTkzMzMs
-LTE4MjM3OTMzNDUsMTk0MDM4MjE4OCwxNTk0ODk1MDYsMTk1MD
-E0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYxODQyLC0zOTQ0Nzkw
-MjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0NjcyMjQ1MTMsNT
-Q0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5NjMxLDQxOTE4
-MTMxMF19
+eyJoaXN0b3J5IjpbLTE4OTEzNTg0MTgsMzQxOTUyNzc2LDYzOT
+gyMzg2MiwtODAzNDU3MzE1LDMwNjg5NDkxMiwtMTIyMDE5OTMz
+MywtMTgyMzc5MzM0NSwxOTQwMzgyMTg4LDE1OTQ4OTUwNiwxOT
+UwMTQ4Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4NDIsLTM5NDQ3
+OTAyNiwtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMTQ2NzIyNDUxMy
+w1NDQ2OTk4OTQsLTIwMTYxNDI5NzAsLTE4NDg0OTk2MzEsNDE5
+MTgxMzEwXX0=
 -->
