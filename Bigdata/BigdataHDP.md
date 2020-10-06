@@ -707,9 +707,9 @@ consists of:
  - Channel   
  - Sink
 
-Example:  Web
+Example:  Web servers => Source => Channel => Sink => HBase
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDg4OTI3NCwxNTk0ODk1MDYsMTk1MD
+eyJoaXN0b3J5IjpbMTk0MDM4MjE4OCwxNTk0ODk1MDYsMTk1MD
 E0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYxODQyLC0zOTQ0Nzkw
 MjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0NjcyMjQ1MTMsNT
 Q0Njk5ODk0LC0yMDE2MTQyOTcwLC0xODQ4NDk5NjMxLDQxOTE4
