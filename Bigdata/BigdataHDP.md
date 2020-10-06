@@ -752,13 +752,17 @@ SSH to sandbox with maria_dev user
     cd /usr/hdp/current/flume-server
     bin/flume-ng agent --conf conf --conf-file ~/example.conf --name a1 -Dflume.root.logger=INFO,console
 
-## Test the  
+## Test the Flume agent
+Send a message from source and observe it getting printed into Flume logs.
+netcat is a unix utility 
+telnet localhost 44444
+Hello, How are you doing today!  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NTI2NDYsLTgwMzQ1NzMxNSwzMDY4OT
-Q5MTIsLTEyMjAxOTkzMzMsLTE4MjM3OTMzNDUsMTk0MDM4MjE4
-OCwxNTk0ODk1MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNz
-Q0MTYxODQyLC0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIz
-OTI2LDE0NjcyMjQ1MTMsNTQ0Njk5ODk0LC0yMDE2MTQyOTcwLC
-0xODQ4NDk5NjMxLDQxOTE4MTMxMCwtMTIxNzY1NzM0NSwtMTg5
-MjI3NjgxN119
+eyJoaXN0b3J5IjpbMjA5NTkwNjk2NiwtODAzNDU3MzE1LDMwNj
+g5NDkxMiwtMTIyMDE5OTMzMywtMTgyMzc5MzM0NSwxOTQwMzgy
+MTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQzNTY3LC
+03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1
+MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYxNDI5Nz
+AsLTE4NDg0OTk2MzEsNDE5MTgxMzEwLC0xMjE3NjU3MzQ1LC0x
+ODkyMjc2ODE3XX0=
 -->
