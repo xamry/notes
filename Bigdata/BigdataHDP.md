@@ -814,10 +814,10 @@ Create a folder flume in /user/maria_dev manually
 Copy some log file into spool directory
 cd /home/maria_dev
 sudo cp access_log_small.txt spool/amresh.txt
-Notice that it's picked by Flume, the amresh.txt converted to amresh.txt.
+Notice that it's picked by Flume, the amresh.txt converted to amresh.txt.COMPLETED, and new files created in /user/maria_dev/flume
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTAwODI3MCwxMjYzODUzNjQzLDEzOD
+eyJoaXN0b3J5IjpbLTkzMjMzNDkwNywxMjYzODUzNjQzLDEzOD
 c3MDkwODEsOTcwMjU0MjcyLDE2Mjk2MDk5MDIsLTE4OTEzNTg0
 MTgsMzQxOTUyNzc2LDYzOTgyMzg2MiwtODAzNDU3MzE1LDMwNj
 g5NDkxMiwtMTIyMDE5OTMzMywtMTgyMzc5MzM0NSwxOTQwMzgy
