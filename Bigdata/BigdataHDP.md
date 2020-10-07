@@ -1,27 +1,30 @@
 # Map Reduce
 SSH with maria_dev/maria_dev  
 ## Find 
-vi RatingsBreakdown.py
-from mrjob.job import MRJob
-from mrjob.step import MRStep
 
-class RatingsBreakdown(MRJob):
-    def steps(self):
-        return [
-            MRStep(mapper=self.mapper_get_ratings,
-                   reducer=self.reducer_count_ratings)
-        ]
-
-    def mapper_get_ratings(self, _, line):
-        (userID, movieID, rating, timestamp) = line.split('\t')
-        yield rating, 1
-
-    def reducer_count_ratings(self, key, values):
-        yield key, sum(values)
+    vi RatingsBreakdown.py
     
+    from mrjob.job import MRJob
+    from mrjob.step import MRStep
+    
+    class RatingsBreakdown(MRJob):
+        def steps(self):
+            return [
+                MRStep(mapper=self.mapper_get_ratings,
+                       reducer=self.reducer_count_ratings)
+            ]
+    
+        def mapper_get_ratings(self, _, line):
+            (userID, movieID, rating, timestamp) = line.split('\t')
+            yield rating, 1
+    
+        def reducer_count_ratings(self, key, values):
+            yield key, sum(values)
+        
+    
+    if __name__ == '__main__':
+        RatingsBreakdown.run()
 
-if __name__ == '__main__':
-    RatingsBreakdown.run()
 For running command locally  
 
     python RatingsBreakdown.py u.data  
@@ -841,7 +844,7 @@ Copy some log file into spool directory
 Notice that it's picked by Flume, the amresh.txt converted to amresh.txt.COMPLETED, and new files created in /user/maria_dev/flume
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1MTE0MDY5LC02MjEwMjQ4MjcsMTI2Mz
+eyJoaXN0b3J5IjpbMjIzNTAxNDE1LC02MjEwMjQ4MjcsMTI2Mz
 g1MzY0MywxMzg3NzA5MDgxLDk3MDI1NDI3MiwxNjI5NjA5OTAy
 LC0xODkxMzU4NDE4LDM0MTk1Mjc3Niw2Mzk4MjM4NjIsLTgwMz
 Q1NzMxNSwzMDY4OTQ5MTIsLTEyMjAxOTkzMzMsLTE4MjM3OTMz
