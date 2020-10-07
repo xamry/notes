@@ -802,13 +802,13 @@ We'll use create a Flume flow to accomplish this real world task.
     a1.sources.r1.channels = c1
     a1.sinks.k1.channel = c1
     
-Create a folder flume in /home/maria_dev manually
+Create a folder flume in /user/maria_dev manually
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM0MDA1MDEsOTcwMjU0MjcyLDE2Mj
-k2MDk5MDIsLTE4OTEzNTg0MTgsMzQxOTUyNzc2LDYzOTgyMzg2
-MiwtODAzNDU3MzE1LDMwNjg5NDkxMiwtMTIyMDE5OTMzMywtMT
-gyMzc5MzM0NSwxOTQwMzgyMTg4LDE1OTQ4OTUwNiwxOTUwMTQ4
-Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNi
-wtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2
-OTk4OTRdfQ==
+eyJoaXN0b3J5IjpbNjY0Mjk1MjIzLDk3MDI1NDI3MiwxNjI5Nj
+A5OTAyLC0xODkxMzU4NDE4LDM0MTk1Mjc3Niw2Mzk4MjM4NjIs
+LTgwMzQ1NzMxNSwzMDY4OTQ5MTIsLTEyMjAxOTkzMzMsLTE4Mj
+M3OTMzNDUsMTk0MDM4MjE4OCwxNTk0ODk1MDYsMTk1MDE0ODI3
+NywtMjAyOTU0MzU2NywtNzQ0MTYxODQyLC0zOTQ0NzkwMjYsLT
+IwMTI1MTUwNjIsODA3NTIzOTI2LDE0NjcyMjQ1MTMsNTQ0Njk5
+ODk0XX0=
 -->
