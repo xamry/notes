@@ -767,12 +767,16 @@ Ctrl+] to get out of telnet, Ctrl+C to stop the flume agent.
 ## Monitor a directory and store its data in HDFS
 We'll use create a Flume flow to accomplish this real world task.
 
+### Create Flume Conf
+cd ~
+vi flumelogs.conf
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5ODYzMTU3LDE2Mjk2MDk5MDIsLTE4OT
-EzNTg0MTgsMzQxOTUyNzc2LDYzOTgyMzg2MiwtODAzNDU3MzE1
-LDMwNjg5NDkxMiwtMTIyMDE5OTMzMywtMTgyMzc5MzM0NSwxOT
-QwMzgyMTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQz
-NTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Mi
-w4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYx
-NDI5NzBdfQ==
+eyJoaXN0b3J5IjpbLTIwMzYyNjA4MTcsMTYyOTYwOTkwMiwtMT
+g5MTM1ODQxOCwzNDE5NTI3NzYsNjM5ODIzODYyLC04MDM0NTcz
+MTUsMzA2ODk0OTEyLC0xMjIwMTk5MzMzLC0xODIzNzkzMzQ1LD
+E5NDAzODIxODgsMTU5NDg5NTA2LDE5NTAxNDgyNzcsLTIwMjk1
+NDM1NjcsLTc0NDE2MTg0MiwtMzk0NDc5MDI2LC0yMDEyNTE1MD
+YyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMjAx
+NjE0Mjk3MF19
 -->
