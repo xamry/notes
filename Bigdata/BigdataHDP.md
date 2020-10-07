@@ -770,6 +770,7 @@ We'll use create a Flume flow to accomplish this real world task.
 ### Create Flume Conf
 
     cd ~
+    mkdir spool
     vi flumelogs.conf
     # flumelogs.conf: A single-node Flume configuration
     
@@ -809,7 +810,7 @@ Create a folder flume in /user/maria_dev manually
     cd /usr/hdp/current/flume-server
     bin/flume-ng agent --conf conf --conf-file /home/maria_dev/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTY2Mzk0MywxMzg3NzA5MDgxLDk3MD
+eyJoaXN0b3J5IjpbMTI2Mzg1MzY0MywxMzg3NzA5MDgxLDk3MD
 I1NDI3MiwxNjI5NjA5OTAyLC0xODkxMzU4NDE4LDM0MTk1Mjc3
 Niw2Mzk4MjM4NjIsLTgwMzQ1NzMxNSwzMDY4OTQ5MTIsLTEyMj
 AxOTkzMzMsLTE4MjM3OTMzNDUsMTk0MDM4MjE4OCwxNTk0ODk1
