@@ -751,7 +751,7 @@ SSH to sandbox with maria_dev user
 
 	sudo su
     cd /usr/hdp/current/flume-server
-    bin/flume-ng agent --conf conf --conf-file ~/example.conf --name a1 -Dflume.root.logger=INFO,console
+    bin/flume-ng agent --conf conf --conf-file /home/maria_dev/example.conf --name a1 -Dflume.root.logger=INFO,console
 
 ## Test the Flume agent
 Send a message from source and observe it getting printed into Flume logs.
@@ -807,13 +807,13 @@ Create a folder flume in /user/maria_dev manually
 ### Start Flume agent
 	sudo su
     cd /usr/hdp/current/flume-server
-    bin/flume-ng agent --conf conf --conf-file ~/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
+    bin/flume-ng agent --conf conf --conf-file /home/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzcwOTA4MSw5NzAyNTQyNzIsMTYyOT
-YwOTkwMiwtMTg5MTM1ODQxOCwzNDE5NTI3NzYsNjM5ODIzODYy
-LC04MDM0NTczMTUsMzA2ODk0OTEyLC0xMjIwMTk5MzMzLC0xOD
-IzNzkzMzQ1LDE5NDAzODIxODgsMTU5NDg5NTA2LDE5NTAxNDgy
-NzcsLTIwMjk1NDM1NjcsLTc0NDE2MTg0MiwtMzk0NDc5MDI2LC
-0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5
-OTg5NF19
+eyJoaXN0b3J5IjpbLTE5NTMzNDYzNDYsMTM4NzcwOTA4MSw5Nz
+AyNTQyNzIsMTYyOTYwOTkwMiwtMTg5MTM1ODQxOCwzNDE5NTI3
+NzYsNjM5ODIzODYyLC04MDM0NTczMTUsMzA2ODk0OTEyLC0xMj
+IwMTk5MzMzLC0xODIzNzkzMzQ1LDE5NDAzODIxODgsMTU5NDg5
+NTA2LDE5NTAxNDgyNzcsLTIwMjk1NDM1NjcsLTc0NDE2MTg0Mi
+wtMzk0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3
+MjI0NTEzXX0=
 -->
