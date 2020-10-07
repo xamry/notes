@@ -801,13 +801,14 @@ We'll use create a Flume flow to accomplish this real world task.
     # Bind the source and sink to the channel
     a1.sources.r1.channels = c1
     a1.sinks.k1.channel = c1
-
+    
+Create a folder flume in /home/maria_dev manually
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwMjU0MjcyLDE2Mjk2MDk5MDIsLTE4OT
-EzNTg0MTgsMzQxOTUyNzc2LDYzOTgyMzg2MiwtODAzNDU3MzE1
-LDMwNjg5NDkxMiwtMTIyMDE5OTMzMywtMTgyMzc5MzM0NSwxOT
-QwMzgyMTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQz
-NTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Mi
-w4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYx
-NDI5NzBdfQ==
+eyJoaXN0b3J5IjpbLTEwMTM0MDA1MDEsOTcwMjU0MjcyLDE2Mj
+k2MDk5MDIsLTE4OTEzNTg0MTgsMzQxOTUyNzc2LDYzOTgyMzg2
+MiwtODAzNDU3MzE1LDMwNjg5NDkxMiwtMTIyMDE5OTMzMywtMT
+gyMzc5MzM0NSwxOTQwMzgyMTg4LDE1OTQ4OTUwNiwxOTUwMTQ4
+Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNi
+wtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2
+OTk4OTRdfQ==
 -->
