@@ -1,6 +1,7 @@
 # Map Reduce
 SSH with maria_dev/maria_dev  
-## Find 
+
+## Find Occurances of each rating
 
     vi RatingsBreakdown.py
     
@@ -25,11 +26,11 @@ SSH with maria_dev/maria_dev
     if __name__ == '__main__':
         RatingsBreakdown.run()
 
-For running command locally  
+#### For running command locally  
 
     python RatingsBreakdown.py u.data  
 
-### For running command on cluster. (In real env, you would provide hdfs path of u.data instead of local path)  
+#### For running command on cluster. (In real env, you would provide hdfs path of u.data instead of local path)  
 
     python RatingsBreakdown.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
     
@@ -844,7 +845,7 @@ Copy some log file into spool directory
 Notice that it's picked by Flume, the amresh.txt converted to amresh.txt.COMPLETED, and new files created in /user/maria_dev/flume
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzNTAxNDE1LC02MjEwMjQ4MjcsMTI2Mz
+eyJoaXN0b3J5IjpbNDg5NDQzMjYzLC02MjEwMjQ4MjcsMTI2Mz
 g1MzY0MywxMzg3NzA5MDgxLDk3MDI1NDI3MiwxNjI5NjA5OTAy
 LC0xODkxMzU4NDE4LDM0MTk1Mjc3Niw2Mzk4MjM4NjIsLTgwMz
 Q1NzMxNSwzMDY4OTQ5MTIsLTEyMjAxOTkzMzMsLTE4MjM3OTMz
