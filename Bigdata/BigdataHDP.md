@@ -768,15 +768,46 @@ Ctrl+] to get out of telnet, Ctrl+C to stop the flume agent.
 We'll use create a Flume flow to accomplish this real world task.
 
 ### Create Flume Conf
-cd ~
-vi flumelogs.conf
+
+    cd ~
+    vi flumelogs.conf
+    # flumelogs.conf: A single-node Flume configuration
+    
+    # Name the components on this agent
+    a1.sources = r1
+    a1.sinks = k1
+    a1.channels = c1
+    
+    # Describe/configure the source
+    a1.sources.r1.type = spooldir
+    a1.sources.r1.spoolDir = /home/maria_dev/spool
+    a1.sources.r1.fileHeader = true
+    a1.sources.r1.interceptors = timestampInterceptor
+    a1.sources.r1.interceptors.timestampInterceptor.type = timestamp
+    
+    # Describe the sink
+    a1.sinks.k1.type = hdfs
+    a1.sinks.k1.hdfs.path = /user/maria_dev/flume/%y-%m-%d/%H%M/%S
+    a1.sinks.k1.hdfs.filePrefix = events-
+    a1.sinks.k1.hdfs.round = true
+    a1.sinks.k1.hdfs.roundValue = 10
+    a1.sinks.k1.hdfs.roundUnit = minute
+    
+    # Use a channel which buffers events in memory
+    a1.channels.c1.type = memory
+    a1.channels.c1.capacity = 1000
+    a1.channels.c1.transactionCapacity = 100
+    
+    # Bind the source and sink to the channel
+    a1.sources.r1.channels = c1
+    a1.sinks.k1.channel = c1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYyNjA4MTcsMTYyOTYwOTkwMiwtMT
-g5MTM1ODQxOCwzNDE5NTI3NzYsNjM5ODIzODYyLC04MDM0NTcz
-MTUsMzA2ODk0OTEyLC0xMjIwMTk5MzMzLC0xODIzNzkzMzQ1LD
-E5NDAzODIxODgsMTU5NDg5NTA2LDE5NTAxNDgyNzcsLTIwMjk1
-NDM1NjcsLTc0NDE2MTg0MiwtMzk0NDc5MDI2LC0yMDEyNTE1MD
-YyLDgwNzUyMzkyNiwxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMjAx
-NjE0Mjk3MF19
+eyJoaXN0b3J5IjpbOTcwMjU0MjcyLDE2Mjk2MDk5MDIsLTE4OT
+EzNTg0MTgsMzQxOTUyNzc2LDYzOTgyMzg2MiwtODAzNDU3MzE1
+LDMwNjg5NDkxMiwtMTIyMDE5OTMzMywtMTgyMzc5MzM0NSwxOT
+QwMzgyMTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQz
+NTY3LC03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Mi
+w4MDc1MjM5MjYsMTQ2NzIyNDUxMyw1NDQ2OTk4OTQsLTIwMTYx
+NDI5NzBdfQ==
 -->
