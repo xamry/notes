@@ -758,18 +758,18 @@ Send a message from source and observe it getting printed into Flume logs.
 netcat is a unix utility that monitors the network traffic.
 See the content in /var/log/flume/flume.log if it's not available on console for some reason.
 
-sudo yum install telnet
-telnet localhost 44444
-Hello, How are you doing today!  
+    sudo yum install telnet
+    telnet localhost 44444
+    Hello, How are you doing today!  
 
 Ctrl+] to get out of telnet, Ctrl+C to stop the flume agent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTEzNTg0MTgsMzQxOTUyNzc2LDYzOT
-gyMzg2MiwtODAzNDU3MzE1LDMwNjg5NDkxMiwtMTIyMDE5OTMz
-MywtMTgyMzc5MzM0NSwxOTQwMzgyMTg4LDE1OTQ4OTUwNiwxOT
-UwMTQ4Mjc3LC0yMDI5NTQzNTY3LC03NDQxNjE4NDIsLTM5NDQ3
-OTAyNiwtMjAxMjUxNTA2Miw4MDc1MjM5MjYsMTQ2NzIyNDUxMy
-w1NDQ2OTk4OTQsLTIwMTYxNDI5NzAsLTE4NDg0OTk2MzEsNDE5
-MTgxMzEwXX0=
+eyJoaXN0b3J5IjpbMTYyOTYwOTkwMiwtMTg5MTM1ODQxOCwzND
+E5NTI3NzYsNjM5ODIzODYyLC04MDM0NTczMTUsMzA2ODk0OTEy
+LC0xMjIwMTk5MzMzLC0xODIzNzkzMzQ1LDE5NDAzODIxODgsMT
+U5NDg5NTA2LDE5NTAxNDgyNzcsLTIwMjk1NDM1NjcsLTc0NDE2
+MTg0MiwtMzk0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNi
+wxNDY3MjI0NTEzLDU0NDY5OTg5NCwtMjAxNjE0Mjk3MCwtMTg0
+ODQ5OTYzMV19
 -->
