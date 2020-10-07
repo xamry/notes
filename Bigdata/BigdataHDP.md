@@ -803,10 +803,13 @@ We'll use create a Flume flow to accomplish this real world task.
     a1.sinks.k1.channel = c1
     
 Create a folder flume in /user/maria_dev manually
-### Start Flume agent
 
+### Start Flume agent
+	sudo su
+    cd /usr/hdp/current/flume-server
+    bin/flume-ng agent --conf conf --conf-file ~/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDc3MzE3Miw5NzAyNTQyNzIsMTYyOT
+eyJoaXN0b3J5IjpbMTM4NzcwOTA4MSw5NzAyNTQyNzIsMTYyOT
 YwOTkwMiwtMTg5MTM1ODQxOCwzNDE5NTI3NzYsNjM5ODIzODYy
 LC04MDM0NTczMTUsMzA2ODk0OTEyLC0xMjIwMTk5MzMzLC0xOD
 IzNzkzMzQ1LDE5NDAzODIxODgsMTU5NDg5NTA2LDE5NTAxNDgy
