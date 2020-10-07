@@ -809,12 +809,19 @@ Create a folder flume in /user/maria_dev manually
 	sudo su
     cd /usr/hdp/current/flume-server
     bin/flume-ng agent --conf conf --conf-file /home/maria_dev/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
+
+### Test the Flume flow
+Copy some log file into spool directory
+cd /home/maria_dev
+sudo cp access_log_small.txt spool/amresh.txt
+Notice that it's picked by Flume, the amresh.txt converted to amresh.txt.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Mzg1MzY0MywxMzg3NzA5MDgxLDk3MD
-I1NDI3MiwxNjI5NjA5OTAyLC0xODkxMzU4NDE4LDM0MTk1Mjc3
-Niw2Mzk4MjM4NjIsLTgwMzQ1NzMxNSwzMDY4OTQ5MTIsLTEyMj
-AxOTkzMzMsLTE4MjM3OTMzNDUsMTk0MDM4MjE4OCwxNTk0ODk1
-MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYxODQyLC
-0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0Njcy
-MjQ1MTNdfQ==
+eyJoaXN0b3J5IjpbMjA5MTAwODI3MCwxMjYzODUzNjQzLDEzOD
+c3MDkwODEsOTcwMjU0MjcyLDE2Mjk2MDk5MDIsLTE4OTEzNTg0
+MTgsMzQxOTUyNzc2LDYzOTgyMzg2MiwtODAzNDU3MzE1LDMwNj
+g5NDkxMiwtMTIyMDE5OTMzMywtMTgyMzc5MzM0NSwxOTQwMzgy
+MTg4LDE1OTQ4OTUwNiwxOTUwMTQ4Mjc3LC0yMDI5NTQzNTY3LC
+03NDQxNjE4NDIsLTM5NDQ3OTAyNiwtMjAxMjUxNTA2Miw4MDc1
+MjM5MjZdfQ==
 -->
