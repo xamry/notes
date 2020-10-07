@@ -807,13 +807,13 @@ Create a folder flume in /user/maria_dev manually
 ### Start Flume agent
 	sudo su
     cd /usr/hdp/current/flume-server
-    bin/flume-ng agent --conf conf --conf-file /home/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
+    bin/flume-ng agent --conf conf --conf-file /home/maria_dev/flumelogs.conf --name a1 -Dflume.root.logger=INFO,console
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTMzNDYzNDYsMTM4NzcwOTA4MSw5Nz
-AyNTQyNzIsMTYyOTYwOTkwMiwtMTg5MTM1ODQxOCwzNDE5NTI3
-NzYsNjM5ODIzODYyLC04MDM0NTczMTUsMzA2ODk0OTEyLC0xMj
-IwMTk5MzMzLC0xODIzNzkzMzQ1LDE5NDAzODIxODgsMTU5NDg5
-NTA2LDE5NTAxNDgyNzcsLTIwMjk1NDM1NjcsLTc0NDE2MTg0Mi
-wtMzk0NDc5MDI2LC0yMDEyNTE1MDYyLDgwNzUyMzkyNiwxNDY3
-MjI0NTEzXX0=
+eyJoaXN0b3J5IjpbLTUyMTY2Mzk0MywxMzg3NzA5MDgxLDk3MD
+I1NDI3MiwxNjI5NjA5OTAyLC0xODkxMzU4NDE4LDM0MTk1Mjc3
+Niw2Mzk4MjM4NjIsLTgwMzQ1NzMxNSwzMDY4OTQ5MTIsLTEyMj
+AxOTkzMzMsLTE4MjM3OTMzNDUsMTk0MDM4MjE4OCwxNTk0ODk1
+MDYsMTk1MDE0ODI3NywtMjAyOTU0MzU2NywtNzQ0MTYxODQyLC
+0zOTQ0NzkwMjYsLTIwMTI1MTUwNjIsODA3NTIzOTI2LDE0Njcy
+MjQ1MTNdfQ==
 -->
