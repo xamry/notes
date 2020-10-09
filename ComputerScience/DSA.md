@@ -66,9 +66,16 @@ Example: Finding an element in a BST.
 		    SampleRecursion(modified parameter);
 	    }
     }
+## Finding Factorial using Recursion
+
+    Factorial(n)
+	    if(n equals 0)
+		    return 1
+		else 
+			return n * Factorial (n -1)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NT
-kyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODky
-MDEyLC0yNDExOTQ2MzldfQ==
+eyJoaXN0b3J5IjpbLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMT
+YwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3MTAx
+OTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
 -->
