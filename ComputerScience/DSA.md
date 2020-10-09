@@ -87,14 +87,14 @@ Example: Finding an element in a BST.
 			reurn fib(n-1) + fib(n - 2)
 				
 ## Recursion Vs Iteration
-| Particulars | Recursion | Iteration |
-|--Space Efficient|No|Yes|
+| Particulars | Recursion | Iteration  |
+|-Space Efficient-|No|Yes|
 |--|--|--|
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTE3NjAyNSw0Nzk1NTAyMjEsMTM2OT
-k0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLTExNjAyODgw
-MDAsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcxMDE5NjcsLT
-ExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbNjI3OTQxOTYxLDQ3OTU1MDIyMSwxMzY5OT
+QyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAw
+MCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMT
+EwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
