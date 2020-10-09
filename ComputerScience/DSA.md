@@ -87,18 +87,17 @@ Example: Finding an element in a BST.
 			reurn fib(n-1) + fib(n - 2)
 				
 ## Recursion Vs Iteration
-```markdown
-| Space Efficient                       | Recursion | Iteration |
-|---------------------------------------|-----------|-----------|
-| Space Efficient?                      | No        | Yes       |
-| Time Efficient?                       | No        | Yes       |
-| Ease of code (to solve sub-problems)? | Yes       | No        |
-```
+| Space Efficient                       | Recursion                  | Iteration |
+|---------------------------------------|----------------------------|-----------|
+| Space Efficient?                      | No (Due to stack)          | Yes       |
+| Time Efficient?                       | No (Due to stack push/pop) | Yes       |
+| Ease of code (to solve sub-problems)? | Yes                        | No        |
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDAwNzkwNjcsMTUxOTgyNjYyNyw0Nz
-k1NTAyMjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4
-MDcsLTExNjAyODgwMDAsNzc1OTI3ODM2LC01NDU4NDMwNzIsLT
-E5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbLTc2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OT
+U1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgw
+NywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMT
+k5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
