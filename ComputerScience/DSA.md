@@ -35,8 +35,9 @@ Algorithm is a set of rules to be followed to solve a problem.
  2. In every step, we try to make the problem smaller
  3. We mandatorily need to have a base condition, which tells system when to stop recursion.
 
-Example: Finding an 
+Example: Finding an element in a BST.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMjU0MDY1LC01NDU4NDMwNzIsLTE5OT
-cxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbLTQ0NDQwNTY4MCwtNTQ1ODQzMDcyLC0xOT
+k3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
 -->
