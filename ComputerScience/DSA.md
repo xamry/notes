@@ -36,11 +36,18 @@ Algorithm is a set of rules to be followed to solve a problem.
  3. We mandatorily need to have a base condition, which tells system when to stop recursion.
 
 Example: Finding an element in a BST.
-search(root, valueToBeSearched)
-	if(root equals null) return null
-	else if(root.value equals valueToBeSearched) return root
-	else if(root.value > valueToBeSearched 
+
+    search(root, valueToBeSearched)
+    	if(root equals null)   //Base condition
+    		return null
+    	else if(root.value equals valueToBeSearched) //Base con
+    		return root
+    	else if(root.value > valueToBeSearched) 
+    		search(root.left, valueToBeSearched)
+    	else if(root.value < valueToBeSearched)
+    		search(root.right, valueToBeSearched)
+	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MTEyNDYsLTU0NTg0MzA3MiwtMTk5Nz
-EwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbLTQ1MjQyNDcyOSwtNTQ1ODQzMDcyLC0xOT
+k3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
 -->
