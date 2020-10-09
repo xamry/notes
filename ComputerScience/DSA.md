@@ -30,8 +30,11 @@ Algorithm is a set of rules to be followed to solve a problem.
  
 # Recursion
 ### Properties of Recursion
+ 1. Same operation is performed multiple times with different inputs
+ 2. In every step, we try to make the problem smaller
+ 3. We mandatorily need to have a base condition, which tells system when to stop recursion.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg3ODMyNTMsLTU0NTg0MzA3MiwtMT
+eyJoaXN0b3J5IjpbLTEwMjM5NDIyMDcsLTU0NTg0MzA3MiwtMT
 k5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
