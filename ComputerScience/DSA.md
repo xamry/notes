@@ -55,9 +55,11 @@ Example: Finding an element in a BST.
  2. It is heavily used in data structures like Tree, Graph etc.
  3. Heavily used in techniques like Divide and conquer, Greedy, Dynamic Programming.
  
-
+## Format of a Recursive Function
+Recursive Case: Case where the function recur
+Base Case: Case where the function does not recur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjAyODgwMDAsNzc1OTI3ODM2LC01ND
-U4NDMwNzIsLTE5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5
-NDYzOV19
+eyJoaXN0b3J5IjpbMTk1MzMxMzQ2NiwtMTE2MDI4ODAwMCw3Nz
+U5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5
+MjAxMiwtMjQxMTk0NjM5XX0=
 -->
