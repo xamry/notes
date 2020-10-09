@@ -11,12 +11,15 @@ Algorithm is a set of rules to be followed to solve a problem.
  3. Character
  4. Boolean
  5. ...and so on
- 6.
+ 
 ### Non-primitive DS
+
 #### Physical DS
  1. Array
  2. Linked List
+ 
 #### Logical DS
+
 (Logical DS are implemented using Physical DS)
  1. Stack
  2. Queue
@@ -27,6 +30,6 @@ Algorithm is a set of rules to be followed to solve a problem.
  
 # Recursion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDEzMTk5MzgsLTE5OTcxMDE5NjcsLT
-ExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMT
+EwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
