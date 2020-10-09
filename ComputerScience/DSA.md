@@ -84,11 +84,12 @@ Example: Finding an element in a BST.
 		else if(n == 1 || n == 2)
 				return n -1
 		else
-			reurn fib(n-1) + fin	
+			reurn fib(n-1) + fib(n - 2)	
+			
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MTIwMzcxLDQ3OTU1MDIyMSwxMzY5OT
-QyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAw
-MCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMT
-EwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbLTU0Nzk5MjY2OSw0Nzk1NTAyMjEsMTM2OT
+k0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLTExNjAyODgw
+MDAsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcxMDE5NjcsLT
+ExMDA4OTIwMTIsLTI0MTE5NDYzOV19
 -->
