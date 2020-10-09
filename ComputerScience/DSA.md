@@ -13,11 +13,17 @@ Algorithm is a set of rules to be followed to solve a problem.
 ### Non-primitive DS
 #### Physical DS
  1. Array
- 2. Linked Lis
-
+ 2. Linked List
 #### Logical DS
 (Logical DS are implemented using Physical DS)
+ 1. Stack
+ 2. Queue
+ 3. Tree
+ 4. Graph
+ 5. Hash
+ 6. ...and so on.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE5NTIyMDEsLTE5OTcxMDE5NjcsLT
-ExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbMTk5OTc5MjU1NSwtMTk5NzEwMTk2NywtMT
+EwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
