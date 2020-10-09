@@ -38,8 +38,9 @@ Algorithm is a set of rules to be followed to solve a problem.
 Example: Finding an element in a BST.
 search(root, valueToBeSearched)
 	if(root equals null) return null
-	
+	else if(root.value equals valueToBeSearched) return root
+	else if(root.value > valueToBeSearched 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODIxMzU1MjQsLTU0NTg0MzA3MiwtMT
-k5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbODY5MTEyNDYsLTU0NTg0MzA3MiwtMTk5Nz
+EwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
