@@ -101,14 +101,15 @@ Example: Finding an element in a BST.
  - When we need a quick working solution instead of efficient one
  
 ### When to avoid
+If response to any of the above questions is NO
 
-
+## Practical uses of Recursion
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODIxNTg2NzcsLTc2OTMyMzMyMywxNT
-E5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEy
-MzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLT
-U0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQx
-MTk0NjM5XX0=
+eyJoaXN0b3J5IjpbLTIyNDE4NjQ1NywtNzY5MzIzMzIzLDE1MT
+k4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIz
+NDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNT
+Q1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDEx
+OTQ2MzldfQ==
 -->
