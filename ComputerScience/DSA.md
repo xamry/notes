@@ -29,7 +29,9 @@ Algorithm is a set of rules to be followed to solve a problem.
  6. ...and so on.
  
 # Recursion
+### Properties of Recursion
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMT
-EwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbLTE4MDg3ODMyNTMsLTU0NTg0MzA3MiwtMT
+k5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
