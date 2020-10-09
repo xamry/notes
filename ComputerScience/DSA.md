@@ -60,15 +60,15 @@ Example: Finding an element in a BST.
 **Base Case:** Case where the function does not recur.
 
     SampleRecursion(parameter) {
-    if(base case is satisfied) {
-	    return some base case value
-    } else {
-	    SampleRecursion(modified 
-    }
+	    if(base case is satisfied) {
+		    return some base case value;
+	    } else {
+		    SampleRecursion(modified parameter);
+	    }
     }
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTE3ODQyNywtMTE2MDI4ODAwMCw3Nz
-U5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5
-MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbLTE3ODUzMzc2OTcsLTExNjAyODgwMDAsNz
+c1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcxMDE5NjcsLTExMDA4
+OTIwMTIsLTI0MTE5NDYzOV19
 -->
