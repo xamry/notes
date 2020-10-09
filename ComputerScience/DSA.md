@@ -5,10 +5,19 @@ Algorithm is a set of rules to be followed to solve a problem.
 
 ## Types of Data Structure
 ### Primitive DS
- 1. List it
-
+ 1. Integer
+ 2. Float
+ 3. Character
+ 4. Boolean
+ 5. ...and so on
 ### Non-primitive DS
+#### Physical DS
+ 1. Array
+ 2. Linked Lis
+
+#### Logical DS
+(Logical DS are implemented using Physical DS)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTQ3NDQ3MSwtMTk5NzEwMTk2NywtMT
-EwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbLTE1NTE5NTIyMDEsLTE5OTcxMDE5NjcsLT
+ExMDA4OTIwMTIsLTI0MTE5NDYzOV19
 -->
