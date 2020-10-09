@@ -40,14 +40,16 @@ Example: Finding an element in a BST.
     search(root, valueToBeSearched)
     	if(root equals null)   //Base condition
     		return null
-    	else if(root.value equals valueToBeSearched) //Base con
+    	else if(root.value equals valueToBeSearched) //Base condition
     		return root
     	else if(root.value > valueToBeSearched) 
-    		search(root.left, valueToBeSearched)
+	    	//Same operation performed multiple times, making the problem smaller
+    		search(root.left, valueToBeSearched)   
     	else if(root.value < valueToBeSearched)
-    		search(root.right, valueToBeSearched)
+	    	//Same operation performed multiple times, making the problem smaller
+    		search(root.right, valueToBeSearched)  
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjQyNDcyOSwtNTQ1ODQzMDcyLC0xOT
-k3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
+eyJoaXN0b3J5IjpbNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OT
+cxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5NDYzOV19
 -->
