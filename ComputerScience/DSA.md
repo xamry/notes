@@ -47,11 +47,14 @@ Example: Finding an element in a BST.
     		search(root.left, valueToBeSearched)   
     	else if(root.value < valueToBeSearched)
 	    	//Same operation performed multiple times, making the problem smaller
-    		search(root.right, valueToBeSearched)  
-	 
-	 
+    		search(root.right, valueToBeSearched)     
+
+### Why should we learn Resursion
+
+ 1. Makes code easy to write (compared to 'iterative' method) whenever a problem can be broken down into similar sub-problems.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjEwNjUwMjIsNzc1OTI3ODM2LC01ND
-U4NDMwNzIsLTE5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5
-NDYzOV19
+eyJoaXN0b3J5IjpbMTI3OTUyNDE5MCw3NzU5Mjc4MzYsLTU0NT
+g0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0
+NjM5XX0=
 -->
