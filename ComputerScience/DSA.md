@@ -30,7 +30,7 @@ Algorithm is a set of rules to be followed to solve a problem.
  
 # Recursion
 
-### Properties of Recursion
+## Properties of Recursion
  1. Same operation is performed multiple times with different inputs
  2. In every step, we try to make the problem smaller
  3. We mandatorily need to have a base condition, which tells system when to stop recursion.
@@ -49,12 +49,15 @@ Example: Finding an element in a BST.
 	    	//Same operation performed multiple times, making the problem smaller
     		search(root.right, valueToBeSearched)     
 
-### Why should we learn Resursion
+## Why should we learn Resursion
 
- 1. Makes code easy to write (compared to 'iterative' method) whenever a problem can be broken down into similar sub-problems.
+ 1. Makes code easy to write (compared to 'iterative' method) whenever a problem can be broken down into *similar* sub-problems.
+ 2. It is heavily used in data structures like Tree, Graph etc.
+ 3. Heavily used in techniques like Divide and conquer, Greedy, Dynamic Programming.
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTUyNDE5MCw3NzU5Mjc4MzYsLTU0NT
-g0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0
-NjM5XX0=
+eyJoaXN0b3J5IjpbLTExNjAyODgwMDAsNzc1OTI3ODM2LC01ND
+U4NDMwNzIsLTE5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5
+NDYzOV19
 -->
