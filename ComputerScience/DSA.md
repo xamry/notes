@@ -93,11 +93,14 @@ Example: Finding an element in a BST.
 | Time Efficient?                       | No (Due to stack push/pop) | Yes       |
 | Ease of code (to solve sub-problems)? | Yes                        | No        |
 
-
+## When to use and avoid Recursion
+### When to use
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OT
-U1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgw
-NywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMT
-k5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbOTQzNjczNDk4LC03NjkzMjMzMjMsMTUxOT
+gyNjYyNyw0Nzk1NTAyMjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0
+NiwxNjI2NTg4MDcsLTExNjAyODgwMDAsNzc1OTI3ODM2LC01ND
+U4NDMwNzIsLTE5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5
+NDYzOV19
 -->
