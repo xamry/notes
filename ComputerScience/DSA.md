@@ -77,9 +77,18 @@ Example: Finding an element in a BST.
 
 ## Finding Fibonacci using Recursion
 0, 1, 1, 2, 3, 5, 8, 13, 21.....
+
+    fib(n)
+	    if(n < 1)
+		    return error message
+		else if(n == 1 || n == 2)
+				return n -1
+		else
+			reurn fib(n-1) + fin	
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTcwMTU3OTgsNDc5NTUwMjIxLDEzNj
-k5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4
-MDAwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3MTAxOTY3LC
-0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
+eyJoaXN0b3J5IjpbMjU3MTIwMzcxLDQ3OTU1MDIyMSwxMzY5OT
+QyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAw
+MCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMT
+EwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
