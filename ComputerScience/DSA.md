@@ -95,12 +95,20 @@ Example: Finding an element in a BST.
 
 ## When to use and avoid Recursion
 ### When to use
+
+ - When we can easily break down a problem into sub-problems
+ - When we're ok with extra overhead (time and space) that comes with it
+ - When we need a quick working solution instead of efficient one
+ 
+### When to avoid
+
+
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNjczNDk4LC03NjkzMjMzMjMsMTUxOT
-gyNjYyNyw0Nzk1NTAyMjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0
-NiwxNjI2NTg4MDcsLTExNjAyODgwMDAsNzc1OTI3ODM2LC01ND
-U4NDMwNzIsLTE5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5
-NDYzOV19
+eyJoaXN0b3J5IjpbLTIwODIxNTg2NzcsLTc2OTMyMzMyMywxNT
+E5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEy
+MzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLT
+U0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQx
+MTk0NjM5XX0=
 -->
