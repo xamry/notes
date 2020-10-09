@@ -49,7 +49,9 @@ Example: Finding an element in a BST.
 	    	//Same operation performed multiple times, making the problem smaller
     		search(root.right, valueToBeSearched)  
 	 
+	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OT
-cxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbLTIxMjEwNjUwMjIsNzc1OTI3ODM2LC01ND
+U4NDMwNzIsLTE5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5
+NDYzOV19
 -->
