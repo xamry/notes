@@ -75,9 +75,10 @@ Example: Finding an element in a BST.
 		else 
 			return n * Factorial (n -1)
 
+## Finding Fibonacci using Recursion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNj
-I2NTg4MDcsLTExNjAyODgwMDAsNzc1OTI3ODM2LC01NDU4NDMw
-NzIsLTE5OTcxMDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5NDYzOV
-19
+eyJoaXN0b3J5IjpbNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4OD
+Y5MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgz
+NiwtNTQ1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC
+0yNDExOTQ2MzldfQ==
 -->
