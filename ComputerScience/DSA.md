@@ -108,12 +108,19 @@ If response to any of the above questions is NO
 
  - Stack
  - Tree (Travesal, Insertion, Searching, Deletion)
- - Sorting (Quick 
+ - Sorting (Quick sort, merge sort)
+ - Divide and Conquer
+ - Dynamic Programming
+ - ...and so on.
+
+# Algorithm Runtime Analysis
+
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjA2MDg3MSwtNzY5MzIzMzIzLDE1MT
-k4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIz
-NDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNT
-Q1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDEx
-OTQ2MzldfQ==
+eyJoaXN0b3J5IjpbLTEyODI1MDE0NTgsLTc2OTMyMzMyMywxNT
+E5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEy
+MzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLT
+U0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQx
+MTk0NjM5XX0=
 -->
