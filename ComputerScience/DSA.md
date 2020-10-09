@@ -56,10 +56,19 @@ Example: Finding an element in a BST.
  3. Heavily used in techniques like Divide and conquer, Greedy, Dynamic Programming.
  
 ## Format of a Recursive Function
-Recursive Case: Case where the function recur
-Base Case: Case where the function does not recur
+**Recursive Case:** Case where the function recur.
+**Base Case:** Case where the function does not recur.
+
+    SampleRecursion(parameter) {
+    if(base case is satisfied) {
+	    return some base case value
+    } else {
+	    SampleRecursion(modified 
+    }
+    }
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzMxMzQ2NiwtMTE2MDI4ODAwMCw3Nz
+eyJoaXN0b3J5IjpbLTc0NTE3ODQyNywtMTE2MDI4ODAwMCw3Nz
 U5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5
 MjAxMiwtMjQxMTk0NjM5XX0=
 -->
