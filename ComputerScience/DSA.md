@@ -106,8 +106,12 @@ If response to any of the above questions is NO
 ## Practical uses of Recursion
  
 
+ - Stack
+ - Tree (Travesal, Insertion, Searching, Deletion)
+ - Sorting (Quick 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDE4NjQ1NywtNzY5MzIzMzIzLDE1MT
+eyJoaXN0b3J5IjpbMTA1NjA2MDg3MSwtNzY5MzIzMzIzLDE1MT
 k4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIz
 NDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNT
 Q1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDEx
