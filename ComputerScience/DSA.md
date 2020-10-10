@@ -115,12 +115,14 @@ If response to any of the above questions is NO
 # Algorithm Runtime Analysis
 It is a study of a given algorithm's running time, by identifying its behavior as the input size for the algorithm increases. 
  
- ## Notations 
+## Notations for Algorithm runtime analysis
+Omega (Ω) - Gives the tighter lower bound 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTg2NTM0NSwtMTk2NzExNzMxMCwtMT
-I4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2MjcsNDc5NTUw
-MjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC
-0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3
-MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
+eyJoaXN0b3J5IjpbLTE5MzExMzA0MTIsLTE5NjcxMTczMTAsLT
+EyODI1MDE0NTgsLTc2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OTU1
+MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNy
+wtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5
+NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
