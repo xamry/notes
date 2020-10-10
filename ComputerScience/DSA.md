@@ -103,8 +103,7 @@ Example: Finding an element in a BST.
 ### When to avoid
 If response to any of the above questions is NO
 
-## Practical uses of Recursion
- 
+## Practical uses of Recursion 
 
  - Stack
  - Tree (Travesal, Insertion, Searching, Deletion)
@@ -114,13 +113,13 @@ If response to any of the above questions is NO
  - ...and so on.
 
 # Algorithm Runtime Analysis
-
+It is a study of a given algorithm's running t
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI1MDE0NTgsLTc2OTMyMzMyMywxNT
-E5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEy
-MzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLT
-U0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQx
-MTk0NjM5XX0=
+eyJoaXN0b3J5IjpbLTIwNDc4MTM1NDIsLTEyODI1MDE0NTgsLT
+c2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQy
+Njc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMC
+w3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEw
+MDg5MjAxMiwtMjQxMTk0NjM5XX0=
 -->
