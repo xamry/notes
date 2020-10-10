@@ -116,15 +116,18 @@ If response to any of the above questions is NO
 It is a study of a given algorithm's running time, by identifying its behavior as the input size for the algorithm increases. 
  
 ## Notations for Algorithm runtime analysis
-Omega (Ω) 
-- Gives the tighter lower bound of a given algorithm - Helpful to determine the minimum resources required to be allocated
-
+### Omega (Ω) 
+- Gives the tighter lower bound of a given algorithm 
+- Helpful to determine the minimum resources required to be allocated
+### Big-o (O)
+- Gives the tighter upper bound of a given algorithm
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODU4MDM0MTcsLTE5NjcxMTczMTAsLT
-EyODI1MDE0NTgsLTc2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OTU1
-MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNy
-wtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5
-NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbMjQ3MDk2MTIxLC0xOTY3MTE3MzEwLC0xMj
+gyNTAxNDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAy
+MjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLT
+ExNjAyODgwMDAsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcx
+MDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5NDYzOV19
 -->
