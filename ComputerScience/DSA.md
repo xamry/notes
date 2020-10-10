@@ -140,11 +140,14 @@ It is a study of a given algorithm's running time, by identifying its behavior a
 | O(n^3)          | Cubic              | Matrix multiplication                         |
 | O(2^n)          | Exponential        | Tower of Hanoi problem                        |
 
+## Finding Time complexity of an Iterative Algorithm
+
+## Finding time complexity of a Recursive Algorithm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTkzNzQxNCwtNzUzMDM2NiwtMTk2Nz
-ExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2
-MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMT
-YyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQz
-MDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2Mz
-ldfQ==
+eyJoaXN0b3J5IjpbLTIwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNz
+UzMDM2NiwtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIz
+MzIzLDE1MTk4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLT
+E4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTky
+NzgzNiwtNTQ1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMD
+EyLC0yNDExOTQ2MzldfQ==
 -->
