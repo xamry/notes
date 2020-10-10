@@ -127,12 +127,24 @@ It is a study of a given algorithm's running time, by identifying its behavior a
 ### Theta (θ)
 - Decides whether upper and lower bound of a given algorithm are same or not
 - Represents average case
--
+
+## Examples of Algorithm runtime complexity
+
+| Time complexity | Name               | Example                                       |
+|-----------------|--------------------|-----------------------------------------------|
+| O(1)            | Constant           | Adding an element at the front of Linked list |
+| O(log n)        | Logarithmic        | Finding an element in a sorted array          |
+| O(n)            | Linear             | Finding an element in an unsorted array       |
+| O(n log n)      | Linear logarithmic | Merge sort                                    |
+| O(n^2)          | Quadratic          | Shortest path between two nodes in a graph    |
+| O(n^3)          | Cubic              | Matrix multiplication                         |
+| O(2^n)          | Exponential        | Tower of Hanoi problem                        |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzAzNjYsLTE5NjcxMTczMTAsLTEyOD
-I1MDE0NTgsLTc2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OTU1MDIy
-MSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMT
-E2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEw
-MTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbMTMxMTkzNzQxNCwtNzUzMDM2NiwtMTk2Nz
+ExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2
+MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMT
+YyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQz
+MDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2Mz
+ldfQ==
 -->
