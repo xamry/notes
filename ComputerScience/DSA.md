@@ -113,11 +113,11 @@ If response to any of the above questions is NO
  - ...and so on.
 
 # Algorithm Runtime Analysis
-It is a study of a given algorithm's running t
+It is a study of a given algorithm's running time, by identifying its behavior as the input size for the algorithm increases. 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc4MTM1NDIsLTEyODI1MDE0NTgsLT
+eyJoaXN0b3J5IjpbLTE5NjcxMTczMTAsLTEyODI1MDE0NTgsLT
 c2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQy
 Njc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMC
 w3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEw
