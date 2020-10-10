@@ -119,15 +119,16 @@ It is a study of a given algorithm's running time, by identifying its behavior a
 ### Omega (Ω) 
 - Gives the tighter lower bound of a given algorithm 
 - Helpful to determine the minimum resources required to be allocated
+- Represents best case
 ### Big-o (O)
 - Gives the tighter upper bound of a given algorithm
 - 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3MDk2MTIxLC0xOTY3MTE3MzEwLC0xMj
-gyNTAxNDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAy
-MjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLT
-ExNjAyODgwMDAsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcx
-MDE5NjcsLTExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbLTkwMTA2ODU4NywtMTk2NzExNzMxMCwtMT
+I4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2MjcsNDc5NTUw
+MjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC
+0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3
+MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
 -->
