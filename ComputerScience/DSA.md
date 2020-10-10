@@ -122,11 +122,13 @@ It is a study of a given algorithm's running time, by identifying its behavior a
 - Represents best case
 ### Big-o (O)
 - Gives the tighter upper bound of a given algorithm
-- 
+- Helpful to determine the maximum expected limit, e.g. car airbag system.
+- Represents worst case
+### Theta (θ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTA2ODU4NywtMTk2NzExNzMxMCwtMT
+eyJoaXN0b3J5IjpbLTI1NjE1NDU2MywtMTk2NzExNzMxMCwtMT
 I4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2MjcsNDc5NTUw
 MjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC
 0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3
