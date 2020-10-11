@@ -141,20 +141,22 @@ It is a study of a given algorithm's running time, by identifying its behavior a
 | O(2^n)          | Exponential        | Tower of Hanoi problem                        |
 
 # Array
+Array is a data structure consisting of a collection of elements, each identified by an array index. An array is stored such that 
 ## Properties of an Array
 
  1. Can store data of specific data type
  2. It has contiguous memory location
  3. Every cell has a unique index
  4. Index starts with 0
- 5. Size of array 
+ 5. Size of array needs to be specified mandatorily and can't be modified
+ 6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTk3NDcwMSwtNzAyMDQwMzY2LC0yMD
-k0NzY1MDcxLDEzMTE5Mzc0MTQsLTc1MzAzNjYsLTE5NjcxMTcz
-MTAsLTEyODI1MDE0NTgsLTc2OTMyMzMyMywxNTE5ODI2NjI3LD
-Q3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1
-ODgwNywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3Mi
-wtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+eyJoaXN0b3J5IjpbMTA0NTE4MjYwLC03MDIwNDAzNjYsLTIwOT
+Q3NjUwNzEsMTMxMTkzNzQxNCwtNzUzMDM2NiwtMTk2NzExNzMx
+MCwtMTI4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2MjcsND
+c5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4
+ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC
+0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0yNDExOTQ2MzldfQ==
 
 -->
