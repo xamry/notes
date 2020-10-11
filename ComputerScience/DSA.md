@@ -168,11 +168,13 @@ Array is a data structure consisting of a collection of elements, each identifie
  - Deleting a given value
 
 ### Declare, Instantiate, Initialize Array
-Declare: int[] arr
-Instantiate
+Declare: int[] arr  
+Instantiate: arr = new int[5]  
+Initialize: arr[0] = 10; arr[1]=20; arr[2] = 30;  
+Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDc3NjAyMywyMDY4MDg1MTAxLC0yNj
+eyJoaXN0b3J5IjpbMTkyMDIwMzI2OCwyMDY4MDg1MTAxLC0yNj
 A3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3
 NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAxNDU4LC
 03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMTM2OTk0
