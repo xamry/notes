@@ -173,14 +173,21 @@ Instantiate: arr = new int[5]        ---------  O(1)
 Initialize: arr[0] = 10; arr[1]=20; arr[2] = 30;     ---------  O(n)
 Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};      ---------  O(1)
 
+### Insertion
 
+    insert(arr, valueToBeInserted, location)
+    	if(arr[location] is occupied)
+    		return error //location is already occupied
+    	else
+	    	arr[location] = valueToBeInserted\
+	    	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTUxNzc3MSwtMTg1NzgwMDc2MSwyMD
-Y4MDg1MTAxLC0yNjA3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2
-NTA3MSwxMzExOTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC
-0xMjgyNTAxNDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1
-NTAyMjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MD
-csLTExNjAyODgwMDAsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5
-OTcxMDE5NjddfQ==
+eyJoaXN0b3J5IjpbMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2OD
+A4NTEwMSwtMjYwNzkxMTgzLC03MDIwNDAzNjYsLTIwOTQ3NjUw
+NzEsMTMxMTkzNzQxNCwtNzUzMDM2NiwtMTk2NzExNzMxMCwtMT
+I4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2MjcsNDc5NTUw
+MjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC
+0xMTYwMjg4MDAwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3
+MTAxOTY3XX0=
 -->
