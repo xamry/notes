@@ -169,16 +169,17 @@ Array is a data structure consisting of a collection of elements, each identifie
 
 ### Declare, Instantiate, Initialize Array
 Declare: int[] arr  				---------  O(1)
-Instantiate: arr = new int[5]  
-Initialize: arr[0] = 10; arr[1]=20; arr[2] = 30;  
-Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};
+Instantiate: arr = new int[5]        ---------  O(1)  
+Initialize: arr[0] = 10; arr[1]=20; arr[2] = 30;     ---------  O(n)
+Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};      ---------  O(1)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjc4ODcyNCwyMDY4MDg1MTAxLC0yNj
-A3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3
-NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAxNDU4LC
-03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMTM2OTk0
-MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLTExNjAyODgwMD
-AsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcxMDE5NjcsLTEx
-MDA4OTIwMTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NTc4MDA3NjEsMjA2ODA4NTEwMSwtMj
+YwNzkxMTgzLC03MDIwNDAzNjYsLTIwOTQ3NjUwNzEsMTMxMTkz
+NzQxNCwtNzUzMDM2NiwtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OC
+wtNzY5MzIzMzIzLDE1MTk4MjY2MjcsNDc5NTUwMjIxLDEzNjk5
+NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4MD
+AwLDc3NTkyNzgzNiwtNTQ1ODQzMDcyLC0xOTk3MTAxOTY3LC0x
+MTAwODkyMDEyXX0=
 -->
