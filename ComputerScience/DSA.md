@@ -141,12 +141,20 @@ It is a study of a given algorithm's running time, by identifying its behavior a
 | O(2^n)          | Exponential        | Tower of Hanoi problem                        |
 
 # Array
+## Properties of an Array
+
+ 1. Can store data of specific data type
+ 2. It has contiguous memory location
+ 3. Every cell has a unique index
+ 4. Index starts with 0
+ 5. Size of array 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMz
-ExOTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAx
-NDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMT
-M2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLTExNjAy
-ODgwMDAsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcxMDE5Nj
-csLTExMDA4OTIwMTIsLTI0MTE5NDYzOV19
+eyJoaXN0b3J5IjpbMTkyNTk3NDcwMSwtNzAyMDQwMzY2LC0yMD
+k0NzY1MDcxLDEzMTE5Mzc0MTQsLTc1MzAzNjYsLTE5NjcxMTcz
+MTAsLTEyODI1MDE0NTgsLTc2OTMyMzMyMywxNTE5ODI2NjI3LD
+Q3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1
+ODgwNywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3Mi
+wtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
+
 -->
