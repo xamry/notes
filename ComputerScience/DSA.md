@@ -158,13 +158,22 @@ Array is a data structure consisting of a collection of elements, each identifie
 	 - Four-dimensional
 	 - ....
 	 - n-dimensional
+	 
+## Common operation on an Array
+ - Declaring, instantiating, initializing
+ - Inserting a value
+ - Traversing a given array
+ - Accessing a given cell#
+ - Searching a given value
+ - Deleting a given value
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODA4NTEwMSwtMjYwNzkxMTgzLC03MD
-IwNDAzNjYsLTIwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNzUzMDM2
-NiwtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIzMzIzLD
-E1MTk4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5
-MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNi
-wtNTQ1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0y
-NDExOTQ2MzldfQ==
+eyJoaXN0b3J5IjpbNjQxODM4ODgzLDIwNjgwODUxMDEsLTI2MD
+c5MTE4MywtNzAyMDQwMzY2LC0yMDk0NzY1MDcxLDEzMTE5Mzc0
+MTQsLTc1MzAzNjYsLTE5NjcxMTczMTAsLTEyODI1MDE0NTgsLT
+c2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQy
+Njc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMC
+w3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEw
+MDg5MjAxMl19
 -->
