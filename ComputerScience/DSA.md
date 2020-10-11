@@ -144,19 +144,27 @@ It is a study of a given algorithm's running time, by identifying its behavior a
 Array is a data structure consisting of a collection of elements, each identified by an array index. An array is stored such that the position of each element can be computed from its index cell by mathematical formula.
 
 ## Properties of an Array
- 1. Can store data of specific data type
- 2. It has contiguous memory location
- 3. Every cell has a unique index
- 4. Index starts with 0
- 5. Size of array needs to be specified mandatorily and can't be modified
- 6
+ - Can store data of specific data type
+ - It has contiguous memory location
+ - Every cell has a unique index
+ - Index starts with 0
+ - Size of array needs to be specified mandatorily and can't be modified
+ 
+## Types of Array
+ - One Dimensional
+ - Multi-dimensional
+	 - Two-dimensional
+	 - Three-dimensional
+	 - Four-dimensional
+	 - ....
+	 - n-dimensional
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDc5MTE4MywtNzAyMDQwMzY2LC0yMD
-k0NzY1MDcxLDEzMTE5Mzc0MTQsLTc1MzAzNjYsLTE5NjcxMTcz
-MTAsLTEyODI1MDE0NTgsLTc2OTMyMzMyMywxNTE5ODI2NjI3LD
-Q3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1
-ODgwNywtMTE2MDI4ODAwMCw3NzU5Mjc4MzYsLTU0NTg0MzA3Mi
-wtMTk5NzEwMTk2NywtMTEwMDg5MjAxMiwtMjQxMTk0NjM5XX0=
-
+eyJoaXN0b3J5IjpbMjA2ODA4NTEwMSwtMjYwNzkxMTgzLC03MD
+IwNDAzNjYsLTIwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNzUzMDM2
+NiwtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIzMzIzLD
+E1MTk4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5
+MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTkyNzgzNi
+wtNTQ1ODQzMDcyLC0xOTk3MTAxOTY3LC0xMTAwODkyMDEyLC0y
+NDExOTQ2MzldfQ==
 -->
