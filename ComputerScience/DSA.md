@@ -166,14 +166,17 @@ Array is a data structure consisting of a collection of elements, each identifie
  - Accessing a given cell#
  - Searching a given value
  - Deleting a given value
- 
+
+### Declare, Instantiate, Initialize Array
+Declare: int[] arr
+Instantiate
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxODM4ODgzLDIwNjgwODUxMDEsLTI2MD
-c5MTE4MywtNzAyMDQwMzY2LC0yMDk0NzY1MDcxLDEzMTE5Mzc0
-MTQsLTc1MzAzNjYsLTE5NjcxMTczMTAsLTEyODI1MDE0NTgsLT
-c2OTMyMzMyMywxNTE5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQy
-Njc2LC0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMC
-w3NzU5Mjc4MzYsLTU0NTg0MzA3MiwtMTk5NzEwMTk2NywtMTEw
-MDg5MjAxMl19
+eyJoaXN0b3J5IjpbMTY2MDc3NjAyMywyMDY4MDg1MTAxLC0yNj
+A3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3
+NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAxNDU4LC
+03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMTM2OTk0
+MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLTExNjAyODgwMD
+AsNzc1OTI3ODM2LC01NDU4NDMwNzIsLTE5OTcxMDE5NjcsLTEx
+MDA4OTIwMTJdfQ==
 -->
