@@ -311,14 +311,16 @@ Most basic for of Linked List which gives the flexibility to add/ remove nodes a
 
 ### Circular single linked list
 When we want to loop through the list indefinitely until the list exists.
+Example: Multiplayer board game, if we're tracking player's turn in linked list.
 
 ### Double linked list
 When we want to move in both directions depending on requirement.
-Example: Multiplayer board game
+Example: Music player that has next and previous buttons.
+
 ### Circular double linked list
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ1NzA0NDcsLTE2NzEyNjY5NzEsMT
+eyJoaXN0b3J5IjpbLTIwMTE5NTIzMTAsLTE2NzEyNjY5NzEsMT
 M4Njc3ODY2OCwxMTg1NzI4MjU1LC04NDI4ODA4NzgsLTEzNjU2
 Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NT
 AsLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OTk4MjIwNDYsLTEw
