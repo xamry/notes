@@ -281,12 +281,19 @@ Time complexity: O(1)		Space complexity: O(1)
  - Data to be stored are non-homogeneous
  - Number of data to be stored is not known in advance
 
+## Practical uses of Array
+
+ - Dynamic Programming
+ - Hashtable
+
+# Linked List
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMj
-U3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OTk4MjIw
-NDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAyNjUwMjYxOS
-wxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OCwtMTg1Nzgw
-MDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLTcwMjA0MDM2Ni
-wtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMwMzY2LC0xOTY3
-MTE3MzEwXX0=
+eyJoaXN0b3J5IjpbLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLT
+E2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3
+NTAsLTE3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3Ny
+wtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgw
+MTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExOD
+MsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03
+NTMwMzY2XX0=
 -->
