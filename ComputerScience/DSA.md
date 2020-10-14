@@ -321,10 +321,11 @@ Example: Music player that has next and previous buttons.
 When we want to loop through the list indefinitely until the list exists. We also want to move forward and backward.
 Example: 'Alt+TAB' button in Windows.
 
-## Operations
+## Operations on Single Linked List (SLL)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDE4Nzg5Nyw0NDY1NjUxNjcsLTE2Nz
+eyJoaXN0b3J5IjpbMTE4MjU5ODI5OSw0NDY1NjUxNjcsLTE2Nz
 EyNjY5NzEsMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04NDI4ODA4
 NzgsLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3NTQ4Ny
 wzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OTk4
