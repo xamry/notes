@@ -278,10 +278,11 @@ Time complexity: O(1)		Space complexity: O(1)
  - When random access is regular affair. (O(1) time operation)
  
 ### When to avoid
- - Data to be stored are 
+ - Data to be stored are non-homogeneous
+ - Number of data to be stored is not known in advance
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ3NDc1NzAsLTE2MjE3NTQ4NywzMj
+eyJoaXN0b3J5IjpbLTE5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMj
 U3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OTk4MjIw
 NDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAyNjUwMjYxOS
 wxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OCwtMTg1Nzgw
