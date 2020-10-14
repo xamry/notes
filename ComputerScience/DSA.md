@@ -304,12 +304,20 @@ A linked list is a linear data structure where each element is a separate object
  2. Head - Reference to first node in the list
  3. Tail - Reference to last node in the list (Make insertion faster in O(1) time)
 
+## Types of Linked List
+
+ 1. Single Linked List
+ 2. Circular single linked list
+ 3. Double linked list
+ 4. Circular double linked list
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04ND
-I4ODA4NzgsLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3
-NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLT
-E3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAy
-NjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OC
-wtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLTcw
-MjA0MDM2Nl19
+eyJoaXN0b3J5IjpbLTE2NzEyNjY5NzEsMTM4Njc3ODY2OCwxMT
+g1NzI4MjU1LC04NDI4ODA4NzgsLTEzNjU2Njc5OTcsLTE5ODMw
+MDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC
+00MzY4MjU3NTAsLTE3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5
+NTkzMTQ3NywtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOT
+AwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0y
+NjA3OTExODNdfQ==
 -->
