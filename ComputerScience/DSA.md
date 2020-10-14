@@ -307,19 +307,22 @@ A linked list is a linear data structure where each element is a separate object
 ## Types of Linked List
 
 ### Single Linked List
-Most basic for of Linked List which gives the flexibility to add/ remove n
+Most basic for of Linked List which gives the flexibility to add/ remove nodes at runtime.
+
 ### Circular single linked list
+When we want to loop through the list indefinitely until the list exists.
 
 ### Double linked list
-
+When we want to move in both directions depending on requirement.
+Example: Multiplayer board game
 ### Circular double linked list
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzIxNDM1MSwtMTY3MTI2Njk3MSwxMz
-g2Nzc4NjY4LDExODU3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2
-Nzk5NywtMTk4MzAwNjg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MC
-wtODc4ODMzMjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4
-MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LDE2MDg0MT
-MxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC0xODU3ODAwNzYxLDIw
-NjgwODUxMDFdfQ==
+eyJoaXN0b3J5IjpbLTE3ODQ1NzA0NDcsLTE2NzEyNjY5NzEsMT
+M4Njc3ODY2OCwxMTg1NzI4MjU1LC04NDI4ODA4NzgsLTEzNjU2
+Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NT
+AsLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OTk4MjIwNDYsLTEw
+ODE3MTUxMjksLTU5NTkzMTQ3NywtMTAyNjUwMjYxOSwxNjA4ND
+EzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwy
+MDY4MDg1MTAxXX0=
 -->
