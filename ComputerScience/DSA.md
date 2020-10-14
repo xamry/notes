@@ -222,7 +222,7 @@ Time complexity: O(1)		Space complexity: O(1)
 ### Create 2D Array
 Declare: int[][] arr      --- O(1)
 Instantiate: arr = new int[2][3]    --- O(1)  
-Initialize: arr = arr[0][0] =  10, arr[0][1] =  20, arr[0][2] =  30, arr[1][0] =  40, arr[1][1] =  50, arr[1][2] =  60 --- O(m*n)  
+Initialize: arr = arr[0][0] =  10, arr[0][1] =  20, arr[0][2] =  30, arr[1][0] =  40, arr[1][1] =  50, arr[1][2] =  60 --- O(mn)  
 Declare, instantiate, initialize: int[][] arr = {{10, 20, 30}, {40, 50, 60}}   --- O(1)  
 
 ### Insertion in 2D array
@@ -238,10 +238,11 @@ Time complexity: O(1)      Space complexity: O(1)
     traverseArray(arr)
     	loop: i = 0 to rows
 	    	look j = 0 to cols
-		    	print(arr[i][j);
-Time complexity: O(n)      Space complexity: O(1)
+		    	print(arr[i][j]);
+		    	
+Time complexity: O(mn)      Space complexity: O(1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM0OTI2MjYsMzI1NzQ4NzUwLC04Nz
+eyJoaXN0b3J5IjpbLTEwNzYwNDI2MDYsMzI1NzQ4NzUwLC04Nz
 g4MzMyMCwtNDM2ODI1NzUwLC0xNzk5ODIyMDQ2LC0xMDgxNzE1
 MTI5LC01OTU5MzE0NzcsLTEwMjY1MDI2MTksMTYwODQxMzEwNC
 wyMDc5MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2ODA4
