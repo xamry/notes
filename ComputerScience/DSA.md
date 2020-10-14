@@ -327,14 +327,21 @@ Example: 'Alt+TAB' button in Windows.
     createSingleLinkedList(nodeValue)
 	    create a head, tail pointer and initialize with NULL
 	    create a blank node
-	    node.value= nodeValue
+	    node.value = nodeValue
+	    node.next = NULL
+	    head = node
+	    tail = node
+Time complexity: O(1)		Space complexity: O(1)
+
+### Insertion in SLL
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTMwNjI4MzIsMTg1NDAyMzkyNSwxMT
-gyNTk4Mjk5LDQ0NjU2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4
-NjY4LDExODU3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2Nzk5Ny
-wtMTk4MzAwNjg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MCwtODc4
-ODMzMjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4MTcxNT
-EyOSwtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LDE2MDg0MTMxMDQs
-MjA3OTM5MDA5XX0=
+eyJoaXN0b3J5IjpbMTczMjc5MTU4MCwxODU0MDIzOTI1LDExOD
+I1OTgyOTksNDQ2NTY1MTY3LC0xNjcxMjY2OTcxLDEzODY3Nzg2
+NjgsMTE4NTcyODI1NSwtODQyODgwODc4LC0xMzY1NjY3OTk3LC
+0xOTgzMDA2ODk4LC0xNjIxNzU0ODcsMzI1NzQ4NzUwLC04Nzg4
+MzMyMCwtNDM2ODI1NzUwLC0xNzk5ODIyMDQ2LC0xMDgxNzE1MT
+I5LC01OTU5MzE0NzcsLTEwMjY1MDI2MTksMTYwODQxMzEwNCwy
+MDc5MzkwMDldfQ==
 -->
