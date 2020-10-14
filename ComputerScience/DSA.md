@@ -290,13 +290,13 @@ Time complexity: O(1)		Space complexity: O(1)
  - Hashtable
 
 # Linked List
-A linked list i
+A linked list is a linear data structure where each element is a separate object. Each element (node) comprises of two items - the data and the reference to next node. The most powerful feature of a linked list is that it is of variable size.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzNjA3NjE3LC0xMzY1NjY3OTk3LC0xOT
-gzMDA2ODk4LC0xNjIxNzU0ODcsMzI1NzQ4NzUwLC04Nzg4MzMy
-MCwtNDM2ODI1NzUwLC0xNzk5ODIyMDQ2LC0xMDgxNzE1MTI5LC
-01OTU5MzE0NzcsLTEwMjY1MDI2MTksMTYwODQxMzEwNCwyMDc5
-MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2ODA4NTEwMS
-wtMjYwNzkxMTgzLC03MDIwNDAzNjYsLTIwOTQ3NjUwNzEsMTMx
-MTkzNzQxNF19
+eyJoaXN0b3J5IjpbLTg0Mjg4MDg3OCwtMTM2NTY2Nzk5NywtMT
+k4MzAwNjg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MCwtODc4ODMz
+MjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4MTcxNTEyOS
+wtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LDE2MDg0MTMxMDQsMjA3
+OTM5MDA5LDEwODAxMjU4LC0xODU3ODAwNzYxLDIwNjgwODUxMD
+EsLTI2MDc5MTE4MywtNzAyMDQwMzY2LC0yMDk0NzY1MDcxLDEz
+MTE5Mzc0MTRdfQ==
 -->
