@@ -318,13 +318,15 @@ When we want to move in both directions depending on requirement.
 Example: Music player that has next and previous buttons.
 
 ### Circular double linked list
-When we want to loop through the list indefinitely
+When we want to loop through the list indefinitely until the list exists. We also want to move forward and backward.
+Example: 'Alt+TAB' button in Windows.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDE2NjY0NSwtMTY3MTI2Njk3MSwxMz
-g2Nzc4NjY4LDExODU3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2
-Nzk5NywtMTk4MzAwNjg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MC
-wtODc4ODMzMjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4
-MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LDE2MDg0MT
-MxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC0xODU3ODAwNzYxLDIw
-NjgwODUxMDFdfQ==
+eyJoaXN0b3J5IjpbNDQ2NTY1MTY3LC0xNjcxMjY2OTcxLDEzOD
+Y3Nzg2NjgsMTE4NTcyODI1NSwtODQyODgwODc4LC0xMzY1NjY3
+OTk3LC0xOTgzMDA2ODk4LC0xNjIxNzU0ODcsMzI1NzQ4NzUwLC
+04Nzg4MzMyMCwtNDM2ODI1NzUwLC0xNzk5ODIyMDQ2LC0xMDgx
+NzE1MTI5LC01OTU5MzE0NzcsLTEwMjY1MDI2MTksMTYwODQxMz
+EwNCwyMDc5MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2
+ODA4NTEwMV19
 -->
