@@ -196,18 +196,20 @@ Time complexity: O(n)      Space complexity: O(1)
 	    if(cellNumber > arr.size)
 		    return exception	//Cell number cant' be bigger than array size
 		else
-			retu
+			return arr[cellNumber]
+			
+Time complexity: O(1)		Space complexity: O(1)
 
 ### Searching a given value
 
 ### Deleting a given value
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjUwNjEzMCwxNjA4NDEzMTA0LDIwNz
-kzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAx
-LC0yNjA3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMz
-ExOTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAx
-NDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMT
-M2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLTExNjAy
-ODgwMDBdfQ==
+eyJoaXN0b3J5IjpbLTEwMjY1MDI2MTksMTYwODQxMzEwNCwyMD
+c5MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2ODA4NTEw
+MSwtMjYwNzkxMTgzLC03MDIwNDAzNjYsLTIwOTQ3NjUwNzEsMT
+MxMTkzNzQxNCwtNzUzMDM2NiwtMTk2NzExNzMxMCwtMTI4MjUw
+MTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2MjcsNDc5NTUwMjIxLD
+EzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMTYw
+Mjg4MDAwXX0=
 -->
