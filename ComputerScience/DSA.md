@@ -184,14 +184,19 @@ Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};      -----
 Time complexity: O(1)      Space complexity: O(1)
 
 ### Traversal
-traverseArray(arr)
-	
+
+    traverseArray(arr)
+    	loop: i = 0 to arr.length
+	    	print(arr[i]);
+Time complexity: O(n)      Space complexity: O(1)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYxNjI1MjksMjA3OTM5MDA5LDEwOD
-AxMjU4LC0xODU3ODAwNzYxLDIwNjgwODUxMDEsLTI2MDc5MTE4
-MywtNzAyMDQwMzY2LC0yMDk0NzY1MDcxLDEzMTE5Mzc0MTQsLT
-c1MzAzNjYsLTE5NjcxMTczMTAsLTEyODI1MDE0NTgsLTc2OTMy
-MzMyMywxNTE5ODI2NjI3LDQ3OTU1MDIyMSwxMzY5OTQyNjc2LC
-0xODg2OTEyMzQ2LDE2MjY1ODgwNywtMTE2MDI4ODAwMCw3NzU5
-Mjc4MzZdfQ==
+eyJoaXN0b3J5IjpbMTEzOTE4NjU5NCwyMDc5MzkwMDksMTA4MD
+EyNTgsLTE4NTc4MDA3NjEsMjA2ODA4NTEwMSwtMjYwNzkxMTgz
+LC03MDIwNDAzNjYsLTIwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNz
+UzMDM2NiwtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIz
+MzIzLDE1MTk4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLT
+E4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTky
+NzgzNl19
 -->
