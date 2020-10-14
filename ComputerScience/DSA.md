@@ -252,19 +252,21 @@ Time complexity: O(1)		Space complexity: O(1)
 ### Searching a given value in 2D Array
 
     searchInAnArray(arr, valueToBeSearched)
-	    loop: i = 0 to arr.length
-		    if(arr[i] == valueToBeSearched)
-			    return i
+	    loop: i = 0 to rows
+		    loop: j = 0 to cols
+			    if(arr[i][j] == valueToBeSearched)
+				    print i, j
+				    return i
 		return error	//value not found
 
 Time complexity: O(n)		Space complexity: O(1)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI4MjEzNjgsMzI1NzQ4NzUwLC04Nz
-g4MzMyMCwtNDM2ODI1NzUwLC0xNzk5ODIyMDQ2LC0xMDgxNzE1
-MTI5LC01OTU5MzE0NzcsLTEwMjY1MDI2MTksMTYwODQxMzEwNC
-wyMDc5MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2ODA4
-NTEwMSwtMjYwNzkxMTgzLC03MDIwNDAzNjYsLTIwOTQ3NjUwNz
-EsMTMxMTkzNzQxNCwtNzUzMDM2NiwtMTk2NzExNzMxMCwtMTI4
-MjUwMTQ1OF19
+eyJoaXN0b3J5IjpbLTM3Mzk0NDY2MywzMjU3NDg3NTAsLTg3OD
+gzMzIwLC00MzY4MjU3NTAsLTE3OTk4MjIwNDYsLTEwODE3MTUx
+MjksLTU5NTkzMTQ3NywtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LD
+IwNzkzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1
+MTAxLC0yNjA3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MS
+wxMzExOTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgy
+NTAxNDU4XX0=
 -->
