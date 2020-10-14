@@ -171,7 +171,7 @@ Array is a data structure consisting of a collection of elements, each identifie
 Declare: int[] arr  				---------  O(1)  
 Instantiate: arr = new int[5]        ---------  O(1)  
 Initialize: arr[0] = 10; arr[1]=20; arr[2] = 30;     ---------  O(n)  
-Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};      ---------  O(1)  
+Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};      ---------  Time complexity: O(1)	Space complexity: O(n)      
 
 ### Insertion
 
@@ -222,11 +222,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMT
-AyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1
-OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLT
-cwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMw
-MzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAxNDU4LC03NjkzMjMzMj
-MsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMTM2OTk0MjY3NiwtMTg4
-NjkxMjM0Nl19
+eyJoaXN0b3J5IjpbLTE3OTk4MjIwNDYsLTEwODE3MTUxMjksLT
+U5NTkzMTQ3NywtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkz
+OTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC
+0yNjA3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzEx
+OTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAxND
+U4LC03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMTM2
+OTk0MjY3Nl19
 -->
