@@ -245,18 +245,18 @@ Time complexity: O(mn)      Space complexity: O(1)
 ### Accessing a given cell# in 2D Array
 
     accessingCell(arr, row, col)
-	    if(cellNumber > arr.size)
-		    return exception	//Cell number cant' be bigger than array size
-		else
-			return arr[cellNumber]
+	    return arr[row][col]
 			
 Time complexity: O(1)		Space complexity: O(1)
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU0MDE0NjQsMzI1NzQ4NzUwLC04Nz
-g4MzMyMCwtNDM2ODI1NzUwLC0xNzk5ODIyMDQ2LC0xMDgxNzE1
-MTI5LC01OTU5MzE0NzcsLTEwMjY1MDI2MTksMTYwODQxMzEwNC
-wyMDc5MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2ODA4
-NTEwMSwtMjYwNzkxMTgzLC03MDIwNDAzNjYsLTIwOTQ3NjUwNz
-EsMTMxMTkzNzQxNCwtNzUzMDM2NiwtMTk2NzExNzMxMCwtMTI4
-MjUwMTQ1OF19
+eyJoaXN0b3J5IjpbNTU5NDQ0Njc4LDMyNTc0ODc1MCwtODc4OD
+MzMjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4MTcxNTEy
+OSwtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LDE2MDg0MTMxMDQsMj
+A3OTM5MDA5LDEwODAxMjU4LC0xODU3ODAwNzYxLDIwNjgwODUx
+MDEsLTI2MDc5MTE4MywtNzAyMDQwMzY2LC0yMDk0NzY1MDcxLD
+EzMTE5Mzc0MTQsLTc1MzAzNjYsLTE5NjcxMTczMTAsLTEyODI1
+MDE0NThdfQ==
 -->
