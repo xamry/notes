@@ -203,17 +203,21 @@ Time complexity: O(1)		Space complexity: O(1)
 ### Searching a given value
 
     searchInAnArray(arr, valueToBeSearched)
-	    loop: i = 0 to 
-	    
+	    loop: i = 0 to arr.length
+		    if(arr[i] == valueToBeSearched)
+			    return i
+		return error	//value not found
+
+Time complexity: O(n)		Space complexity: O(1)
 
 ### Deleting a given value
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI2MTA0NDksLTEwMjY1MDI2MTksMT
-YwODQxMzEwNCwyMDc5MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3
-NjEsMjA2ODA4NTEwMSwtMjYwNzkxMTgzLC03MDIwNDAzNjYsLT
-IwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNzUzMDM2NiwtMTk2NzEx
-NzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2Mj
-csNDc5NTUwMjIxLDEzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYy
-NjU4ODA3XX0=
+eyJoaXN0b3J5IjpbLTU5NTkzMTQ3NywtMTAyNjUwMjYxOSwxNj
+A4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2
+MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLTcwMjA0MDM2NiwtMj
+A5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3
+MzEwLC0xMjgyNTAxNDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNy
+w0Nzk1NTAyMjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2
+NTg4MDddfQ==
 -->
