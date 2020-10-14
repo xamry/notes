@@ -324,13 +324,17 @@ Example: 'Alt+TAB' button in Windows.
 ## Operations on Single Linked List (SLL)
 ### Creation of SLL
 
+    createSingleLinkedList(nodeValue)
+	    create a head, tail pointer and initialize with NULL
+	    create a blank node
+	    node.value= nodeValue
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDAyMzkyNSwxMTgyNTk4Mjk5LDQ0Nj
-U2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4NjY4LDExODU3Mjgy
-NTUsLTg0Mjg4MDg3OCwtMTM2NTY2Nzk5NywtMTk4MzAwNjg5OC
-wtMTYyMTc1NDg3LDMyNTc0ODc1MCwtODc4ODMzMjAsLTQzNjgy
-NTc1MCwtMTc5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1OTMxND
-c3LC0xMDI2NTAyNjE5LDE2MDg0MTMxMDQsMjA3OTM5MDA5LDEw
-ODAxMjU4XX0=
+eyJoaXN0b3J5IjpbLTE3NTMwNjI4MzIsMTg1NDAyMzkyNSwxMT
+gyNTk4Mjk5LDQ0NjU2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4
+NjY4LDExODU3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2Nzk5Ny
+wtMTk4MzAwNjg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MCwtODc4
+ODMzMjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4MTcxNT
+EyOSwtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LDE2MDg0MTMxMDQs
+MjA3OTM5MDA5XX0=
 -->
