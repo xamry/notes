@@ -300,14 +300,16 @@ A linked list is a linear data structure where each element is a separate object
 
 ## Components of a Linked List
 
- 1. Node - Contains d
+ 1. Node - Contains data and reference to next node
+ 2. Head - Reference to first node in the list
+ 3. Tail - Reference to last node in the list (Make insertion faster in O(1) time)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2ODg0MjA3LDExODU3MjgyNTUsLTg0Mj
-g4MDg3OCwtMTM2NTY2Nzk5NywtMTk4MzAwNjg5OCwtMTYyMTc1
-NDg3LDMyNTc0ODc1MCwtODc4ODMzMjAsLTQzNjgyNTc1MCwtMT
-c5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2
-NTAyNjE5LDE2MDg0MTMxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC
-0xODU3ODAwNzYxLDIwNjgwODUxMDEsLTI2MDc5MTE4MywtNzAy
-MDQwMzY2XX0=
+eyJoaXN0b3J5IjpbMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04ND
+I4ODA4NzgsLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3
+NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLT
+E3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAy
+NjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OC
+wtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLTcw
+MjA0MDM2Nl19
 -->
