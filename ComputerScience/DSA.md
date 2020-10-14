@@ -168,10 +168,10 @@ Array is a data structure consisting of a collection of elements, each identifie
  - Deleting a given value
 
 ### Declare, Instantiate, Initialize Array
-Declare: int[] arr  				---------  O(1)
+Declare: int[] arr  				---------  O(1)  
 Instantiate: arr = new int[5]        ---------  O(1)  
-Initialize: arr[0] = 10; arr[1]=20; arr[2] = 30;     ---------  O(n)
-Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};      ---------  O(1)
+Initialize: arr[0] = 10; arr[1]=20; arr[2] = 30;     ---------  O(n)  
+Declare, Instantiate, Initialize: int arr[] = new int[] {10, 20, 30};      ---------  O(1)  
 
 ### Insertion
 
@@ -205,11 +205,11 @@ Time complexity: O(1)		Space complexity: O(1)
 ### Deleting a given value
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY1MDI2MTksMTYwODQxMzEwNCwyMD
-c5MzkwMDksMTA4MDEyNTgsLTE4NTc4MDA3NjEsMjA2ODA4NTEw
-MSwtMjYwNzkxMTgzLC03MDIwNDAzNjYsLTIwOTQ3NjUwNzEsMT
-MxMTkzNzQxNCwtNzUzMDM2NiwtMTk2NzExNzMxMCwtMTI4MjUw
-MTQ1OCwtNzY5MzIzMzIzLDE1MTk4MjY2MjcsNDc5NTUwMjIxLD
-EzNjk5NDI2NzYsLTE4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMTYw
-Mjg4MDAwXX0=
+eyJoaXN0b3J5IjpbOTE1MzgxNjY5LC0xMDI2NTAyNjE5LDE2MD
+g0MTMxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC0xODU3ODAwNzYx
+LDIwNjgwODUxMDEsLTI2MDc5MTE4MywtNzAyMDQwMzY2LC0yMD
+k0NzY1MDcxLDEzMTE5Mzc0MTQsLTc1MzAzNjYsLTE5NjcxMTcz
+MTAsLTEyODI1MDE0NTgsLTc2OTMyMzMyMywxNTE5ODI2NjI3LD
+Q3OTU1MDIyMSwxMzY5OTQyNjc2LC0xODg2OTEyMzQ2LDE2MjY1
+ODgwN119
 -->
