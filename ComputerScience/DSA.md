@@ -190,9 +190,14 @@ Time complexity: O(1)      Space complexity: O(1)
 	    	print(arr[i]);
 Time complexity: O(n)      Space complexity: O(1)
 
+### Accessing a given cell#
+
+### Searching a given value
+
+### Deleting a given value
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTE4NjU5NCwyMDc5MzkwMDksMTA4MD
+eyJoaXN0b3J5IjpbMTYwODQxMzEwNCwyMDc5MzkwMDksMTA4MD
 EyNTgsLTE4NTc4MDA3NjEsMjA2ODA4NTEwMSwtMjYwNzkxMTgz
 LC03MDIwNDAzNjYsLTIwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNz
 UzMDM2NiwtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIz
