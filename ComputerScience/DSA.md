@@ -306,18 +306,20 @@ A linked list is a linear data structure where each element is a separate object
 
 ## Types of Linked List
 
- 1. Single Linked List
- 2. Circular single linked list
- 3. Double linked list
- 4. Circular double linked list
+### Single Linked List
+Most basic for of Linked List which gives the flexibility to add/ remove n
+### Circular single linked list
 
+### Double linked list
+
+### Circular double linked list
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEyNjY5NzEsMTM4Njc3ODY2OCwxMT
-g1NzI4MjU1LC04NDI4ODA4NzgsLTEzNjU2Njc5OTcsLTE5ODMw
-MDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC
-00MzY4MjU3NTAsLTE3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5
-NTkzMTQ3NywtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOT
-AwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0y
-NjA3OTExODNdfQ==
+eyJoaXN0b3J5IjpbLTc5NzIxNDM1MSwtMTY3MTI2Njk3MSwxMz
+g2Nzc4NjY4LDExODU3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2
+Nzk5NywtMTk4MzAwNjg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MC
+wtODc4ODMzMjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4
+MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LDE2MDg0MT
+MxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC0xODU3ODAwNzYxLDIw
+NjgwODUxMDFdfQ==
 -->
