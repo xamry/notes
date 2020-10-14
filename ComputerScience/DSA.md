@@ -27,6 +27,9 @@ Algorithm is a set of rules to be followed to solve a problem.
  4. Graph
  5. Hash
  6. ...and so on.
+
+Linear DS: Array, LinkedList, Stack, Queue  
+Non-linear DS: Tree, Graph  
  
 # Recursion
 
@@ -289,11 +292,11 @@ Time complexity: O(1)		Space complexity: O(1)
 # Linked List
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLT
-E2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3
-NTAsLTE3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3Ny
-wtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgw
-MTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExOD
-MsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03
-NTMwMzY2XX0=
+eyJoaXN0b3J5IjpbLTE3MDEwMTQyMDQsLTEzNjU2Njc5OTcsLT
+E5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgz
+MzIwLC00MzY4MjU3NTAsLTE3OTk4MjIwNDYsLTEwODE3MTUxMj
+ksLTU5NTkzMTQ3NywtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LDIw
+NzkzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MT
+AxLC0yNjA3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwx
+MzExOTM3NDE0XX0=
 -->
