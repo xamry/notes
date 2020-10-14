@@ -225,8 +225,10 @@ Instantiate: arr = new int[2][3]    --- O(1)
 Initialize: arr = arr[0][0] =  10, arr[0][1] =  20, arr[0][2] =  30, arr[1][0] =  40, arr[1][1] =  50, arr[1][2] =  60 --- O(n)  
 Declare, instantiate, initialize: int[][] arr = {{10, 20, 30}, {40, 50, 60}}   --- O(1)  
 
+### Insertion in 2D array
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYwMzE3NDksLTQzNjgyNTc1MCwtMT
+eyJoaXN0b3J5IjpbLTE5NDYzNzE5NjcsLTQzNjgyNTc1MCwtMT
 c5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2
 NTAyNjE5LDE2MDg0MTMxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC
 0xODU3ODAwNzYxLDIwNjgwODUxMDEsLTI2MDc5MTE4MywtNzAy
