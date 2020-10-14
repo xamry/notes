@@ -216,10 +216,13 @@ Time complexity: O(n)		Space complexity: O(1)
 	    if(arr[location] is occupied)
 		    arr[location] = Integer.minValue
 		else
-			return error //locatio
+			return error //location is already blank
+Time complexity: O(1)		Space complexity: O(1)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDUwMjU3MDQsLTU5NTkzMTQ3NywtMT
+eyJoaXN0b3J5IjpbLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMT
 AyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1
 OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLT
 cwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMw
