@@ -220,13 +220,13 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)
 
 ### Create 2D Array
-Declare: int[][] arr  
-Instantiate: arr = new int[2][3]  
-Initialize: arr = {{10, 20, 30}, {40, 50, 60}}  
-Declare, instantiate, initialize: int[][] arr = 
+Declare: int[][] arr      --- O(1)
+Instantiate: arr = new int[2][3]    --- O(1)  
+Initialize: arr = arr[0][0] =   --- O(n)
+Declare, instantiate, initialize: int[][] arr = {{10, 20, 30}, {40, 50, 60}}   --- O(1)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODc3NTUwMiwtNDM2ODI1NzUwLC0xNz
+eyJoaXN0b3J5IjpbLTIwOTEzMTY2OSwtNDM2ODI1NzUwLC0xNz
 k5ODIyMDQ2LC0xMDgxNzE1MTI5LC01OTU5MzE0NzcsLTEwMjY1
 MDI2MTksMTYwODQxMzEwNCwyMDc5MzkwMDksMTA4MDEyNTgsLT
 E4NTc4MDA3NjEsMjA2ODA4NTEwMSwtMjYwNzkxMTgzLC03MDIw
