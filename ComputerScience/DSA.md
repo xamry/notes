@@ -256,13 +256,13 @@ Time complexity: O(1)		Space complexity: O(1)
 		    loop: j = 0 to cols
 			    if(arr[i][j] == valueToBeSearched)
 				    print i, j
-				    return i
+				    return;
 		return error	//value not found
 
-Time complexity: O(n)		Space complexity: O(1)
+Time complexity: O(mn)		Space complexity: O(1)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mzk0NDY2MywzMjU3NDg3NTAsLTg3OD
+eyJoaXN0b3J5IjpbLTQ1Mjg2MjA5NiwzMjU3NDg3NTAsLTg3OD
 gzMzIwLC00MzY4MjU3NTAsLTE3OTk4MjIwNDYsLTEwODE3MTUx
 MjksLTU5NTkzMTQ3NywtMTAyNjUwMjYxOSwxNjA4NDEzMTA0LD
 IwNzkzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1
