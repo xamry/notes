@@ -212,12 +212,18 @@ Time complexity: O(n)		Space complexity: O(1)
 
 ### Deleting a given value
 
+    deleteFromArray(arr, location)
+	    if(arr[location] is occupied)
+		    arr[location] = Integer.minValue
+		else
+			return error //locatio
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTkzMTQ3NywtMTAyNjUwMjYxOSwxNj
-A4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2
-MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLTcwMjA0MDM2NiwtMj
-A5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3
-MzEwLC0xMjgyNTAxNDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNy
-w0Nzk1NTAyMjEsMTM2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2
-NTg4MDddfQ==
+eyJoaXN0b3J5IjpbLTE0NDUwMjU3MDQsLTU5NTkzMTQ3NywtMT
+AyNjUwMjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1
+OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLT
+cwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMw
+MzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAxNDU4LC03NjkzMjMzMj
+MsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMTM2OTk0MjY3NiwtMTg4
+NjkxMjM0Nl19
 -->
