@@ -226,13 +226,20 @@ Initialize: arr = arr[0][0] =  10, arr[0][1] =  20, arr[0][2] =  30, arr[1][0] =
 Declare, instantiate, initialize: int[][] arr = {{10, 20, 30}, {40, 50, 60}}   --- O(1)  
 
 ### Insertion in 2D array
+insert(arr, valueToBeInserted, row, col)
+    	if(arr[row][col] is occupied)
+    		return error //location is already occupied
+    	else
+	    	arr[row][col] = valueToBeInserted
+	    	
+Time complexity: O(1)      Space complexity: O(1)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYzNzE5NjcsLTQzNjgyNTc1MCwtMT
-c5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2
-NTAyNjE5LDE2MDg0MTMxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC
-0xODU3ODAwNzYxLDIwNjgwODUxMDEsLTI2MDc5MTE4MywtNzAy
-MDQwMzY2LC0yMDk0NzY1MDcxLDEzMTE5Mzc0MTQsLTc1MzAzNj
-YsLTE5NjcxMTczMTAsLTEyODI1MDE0NTgsLTc2OTMyMzMyMywx
-NTE5ODI2NjI3XX0=
+eyJoaXN0b3J5IjpbLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OT
+k4MjIwNDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAyNjUw
+MjYxOSwxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OCwtMT
+g1NzgwMDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLTcwMjA0
+MDM2NiwtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMwMzY2LC
+0xOTY3MTE3MzEwLC0xMjgyNTAxNDU4LC03NjkzMjMzMjMsMTUx
+OTgyNjYyN119
 -->
