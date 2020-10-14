@@ -192,16 +192,22 @@ Time complexity: O(n)      Space complexity: O(1)
 
 ### Accessing a given cell#
 
+    accessingCell(arr, cellNumber)
+	    if(cellNumber > arr.size)
+		    return exception	//Cell number cant' be bigger than array size
+		else
+			retu
+
 ### Searching a given value
 
 ### Deleting a given value
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODQxMzEwNCwyMDc5MzkwMDksMTA4MD
-EyNTgsLTE4NTc4MDA3NjEsMjA2ODA4NTEwMSwtMjYwNzkxMTgz
-LC03MDIwNDAzNjYsLTIwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNz
-UzMDM2NiwtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIz
-MzIzLDE1MTk4MjY2MjcsNDc5NTUwMjIxLDEzNjk5NDI2NzYsLT
-E4ODY5MTIzNDYsMTYyNjU4ODA3LC0xMTYwMjg4MDAwLDc3NTky
-NzgzNl19
+eyJoaXN0b3J5IjpbMTMyNjUwNjEzMCwxNjA4NDEzMTA0LDIwNz
+kzOTAwOSwxMDgwMTI1OCwtMTg1NzgwMDc2MSwyMDY4MDg1MTAx
+LC0yNjA3OTExODMsLTcwMjA0MDM2NiwtMjA5NDc2NTA3MSwxMz
+ExOTM3NDE0LC03NTMwMzY2LC0xOTY3MTE3MzEwLC0xMjgyNTAx
+NDU4LC03NjkzMjMzMjMsMTUxOTgyNjYyNyw0Nzk1NTAyMjEsMT
+M2OTk0MjY3NiwtMTg4NjkxMjM0NiwxNjI2NTg4MDcsLTExNjAy
+ODgwMDBdfQ==
 -->
