@@ -271,13 +271,21 @@ Time complexity: O(mn)		Space complexity: O(1)
 			
 Time complexity: O(1)		Space complexity: O(1)
 
+## When to use/ avoid Array
+### When to use
+
+ - When there is need to store multiple, similar type of data.
+ - When random access is regular affair. (O(1) time operation)
+ 
+### When to avoid
+ - Data to be stored are 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDAxNzU3MSwtMTYyMTc1NDg3LDMyNT
-c0ODc1MCwtODc4ODMzMjAsLTQzNjgyNTc1MCwtMTc5OTgyMjA0
-NiwtMTA4MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2NTAyNjE5LD
-E2MDg0MTMxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC0xODU3ODAw
-NzYxLDIwNjgwODUxMDEsLTI2MDc5MTE4MywtNzAyMDQwMzY2LC
-0yMDk0NzY1MDcxLDEzMTE5Mzc0MTQsLTc1MzAzNjYsLTE5Njcx
-MTczMTBdfQ==
+eyJoaXN0b3J5IjpbLTE2MDQ3NDc1NzAsLTE2MjE3NTQ4NywzMj
+U3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OTk4MjIw
+NDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAyNjUwMjYxOS
+wxNjA4NDEzMTA0LDIwNzkzOTAwOSwxMDgwMTI1OCwtMTg1Nzgw
+MDc2MSwyMDY4MDg1MTAxLC0yNjA3OTExODMsLTcwMjA0MDM2Ni
+wtMjA5NDc2NTA3MSwxMzExOTM3NDE0LC03NTMwMzY2LC0xOTY3
+MTE3MzEwXX0=
 -->
