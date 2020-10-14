@@ -222,15 +222,15 @@ Time complexity: O(1)		Space complexity: O(1)
 ### Create 2D Array
 Declare: int[][] arr      --- O(1)
 Instantiate: arr = new int[2][3]    --- O(1)  
-Initialize: arr = arr[0][0] =   --- O(n)
+Initialize: arr = arr[0][0] =  10, arr[0][1] =  20, arr[0][2] =  30, arr[1][0] =  40, arr[1][1] =  50, arr[1][2] =  60 --- O(n)  
 Declare, instantiate, initialize: int[][] arr = {{10, 20, 30}, {40, 50, 60}}   --- O(1)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTEzMTY2OSwtNDM2ODI1NzUwLC0xNz
-k5ODIyMDQ2LC0xMDgxNzE1MTI5LC01OTU5MzE0NzcsLTEwMjY1
-MDI2MTksMTYwODQxMzEwNCwyMDc5MzkwMDksMTA4MDEyNTgsLT
-E4NTc4MDA3NjEsMjA2ODA4NTEwMSwtMjYwNzkxMTgzLC03MDIw
-NDAzNjYsLTIwOTQ3NjUwNzEsMTMxMTkzNzQxNCwtNzUzMDM2Ni
-wtMTk2NzExNzMxMCwtMTI4MjUwMTQ1OCwtNzY5MzIzMzIzLDE1
-MTk4MjY2MjddfQ==
+eyJoaXN0b3J5IjpbLTEzMzYwMzE3NDksLTQzNjgyNTc1MCwtMT
+c5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2
+NTAyNjE5LDE2MDg0MTMxMDQsMjA3OTM5MDA5LDEwODAxMjU4LC
+0xODU3ODAwNzYxLDIwNjgwODUxMDEsLTI2MDc5MTE4MywtNzAy
+MDQwMzY2LC0yMDk0NzY1MDcxLDEzMTE5Mzc0MTQsLTc1MzAzNj
+YsLTE5NjcxMTczMTAsLTEyODI1MDE0NTgsLTc2OTMyMzMyMywx
+NTE5ODI2NjI3XX0=
 -->
