@@ -344,9 +344,15 @@ There can be 3 cases:
         Create a blank node
         node.value = nodeValue
         if(! existsLinkedLIst(head))
+	        return error //Linked list doesn't exist
+		else if(localtion equals 0)	//Insert at first position
+			node.next = head
+			head = node
+		else if(location equals last
+			 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTU2MjEzNiwyODcxMTI4MywxNzMyNz
+eyJoaXN0b3J5IjpbMTQ1MjAyMjM5MSwyODcxMTI4MywxNzMyNz
 kxNTgwLDE4NTQwMjM5MjUsMTE4MjU5ODI5OSw0NDY1NjUxNjcs
 LTE2NzEyNjY5NzEsMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04ND
 I4ODA4NzgsLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3
