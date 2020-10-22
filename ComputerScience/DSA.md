@@ -353,15 +353,17 @@ There can be 3 cases:
 			tail.next = node
 			tail = node
 		else	//Insert at specified location
-			loop : tmp
+			loop : tmpNode = 0 to location -1	//loop till we reach specified node
+			node.next = tmpNode.next
+			
 			 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MTg1Njg2LDI4NzExMjgzLDE3MzI3OT
-E1ODAsMTg1NDAyMzkyNSwxMTgyNTk4Mjk5LDQ0NjU2NTE2Nywt
-MTY3MTI2Njk3MSwxMzg2Nzc4NjY4LDExODU3MjgyNTUsLTg0Mj
-g4MDg3OCwtMTM2NTY2Nzk5NywtMTk4MzAwNjg5OCwtMTYyMTc1
-NDg3LDMyNTc0ODc1MCwtODc4ODMzMjAsLTQzNjgyNTc1MCwtMT
-c5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2
-NTAyNjE5XX0=
+eyJoaXN0b3J5IjpbLTE5MTk3MDU1OTUsMjg3MTEyODMsMTczMj
+c5MTU4MCwxODU0MDIzOTI1LDExODI1OTgyOTksNDQ2NTY1MTY3
+LC0xNjcxMjY2OTcxLDEzODY3Nzg2NjgsMTE4NTcyODI1NSwtOD
+QyODgwODc4LC0xMzY1NjY3OTk3LC0xOTgzMDA2ODk4LC0xNjIx
+NzU0ODcsMzI1NzQ4NzUwLC04Nzg4MzMyMCwtNDM2ODI1NzUwLC
+0xNzk5ODIyMDQ2LC0xMDgxNzE1MTI5LC01OTU5MzE0NzcsLTEw
+MjY1MDI2MTldfQ==
 -->
