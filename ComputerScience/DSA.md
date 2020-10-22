@@ -335,11 +335,12 @@ Time complexity: O(1)		Space complexity: O(1)
 
 ### Insertion in SLL
 There can be 3 cases:
- 1. Insertion at start of LL
- 2. Insertion at end of LL
- 3. Insertion at a specified location in LL 
 
-insertInLinkedList(head, nodeValue, location)
+Insertion at start of LL
+Insertion at end of LL
+Insertion at a specified location in LL   
+
+    insertInLinkedList(head, nodeValue, location)
             Create a blank node
             node.value = nodeValue
             if(! existsLinkedLIst(head))
@@ -358,11 +359,11 @@ insertInLinkedList(head, nodeValue, location)
 			 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMzg3ODIyLDI4NzExMjgzLDE3MzI3OT
-E1ODAsMTg1NDAyMzkyNSwxMTgyNTk4Mjk5LDQ0NjU2NTE2Nywt
-MTY3MTI2Njk3MSwxMzg2Nzc4NjY4LDExODU3MjgyNTUsLTg0Mj
-g4MDg3OCwtMTM2NTY2Nzk5NywtMTk4MzAwNjg5OCwtMTYyMTc1
-NDg3LDMyNTc0ODc1MCwtODc4ODMzMjAsLTQzNjgyNTc1MCwtMT
-c5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1OTMxNDc3LC0xMDI2
-NTAyNjE5XX0=
+eyJoaXN0b3J5IjpbLTczNTQwMTE2NCwyODcxMTI4MywxNzMyNz
+kxNTgwLDE4NTQwMjM5MjUsMTE4MjU5ODI5OSw0NDY1NjUxNjcs
+LTE2NzEyNjY5NzEsMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04ND
+I4ODA4NzgsLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3
+NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLT
+E3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAy
+NjUwMjYxOV19
 -->
