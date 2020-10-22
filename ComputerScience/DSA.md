@@ -360,10 +360,17 @@ Insertion at a specified location in LL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Traversal of SLL
-traverseLinkedList(head):
-	
+
+    traverseLinkedList(head):
+    	if(head == NULL) 	//Empty linked list
+    		then return;	
+    	else
+    		loop: head to tail
+    			print currentNode.value
+Time complexity: O(n)		Space complexity: O(1)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDg1NDE1MywxNDYxNjQwODgwLC03Mz
+eyJoaXN0b3J5IjpbMTYyMzQ5MTg4MywxNDYxNjQwODgwLC03Mz
 U0MDExNjQsMjg3MTEyODMsMTczMjc5MTU4MCwxODU0MDIzOTI1
 LDExODI1OTgyOTksNDQ2NTY1MTY3LC0xNjcxMjY2OTcxLDEzOD
 Y3Nzg2NjgsMTE4NTcyODI1NSwtODQyODgwODc4LC0xMzY1NjY3
