@@ -353,17 +353,17 @@ Insertion at a specified location in LL
         		tail.next = node
         		tail = node
         	else	//Insert at specified location
-        		loop : tmpNode = 0 to location -1	//loop till we reach specified node
+        		loop : tmpNode = 0 to location -1	//loop till we reach specified node   O(n, rest all lines are O(1)
         		node.next = tmpNode.next
         		tmpNode.next = node
-			 
-
+        					 
+Time complexity: O(n)		Space complexity: O(1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTQwMTE2NCwyODcxMTI4MywxNzMyNz
-kxNTgwLDE4NTQwMjM5MjUsMTE4MjU5ODI5OSw0NDY1NjUxNjcs
-LTE2NzEyNjY5NzEsMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04ND
-I4ODA4NzgsLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3
-NTQ4NywzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLT
-E3OTk4MjIwNDYsLTEwODE3MTUxMjksLTU5NTkzMTQ3NywtMTAy
-NjUwMjYxOV19
+eyJoaXN0b3J5IjpbMTQ2MTY0MDg4MCwtNzM1NDAxMTY0LDI4Nz
+ExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzkyNSwxMTgyNTk4Mjk5
+LDQ0NjU2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4NjY4LDExOD
+U3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2Nzk5NywtMTk4MzAw
+Njg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MCwtODc4ODMzMjAsLT
+QzNjgyNTc1MCwtMTc5OTgyMjA0NiwtMTA4MTcxNTEyOSwtNTk1
+OTMxNDc3XX0=
 -->
