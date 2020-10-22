@@ -369,8 +369,10 @@ Time complexity: O(n)		Space complexity: O(1)
     			print currentNode.value
 Time complexity: O(n)		Space complexity: O(1)
 
+### Search node in SLL
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzQ5MTg4MywxNDYxNjQwODgwLC03Mz
+eyJoaXN0b3J5IjpbLTE0MDI2NDM3MiwxNDYxNjQwODgwLC03Mz
 U0MDExNjQsMjg3MTEyODMsMTczMjc5MTU4MCwxODU0MDIzOTI1
 LDExODI1OTgyOTksNDQ2NTY1MTY3LC0xNjcxMjY2OTcxLDEzOD
 Y3Nzg2NjgsMTE4NTcyODI1NSwtODQyODgwODc4LC0xMzY1NjY3
