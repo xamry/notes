@@ -391,16 +391,18 @@ Deletion at a specified location in LL
 	        return error //Linked list doesnot exist
 	    else if(location == 0) //we want to delete first node
 		    head = head.next
-		    if this was the only element in
+		    if this was the only element in LL, then set tail  NULL
+		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
+			if(current node is the only node i
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDcwODEwNywtMzkyMDE4MjMxLDE0Mz
-c3OTgwMTUsLTE0MDI2NDM3MiwxNDYxNjQwODgwLC03MzU0MDEx
-NjQsMjg3MTEyODMsMTczMjc5MTU4MCwxODU0MDIzOTI1LDExOD
-I1OTgyOTksNDQ2NTY1MTY3LC0xNjcxMjY2OTcxLDEzODY3Nzg2
-NjgsMTE4NTcyODI1NSwtODQyODgwODc4LC0xMzY1NjY3OTk3LC
-0xOTgzMDA2ODk4LC0xNjIxNzU0ODcsMzI1NzQ4NzUwLC04Nzg4
-MzMyMF19
+eyJoaXN0b3J5IjpbLTM1OTMxNDI4LC0zOTIwMTgyMzEsMTQzNz
+c5ODAxNSwtMTQwMjY0MzcyLDE0NjE2NDA4ODAsLTczNTQwMTE2
+NCwyODcxMTI4MywxNzMyNzkxNTgwLDE4NTQwMjM5MjUsMTE4Mj
+U5ODI5OSw0NDY1NjUxNjcsLTE2NzEyNjY5NzEsMTM4Njc3ODY2
+OCwxMTg1NzI4MjU1LC04NDI4ODA4NzgsLTEzNjU2Njc5OTcsLT
+E5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgz
+MzIwXX0=
 -->
