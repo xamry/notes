@@ -382,20 +382,21 @@ Time complexity: O(n)		Space complexity: O(1)
 ### Delete node from SLL
 There can be 3 cases:  
 
- - Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)  
- - Deletion last node of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others) 
- - Deletion at a specified location in LL
+Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)    
+Deletion last node of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)   
+Deletion at a specified location in LL  
 
-
+    deleteNode(head, location)
+        
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjAxODIzMSwxNDM3Nzk4MDE1LC0xND
-AyNjQzNzIsMTQ2MTY0MDg4MCwtNzM1NDAxMTY0LDI4NzExMjgz
-LDE3MzI3OTE1ODAsMTg1NDAyMzkyNSwxMTgyNTk4Mjk5LDQ0Nj
-U2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4NjY4LDExODU3Mjgy
-NTUsLTg0Mjg4MDg3OCwtMTM2NTY2Nzk5NywtMTk4MzAwNjg5OC
-wtMTYyMTc1NDg3LDMyNTc0ODc1MCwtODc4ODMzMjAsLTQzNjgy
-NTc1MF19
+eyJoaXN0b3J5IjpbLTg5Mzk5MTI1LC0zOTIwMTgyMzEsMTQzNz
+c5ODAxNSwtMTQwMjY0MzcyLDE0NjE2NDA4ODAsLTczNTQwMTE2
+NCwyODcxMTI4MywxNzMyNzkxNTgwLDE4NTQwMjM5MjUsMTE4Mj
+U5ODI5OSw0NDY1NjUxNjcsLTE2NzEyNjY5NzEsMTM4Njc3ODY2
+OCwxMTg1NzI4MjU1LC04NDI4ODA4NzgsLTEzNjU2Njc5OTcsLT
+E5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgz
+MzIwXX0=
 -->
