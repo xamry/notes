@@ -374,15 +374,18 @@ Time complexity: O(n)		Space complexity: O(1)
     searchNode(head, valueToFind)
 	    loop: tmpNode = head to tail
 		    if(tmpNode.value == valueToFind)
-			    print tmpNoe.value v
+			    print tmpNoe.value //value is found
 			    return
+		return node value not found
+Time complexity: O(n)		Space complexity: O(1)
 
+### Delete 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjgwOTI4NTMsLTE0MDI2NDM3MiwxND
-YxNjQwODgwLC03MzU0MDExNjQsMjg3MTEyODMsMTczMjc5MTU4
-MCwxODU0MDIzOTI1LDExODI1OTgyOTksNDQ2NTY1MTY3LC0xNj
-cxMjY2OTcxLDEzODY3Nzg2NjgsMTE4NTcyODI1NSwtODQyODgw
-ODc4LC0xMzY1NjY3OTk3LC0xOTgzMDA2ODk4LC0xNjIxNzU0OD
-csMzI1NzQ4NzUwLC04Nzg4MzMyMCwtNDM2ODI1NzUwLC0xNzk5
-ODIyMDQ2XX0=
+eyJoaXN0b3J5IjpbMjExNDIzNjQzMiwtMTQwMjY0MzcyLDE0Nj
+E2NDA4ODAsLTczNTQwMTE2NCwyODcxMTI4MywxNzMyNzkxNTgw
+LDE4NTQwMjM5MjUsMTE4MjU5ODI5OSw0NDY1NjUxNjcsLTE2Nz
+EyNjY5NzEsMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04NDI4ODA4
+NzgsLTEzNjU2Njc5OTcsLTE5ODMwMDY4OTgsLTE2MjE3NTQ4Ny
+wzMjU3NDg3NTAsLTg3ODgzMzIwLC00MzY4MjU3NTAsLTE3OTk4
+MjIwNDZdfQ==
 -->
