@@ -405,9 +405,13 @@ Time complexity: O(n)		Space complexity: O(1)
 
 ### Delete entire SLL
 
+    deleteLinkedList(head, tail)
+	    head= NULL
+	    tail  = NULL
+Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1MTY5NTIxLC0zOTIwMTgyMzEsMTQzNz
+eyJoaXN0b3J5IjpbNTYyNjM3ODgzLC0zOTIwMTgyMzEsMTQzNz
 c5ODAxNSwtMTQwMjY0MzcyLDE0NjE2NDA4ODAsLTczNTQwMTE2
 NCwyODcxMTI4MywxNzMyNzkxNTgwLDE4NTQwMjM5MjUsMTE4Mj
 U5ODI5OSw0NDY1NjUxNjcsLTE2NzEyNjY5NzEsMTM4Njc3ODY2
