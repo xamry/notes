@@ -393,16 +393,22 @@ Deletion at a specified location in LL
 		    head = head.next
 		    if this was the only element in LL, then set tail  NULL
 		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
-			if(current node is the only node i
+			if(current node is the only node in list)
+				head = tail = NULL
+				return
+			toop till second last node (tmpNode)
+			tail = tmpNode; tmpNode.next = NULL
+		else	//Any other internal node
+			
 
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTMxNDI4LC0zOTIwMTgyMzEsMTQzNz
-c5ODAxNSwtMTQwMjY0MzcyLDE0NjE2NDA4ODAsLTczNTQwMTE2
-NCwyODcxMTI4MywxNzMyNzkxNTgwLDE4NTQwMjM5MjUsMTE4Mj
-U5ODI5OSw0NDY1NjUxNjcsLTE2NzEyNjY5NzEsMTM4Njc3ODY2
-OCwxMTg1NzI4MjU1LC04NDI4ODA4NzgsLTEzNjU2Njc5OTcsLT
-E5ODMwMDY4OTgsLTE2MjE3NTQ4NywzMjU3NDg3NTAsLTg3ODgz
-MzIwXX0=
+eyJoaXN0b3J5IjpbOTc5NzU4NzYsLTM5MjAxODIzMSwxNDM3Nz
+k4MDE1LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNzM1NDAxMTY0
+LDI4NzExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzkyNSwxMTgyNT
+k4Mjk5LDQ0NjU2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4NjY4
+LDExODU3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2Nzk5NywtMT
+k4MzAwNjg5OCwtMTYyMTc1NDg3LDMyNTc0ODc1MCwtODc4ODMz
+MjBdfQ==
 -->
