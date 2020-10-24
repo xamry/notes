@@ -379,9 +379,14 @@ Time complexity: O(n)		Space complexity: O(1)
 		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
 
-### Delete 
+### Delete node from SLL
+There can be 3 cases:  
+Deletion at start of LL  
+Deletion at end of LL  
+Deletion at a specified location in LL     
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDIzNjQzMiwtMTQwMjY0MzcyLDE0Nj
+eyJoaXN0b3J5IjpbMTQzNzc5ODAxNSwtMTQwMjY0MzcyLDE0Nj
 E2NDA4ODAsLTczNTQwMTE2NCwyODcxMTI4MywxNzMyNzkxNTgw
 LDE4NTQwMjM5MjUsMTE4MjU5ODI5OSw0NDY1NjUxNjcsLTE2Nz
 EyNjY5NzEsMTM4Njc3ODY2OCwxMTg1NzI4MjU1LC04NDI4ODA4
