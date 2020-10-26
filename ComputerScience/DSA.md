@@ -422,7 +422,7 @@ Time complexity: O(1)		Space complexity: O(1)
 	    tail = node
 Time complexity: O(1)		Space complexity: O(1)
 
-### Insertion in SLL
+### Insertion in CSLL
 There can be 3 cases:
 
 Insertion at start of LL
@@ -500,7 +500,7 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODQ1NjE5OCwtMTU4NTg0Nzk4LDYwMD
+eyJoaXN0b3J5IjpbMTU3ODUxMjc0OSwtMTU4NTg0Nzk4LDYwMD
 k5MjUzOSw1NjI2Mzc4ODMsLTM5MjAxODIzMSwxNDM3Nzk4MDE1
 LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNzM1NDAxMTY0LDI4Nz
 ExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzkyNSwxMTgyNTk4Mjk5
