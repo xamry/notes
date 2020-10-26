@@ -417,7 +417,7 @@ Time complexity: O(1)		Space complexity: O(1)
 	    create a head, tail pointer and initialize with NULL
 	    create a blank node
 	    node.value = nodeValue
-	    node.next = node
+	    **node.next = node**
 	    head = node
 	    tail = node
 Time complexity: O(1)		Space complexity: O(1)
@@ -500,11 +500,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA5NjUyMjgsMTU3ODUxMjc0OSwtMT
-U4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4ODMsLTM5MjAxODIz
-MSwxNDM3Nzk4MDE1LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNz
-M1NDAxMTY0LDI4NzExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzky
-NSwxMTgyNTk4Mjk5LDQ0NjU2NTE2NywtMTY3MTI2Njk3MSwxMz
-g2Nzc4NjY4LDExODU3MjgyNTUsLTg0Mjg4MDg3OCwtMTM2NTY2
-Nzk5N119
+eyJoaXN0b3J5IjpbLTE0MDU1OTMzMjQsLTE4NTA5NjUyMjgsMT
+U3ODUxMjc0OSwtMTU4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4
+ODMsLTM5MjAxODIzMSwxNDM3Nzk4MDE1LC0xNDAyNjQzNzIsMT
+Q2MTY0MDg4MCwtNzM1NDAxMTY0LDI4NzExMjgzLDE3MzI3OTE1
+ODAsMTg1NDAyMzkyNSwxMTgyNTk4Mjk5LDQ0NjU2NTE2NywtMT
+Y3MTI2Njk3MSwxMzg2Nzc4NjY4LDExODU3MjgyNTUsLTg0Mjg4
+MDg3OF19
 -->
