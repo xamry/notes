@@ -429,7 +429,7 @@ Insertion at start of LL
 Insertion at end of LL  
 Insertion at a specified location in LL   
 
-    insertInLinkedList(head, nodeValue, location)
+    insertInCircularSingleLinkedList(head, nodeValue, location)
             Create a blank node
             node.value = nodeValue
             if(! existsLinkedLIst(head))
@@ -500,7 +500,7 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTIzNjg4NTEsMTU3ODUxMjc0OSwtMT
+eyJoaXN0b3J5IjpbLTE4NTA5NjUyMjgsMTU3ODUxMjc0OSwtMT
 U4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4ODMsLTM5MjAxODIz
 MSwxNDM3Nzk4MDE1LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNz
 M1NDAxMTY0LDI4NzExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzky
