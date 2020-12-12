@@ -47,10 +47,6 @@ Middleware
 -------------
 Kafka, RabbitMQ 
 
-
-11031293
-
-75079996
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTIxMDIyXX0=
+eyJoaXN0b3J5IjpbMTU5OTA0NjkyMiwtMjE5MjEwMjJdfQ==
 -->
