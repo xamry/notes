@@ -1,5 +1,6 @@
 ## Distributed Transaction
-### Two 
+### Two-Phase commit
+### SAGA 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjExNDc3Nl19
+eyJoaXN0b3J5IjpbLTk4MjAyNzc5Nl19
 -->
