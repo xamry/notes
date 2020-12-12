@@ -13,8 +13,9 @@ Coordinator, Participants
 
 ### SAGA  (Async)
 Separate microservice for failed transaction to rollback previous one.
+Queues between microservice calls
 Sequential events + Local transaction = Isolation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzI0MTcxNCwxNjQ4NDMyNTU5LC0xMj
-c0NzY3MDAsLTkzMjAwNzUyLC05ODIwMjc3OTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NzMzODg0NzgsMTY0ODQzMjU1OSwtMT
+I3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
 -->
