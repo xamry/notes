@@ -15,7 +15,11 @@ Coordinator, Participants
 Separate microservice for failed transaction to rollback previous one.
 Queues between microservice calls
 Sequential events + Local transaction = Isolation
+
+## Load Balancing
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzMzODg0NzgsMTY0ODQzMjU1OSwtMT
-I3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
+eyJoaXN0b3J5IjpbLTE5Njg3ODU4ODMsLTE0NzMzODg0NzgsMT
+Y0ODQzMjU1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3
+Nzk2XX0=
 -->
