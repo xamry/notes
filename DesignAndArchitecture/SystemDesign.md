@@ -7,12 +7,12 @@ Coordinator, Participants
 2. Commit  
 
 ### Three-Phase commit
-1. Prepare
+1. Can commit
 2. Pre-commit
-3. commit
+3. Do commit
 
 ### SAGA 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mzc5OTA0MywtOTMyMDA3NTIsLTk4Mj
+eyJoaXN0b3J5IjpbLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4Mj
 AyNzc5Nl19
 -->
