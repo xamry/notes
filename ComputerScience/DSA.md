@@ -451,7 +451,7 @@ Time complexity: O(n)		Space complexity: O(1)
 
 ### Traversal of CSLL
 
-    traverseLinkedList(head):
+    traverseCircularSingleLinkedList(head):
     	if(head == NULL) 	//Empty linked list
     		then return;	
     	else
@@ -501,11 +501,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwND
-I1ODA3MywtMTQwNTU5MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEy
-NzQ5LC0xNTg1ODQ3OTgsNjAwOTkyNTM5LDU2MjYzNzg4MywtMz
-kyMDE4MjMxLDE0Mzc3OTgwMTUsLTE0MDI2NDM3MiwxNDYxNjQw
-ODgwLC03MzU0MDExNjQsMjg3MTEyODMsMTczMjc5MTU4MCwxOD
-U0MDIzOTI1LDExODI1OTgyOTksNDQ2NTY1MTY3LC0xNjcxMjY2
-OTcxXX0=
+eyJoaXN0b3J5IjpbMTM1NjE3ODc0NiwxNDc2MTg1NzI5LDU1MD
+IwNjkxMiwtNzA0MjU4MDczLC0xNDA1NTkzMzI0LC0xODUwOTY1
+MjI4LDE1Nzg1MTI3NDksLTE1ODU4NDc5OCw2MDA5OTI1MzksNT
+YyNjM3ODgzLC0zOTIwMTgyMzEsMTQzNzc5ODAxNSwtMTQwMjY0
+MzcyLDE0NjE2NDA4ODAsLTczNTQwMTE2NCwyODcxMTI4MywxNz
+MyNzkxNTgwLDE4NTQwMjM5MjUsMTE4MjU5ODI5OSw0NDY1NjUx
+NjddfQ==
 -->
