@@ -460,11 +460,11 @@ Similar to SLL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Search node in CSLL
-
+Similar to SLL  
     searchNode(head, valueToFind)
 	    loop: tmpNode = head to tail
 		    if(tmpNode.value == valueToFind)
-			    print tmpNoe.value //value is found
+			    print tmpNode.value //value is found
 			    return
 		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
@@ -501,11 +501,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MDk4NDQzLC0xMTA4ODcxNDQ5LDE0Nz
-YxODU3MjksNTUwMjA2OTEyLC03MDQyNTgwNzMsLTE0MDU1OTMz
-MjQsLTE4NTA5NjUyMjgsMTU3ODUxMjc0OSwtMTU4NTg0Nzk4LD
-YwMDk5MjUzOSw1NjI2Mzc4ODMsLTM5MjAxODIzMSwxNDM3Nzk4
-MDE1LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNzM1NDAxMTY0LD
-I4NzExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzkyNSwxMTgyNTk4
-Mjk5XX0=
+eyJoaXN0b3J5IjpbNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwOD
+g3MTQ0OSwxNDc2MTg1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDcz
+LC0xNDA1NTkzMzI0LC0xODUwOTY1MjI4LDE1Nzg1MTI3NDksLT
+E1ODU4NDc5OCw2MDA5OTI1MzksNTYyNjM3ODgzLC0zOTIwMTgy
+MzEsMTQzNzc5ODAxNSwtMTQwMjY0MzcyLDE0NjE2NDA4ODAsLT
+czNTQwMTE2NCwyODcxMTI4MywxNzMyNzkxNTgwLDE4NTQwMjM5
+MjVdfQ==
 -->
