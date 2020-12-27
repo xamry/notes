@@ -449,7 +449,7 @@ Insertion at a specified location in CSLL   (Algo exactly similar to SLL)
         					 
 Time complexity: O(n)		Space complexity: O(1)
 
-### Traversal of SLL
+### Traversal of CSLL
 
     traverseLinkedList(head):
     	if(head == NULL) 	//Empty linked list
@@ -501,11 +501,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMjA2OTEyLC03MDQyNTgwNzMsLTE0MD
-U1OTMzMjQsLTE4NTA5NjUyMjgsMTU3ODUxMjc0OSwtMTU4NTg0
-Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4ODMsLTM5MjAxODIzMSwxND
-M3Nzk4MDE1LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNzM1NDAx
-MTY0LDI4NzExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzkyNSwxMT
-gyNTk4Mjk5LDQ0NjU2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4
-NjY4XX0=
+eyJoaXN0b3J5IjpbMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwND
+I1ODA3MywtMTQwNTU5MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEy
+NzQ5LC0xNTg1ODQ3OTgsNjAwOTkyNTM5LDU2MjYzNzg4MywtMz
+kyMDE4MjMxLDE0Mzc3OTgwMTUsLTE0MDI2NDM3MiwxNDYxNjQw
+ODgwLC03MzU0MDExNjQsMjg3MTEyODMsMTczMjc5MTU4MCwxOD
+U0MDIzOTI1LDExODI1OTgyOTksNDQ2NTY1MTY3LC0xNjcxMjY2
+OTcxXX0=
 -->
