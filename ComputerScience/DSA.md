@@ -496,18 +496,18 @@ Deletion at a specified location in LL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Delete entire CSLL
-
+In addition to what we did in case of SLL, we also have to delete the circular link in order for GC to delete the node correctly.
     deleteLinkedList(head, tail)
 	    head= NULL
 	    tail  = NULL
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5OTI3NzkwLC01ODMxNTUzNTksMTIxOT
-k3MzM2NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMs
-LTExMDg4NzE0NDksMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwND
-I1ODA3MywtMTQwNTU5MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEy
-NzQ5LC0xNTg1ODQ3OTgsNjAwOTkyNTM5LDU2MjYzNzg4MywtMz
-kyMDE4MjMxLDE0Mzc3OTgwMTUsLTE0MDI2NDM3MiwxNDYxNjQw
-ODgwXX0=
+eyJoaXN0b3J5IjpbLTE2NDIyNzgxNDMsLTU4MzE1NTM1OSwxMj
+E5OTczMzY1LC05NzQ2MDY2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0
+MywtMTEwODg3MTQ0OSwxNDc2MTg1NzI5LDU1MDIwNjkxMiwtNz
+A0MjU4MDczLC0xNDA1NTkzMzI0LC0xODUwOTY1MjI4LDE1Nzg1
+MTI3NDksLTE1ODU4NDc5OCw2MDA5OTI1MzksNTYyNjM3ODgzLC
+0zOTIwMTgyMzEsMTQzNzc5ODAxNSwtMTQwMjY0MzcyLDE0NjE2
+NDA4ODBdfQ==
 -->
