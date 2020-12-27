@@ -495,7 +495,7 @@ Deletion at a specified location in LL
 			tmpNode.next = tmpNode.next.next;
 Time complexity: O(n)		Space complexity: O(1)
 
-### Delete entire SLL
+### Delete entire CSLL
 
     deleteLinkedList(head, tail)
 	    head= NULL
@@ -503,11 +503,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05Nz
-Q2MDY2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0
-OSwxNDc2MTg1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDczLC0xND
-A1NTkzMzI0LC0xODUwOTY1MjI4LDE1Nzg1MTI3NDksLTE1ODU4
-NDc5OCw2MDA5OTI1MzksNTYyNjM3ODgzLC0zOTIwMTgyMzEsMT
-QzNzc5ODAxNSwtMTQwMjY0MzcyLDE0NjE2NDA4ODAsLTczNTQw
-MTE2NF19
+eyJoaXN0b3J5IjpbNDI5OTI3NzkwLC01ODMxNTUzNTksMTIxOT
+k3MzM2NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMs
+LTExMDg4NzE0NDksMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwND
+I1ODA3MywtMTQwNTU5MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEy
+NzQ5LC0xNTg1ODQ3OTgsNjAwOTkyNTM5LDU2MjYzNzg4MywtMz
+kyMDE4MjMxLDE0Mzc3OTgwMTUsLTE0MDI2NDM3MiwxNDYxNjQw
+ODgwXX0=
 -->
