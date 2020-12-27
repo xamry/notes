@@ -459,7 +459,7 @@ Time complexity: O(n)		Space complexity: O(1)
     			print currentNode.value
 Time complexity: O(n)		Space complexity: O(1)
 
-### Search node in SLL
+### Search node in CSLL
 
     searchNode(head, valueToFind)
 	    loop: tmpNode = head to tail
@@ -501,11 +501,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjE3ODc0NiwxNDc2MTg1NzI5LDU1MD
-IwNjkxMiwtNzA0MjU4MDczLC0xNDA1NTkzMzI0LC0xODUwOTY1
-MjI4LDE1Nzg1MTI3NDksLTE1ODU4NDc5OCw2MDA5OTI1MzksNT
-YyNjM3ODgzLC0zOTIwMTgyMzEsMTQzNzc5ODAxNSwtMTQwMjY0
-MzcyLDE0NjE2NDA4ODAsLTczNTQwMTE2NCwyODcxMTI4MywxNz
-MyNzkxNTgwLDE4NTQwMjM5MjUsMTE4MjU5ODI5OSw0NDY1NjUx
-NjddfQ==
+eyJoaXN0b3J5IjpbLTExMDg4NzE0NDksMTQ3NjE4NTcyOSw1NT
+AyMDY5MTIsLTcwNDI1ODA3MywtMTQwNTU5MzMyNCwtMTg1MDk2
+NTIyOCwxNTc4NTEyNzQ5LC0xNTg1ODQ3OTgsNjAwOTkyNTM5LD
+U2MjYzNzg4MywtMzkyMDE4MjMxLDE0Mzc3OTgwMTUsLTE0MDI2
+NDM3MiwxNDYxNjQwODgwLC03MzU0MDExNjQsMjg3MTEyODMsMT
+czMjc5MTU4MCwxODU0MDIzOTI1LDExODI1OTgyOTksNDQ2NTY1
+MTY3XX0=
 -->
