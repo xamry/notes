@@ -497,17 +497,17 @@ Time complexity: O(n)		Space complexity: O(1)
 
 ### Delete entire CSLL
 In addition to what we did in case of SLL, we also have to delete the circular link in order for GC to reclaim the memory correctly.
-    deleteLinkedList(head, tail)
+    deleteCircularSingleLinkedList(head, tail)
 	    head= NULL
 	    tail  = NULL
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjcyNDcyNTYsLTU4MzE1NTM1OSwxMj
-E5OTczMzY1LC05NzQ2MDY2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0
-MywtMTEwODg3MTQ0OSwxNDc2MTg1NzI5LDU1MDIwNjkxMiwtNz
-A0MjU4MDczLC0xNDA1NTkzMzI0LC0xODUwOTY1MjI4LDE1Nzg1
-MTI3NDksLTE1ODU4NDc5OCw2MDA5OTI1MzksNTYyNjM3ODgzLC
-0zOTIwMTgyMzEsMTQzNzc5ODAxNSwtMTQwMjY0MzcyLDE0NjE2
-NDA4ODBdfQ==
+eyJoaXN0b3J5IjpbLTk0MjAzNjUyOSwtNTgzMTU1MzU5LDEyMT
+k5NzMzNjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MDk4NDQz
+LC0xMTA4ODcxNDQ5LDE0NzYxODU3MjksNTUwMjA2OTEyLC03MD
+QyNTgwNzMsLTE0MDU1OTMzMjQsLTE4NTA5NjUyMjgsMTU3ODUx
+Mjc0OSwtMTU4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4ODMsLT
+M5MjAxODIzMSwxNDM3Nzk4MDE1LC0xNDAyNjQzNzIsMTQ2MTY0
+MDg4MF19
 -->
