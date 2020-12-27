@@ -515,12 +515,90 @@ Time complexity: O(1)		Space complexity: O(1)
 
 Time complexity: O(1)		Space complexity: O(1)	  
 
+### Insertion in SLL
+There can be 3 cases:
+
+Insertion at start of LL
+Insertion at end of LL
+Insertion at a specified location in LL   
+
+    insertInLinkedList(head, nodeValue, location)
+            Create a blank node
+            node.value = nodeValue
+            if(! existsLinkedLIst(head))
+                return error //Linked list doesn't exist
+        	else if(localtion equals 0)	//Insert at first position
+        		node.next = head
+        		head = node
+        	else if(location equals last)	//Insert at last position
+        		node.next = NULL
+        		tail.next = node
+        		tail = node
+        	else	//Insert at specified location
+        		loop : tmpNode = 0 to location -1	//loop till we reach specified node   O(n, rest all lines are O(1)
+        		node.next = tmpNode.next
+        		tmpNode.next = node
+        					 
+Time complexity: O(n)		Space complexity: O(1)
+
+### Traversal of SLL
+
+    traverseLinkedList(head):
+    	if(head == NULL) 	//Empty linked list
+    		then return;	
+    	else
+    		loop: head to tail
+    			print currentNode.value
+Time complexity: O(n)		Space complexity: O(1)
+
+### Search node in SLL
+
+    searchNode(head, valueToFind)
+	    loop: tmpNode = head to tail
+		    if(tmpNode.value == valueToFind)
+			    print tmpNoe.value //value is found
+			    return
+		return node value not found
+Time complexity: O(n)		Space complexity: O(1)
+
+### Delete node from SLL
+There can be 3 cases:  
+
+Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)    
+Deletion last node of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)   
+Deletion at a specified location in LL  
+
+    deleteNode(head, location)
+        if(doesNotExistLL(head))
+	        return error //Linked list doesnot exist
+	    else if(location == 0) //we want to delete first node
+		    head = head.next
+		    if this was the only element in LL, then set tail  NULL
+		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
+			if(current node is the only node in list)
+				head = tail = NULL
+				return
+			toop till second last node (tmpNode)
+			tail = tmpNode; tmpNode.next = NULL
+		else	//Any other internal node
+			loop: tmpNode = head to location -1
+			tmpNode.next = tmpNode.next.next;
+Time complexity: O(n)		Space complexity: O(1)
+
+### Delete entire SLL
+
+    deleteLinkedList(head, tail)
+	    head= NULL
+	    tail  = NULL
+Time complexity: O(1)		Space complexity: O(1)	    
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MT
-cxODkxMCwtOTQyMDM2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2
-NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMsLTExMD
-g4NzE0NDksMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwNDI1ODA3
-MywtMTQwNTU5MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEyNzQ5LC
-0xNTg1ODQ3OTgsNjAwOTkyNTM5LDU2MjYzNzg4MywtMzkyMDE4
-MjMxXX0=
+eyJoaXN0b3J5IjpbNzI2ODA3MTgyLDYxNzM3NDAxMywyMDI1NT
+Q5MDM1LDEzNDE3MTg5MTAsLTk0MjAzNjUyOSwtNTgzMTU1MzU5
+LDEyMTk5NzMzNjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MD
+k4NDQzLC0xMTA4ODcxNDQ5LDE0NzYxODU3MjksNTUwMjA2OTEy
+LC03MDQyNTgwNzMsLTE0MDU1OTMzMjQsLTE4NTA5NjUyMjgsMT
+U3ODUxMjc0OSwtMTU4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4
+ODNdfQ==
 -->
