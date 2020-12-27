@@ -511,15 +511,16 @@ Time complexity: O(1)		Space complexity: O(1)
 	    node.value = nodeValue
 	    head = node
 	    tail = node
-	    node.next = node.previous = NULL
-	    
+	    node.next = node.previous = NULL	
+
+Time complexity: O(1)		Space complexity: O(1)	  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjA2NDA5MCwyMDI1NTQ5MDM1LDEzND
-E3MTg5MTAsLTk0MjAzNjUyOSwtNTgzMTU1MzU5LDEyMTk5NzMz
-NjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MDk4NDQzLC0xMT
-A4ODcxNDQ5LDE0NzYxODU3MjksNTUwMjA2OTEyLC03MDQyNTgw
-NzMsLTE0MDU1OTMzMjQsLTE4NTA5NjUyMjgsMTU3ODUxMjc0OS
-wtMTU4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4ODMsLTM5MjAx
-ODIzMV19
+eyJoaXN0b3J5IjpbNjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MT
+cxODkxMCwtOTQyMDM2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2
+NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMsLTExMD
+g4NzE0NDksMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwNDI1ODA3
+MywtMTQwNTU5MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEyNzQ5LC
+0xNTg1ODQ3OTgsNjAwOTkyNTM5LDU2MjYzNzg4MywtMzkyMDE4
+MjMxXX0=
 -->
