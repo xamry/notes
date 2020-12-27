@@ -439,7 +439,7 @@ Insertion at a specified location in CSLL   (Algo exactly similar to SLL)
         		head = node
         		**tail.next = head**
         	else if(location equals last)	//Insert at last position
-        		node.next = NULL
+        		**node.next = head**
         		tail.next = node
         		tail = node
         	else	//Insert at specified location
@@ -501,11 +501,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDI1ODA3MywtMTQwNTU5MzMyNCwtMT
-g1MDk2NTIyOCwxNTc4NTEyNzQ5LC0xNTg1ODQ3OTgsNjAwOTky
-NTM5LDU2MjYzNzg4MywtMzkyMDE4MjMxLDE0Mzc3OTgwMTUsLT
-E0MDI2NDM3MiwxNDYxNjQwODgwLC03MzU0MDExNjQsMjg3MTEy
-ODMsMTczMjc5MTU4MCwxODU0MDIzOTI1LDExODI1OTgyOTksND
-Q2NTY1MTY3LC0xNjcxMjY2OTcxLDEzODY3Nzg2NjgsMTE4NTcy
-ODI1NV19
+eyJoaXN0b3J5IjpbNTUwMjA2OTEyLC03MDQyNTgwNzMsLTE0MD
+U1OTMzMjQsLTE4NTA5NjUyMjgsMTU3ODUxMjc0OSwtMTU4NTg0
+Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4ODMsLTM5MjAxODIzMSwxND
+M3Nzk4MDE1LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNzM1NDAx
+MTY0LDI4NzExMjgzLDE3MzI3OTE1ODAsMTg1NDAyMzkyNSwxMT
+gyNTk4Mjk5LDQ0NjU2NTE2NywtMTY3MTI2Njk3MSwxMzg2Nzc4
+NjY4XX0=
 -->
