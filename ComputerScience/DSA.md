@@ -488,7 +488,8 @@ Deletion at a specified location in LL
 				**head = tail = node.next = NULL**
 				return
 			toop till second last node (tmpNode)
-			tail = tmpNode; tmpNode.next = NULL
+			tail = tmpNode; 
+			**tmpNode.next = head**
 		else	//Any other internal node
 			loop: tmpNode = head to location -1
 			tmpNode.next = tmpNode.next.next;
@@ -502,11 +503,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MTQ0MDY0LDEyMTk5NzMzNjUsLTk3ND
-YwNjY2MSw1NDYzOTM4NDYsNTA2MDk4NDQzLC0xMTA4ODcxNDQ5
-LDE0NzYxODU3MjksNTUwMjA2OTEyLC03MDQyNTgwNzMsLTE0MD
-U1OTMzMjQsLTE4NTA5NjUyMjgsMTU3ODUxMjc0OSwtMTU4NTg0
-Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4ODMsLTM5MjAxODIzMSwxND
-M3Nzk4MDE1LC0xNDAyNjQzNzIsMTQ2MTY0MDg4MCwtNzM1NDAx
-MTY0XX0=
+eyJoaXN0b3J5IjpbLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05Nz
+Q2MDY2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0
+OSwxNDc2MTg1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDczLC0xND
+A1NTkzMzI0LC0xODUwOTY1MjI4LDE1Nzg1MTI3NDksLTE1ODU4
+NDc5OCw2MDA5OTI1MzksNTYyNjM3ODgzLC0zOTIwMTgyMzEsMT
+QzNzc5ODAxNSwtMTQwMjY0MzcyLDE0NjE2NDA4ODAsLTczNTQw
+MTE2NF19
 -->
