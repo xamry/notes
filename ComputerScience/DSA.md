@@ -485,7 +485,7 @@ Deletion at a specified location in LL
 		    **if this was the only element in LL, then update head=tail=node.next=NULL**
 		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
 			if(current node is the only node in list)
-				head = tail = NULL
+				**head = tail = node.next = NULL**
 				return
 			toop till second last node (tmpNode)
 			tail = tmpNode; tmpNode.next = NULL
@@ -502,7 +502,7 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4NTU1MDM2LDEyMTk5NzMzNjUsLTk3ND
+eyJoaXN0b3J5IjpbNDg4MTQ0MDY0LDEyMTk5NzMzNjUsLTk3ND
 YwNjY2MSw1NDYzOTM4NDYsNTA2MDk4NDQzLC0xMTA4ODcxNDQ5
 LDE0NzYxODU3MjksNTUwMjA2OTEyLC03MDQyNTgwNzMsLTE0MD
 U1OTMzMjQsLTE4NTA5NjUyMjgsMTU3ODUxMjc0OSwtMTU4NTg0
