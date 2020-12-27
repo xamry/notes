@@ -515,7 +515,7 @@ Time complexity: O(1)		Space complexity: O(1)
 
 Time complexity: O(1)		Space complexity: O(1)	  
 
-### Insertion in SLL
+### Insertion in DLL
 There can be 3 cases:
 
 Insertion at start of LL
@@ -594,7 +594,7 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2ODA3MTgyLDYxNzM3NDAxMywyMDI1NT
+eyJoaXN0b3J5IjpbOTIzMDg0NzMzLDYxNzM3NDAxMywyMDI1NT
 Q5MDM1LDEzNDE3MTg5MTAsLTk0MjAzNjUyOSwtNTgzMTU1MzU5
 LDEyMTk5NzMzNjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MD
 k4NDQzLC0xMTA4ODcxNDQ5LDE0NzYxODU3MjksNTUwMjA2OTEy
