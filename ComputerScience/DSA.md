@@ -503,16 +503,16 @@ In addition to what we did in case of SLL, we also have to delete the circular l
 	    tail  = NULL
 Time complexity: O(1)		Space complexity: O(1)	    
 
-## Operations on Doubly Linked List (DLL)
+## Operations on Double Linked List (DLL)
 ### Creation of DLL
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEzNDc0NTcsMTM0MTcxODkxMCwtOT
-QyMDM2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2NSwtOTc0NjA2
-NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMsLTExMDg4NzE0NDksMT
-Q3NjE4NTcyOSw1NTAyMDY5MTIsLTcwNDI1ODA3MywtMTQwNTU5
-MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEyNzQ5LC0xNTg1ODQ3OT
-gsNjAwOTkyNTM5LDU2MjYzNzg4MywtMzkyMDE4MjMxLDE0Mzc3
-OTgwMTVdfQ==
+eyJoaXN0b3J5IjpbMjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05ND
+IwMzY1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05NzQ2MDY2
+NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0OSwxND
+c2MTg1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDczLC0xNDA1NTkz
+MzI0LC0xODUwOTY1MjI4LDE1Nzg1MTI3NDksLTE1ODU4NDc5OC
+w2MDA5OTI1MzksNTYyNjM3ODgzLC0zOTIwMTgyMzEsMTQzNzc5
+ODAxNV19
 -->
