@@ -476,7 +476,7 @@ Deletion first node of LL (Two cases: 1. When node to be deleted is the only one
 Deletion last node of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)   
 Deletion at a specified location in LL  
 
-    deleteNode(head, location)
+    deleteNodeFromCSLL(head, location)
         if(doesNotExistLL(head))
 	        return error //Linked list doesnot exist
 	    else if(location == 0) //we want to delete first node
@@ -501,11 +501,11 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MD
-k4NDQzLC0xMTA4ODcxNDQ5LDE0NzYxODU3MjksNTUwMjA2OTEy
-LC03MDQyNTgwNzMsLTE0MDU1OTMzMjQsLTE4NTA5NjUyMjgsMT
-U3ODUxMjc0OSwtMTU4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4
-ODMsLTM5MjAxODIzMSwxNDM3Nzk4MDE1LC0xNDAyNjQzNzIsMT
-Q2MTY0MDg4MCwtNzM1NDAxMTY0LDI4NzExMjgzLDE3MzI3OTE1
-ODBdfQ==
+eyJoaXN0b3J5IjpbMTIxOTk3MzM2NSwtOTc0NjA2NjYxLDU0Nj
+M5Mzg0Niw1MDYwOTg0NDMsLTExMDg4NzE0NDksMTQ3NjE4NTcy
+OSw1NTAyMDY5MTIsLTcwNDI1ODA3MywtMTQwNTU5MzMyNCwtMT
+g1MDk2NTIyOCwxNTc4NTEyNzQ5LC0xNTg1ODQ3OTgsNjAwOTky
+NTM5LDU2MjYzNzg4MywtMzkyMDE4MjMxLDE0Mzc3OTgwMTUsLT
+E0MDI2NDM3MiwxNDYxNjQwODgwLC03MzU0MDExNjQsMjg3MTEy
+ODNdfQ==
 -->
