@@ -711,10 +711,9 @@ Deletion at a specified location in LL
 	        return error //Linked list doesnot exist
 	    else if(location == 0) //we want to delete first node
 		    if this was the only element in LL, then set head.next = head.prev = head = tail = NULL; return;	//Corner case: Necessary to remove the self loop in order for it to become eligible for garbage collection
-		    head = head.next
-		    
-		    head = head.next; 
-		    **head.prev = NULL**
+		    head = head.next		    
+		    **head.prev = tail**
+		    **tail.next = head**
 		    		    
 		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
 			if(current node is the only node in list)
@@ -742,7 +741,7 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDYxMzMyOSwxNDcyNDgyMzQ1LC0xNz
+eyJoaXN0b3J5IjpbLTEyNDgyMDc5MSwxNDcyNDgyMzQ1LC0xNz
 U2MjQzMDgwLC0xODM5OTA4ODY1LDIwMTU3ODAyMjgsNDQ0NTY0
 NTA5LDE3NjYyMjQ3MTYsMTAyMjkzODg0NywyNjY4NDc5MzMsLT
 IzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1
