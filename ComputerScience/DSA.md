@@ -623,7 +623,7 @@ In CDLL, the last node points to first node, and first node points to last node.
 	    node.value = nodeValue
 	    head = node
 	    tail = node
-	    node.next = node.previous = NULL	
+	    **node.next = node.previous = node**	
 
 Time complexity: O(1)		Space complexity: O(1)	  
 
@@ -726,11 +726,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 	    
 Time complexity: O(n)		Space complexity: O(1)	    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc5MjYyNDUsLTIzMDE2OTA5Myw1MD
-MxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQs
-OTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OT
-g3NTg0LC01NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMs
-NjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMD
-M2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYx
-XX0=
+eyJoaXN0b3J5IjpbMTQxMTg4ODMyMCwtMjMwMTY5MDkzLDUwMz
+EzNTMxMCwtOTU1NDgxODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5
+NjUyMDk1ODcsLTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwyMjQ5OD
+c1ODQsLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2
+MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05NDIwMz
+Y1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05NzQ2MDY2NjFd
+fQ==
 -->
