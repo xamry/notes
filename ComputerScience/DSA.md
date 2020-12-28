@@ -576,7 +576,7 @@ Time complexity: O(n)		Space complexity: O(1)
 		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
 
-### Delete node from SLL
+### Delete node from DLL
 There can be 3 cases:  
 
 Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)    
@@ -609,11 +609,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2Nj
-E0MDI0OTgsMjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzNDg1Njgw
-Myw5MjMwODQ3MzMsNjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MT
-cxODkxMCwtOTQyMDM2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2
-NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMsLTExMD
-g4NzE0NDksMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwNDI1ODA3
-M119
+eyJoaXN0b3J5IjpbOTk4NzU4NTY0LDk2NTIwOTU4NywtMTMyMj
+k3NDMwMSwxNjYxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNjY0NDM4
+LC01MzQ4NTY4MDMsOTIzMDg0NzMzLDYxNzM3NDAxMywyMDI1NT
+Q5MDM1LDEzNDE3MTg5MTAsLTk0MjAzNjUyOSwtNTgzMTU1MzU5
+LDEyMTk5NzMzNjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MD
+k4NDQzLC0xMTA4ODcxNDQ5LDE0NzYxODU3MjksNTUwMjA2OTEy
+XX0=
 -->
