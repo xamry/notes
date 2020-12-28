@@ -542,7 +542,7 @@ Insertion at a specified location in LL
         		node.next = tmpNode.next
         		**node.prev = tmpNode**
         		tmpNode.next = node
-        		**node.next.prev =
+        		**node.next.prev = node**
         					 
 Time complexity: O(n)		Space complexity: O(1)
 
@@ -599,11 +599,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIxMDQ1NzgsMjI0OTg3NTg0LC01NT
-E2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mzc0MDEz
-LDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMDM2NTI5LC01OD
-MxNTUzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYxLDU0NjM5Mzg0
-Niw1MDYwOTg0NDMsLTExMDg4NzE0NDksMTQ3NjE4NTcyOSw1NT
-AyMDY5MTIsLTcwNDI1ODA3MywtMTQwNTU5MzMyNCwtMTg1MDk2
-NTIyOF19
+eyJoaXN0b3J5IjpbMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MT
+Y2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2MTczNzQwMTMs
+MjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05NDIwMzY1MjksLTU4Mz
+E1NTM1OSwxMjE5OTczMzY1LC05NzQ2MDY2NjEsNTQ2MzkzODQ2
+LDUwNjA5ODQ0MywtMTEwODg3MTQ0OSwxNDc2MTg1NzI5LDU1MD
+IwNjkxMiwtNzA0MjU4MDczLC0xNDA1NTkzMzI0LC0xODUwOTY1
+MjI4XX0=
 -->
