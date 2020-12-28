@@ -675,6 +675,7 @@ Similar to Single/ Double LL
     	else
     		loop: head to tail
     			print currentNode.value
+    			
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Reverse Traversal of DLL
@@ -743,11 +744,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEwMjg2OTQsNDQ0NTY0NTA5LDE3Nj
-YyMjQ3MTYsMTAyMjkzODg0NywyNjY4NDc5MzMsLTIzMDE2OTA5
-Myw1MDMxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NT
-g1NjQsOTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgs
-MjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwOD
-Q3MzMsNjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMF19
+eyJoaXN0b3J5IjpbMjAxNTc4MDIyOCw0NDQ1NjQ1MDksMTc2Nj
+IyNDcxNiwxMDIyOTM4ODQ3LDI2Njg0NzkzMywtMjMwMTY5MDkz
+LDUwMzEzNTMxMCwtOTU1NDgxODMzLDcxNDg2NjUyLDk5ODc1OD
+U2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwy
+MjQ5ODc1ODQsLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMzA4ND
+czMyw2MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEwXX0=
 
 -->
