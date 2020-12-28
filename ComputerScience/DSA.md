@@ -720,7 +720,7 @@ Deletion at a specified location in LL
 			if this was the only element in LL	//Corner case
 			    set head.next = head.prev = head = tail = NULL; return;	//Necessary to remove the self loop in order for it to become eligible for garbage collection
 			//No looping required for DLL
-			tail = tail.prev; tailmpNode; tmpNode.next = NULL**
+			**tail = tail.prev; tail.next=head; head.prev = tail**
 		else	//Any other internal node
 			loop: tmpNode = head to location -1
 			tmpNode.next = tmpNode.next.next;
@@ -741,11 +741,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTU0NTI2MDQsLTEyNDgyMDc5MSwxND
-cyNDgyMzQ1LC0xNzU2MjQzMDgwLC0xODM5OTA4ODY1LDIwMTU3
-ODAyMjgsNDQ0NTY0NTA5LDE3NjYyMjQ3MTYsMTAyMjkzODg0Ny
-wyNjY4NDc5MzMsLTIzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NTQ4
-MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1MjA5NTg3LC0xMz
-IyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0LC01NTE2NjQ0
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTMxNTE3Mzc3LC0xMjQ4MjA3OTEsMTQ3Mj
+Q4MjM0NSwtMTc1NjI0MzA4MCwtMTgzOTkwODg2NSwyMDE1Nzgw
+MjI4LDQ0NDU2NDUwOSwxNzY2MjI0NzE2LDEwMjI5Mzg4NDcsMj
+Y2ODQ3OTMzLC0yMzAxNjkwOTMsNTAzMTM1MzEwLC05NTU0ODE4
+MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2NTIwOTU4NywtMTMyMj
+k3NDMwMSwxNjYxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNjY0NDM4
+XX0=
 -->
