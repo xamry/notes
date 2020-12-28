@@ -627,7 +627,7 @@ In CDLL, the last node points to first node, and first node points to last node.
 
 Time complexity: O(1)		Space complexity: O(1)	  
 
-### Insertion in DLL
+### Insertion in CDLL
 There can be 3 cases:
 
 Insertion at start of LL
@@ -726,11 +726,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 	    
 Time complexity: O(n)		Space complexity: O(1)	    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTg4ODMyMCwtMjMwMTY5MDkzLDUwMz
-EzNTMxMCwtOTU1NDgxODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5
-NjUyMDk1ODcsLTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwyMjQ5OD
-c1ODQsLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2
-MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05NDIwMz
-Y1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05NzQ2MDY2NjFd
-fQ==
+eyJoaXN0b3J5IjpbNTY1NDg5NjI5LC0yMzAxNjkwOTMsNTAzMT
+M1MzEwLC05NTU0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2
+NTIwOTU4NywtMTMyMjk3NDMwMSwxNjYxNDAyNDk4LDIyNDk4Nz
+U4NCwtNTUxNjY0NDM4LC01MzQ4NTY4MDMsOTIzMDg0NzMzLDYx
+NzM3NDAxMywyMDI1NTQ5MDM1LDEzNDE3MTg5MTAsLTk0MjAzNj
+UyOSwtNTgzMTU1MzU5LDEyMTk5NzMzNjUsLTk3NDYwNjY2MV19
+
 -->
