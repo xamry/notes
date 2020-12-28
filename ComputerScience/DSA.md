@@ -614,13 +614,122 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 	    
 Time complexity: O(n)		Space complexity: O(1)	    
 
+## Operations on Circular Double Linked List (CDLL)
+### Creation of CDLL
 
+    createDoubleLinkedList(nodeValue)
+	    Create a blank node
+	    node.value = nodeValue
+	    head = node
+	    tail = node
+	    node.next = node.previous = NULL	
+
+Time complexity: O(1)		Space complexity: O(1)	  
+
+### Insertion in DLL
+There can be 3 cases:
+
+Insertion at start of LL
+Insertion at end of LL
+Insertion at a specified location in LL   
+
+    insertInDoubleLinkedList(head, nodeValue, location)
+            Create a blank node
+            node.value = nodeValue
+            if(! existsLinkedList(head))
+                return error //Linked list doesn't exist
+        	else if(localtion equals 0)	//Insert at first position
+        		node.next = head
+        		**node.prev = NULL**
+        		**head.prev = node**
+        		head = node
+        	else if(location equals last)	//Insert at last position
+        		node.next = NULL
+        		**node.prev = tail**
+        		tail.next = node
+        		tail = node
+        	else	//Insert at specified location
+        		loop : tmpNode = 0 to location -1	//loop till we reach specified node   O(n, rest all lines are O(1)
+        		node.next = tmpNode.next
+        		**node.prev = tmpNode**
+        		tmpNode.next = node
+        		**node.next.prev = node**
+        					 
+Time complexity: O(n)		Space complexity: O(1)
+
+### Traversal of DLL
+Similar to Single LL
+    traverseDoubleLinkedList(head):
+    	if(head == NULL) 	//Empty linked list
+    		then return;	
+    	else
+    		loop: head to tail
+    			print currentNode.value
+Time complexity: O(n)		Space complexity: O(1)
+
+### Reverse Traversal of DLL
+    ReverseTraverseDoubleLinkedList(head):
+    	if(head == NULL) 	//Empty linked list
+    		then return;	
+    	else
+    		**loop: tail to head**
+    			print currentNode.value
+    			
+Time complexity: O(n)		Space complexity: O(1)
+
+### Search node in DLL
+
+    searchNode(head, valueToFind)
+	    loop: tmpNode = head to tail
+		    if(tmpNode.value == valueToFind)
+			    print tmpNoe.value //value is found
+			    return
+		return node value not found
+Time complexity: O(n)		Space complexity: O(1)
+
+### Delete node from DLL
+There can be 3 cases:  
+
+Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)    
+Deletion last node of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)   
+Deletion at a specified location in LL  
+
+    deleteNode(head, location)
+        if(doesNotExistLL(head))
+	        return error //Linked list doesnot exist
+	    else if(location == 0) //we want to delete first node
+		    if this was the only element in LL, then set head = tail = NULL; return;
+		    head = head.next; 
+		    **head.prev = NULL**
+		    		    
+		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
+			if(current node is the only node in list)
+				head = tail = NULL
+				return
+			//No looping required for DLL
+			**tail = tail.prev; tail.next = NULL**
+		else	//Any other internal node
+			loop: tmpNode = head to location -1
+			tmpNode.next = tmpNode.next.next;
+			**tmpNode.next.prev = tmpNode**
+			
+Time complexity: O(n)		Space complexity: O(1)
+
+### Delete entire DLL
+Due to cyclic dependencies between adjoining nodes, just setting head and tail to null won't free up the node's memory. We have to traverese all the nodes and delete previous references.
+
+    deleteLinkedList(head, tail)
+	    loop (tmp: head to tail)
+		    tmp.pre = NULL
+	    head = tail  = NULL
+	    
+Time complexity: O(n)		Space complexity: O(1)	    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMTM1MzEwLC05NTU0ODE4MzMsNzE0OD
-Y2NTIsOTk4NzU4NTY0LDk2NTIwOTU4NywtMTMyMjk3NDMwMSwx
-NjYxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNjY0NDM4LC01MzQ4NT
-Y4MDMsOTIzMDg0NzMzLDYxNzM3NDAxMywyMDI1NTQ5MDM1LDEz
-NDE3MTg5MTAsLTk0MjAzNjUyOSwtNTgzMTU1MzU5LDEyMTk5Nz
-MzNjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MDk4NDQzXX0=
+eyJoaXN0b3J5IjpbLTIzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NT
+Q4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1MjA5NTg3LC0x
+MzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0LC01NTE2Nj
+Q0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mzc0MDEzLDIw
+MjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMDM2NTI5LC01ODMxNT
+UzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Nl19
 
 -->
