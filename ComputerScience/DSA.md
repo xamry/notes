@@ -660,9 +660,9 @@ Insertion at a specified location in LL
         	else	//Insert at specified location
         		loop : tmpNode = 0 to location -1	//loop till we reach specified node   O(n, rest all lines are O(1)
         		node.next = tmpNode.next
-        		**node.prev = tmpNode**
+        		node.prev = tmpNode
         		tmpNode.next = node
-        		**node.next.prev = node**
+        		node.next.prev = node
         					 
 Time complexity: O(n)		Space complexity: O(1)
 
@@ -742,11 +742,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NTY0NTA5LDE3NjYyMjQ3MTYsMTAyMj
-kzODg0NywyNjY4NDc5MzMsLTIzMDE2OTA5Myw1MDMxMzUzMTAs
-LTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1MjA5NT
-g3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0LC01
-NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mzc0MD
-EzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMDM2NTI5XX0=
+eyJoaXN0b3J5IjpbLTk3MTQzMjE2Myw0NDQ1NjQ1MDksMTc2Nj
+IyNDcxNiwxMDIyOTM4ODQ3LDI2Njg0NzkzMywtMjMwMTY5MDkz
+LDUwMzEzNTMxMCwtOTU1NDgxODMzLDcxNDg2NjUyLDk5ODc1OD
+U2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwy
+MjQ5ODc1ODQsLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMzA4ND
+czMyw2MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEwXX0=
 
 -->
