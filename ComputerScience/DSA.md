@@ -556,6 +556,18 @@ Similar to Single LL
     			print currentNode.value
 Time complexity: O(n)		Space complexity: O(1)
 
+### Reverse Traversal of DLL
+    traverseDoubleLinkedList(head):
+    	if(head == NULL) 	//Empty linked list
+    		then return;	
+    	else
+    		loop: head to tail
+    			print currentNode.value
+    			
+Time complexity: O(n)		Space complexity: O(1)
+
+
+
 ### Search node in DLL
 
     searchNode(head, valueToFind)
@@ -599,11 +611,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4OTQzNjEwLDE2NjE0MDI0OTgsMjI0OT
-g3NTg0LC01NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMs
-NjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMD
-M2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYx
-LDU0NjM5Mzg0Niw1MDYwOTg0NDMsLTExMDg4NzE0NDksMTQ3Nj
-E4NTcyOSw1NTAyMDY5MTIsLTcwNDI1ODA3MywtMTQwNTU5MzMy
-NF19
+eyJoaXN0b3J5IjpbLTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwyMj
+Q5ODc1ODQsLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDcz
+Myw2MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05ND
+IwMzY1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05NzQ2MDY2
+NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0OSwxND
+c2MTg1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDczLC0xNDA1NTkz
+MzI0XX0=
 -->
