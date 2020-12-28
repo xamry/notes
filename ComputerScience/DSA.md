@@ -525,7 +525,7 @@ Insertion at a specified location in LL
     insertInLinkedList(head, nodeValue, location)
             Create a blank node
             node.value = nodeValue
-            if(! existsLinkedLIst(head))
+            if(! existsLinkedList(head))
                 return error //Linked list doesn't exist
         	else if(localtion equals 0)	//Insert at first position
         		node.next = head
@@ -594,11 +594,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzMDg0NzMzLDYxNzM3NDAxMywyMDI1NT
-Q5MDM1LDEzNDE3MTg5MTAsLTk0MjAzNjUyOSwtNTgzMTU1MzU5
-LDEyMTk5NzMzNjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MD
-k4NDQzLC0xMTA4ODcxNDQ5LDE0NzYxODU3MjksNTUwMjA2OTEy
-LC03MDQyNTgwNzMsLTE0MDU1OTMzMjQsLTE4NTA5NjUyMjgsMT
-U3ODUxMjc0OSwtMTU4NTg0Nzk4LDYwMDk5MjUzOSw1NjI2Mzc4
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mz
+c0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMDM2NTI5
+LC01ODMxNTUzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYxLDU0Nj
+M5Mzg0Niw1MDYwOTg0NDMsLTExMDg4NzE0NDksMTQ3NjE4NTcy
+OSw1NTAyMDY5MTIsLTcwNDI1ODA3MywtMTQwNTU5MzMyNCwtMT
+g1MDk2NTIyOCwxNTc4NTEyNzQ5LC0xNTg1ODQ3OTgsNjAwOTky
+NTM5XX0=
 -->
