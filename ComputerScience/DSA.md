@@ -534,6 +534,7 @@ Insertion at a specified location in LL
         		head = node
         	else if(location equals last)	//Insert at last position
         		node.next = NULL
+        		**node.prev = tail**
         		tail.next = node
         		tail = node
         	else	//Insert at specified location
@@ -596,11 +597,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMz
-A4NDczMyw2MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEw
-LC05NDIwMzY1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05Nz
-Q2MDY2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0
-OSwxNDc2MTg1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDczLC0xND
-A1NTkzMzI0LC0xODUwOTY1MjI4LDE1Nzg1MTI3NDksLTE1ODU4
-NDc5OF19
+eyJoaXN0b3J5IjpbMjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzND
+g1NjgwMyw5MjMwODQ3MzMsNjE3Mzc0MDEzLDIwMjU1NDkwMzUs
+MTM0MTcxODkxMCwtOTQyMDM2NTI5LC01ODMxNTUzNTksMTIxOT
+k3MzM2NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMs
+LTExMDg4NzE0NDksMTQ3NjE4NTcyOSw1NTAyMDY5MTIsLTcwND
+I1ODA3MywtMTQwNTU5MzMyNCwtMTg1MDk2NTIyOCwxNTc4NTEy
+NzQ5XX0=
 -->
