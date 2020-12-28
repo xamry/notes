@@ -618,7 +618,7 @@ Time complexity: O(n)		Space complexity: O(1)
 ### Creation of CDLL
 In CDLL, the last node points to first node, and first node points to last node.
 
-    createDoubleLinkedList(nodeValue)
+    createCircularDoubleLinkedList(nodeValue)
 	    Create a blank node
 	    node.value = nodeValue
 	    head = node
@@ -634,7 +634,7 @@ Insertion at start of LL
 Insertion at end of LL
 Insertion at a specified location in LL   
 
-    insertInDoubleLinkedList(head, nodeValue, location)
+    insertInCircularDoubleLinkedList(head, nodeValue, location)
             Create a blank node
             node.value = nodeValue
             if(! existsLinkedList(head))
@@ -726,7 +726,7 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 	    
 Time complexity: O(n)		Space complexity: O(1)	    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NDg5NjI5LC0yMzAxNjkwOTMsNTAzMT
+eyJoaXN0b3J5IjpbMjY2ODQ3OTMzLC0yMzAxNjkwOTMsNTAzMT
 M1MzEwLC05NTU0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2
 NTIwOTU4NywtMTMyMjk3NDMwMSwxNjYxNDAyNDk4LDIyNDk4Nz
 U4NCwtNTUxNjY0NDM4LC01MzQ4NTY4MDMsOTIzMDg0NzMzLDYx
