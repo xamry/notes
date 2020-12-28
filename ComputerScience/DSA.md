@@ -679,6 +679,8 @@ Similar to Single/ Double LL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Reverse Traversal of CDLL
+Similar to DLL
+
     ReverseTraverseDoubleLinkedList(head):
     	if(head == NULL) 	//Empty linked list
     		then return;	
@@ -744,7 +746,7 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkxNTA5ODUsMjAxNTc4MDIyOCw0ND
+eyJoaXN0b3J5IjpbLTE4Mzk5MDg4NjUsMjAxNTc4MDIyOCw0ND
 Q1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4ODQ3LDI2Njg0Nzkz
 MywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOTU1NDgxODMzLDcxND
 g2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEs
