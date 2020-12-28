@@ -601,6 +601,7 @@ Deletion at a specified location in LL
 			loop: tmpNode = head to location -1
 			tmpNode.next = tmpNode.next.next;
 			**tmpNode.next.prev = tmpNode**
+			
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Delete entire SLL
@@ -612,11 +613,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTMxMzYyNiwtOTU1NDgxODMzLDcxND
-g2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEs
-MTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MTY2NDQzOCwtNTM0OD
-U2ODAzLDkyMzA4NDczMyw2MTczNzQwMTMsMjAyNTU0OTAzNSwx
-MzQxNzE4OTEwLC05NDIwMzY1MjksLTU4MzE1NTM1OSwxMjE5OT
-czMzY1LC05NzQ2MDY2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0M119
+eyJoaXN0b3J5IjpbNjMwMDY0MTI4LC05NTU0ODE4MzMsNzE0OD
+Y2NTIsOTk4NzU4NTY0LDk2NTIwOTU4NywtMTMyMjk3NDMwMSwx
+NjYxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNjY0NDM4LC01MzQ4NT
+Y4MDMsOTIzMDg0NzMzLDYxNzM3NDAxMywyMDI1NTQ5MDM1LDEz
+NDE3MTg5MTAsLTk0MjAzNjUyOSwtNTgzMTU1MzU5LDEyMTk5Nz
+MzNjUsLTk3NDYwNjY2MSw1NDYzOTM4NDYsNTA2MDk4NDQzXX0=
 
 -->
