@@ -689,6 +689,7 @@ Time complexity: O(n)		Space complexity: O(1)
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Search node in CDLL
+Similar to DLL
 
     searchNode(head, valueToFind)
 	    loop: tmpNode = head to tail
@@ -698,7 +699,7 @@ Time complexity: O(n)		Space complexity: O(1)
 		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
 
-### Delete node from DLL
+### Delete node from CDLL
 There can be 3 cases:  
 
 Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)    
@@ -740,11 +741,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTYyNDMwODAsLTE4Mzk5MDg4NjUsMj
-AxNTc4MDIyOCw0NDQ1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4
-ODQ3LDI2Njg0NzkzMywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOT
-U1NDgxODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcs
-LTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MT
-Y2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2MTczNzQwMTNd
-fQ==
+eyJoaXN0b3J5IjpbMTQ3MjQ4MjM0NSwtMTc1NjI0MzA4MCwtMT
+gzOTkwODg2NSwyMDE1NzgwMjI4LDQ0NDU2NDUwOSwxNzY2MjI0
+NzE2LDEwMjI5Mzg4NDcsMjY2ODQ3OTMzLC0yMzAxNjkwOTMsNT
+AzMTM1MzEwLC05NTU0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NTY0
+LDk2NTIwOTU4NywtMTMyMjk3NDMwMSwxNjYxNDAyNDk4LDIyND
+k4NzU4NCwtNTUxNjY0NDM4LC01MzQ4NTY4MDMsOTIzMDg0NzMz
+XX0=
 -->
