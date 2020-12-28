@@ -667,7 +667,7 @@ Insertion at a specified location in LL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Traversal of CDLL
-Similar to Double LL
+Similar to Single/ Double LL
 
     traverseDoubleLinkedList(head):
     	if(head == NULL) 	//Empty linked list
@@ -743,11 +743,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExMjIxNjM1LDQ0NDU2NDUwOSwxNzY2Mj
-I0NzE2LDEwMjI5Mzg4NDcsMjY2ODQ3OTMzLC0yMzAxNjkwOTMs
-NTAzMTM1MzEwLC05NTU0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NT
-Y0LDk2NTIwOTU4NywtMTMyMjk3NDMwMSwxNjYxNDAyNDk4LDIy
-NDk4NzU4NCwtNTUxNjY0NDM4LC01MzQ4NTY4MDMsOTIzMDg0Nz
-MzLDYxNzM3NDAxMywyMDI1NTQ5MDM1LDEzNDE3MTg5MTBdfQ==
+eyJoaXN0b3J5IjpbLTE5OTEwMjg2OTQsNDQ0NTY0NTA5LDE3Nj
+YyMjQ3MTYsMTAyMjkzODg0NywyNjY4NDc5MzMsLTIzMDE2OTA5
+Myw1MDMxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NT
+g1NjQsOTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgs
+MjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwOD
+Q3MzMsNjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMF19
 
 -->
