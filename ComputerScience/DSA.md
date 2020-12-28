@@ -698,7 +698,7 @@ Time complexity: O(n)		Space complexity: O(1)
 		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
 
-### Delete node from DSLL
+### Delete node from DLL
 There can be 3 cases:  
 
 Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)    
@@ -740,11 +740,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDAxMjM2NywtMTgzOTkwODg2NSwyMD
-E1NzgwMjI4LDQ0NDU2NDUwOSwxNzY2MjI0NzE2LDEwMjI5Mzg4
-NDcsMjY2ODQ3OTMzLC0yMzAxNjkwOTMsNTAzMTM1MzEwLC05NT
-U0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2NTIwOTU4Nywt
-MTMyMjk3NDMwMSwxNjYxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNj
-Y0NDM4LC01MzQ4NTY4MDMsOTIzMDg0NzMzLDYxNzM3NDAxM119
-
+eyJoaXN0b3J5IjpbLTE3NTYyNDMwODAsLTE4Mzk5MDg4NjUsMj
+AxNTc4MDIyOCw0NDQ1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4
+ODQ3LDI2Njg0NzkzMywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOT
+U1NDgxODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcs
+LTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MT
+Y2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2MTczNzQwMTNd
+fQ==
 -->
