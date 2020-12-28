@@ -710,7 +710,7 @@ Deletion at a specified location in LL
         if(doesNotExistLL(head))
 	        return error //Linked list doesnot exist
 	    else if(location == 0) //we want to delete first node
-		    if this was the only element in LL, then set head.next = head.prev = head = tail = NULL; return;
+		    if this was the only element in LL, then set head.next = head.prev = head = tail = NULL; return;	//Necessary to remove the self loop in order for it to become eligible for garbage collection
 		    head = head.next
 		    
 		    head = head.next; 
@@ -742,11 +742,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjkwNzc5NywxNDcyNDgyMzQ1LC0xNz
-U2MjQzMDgwLC0xODM5OTA4ODY1LDIwMTU3ODAyMjgsNDQ0NTY0
-NTA5LDE3NjYyMjQ3MTYsMTAyMjkzODg0NywyNjY4NDc5MzMsLT
-IzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1
-Miw5OTg3NTg1NjQsOTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2Nj
-E0MDI0OTgsMjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzNDg1Njgw
-M119
+eyJoaXN0b3J5IjpbLTE3MTAwNDMyODIsMTQ3MjQ4MjM0NSwtMT
+c1NjI0MzA4MCwtMTgzOTkwODg2NSwyMDE1NzgwMjI4LDQ0NDU2
+NDUwOSwxNzY2MjI0NzE2LDEwMjI5Mzg4NDcsMjY2ODQ3OTMzLC
+0yMzAxNjkwOTMsNTAzMTM1MzEwLC05NTU0ODE4MzMsNzE0ODY2
+NTIsOTk4NzU4NTY0LDk2NTIwOTU4NywtMTMyMjk3NDMwMSwxNj
+YxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNjY0NDM4LC01MzQ4NTY4
+MDNdfQ==
 -->
