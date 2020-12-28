@@ -710,13 +710,14 @@ Deletion at a specified location in LL
         if(doesNotExistLL(head))
 	        return error //Linked list doesnot exist
 	    else if(location == 0) //we want to delete first node
-		    if this was the only element in LL, then set head.next = head.prev = head = tail = NULL; return;	//Corner case: Necessary to remove the self loop in order for it to become eligible for garbage collection
+		    if this was the only element in LL
+			    set head.next = head.prev = head = tail = NULL; return;	//Corner case: Necessary to remove the self loop in order for it to become eligible for garbage collection
 		    head = head.next		    
 		    **head.prev = tail**
 		    **tail.next = head**
 		    		    
 		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
-			if(current node is the only node in list)
+			if(current node is the only node in list)	//Corner case
 				head = tail = NULL
 				return
 			//No looping required for DLLtoop till second last node (tmpNode)
@@ -741,11 +742,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgyMDc5MSwxNDcyNDgyMzQ1LC0xNz
-U2MjQzMDgwLC0xODM5OTA4ODY1LDIwMTU3ODAyMjgsNDQ0NTY0
-NTA5LDE3NjYyMjQ3MTYsMTAyMjkzODg0NywyNjY4NDc5MzMsLT
-IzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1
-Miw5OTg3NTg1NjQsOTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2Nj
-E0MDI0OTgsMjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzNDg1Njgw
-M119
+eyJoaXN0b3J5IjpbLTYyNDY1MjA2OSwtMTI0ODIwNzkxLDE0Nz
+I0ODIzNDUsLTE3NTYyNDMwODAsLTE4Mzk5MDg4NjUsMjAxNTc4
+MDIyOCw0NDQ1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4ODQ3LD
+I2Njg0NzkzMywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOTU1NDgx
+ODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcsLTEzMj
+I5NzQzMDEsMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MTY2NDQz
+OF19
 -->
