@@ -679,8 +679,6 @@ Similar to Single/ Double LL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Reverse Traversal of CDLL
-Similar to DLL
-
     ReverseTraverseDoubleLinkedList(head):
     	if(head == NULL) 	//Empty linked list
     		then return;	
@@ -690,8 +688,14 @@ Similar to DLL
     			
 Time complexity: O(n)		Space complexity: O(1)
 
-### Search node in Dhead to tail
-    			print currentNode.value
+### Search node in CDLL
+
+    searchNode(head, valueToFind)
+	    loop: tmpNode = head to tail
+		    if(tmpNode.value == valueToFind)
+			    print tmpNoe.value //value is found
+			    return
+		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Search node in SLL
@@ -746,11 +750,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk5MDg4NjUsMjAxNTc4MDIyOCw0ND
-Q1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4ODQ3LDI2Njg0Nzkz
-MywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOTU1NDgxODMzLDcxND
-g2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEs
-MTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MTY2NDQzOCwtNTM0OD
-U2ODAzLDkyMzA4NDczMyw2MTczNzQwMTMsMjAyNTU0OTAzNV19
-
+eyJoaXN0b3J5IjpbLTIwNjYxNDI4MDQsLTE4Mzk5MDg4NjUsMj
+AxNTc4MDIyOCw0NDQ1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4
+ODQ3LDI2Njg0NzkzMywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOT
+U1NDgxODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcs
+LTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MT
+Y2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2MTczNzQwMTNd
+fQ==
 -->
