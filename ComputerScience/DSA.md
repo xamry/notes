@@ -522,7 +522,7 @@ Insertion at start of LL
 Insertion at end of LL
 Insertion at a specified location in LL   
 
-    insertInLinkedList(head, nodeValue, location)
+    insertInDoubleLinkedList(head, nodeValue, location)
             Create a blank node
             node.value = nodeValue
             if(! existsLinkedList(head))
@@ -546,9 +546,9 @@ Insertion at a specified location in LL
         					 
 Time complexity: O(n)		Space complexity: O(1)
 
-### Traversal of SLL
+### Traversal of DLL
 
-    traverseLinkedList(head):
+    traverseDoubleLinkedList(head):
     	if(head == NULL) 	//Empty linked list
     		then return;	
     	else
@@ -599,11 +599,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MT
-Y2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2MTczNzQwMTMs
-MjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05NDIwMzY1MjksLTU4Mz
-E1NTM1OSwxMjE5OTczMzY1LC05NzQ2MDY2NjEsNTQ2MzkzODQ2
-LDUwNjA5ODQ0MywtMTEwODg3MTQ0OSwxNDc2MTg1NzI5LDU1MD
-IwNjkxMiwtNzA0MjU4MDczLC0xNDA1NTkzMzI0LC0xODUwOTY1
-MjI4XX0=
+eyJoaXN0b3J5IjpbOTY1NzcwNDEsMTY2MTQwMjQ5OCwyMjQ5OD
+c1ODQsLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMzA4NDczMyw2
+MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05NDIwMz
+Y1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05NzQ2MDY2NjEs
+NTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0OSwxNDc2MT
+g1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDczLC0xNDA1NTkzMzI0
+XX0=
 -->
