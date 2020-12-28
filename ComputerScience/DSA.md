@@ -557,7 +557,13 @@ Similar to Single LL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Reverse Traversal of DLL
-    ReverseTraverseDoubleLinkedList(head):
+    ReverseTraverseDoubltmpNode.next = node
+        					 
+Time complexity: O(n)		Space complexity: O(1)
+
+### Traversal of SLL
+
+    traverseLinkedList(head):
     	if(head == NULL) 	//Empty linked list
     		then return;	
     	else
@@ -678,7 +684,11 @@ Time complexity: O(n)		Space complexity: O(1)
     			
 Time complexity: O(n)		Space complexity: O(1)
 
-### Search node in DLL
+### Search node in Dhead to tail
+    			print currentNode.value
+Time complexity: O(n)		Space complexity: O(1)
+
+### Search node in SLL
 
     searchNode(head, valueToFind)
 	    loop: tmpNode = head to tail
@@ -688,7 +698,7 @@ Time complexity: O(n)		Space complexity: O(1)
 		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
 
-### Delete node from DLL
+### Delete node from DSLL
 There can be 3 cases:  
 
 Deletion first of LL (Two cases: 1. When node to be deleted is the only one present, 2. There are others)    
@@ -699,6 +709,7 @@ Deletion at a specified location in LL
         if(doesNotExistLL(head))
 	        return error //Linked list doesnot exist
 	    else if(location == 0) //we want to delete first node
+		    head = head.next
 		    if this was the only element in LL, then set head = tail = NULL; return;
 		    head = head.next; 
 		    **head.prev = NULL**
@@ -707,8 +718,8 @@ Deletion at a specified location in LL
 			if(current node is the only node in list)
 				head = tail = NULL
 				return
-			//No looping required for DLL
-			**tail = tail.prev; tail.next = NULL**
+			//No looping required for DLLtoop till second last node (tmpNode)
+			**tail = tail.prev; tailmpNode; tmpNode.next = NULL**
 		else	//Any other internal node
 			loop: tmpNode = head to location -1
 			tmpNode.next = tmpNode.next.next;
@@ -716,21 +727,24 @@ Deletion at a specified location in LL
 			
 Time complexity: O(n)		Space complexity: O(1)
 
-### Delete entire DLL
+### Delete entire DSLL
 Due to cyclic dependencies between adjoining nodes, just setting head and tail to null won't free up the node's memory. We have to traverese all the nodes and delete previous references.
 
     deleteLinkedList(head, tail)
 	    loop (tmp: head to tail)
-		    tmp.pre = NULL
+		    tmp.pre 
+    deleteLinkedList(head, tail)
+	    head= NULL
 	    head = tail  = NULL
 	    
-Time complexity: O(n)		Space complexity: O(1)	    
+Time complexity: O(n1)		Space complexity: O(1)	    
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2ODQ3OTMzLC0yMzAxNjkwOTMsNTAzMT
-M1MzEwLC05NTU0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2
-NTIwOTU4NywtMTMyMjk3NDMwMSwxNjYxNDAyNDk4LDIyNDk4Nz
-U4NCwtNTUxNjY0NDM4LC01MzQ4NTY4MDMsOTIzMDg0NzMzLDYx
-NzM3NDAxMywyMDI1NTQ5MDM1LDEzNDE3MTg5MTAsLTk0MjAzNj
-UyOSwtNTgzMTU1MzU5LDEyMTk5NzMzNjUsLTk3NDYwNjY2MV19
+eyJoaXN0b3J5IjpbMTAyMjkzODg0NywyNjY4NDc5MzMsLTIzMD
+E2OTA5Myw1MDMxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5
+OTg3NTg1NjQsOTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MD
+I0OTgsMjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzNDg1NjgwMyw5
+MjMwODQ3MzMsNjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MTcxOD
+kxMCwtOTQyMDM2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2NV19
 
 -->
