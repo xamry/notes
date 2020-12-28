@@ -596,7 +596,7 @@ Deletion at a specified location in LL
 				head = tail = NULL
 				return
 			//No looping required for DLL
-			**tail = tail.prev; tail.next = NULL
+			**tail = tail.prev; tail.next = NULL**
 		else	//Any other internal node
 			loop: tmpNode = head to location -1
 			tmpNode.next = tmpNode.next.next;
@@ -611,11 +611,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NzMyMzc1LDcxNDg2NjUyLDk5ODc1OD
-U2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEsMTY2MTQwMjQ5OCwy
-MjQ5ODc1ODQsLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMzA4ND
-czMyw2MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEwLC05
-NDIwMzY1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05NzQ2MD
-Y2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0OV19
-
+eyJoaXN0b3J5IjpbLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NT
+g1NjQsOTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgs
+MjI0OTg3NTg0LC01NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwOD
+Q3MzMsNjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwt
+OTQyMDM2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2NSwtOTc0Nj
+A2NjYxLDU0NjM5Mzg0Niw1MDYwOTg0NDMsLTExMDg4NzE0NDld
+fQ==
 -->
