@@ -616,6 +616,7 @@ Time complexity: O(n)		Space complexity: O(1)
 
 ## Operations on Circular Double Linked List (CDLL)
 ### Creation of CDLL
+In CDLL, the last node points to first node, and first node points to last node.
 
     createDoubleLinkedList(nodeValue)
 	    Create a blank node
@@ -725,11 +726,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 	    
 Time complexity: O(n)		Space complexity: O(1)	    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NT
-Q4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1MjA5NTg3LC0x
-MzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0LC01NTE2Nj
-Q0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mzc0MDEzLDIw
-MjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMDM2NTI5LC01ODMxNT
-UzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYxLDU0NjM5Mzg0Nl19
-
+eyJoaXN0b3J5IjpbLTEwMDc5MjYyNDUsLTIzMDE2OTA5Myw1MD
+MxMzUzMTAsLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQs
+OTY1MjA5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OT
+g3NTg0LC01NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMs
+NjE3Mzc0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMD
+M2NTI5LC01ODMxNTUzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYx
+XX0=
 -->
