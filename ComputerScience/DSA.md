@@ -719,7 +719,7 @@ Deletion at a specified location in LL
 		else if(locaton >=last)	//we want to delete last node (any value greater than last being considered as last for convenience, we could throw error as well)
 			if this was the only element in LL	//Corner case
 			    set head.next = head.prev = head = tail = NULL; return;	//Necessary to remove the self loop in order for it to become eligible for garbage collection
-			//No looping required for DLLtoop till second last node (tmpNode)
+			//No looping required for DLL
 			**tail = tail.prev; tailmpNode; tmpNode.next = NULL**
 		else	//Any other internal node
 			loop: tmpNode = head to location -1
@@ -741,11 +741,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE4ODY5NzMsLTEyNDgyMDc5MSwxND
-cyNDgyMzQ1LC0xNzU2MjQzMDgwLC0xODM5OTA4ODY1LDIwMTU3
-ODAyMjgsNDQ0NTY0NTA5LDE3NjYyMjQ3MTYsMTAyMjkzODg0Ny
-wyNjY4NDc5MzMsLTIzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NTQ4
-MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1MjA5NTg3LC0xMz
-IyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0LC01NTE2NjQ0
-MzhdfQ==
+eyJoaXN0b3J5IjpbMTY4OTk4MzIzNiwtMTI0ODIwNzkxLDE0Nz
+I0ODIzNDUsLTE3NTYyNDMwODAsLTE4Mzk5MDg4NjUsMjAxNTc4
+MDIyOCw0NDQ1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4ODQ3LD
+I2Njg0NzkzMywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOTU1NDgx
+ODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcsLTEzMj
+I5NzQzMDEsMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MTY2NDQz
+OF19
 -->
