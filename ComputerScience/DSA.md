@@ -698,16 +698,6 @@ Time complexity: O(n)		Space complexity: O(1)
 		return node value not found
 Time complexity: O(n)		Space complexity: O(1)
 
-### Search node in SLL
-
-    searchNode(head, valueToFind)
-	    loop: tmpNode = head to tail
-		    if(tmpNode.value == valueToFind)
-			    print tmpNoe.value //value is found
-			    return
-		return node value not found
-Time complexity: O(n)		Space complexity: O(1)
-
 ### Delete node from DSLL
 There can be 3 cases:  
 
@@ -750,11 +740,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDc3NzAwLC0xODM5OTA4ODY1LDIwMT
-U3ODAyMjgsNDQ0NTY0NTA5LDE3NjYyMjQ3MTYsMTAyMjkzODg0
-NywyNjY4NDc5MzMsLTIzMDE2OTA5Myw1MDMxMzUzMTAsLTk1NT
-Q4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1MjA5NTg3LC0x
-MzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0LC01NTE2Nj
-Q0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mzc0MDEzXX0=
+eyJoaXN0b3J5IjpbLTIxNDAxMjM2NywtMTgzOTkwODg2NSwyMD
+E1NzgwMjI4LDQ0NDU2NDUwOSwxNzY2MjI0NzE2LDEwMjI5Mzg4
+NDcsMjY2ODQ3OTMzLC0yMzAxNjkwOTMsNTAzMTM1MzEwLC05NT
+U0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2NTIwOTU4Nywt
+MTMyMjk3NDMwMSwxNjYxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNj
+Y0NDM4LC01MzQ4NTY4MDMsOTIzMDg0NzMzLDYxNzM3NDAxM119
 
 -->
