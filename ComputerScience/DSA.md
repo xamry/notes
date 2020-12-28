@@ -529,6 +529,8 @@ Insertion at a specified location in LL
                 return error //Linked list doesn't exist
         	else if(localtion equals 0)	//Insert at first position
         		node.next = head
+        		**node.prev = NULL**
+        		**head.prev = node**
         		head = node
         	else if(location equals last)	//Insert at last position
         		node.next = NULL
@@ -594,11 +596,11 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mz
-c0MDEzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMDM2NTI5
-LC01ODMxNTUzNTksMTIxOTk3MzM2NSwtOTc0NjA2NjYxLDU0Nj
-M5Mzg0Niw1MDYwOTg0NDMsLTExMDg4NzE0NDksMTQ3NjE4NTcy
-OSw1NTAyMDY5MTIsLTcwNDI1ODA3MywtMTQwNTU5MzMyNCwtMT
-g1MDk2NTIyOCwxNTc4NTEyNzQ5LC0xNTg1ODQ3OTgsNjAwOTky
-NTM5XX0=
+eyJoaXN0b3J5IjpbLTU1MTY2NDQzOCwtNTM0ODU2ODAzLDkyMz
+A4NDczMyw2MTczNzQwMTMsMjAyNTU0OTAzNSwxMzQxNzE4OTEw
+LC05NDIwMzY1MjksLTU4MzE1NTM1OSwxMjE5OTczMzY1LC05Nz
+Q2MDY2NjEsNTQ2MzkzODQ2LDUwNjA5ODQ0MywtMTEwODg3MTQ0
+OSwxNDc2MTg1NzI5LDU1MDIwNjkxMiwtNzA0MjU4MDczLC0xND
+A1NTkzMzI0LC0xODUwOTY1MjI4LDE1Nzg1MTI3NDksLTE1ODU4
+NDc5OF19
 -->
