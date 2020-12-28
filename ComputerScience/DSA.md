@@ -605,6 +605,7 @@ Deletion at a specified location in LL
 Time complexity: O(n)		Space complexity: O(1)
 
 ### Delete entire DLL
+Due to cyclic dependencies betweek adjoining nodes, just setting head and tail to null won't free up the node's memory.
 
     deleteLinkedList(head, tail)
 	    head= NULL
@@ -614,7 +615,7 @@ Time complexity: O(1)		Space complexity: O(1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDQyMjgxMSwtOTU1NDgxODMzLDcxND
+eyJoaXN0b3J5IjpbMTAyNDIyNjAwMCwtOTU1NDgxODMzLDcxND
 g2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEs
 MTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MTY2NDQzOCwtNTM0OD
 U2ODAzLDkyMzA4NDczMyw2MTczNzQwMTMsMjAyNTU0OTAzNSwx
