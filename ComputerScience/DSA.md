@@ -652,8 +652,9 @@ Insertion at a specified location in LL
         		head = node
         		**tail.next = node***
         	else if(location equals last)	//Insert at last position
-        		node.next = NULL
-        		**node.prev = tail**
+        		**node.next = head**
+	        	node.prev = tail
+        		**head.prev = node**        		
         		tail.next = node
         		tail = node
         	else	//Insert at specified location
@@ -741,11 +742,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjIyNDcxNiwxMDIyOTM4ODQ3LDI2Nj
-g0NzkzMywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOTU1NDgxODMz
-LDcxNDg2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODcsLTEzMjI5Nz
-QzMDEsMTY2MTQwMjQ5OCwyMjQ5ODc1ODQsLTU1MTY2NDQzOCwt
-NTM0ODU2ODAzLDkyMzA4NDczMyw2MTczNzQwMTMsMjAyNTU0OT
-AzNSwxMzQxNzE4OTEwLC05NDIwMzY1MjksLTU4MzE1NTM1OV19
+eyJoaXN0b3J5IjpbNDQ0NTY0NTA5LDE3NjYyMjQ3MTYsMTAyMj
+kzODg0NywyNjY4NDc5MzMsLTIzMDE2OTA5Myw1MDMxMzUzMTAs
+LTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1MjA5NT
+g3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0LC01
+NTE2NjQ0MzgsLTUzNDg1NjgwMyw5MjMwODQ3MzMsNjE3Mzc0MD
+EzLDIwMjU1NDkwMzUsMTM0MTcxODkxMCwtOTQyMDM2NTI5XX0=
 
 -->
