@@ -739,14 +739,14 @@ We also have to make sure that last node is not pointing to the first node
     	    head= NULL
 	head = tail  = NULL
 	    
-Time complexity: O(n1)		Space complexity: O(1)	    
+Time complexity: O(n)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4ODgwOTUwLDExODE2NjQ3NzQsLTMxNT
-E3Mzc3LC0xMjQ4MjA3OTEsMTQ3MjQ4MjM0NSwtMTc1NjI0MzA4
-MCwtMTgzOTkwODg2NSwyMDE1NzgwMjI4LDQ0NDU2NDUwOSwxNz
-Y2MjI0NzE2LDEwMjI5Mzg4NDcsMjY2ODQ3OTMzLC0yMzAxNjkw
-OTMsNTAzMTM1MzEwLC05NTU0ODE4MzMsNzE0ODY2NTIsOTk4Nz
-U4NTY0LDk2NTIwOTU4NywtMTMyMjk3NDMwMSwxNjYxNDAyNDk4
-XX0=
+eyJoaXN0b3J5IjpbLTkyMTkwMTY4NSwxMTgxNjY0Nzc0LC0zMT
+UxNzM3NywtMTI0ODIwNzkxLDE0NzI0ODIzNDUsLTE3NTYyNDMw
+ODAsLTE4Mzk5MDg4NjUsMjAxNTc4MDIyOCw0NDQ1NjQ1MDksMT
+c2NjIyNDcxNiwxMDIyOTM4ODQ3LDI2Njg0NzkzMywtMjMwMTY5
+MDkzLDUwMzEzNTMxMCwtOTU1NDgxODMzLDcxNDg2NjUyLDk5OD
+c1ODU2NCw5NjUyMDk1ODcsLTEzMjI5NzQzMDEsMTY2MTQwMjQ5
+OF19
 -->
