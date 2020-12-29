@@ -730,8 +730,10 @@ Time complexity: O(n)		Space complexity: O(1)
 
 ### Delete entire DSLL
 Due to cyclic dependencies between adjoining nodes, just setting head and tail to null won't free up the node's memory. We have to traverese all the nodes and delete previous references.
+We also have to make sure that last node is not pointing to the first node
 
     deleteLinkedList(head, tail)
+	    **tail.next = NULL**
 	    loop (tmp: head to tail)
 		    tmp.prev = NULL
     	    head= NULL
@@ -740,11 +742,11 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTY2NDc3NCwtMzE1MTczNzcsLTEyND
-gyMDc5MSwxNDcyNDgyMzQ1LC0xNzU2MjQzMDgwLC0xODM5OTA4
-ODY1LDIwMTU3ODAyMjgsNDQ0NTY0NTA5LDE3NjYyMjQ3MTYsMT
-AyMjkzODg0NywyNjY4NDc5MzMsLTIzMDE2OTA5Myw1MDMxMzUz
-MTAsLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1Mj
-A5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0
+eyJoaXN0b3J5IjpbNjQ4ODgwOTUwLDExODE2NjQ3NzQsLTMxNT
+E3Mzc3LC0xMjQ4MjA3OTEsMTQ3MjQ4MjM0NSwtMTc1NjI0MzA4
+MCwtMTgzOTkwODg2NSwyMDE1NzgwMjI4LDQ0NDU2NDUwOSwxNz
+Y2MjI0NzE2LDEwMjI5Mzg4NDcsMjY2ODQ3OTMzLC0yMzAxNjkw
+OTMsNTAzMTM1MzEwLC05NTU0ODE4MzMsNzE0ODY2NTIsOTk4Nz
+U4NTY0LDk2NTIwOTU4NywtMTMyMjk3NDMwMSwxNjYxNDAyNDk4
 XX0=
 -->
