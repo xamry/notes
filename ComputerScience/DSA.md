@@ -742,18 +742,28 @@ We also have to make sure that last node is not pointing to the first node
 Time complexity: O(n)		Space complexity: O(1)	    
 
 # Stack
-Implementation options  
+### Implementation options  
 
  1. Array
  2. Linked List
-## 
+ 3. 
+### Common operations
+ 1. Create
+ 2. Push
+ 3. Pop
+ 4. Peek
+ 5. isEmpty
+ 6. isFull
+ 7. delete 
+
+  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjgwMzQ2MjEsMjEyNTQxNzExOCwtOT
-IxOTAxNjg1LDExODE2NjQ3NzQsLTMxNTE3Mzc3LC0xMjQ4MjA3
-OTEsMTQ3MjQ4MjM0NSwtMTc1NjI0MzA4MCwtMTgzOTkwODg2NS
-wyMDE1NzgwMjI4LDQ0NDU2NDUwOSwxNzY2MjI0NzE2LDEwMjI5
-Mzg4NDcsMjY2ODQ3OTMzLC0yMzAxNjkwOTMsNTAzMTM1MzEwLC
-05NTU0ODE4MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2NTIwOTU4
-N119
+eyJoaXN0b3J5IjpbMTc5NzEzMTY4LDIxMjU0MTcxMTgsLTkyMT
+kwMTY4NSwxMTgxNjY0Nzc0LC0zMTUxNzM3NywtMTI0ODIwNzkx
+LDE0NzI0ODIzNDUsLTE3NTYyNDMwODAsLTE4Mzk5MDg4NjUsMj
+AxNTc4MDIyOCw0NDQ1NjQ1MDksMTc2NjIyNDcxNiwxMDIyOTM4
+ODQ3LDI2Njg0NzkzMywtMjMwMTY5MDkzLDUwMzEzNTMxMCwtOT
+U1NDgxODMzLDcxNDg2NjUyLDk5ODc1ODU2NCw5NjUyMDk1ODdd
+fQ==
 -->
