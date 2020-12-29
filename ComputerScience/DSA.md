@@ -733,19 +733,18 @@ Due to cyclic dependencies between adjoining nodes, just setting head and tail t
 
     deleteLinkedList(head, tail)
 	    loop (tmp: head to tail)
-		    tmp.pre 
-    deleteLinkedList(head, tail)
-	    head= NULL
-	    head = tail  = NULL
+		    tmp.prev = NULL
+    	    head= NULL
+	head = tail  = NULL
 	    
 Time complexity: O(n1)		Space complexity: O(1)	    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTE3Mzc3LC0xMjQ4MjA3OTEsMTQ3Mj
-Q4MjM0NSwtMTc1NjI0MzA4MCwtMTgzOTkwODg2NSwyMDE1Nzgw
-MjI4LDQ0NDU2NDUwOSwxNzY2MjI0NzE2LDEwMjI5Mzg4NDcsMj
-Y2ODQ3OTMzLC0yMzAxNjkwOTMsNTAzMTM1MzEwLC05NTU0ODE4
-MzMsNzE0ODY2NTIsOTk4NzU4NTY0LDk2NTIwOTU4NywtMTMyMj
-k3NDMwMSwxNjYxNDAyNDk4LDIyNDk4NzU4NCwtNTUxNjY0NDM4
+eyJoaXN0b3J5IjpbMTE4MTY2NDc3NCwtMzE1MTczNzcsLTEyND
+gyMDc5MSwxNDcyNDgyMzQ1LC0xNzU2MjQzMDgwLC0xODM5OTA4
+ODY1LDIwMTU3ODAyMjgsNDQ0NTY0NTA5LDE3NjYyMjQ3MTYsMT
+AyMjkzODg0NywyNjY4NDc5MzMsLTIzMDE2OTA5Myw1MDMxMzUz
+MTAsLTk1NTQ4MTgzMyw3MTQ4NjY1Miw5OTg3NTg1NjQsOTY1Mj
+A5NTg3LC0xMzIyOTc0MzAxLDE2NjE0MDI0OTgsMjI0OTg3NTg0
 XX0=
 -->
