@@ -3,7 +3,11 @@
 2. Twitter TL + Search/FB TL + Search
 3. Web Crawler
 4. Mint.com
-5. De
+5. Design a data structure for social network
+6. Design a key-value store for search engine
+7. Design Amazon's sales ranking by category feature
+8. Design a system that scales to millions of users on AWS
+9. 
 ## Distributed Transaction
 (https://www.youtube.com/watch?v=S4FnmSeRpAY)  
 
@@ -25,7 +29,7 @@ Sequential events + Local transaction = Isolation
 ## Load Balancing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzc1Mjk4MiwtMTk2ODc4NTg4MywtMT
+eyJoaXN0b3J5IjpbMTQzMjc0NDcxMywtMTk2ODc4NTg4MywtMT
 Q3MzM4ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkzMjAw
 NzUyLC05ODIwMjc3OTZdfQ==
 -->
