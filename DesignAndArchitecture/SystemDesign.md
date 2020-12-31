@@ -1,3 +1,6 @@
+## Use Cases
+1. Pastebin/ URL shotener
+2. Twitter TL + Search/
 ## Distributed Transaction
 (https://www.youtube.com/watch?v=S4FnmSeRpAY)  
 
@@ -19,7 +22,7 @@ Sequential events + Local transaction = Isolation
 ## Load Balancing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg3ODU4ODMsLTE0NzMzODg0NzgsMT
-Y0ODQzMjU1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3
-Nzk2XX0=
+eyJoaXN0b3J5IjpbNzMwMDA1Mjk5LC0xOTY4Nzg1ODgzLC0xND
+czMzg4NDc4LDE2NDg0MzI1NTksLTEyNzQ3NjcwMCwtOTMyMDA3
+NTIsLTk4MjAyNzc5Nl19
 -->
