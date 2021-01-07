@@ -28,22 +28,23 @@ Scrum is a **lightweight**, **agile** project management **framework**.
 ## Scrum Teams 
 Scrum Teams are **self-organizing** and **cross-functional**. They consist of:
 
-- Product Owner  
-- Development team  
-- Scrum master  
+ - Product Owner   
+ - Development team   
+ - Scrum master
 
-### Product Owner (One person)
-- Responsible for maximizing the value of product
-- Manages product backlog
-- May delegate some work to dev team, but is accountable.
+### Product Owner
+(Product owner is one person)
+
+ - Responsible for maximizing the value of product 
+ - Manages product backlog 
+ - May delegate some work to dev team, but is accountable.
 
 ### Development Team
-- Self organizing
-- cross-functional
-- No title
-- No sub-teams
-- Collective accountability despite having individual specialized skills
-- Size: 3-9
+
+ - Self organizing 
+ - cross-functional 
+ - No title No sub-teams Collective
+   accountability despite having individual specialized skills Size: 3-9
 
 ### Scrum Master
 - Responsible for promoting and supporting scrum as defined in scrum guide
@@ -119,6 +120,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTkyMDk0NywtNDY3MzM5OTY0LC03Mz
-QwNzI5NTZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTM1NTU1NjIsLTQ2NzMzOTk2NCwtNz
+M0MDcyOTU2XX0=
 -->
