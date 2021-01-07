@@ -1,5 +1,5 @@
 # Introduction
-Scrum employs an iterative, incremental approach to optimize predictability and control risk.
+Scrum employs an **iterative**, **incremental** approach to optimize **predictability** and **control risk**.
 Scrum is a **lightweight agile** project management **framework**.
 
 ## 3 Pillars of Scrum
@@ -114,6 +114,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDExNjk1MSwtNDY3MzM5OTY0LC03Mz
-QwNzI5NTZdfQ==
+eyJoaXN0b3J5IjpbNjA5NDI1NDQ5LC00NjczMzk5NjQsLTczND
+A3Mjk1Nl19
 -->
