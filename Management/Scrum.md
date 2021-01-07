@@ -40,25 +40,18 @@ Scrum is a **lightweight agile** project management **framework**.
 - Collective accountability despite having individual specialized skills
 - Size: 3-9
 
-Scrum Master
----------------
+### Scrum Master
 - Responsible for promoting and supporting scrum as defined in scrum guide
 
-Scrum Events
---------------
-* Minimizes need for other meetings
-* time-boxed
-
+## Scrum Events
+(Minimizes need for other meetings, time-boxed)
 
 - Sprint planning (Max 8 hours for 1 month sprint)
 - Daily scrum
 - Sprint review
 - Sprint retrospective
 
-
-
-Sprint Planning
------------------
+### Sprint Planning
 - WHAT can be done in this sprint
 - HOW will the chosen work get done.
 
@@ -131,6 +124,6 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTAyMzc1NCwtNDY3MzM5OTY0LC03Mz
+eyJoaXN0b3J5IjpbMTk5Mzg1NDQ2NSwtNDY3MzM5OTY0LC03Mz
 QwNzI5NTZdfQ==
 -->
