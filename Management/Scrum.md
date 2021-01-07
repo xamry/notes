@@ -2,12 +2,6 @@
 Scrum employs an iterative, incremental approach to optimize predictability and control risk.
 Scrum is a **lightweight agile** project management **framework**.
 
-## Scrum consists of:
-- Scrum teams and their associated roles
-- Events
-- Artifacts
-- Rules
-
 ## 3 Pillars of Scrum
 
  - Transparency
@@ -21,8 +15,17 @@ Scrum is a **lightweight agile** project management **framework**.
 - Openness
 - Respect
 
+# Scrum consists of:
+- Scrum teams and their associated roles
+- Events
+- Artifacts
+- Rules
+
+
+
+
 ## Scrum Teams 
-(Scrum Teams are self-organizing and cross-functional)
+(Scrum Teams are **self-organizing** and **cross-functional**)
 - Product Owner  
 - Development team  
 - Scrum master  
@@ -133,5 +136,6 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzMzOTk2NCwtNzM0MDcyOTU2XX0=
+eyJoaXN0b3J5IjpbNzg5NDg1MzgzLC00NjczMzk5NjQsLTczND
+A3Mjk1Nl19
 -->
