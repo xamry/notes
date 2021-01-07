@@ -43,29 +43,35 @@ Scrum Teams are **self-organizing** and **cross-functional**. They consist of:
 
  - Self organizing 
  - cross-functional 
- - No title No sub-teams Collective
-   accountability despite having individual specialized skills Size: 3-9
+ - No title 
+ - No sub-teams 
+ - Collective accountability despite having individual specialized skills 
+ - Size: 3-9
 
 ### Scrum Master
-- Responsible for promoting and supporting scrum as defined in scrum guide
+
+ - Responsible for promoting and supporting scrum as defined in scrum
+   guide
 
 ## Scrum Events
 (Minimizes need for other meetings, time-boxed)
-- Sprint planning (Max 8 hours for 1 month sprint)
-- Daily scrum
-- Sprint review
-- Sprint retrospective
+
+ - Sprint planning (Max 8 hours for 1 month sprint) 
+ - Daily scrum 
+ - Sprint review 
+ - Sprint retrospective
 
 ### Sprint Planning
-- WHAT can be done in this sprint
-- HOW will the chosen work get done.
 
-input
+ - WHAT can be done in this sprint 
+ - HOW will the chosen work get done.
+
+Input
 	-> Product backlog
 	-> Latest product increment
 	-> Projected capacity of development team during print
 	-> Past performance of dev team
-output
+Output
 	-> Sprint goal
 	-> Sprint backlog (items from product backlog + plan to execute them)
 
@@ -120,6 +126,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM1NTU1NjIsLTQ2NzMzOTk2NCwtNz
+eyJoaXN0b3J5IjpbLTE1Mzc5NjU2MzcsLTQ2NzMzOTk2NCwtNz
 M0MDcyOTU2XX0=
 -->
