@@ -1,6 +1,6 @@
 # Introduction
 Scrum employs an iterative, incremental approach to optimize predictability and control risk.
-Scrum is a lightweight agile project management framework.
+Scrum is a **lightweight agile** project management **framework**.
 
 ## Scrum consists of:
 - Scrum teams and their associated roles
@@ -133,5 +133,5 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDA3Mjk1Nl19
+eyJoaXN0b3J5IjpbMTYwMjU0ODYxMiwtNzM0MDcyOTU2XX0=
 -->
