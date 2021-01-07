@@ -64,16 +64,13 @@ output
 	-> Sprint backlog (items from product backlog + plan to execute them)
 
 ### Daily Scrum
----------------------
 - 15 minute
 - Inspection of progress 
 - Only dev team participates
 - improves communication
 - Eliminates other meetings
 
-
-Sprint Review
--------------------
+### Sprint Review
 - Held at the end of sprint
 - Informal meeting, not a status meeting
 - Inspects the increment and adapts product backlog
@@ -81,17 +78,14 @@ Sprint Review
 - Key-stakeholders are invited by product owner.
 - Output -> Revised product backlog.
 
-
-Sprint Retrospective
----------------------------
-- Sprint team inspects itselfs for improvement, to adapt in upcoming sprints.
+#### Sprint Retrospective
+- Sprint team inspects itself for improvement, to adapt in upcoming sprints.
 - After Sprint review, before next sprint planning
 - At most 3 hour long for 1 month sprint
 - What went well, what can be improved.
 - Create plan for improvements
 
-Scrum Artifacts
----------------------
+## Scrum Artifacts
 - Product Backlog
 - Sprint Backlog
 - Increment
@@ -123,6 +117,6 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODI0NzM3NywtNDY3MzM5OTY0LC03Mz
+eyJoaXN0b3J5IjpbLTY4NDAzOTQ1MSwtNDY3MzM5OTY0LC03Mz
 QwNzI5NTZdfQ==
 -->
