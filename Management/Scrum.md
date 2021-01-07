@@ -94,16 +94,16 @@ Output
 
 #### Sprint Retrospective
 
-- Sprint team inspects itself for improvement, to adapt in upcoming sprints.
-- After Sprint review, before next sprint planning
-- At most 3 hour long for 1 month sprint
-- What went well, what can be improved.
-- Create plan for improvements
+ - Sprint team inspects itself for improvement, to adapt in upcoming
+   sprints.
+ - After Sprint review, before next sprint planning
+ - At most 3 hour long for 1 month sprint
+ - What went well, what can be improved.
+ - Create plan for improvements
 
 ## Scrum Artifacts
-- Product Backlog
-- Sprint Backlog
-- Increment
+
+ - Product Backlog Sprint Backlog Increment
 
 Sprint burndown?
 
@@ -129,6 +129,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MjE4OTc1LC00NjczMzk5NjQsLTczND
-A3Mjk1Nl19
+eyJoaXN0b3J5IjpbLTE5Njk1NDYxNDMsLTQ2NzMzOTk2NCwtNz
+M0MDcyOTU2XX0=
 -->
