@@ -85,14 +85,15 @@ Output
 
 ### Sprint Review
 
-- Held at the end of sprint
-- Informal meeting, not a status meeting
-- Inspects the increment and adapts product backlog
-- At most 4-hour for 1-month Sprint
-- Key-stakeholders are invited by product owner.
-- Output -> Revised product backlog.
+ - Held at the end of sprint 
+ - Informal meeting, not a status meeting   
+ - Inspects the increment and adapts product backlog 
+ - At most 4-hour for 1-month Sprint 
+ - Key-stakeholders are invited by product owner. 
+ - Output -> Revised product backlog.
 
 #### Sprint Retrospective
+
 - Sprint team inspects itself for improvement, to adapt in upcoming sprints.
 - After Sprint review, before next sprint planning
 - At most 3 hour long for 1 month sprint
@@ -128,6 +129,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTk3ODI5NywtNDY3MzM5OTY0LC03Mz
-QwNzI5NTZdfQ==
+eyJoaXN0b3J5IjpbMjI5MjE4OTc1LC00NjczMzk5NjQsLTczND
+A3Mjk1Nl19
 -->
