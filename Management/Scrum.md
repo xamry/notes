@@ -16,7 +16,7 @@ Scrum is a **lightweight agile** project management **framework**.
 - Respect
 
 # Parts of Scrum
-- Scrum teams and their associated roles
+- Scrum teams (and their associated roles)
 - Events
 - Artifacts
 - Rules
@@ -45,7 +45,6 @@ Scrum is a **lightweight agile** project management **framework**.
 
 ## Scrum Events
 (Minimizes need for other meetings, time-boxed)
-
 - Sprint planning (Max 8 hours for 1 month sprint)
 - Daily scrum
 - Sprint review
@@ -64,7 +63,7 @@ output
 	-> Sprint goal
 	-> Sprint backlog (items from product backlog + plan to execute them)
 
-Daily Scrum
+### Daily Scrum
 ---------------------
 - 15 minute
 - Inspection of progress 
@@ -124,6 +123,6 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Mzg1NDQ2NSwtNDY3MzM5OTY0LC03Mz
+eyJoaXN0b3J5IjpbLTMyODI0NzM3NywtNDY3MzM5OTY0LC03Mz
 QwNzI5NTZdfQ==
 -->
