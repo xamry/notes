@@ -6,26 +6,27 @@ Scrum is a **lightweight**, **agile** project management **framework**.
 
 ## 3 Pillars of Scrum
 
- - Transparency
- - Inspection
+ - Transparency 
+ - Inspection 
  - Adaptation
 
 ## Scrum Values
 
-- commitment
-- courage
-- Focus
-- Openness
-- Respect
+ - commitment 
+ - courage 
+ - Focus 
+ - Openness 
+ - Respect
 
 # Parts of Scrum
-- Scrum teams (and their associated roles)
-- Events
-- Artifacts
-- Rules
+
+ - Scrum teams (and their associated roles) 
+ - Events 
+ - Artifacts 
+ - Rules
 
 ## Scrum Teams 
-Scrum Teams are **self-organizing** and **cross-functional**. They con
+Scrum Teams are **self-organizing** and **cross-functional**. They consist of:
 
 - Product Owner  
 - Development team  
@@ -118,6 +119,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTc0ODc2MywtNDY3MzM5OTY0LC03Mz
+eyJoaXN0b3J5IjpbMjAzNTkyMDk0NywtNDY3MzM5OTY0LC03Mz
 QwNzI5NTZdfQ==
 -->
