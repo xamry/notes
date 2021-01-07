@@ -1,6 +1,8 @@
 # Introduction
 Scrum employs an **iterative**, **incremental** approach to optimize **predictability** and **control risk**.
-Scrum is a **lightweight agile** project management **framework**.
+Scrum is a **lightweight**, **agile** project management **framework**.
+
+(Scrum is not a process, but a process framework)
 
 ## 3 Pillars of Scrum
 
@@ -9,6 +11,7 @@ Scrum is a **lightweight agile** project management **framework**.
  - Adaptation
 
 ## Scrum Values
+
 - commitment
 - courage
 - Focus
@@ -22,7 +25,8 @@ Scrum is a **lightweight agile** project management **framework**.
 - Rules
 
 ## Scrum Teams 
-(Scrum Teams are **self-organizing** and **cross-functional**)
+Scrum Teams are **self-organizing** and **cross-functional**. They con
+
 - Product Owner  
 - Development team  
 - Scrum master  
@@ -114,6 +118,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NDI1NDQ5LC00NjczMzk5NjQsLTczND
-A3Mjk1Nl19
+eyJoaXN0b3J5IjpbMTk3OTc0ODc2MywtNDY3MzM5OTY0LC03Mz
+QwNzI5NTZdfQ==
 -->
