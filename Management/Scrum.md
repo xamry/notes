@@ -128,10 +128,11 @@ Sprint burndown?
 
 ### Increment
 
- - Must be "done", inspectable, useable all items completed during the
+ - Must be "done", inspectable, useable 
+ - all items completed during the
    sprint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mzc2MTg1MiwtNzUyMDA2OTc3LC00Nj
+eyJoaXN0b3J5IjpbLTc2MTEwMTgwNywtNzUyMDA2OTc3LC00Nj
 czMzk5NjQsLTczNDA3Mjk1Nl19
 -->
