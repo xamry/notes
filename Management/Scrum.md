@@ -103,17 +103,21 @@ Output
 
 ## Scrum Artifacts
 
- - Product Backlog Sprint Backlog Increment
+ - Product Backlog 
+ - Sprint Backlog 
+ - Increment
 
 Sprint burndown?
 
 ### Product Backlog
-- Product Owner is responsible (including its content, availability and ordering)
-- Never complete, always evolving. Dynamic
-- Attributes of items: Description, order, estimate, value.
-- Higher order items have more clarity and details.
-- Items that can be done in one sprint are called "Ready for selection"
-- Dev team responsible for estimates
+
+ - Product Owner is responsible (including its content, availability and
+   ordering).   
+ - Never complete, always evolving. Dynamic.
+ - Attributes of items: Description, order, estimate, value. 
+ - Higher order items have more clarity and details. 
+ - Items that can be done in one sprint are called "Ready for selection". 
+ - Dev team responsible for estimates.
 
 ### Sprint Backlog
 - Items from product backlog selected for sprint + plan for delivering the sprint goal.
@@ -129,6 +133,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk1NDYxNDMsLTQ2NzMzOTk2NCwtNz
-M0MDcyOTU2XX0=
+eyJoaXN0b3J5IjpbLTc1MjAwNjk3NywtNDY3MzM5OTY0LC03Mz
+QwNzI5NTZdfQ==
 -->
