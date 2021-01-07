@@ -15,14 +15,11 @@ Scrum is a **lightweight agile** project management **framework**.
 - Openness
 - Respect
 
-# Scrum consists of:
+# Parts of Scrum
 - Scrum teams and their associated roles
 - Events
 - Artifacts
 - Rules
-
-
-
 
 ## Scrum Teams 
 (Scrum Teams are **self-organizing** and **cross-functional**)
@@ -30,14 +27,12 @@ Scrum is a **lightweight agile** project management **framework**.
 - Development team  
 - Scrum master  
 
-Product Owner (One person)
--------------
+### Product Owner (One person)
 - Responsible for maximizing the value of product
 - Manages product backlog
 - May delegate some work to dev team, but is accountable.
 
-Development Team
-----------------
+### Development Team
 - Self organizing
 - cross-functional
 - No title
@@ -136,6 +131,6 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5NDg1MzgzLC00NjczMzk5NjQsLTczND
-A3Mjk1Nl19
+eyJoaXN0b3J5IjpbLTI2NTAyMzc1NCwtNDY3MzM5OTY0LC03Mz
+QwNzI5NTZdfQ==
 -->
