@@ -70,7 +70,7 @@ We discuss two things in the Sprint Planning:
 Input
 	-> Product backlog
 	-> Latest product increment
-	-> Projected capacity of development team during print
+	-> Projected capacity of development team during sprint
 	-> Past performance of dev team
 Output
 	-> Sprint goal
@@ -134,6 +134,6 @@ Sprint burndown?
    sprint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjMwMTMwNSwtNzUyMDA2OTc3LC00Nj
-czMzk5NjQsLTczNDA3Mjk1Nl19
+eyJoaXN0b3J5IjpbNzM2MTY5NjA0LC03NTIwMDY5NzcsLTQ2Nz
+MzOTk2NCwtNzM0MDcyOTU2XX0=
 -->
