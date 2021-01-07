@@ -62,6 +62,7 @@ Scrum Teams are **self-organizing** and **cross-functional**. They consist of:
  - Sprint retrospective
 
 ### Sprint Planning
+We discuss two things in the Sprint Planning:
 
  - WHAT can be done in this sprint 
  - HOW will the chosen work get done.
@@ -133,6 +134,6 @@ Sprint burndown?
    sprint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTEwMTgwNywtNzUyMDA2OTc3LC00Nj
+eyJoaXN0b3J5IjpbLTc4NjMwMTMwNSwtNzUyMDA2OTc3LC00Nj
 czMzk5NjQsLTczNDA3Mjk1Nl19
 -->
