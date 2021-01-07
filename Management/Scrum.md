@@ -76,13 +76,15 @@ Output
 	-> Sprint backlog (items from product backlog + plan to execute them)
 
 ### Daily Scrum
-- 15 minute
-- Inspection of progress 
-- Only dev team participates
-- improves communication
-- Eliminates other meetings
+
+ - 15 minute 
+ - Inspection of progress  
+ - Only dev team participates 
+ - improves communication 
+ - Eliminates other meetings
 
 ### Sprint Review
+
 - Held at the end of sprint
 - Informal meeting, not a status meeting
 - Inspects the increment and adapts product backlog
@@ -126,6 +128,6 @@ Sprint burndown?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc5NjU2MzcsLTQ2NzMzOTk2NCwtNz
-M0MDcyOTU2XX0=
+eyJoaXN0b3J5IjpbMTM4OTk3ODI5NywtNDY3MzM5OTY0LC03Mz
+QwNzI5NTZdfQ==
 -->
