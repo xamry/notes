@@ -92,8 +92,7 @@ output
 
 Sprint burndown?
 
-Product Backlog
--------------------
+### Product Backlog
 - Product Owner is responsible (including its content, availability and ordering)
 - Never complete, always evolving. Dynamic
 - Attributes of items: Description, order, estimate, value.
@@ -101,14 +100,12 @@ Product Backlog
 - Items that can be done in one sprint are called "Ready for selection"
 - Dev team responsible for estimates
 
-Sprint Backlog
--------------------
+### Sprint Backlog
 - Items from product backlog selected for sprint + plan for delivering the sprint goal.
 - Should include at least one high priority process improvement item identified in previous retrospective.
 - Continually evolving, Only dev teams can change it during sprint.
 
-Increment
------------------
+### Increment
 - Must be "done", inspectable, useable
 - all items completed during the sprint
 
@@ -117,6 +114,6 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDAzOTQ1MSwtNDY3MzM5OTY0LC03Mz
+eyJoaXN0b3J5IjpbLTk1NDExNjk1MSwtNDY3MzM5OTY0LC03Mz
 QwNzI5NTZdfQ==
 -->
