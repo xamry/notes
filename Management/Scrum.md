@@ -120,19 +120,18 @@ Sprint burndown?
  - Dev team responsible for estimates.
 
 ### Sprint Backlog
-- Items from product backlog selected for sprint + plan for delivering the sprint goal.
-- Should include at least one high priority process improvement item identified in previous retrospective.
-- Continually evolving, Only dev teams can change it during sprint.
+
+ - Items from product backlog selected for sprint + plan for delivering
+   the sprint goal.    
+ - Should include at least one high priority process improvement item identified in previous retrospective.
+ - Continually evolving, Only dev teams can change it during sprint.
 
 ### Increment
-- Must be "done", inspectable, useable
-- all items completed during the sprint
 
-
-
-
+ - Must be "done", inspectable, useable all items completed during the
+   sprint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjAwNjk3NywtNDY3MzM5OTY0LC03Mz
-QwNzI5NTZdfQ==
+eyJoaXN0b3J5IjpbMTQ1Mzc2MTg1MiwtNzUyMDA2OTc3LC00Nj
+czMzk5NjQsLTczNDA3Mjk1Nl19
 -->
