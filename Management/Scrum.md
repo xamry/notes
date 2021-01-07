@@ -11,8 +11,8 @@ Scrum is a **lightweight agile** project management **framework**.
 ## 3 Pillars of Scrum
 
  - Transparency
-   - Inspection
-   - Adaptation
+ - Inspection
+ - Adaptation
 
 ## Scrum Values
 - commitment
@@ -133,5 +133,5 @@ Increment
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjU0ODYxMiwtNzM0MDcyOTU2XX0=
+eyJoaXN0b3J5IjpbLTQ2NzMzOTk2NCwtNzM0MDcyOTU2XX0=
 -->
