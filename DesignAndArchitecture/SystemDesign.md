@@ -45,9 +45,19 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  - Buddy replication
 
 ## Scalability Patterns
+ - State
+	 - Partitioning
+	 - HTTP Caching
+	 - RDBMS Sharding
+	 - NOSQL
+	 - Distributed caching
+	 - Data Grids
+	 - Concurrency
+ - Behavioral
+ 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDIwNjg4MCwxMjkzNjAzMjUwLDEyND
+eyJoaXN0b3J5IjpbLTYzNTAzMjI5MywxMjkzNjAzMjUwLDEyND
 I1NDYxODIsMTQzMjc0NDcxMywtMTk2ODc4NTg4MywtMTQ3MzM4
 ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkzMjAwNzUyLC
 05ODIwMjc3OTZdfQ==
