@@ -45,9 +45,10 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  - Buddy replication
 
 ## Scalability Patterns
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0Mz
-I3NDQ3MTMsLTE5Njg3ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQz
-MjU1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX
-0=
+eyJoaXN0b3J5IjpbLTM1NDIwNjg4MCwxMjkzNjAzMjUwLDEyND
+I1NDYxODIsMTQzMjc0NDcxMywtMTk2ODc4NTg4MywtMTQ3MzM4
+ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkzMjAwNzUyLC
+05ODIwMjc3OTZdfQ==
 -->
