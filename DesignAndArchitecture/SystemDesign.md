@@ -54,7 +54,7 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 		 - Replication
 	 - NOSQL
 		 BASE, Distributed Hash tables (DHT), Node ring with consistent hashing, 
-	 - Distributed caching (EHCache, 
+	 - Distributed caching (EHCache, memcached, redis)
 		 - Write-through
 		 - Write-behind
 		 - Eviction policies (TTL, FIFI, LIFO, Invalidate)
@@ -66,10 +66,10 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDcwMzU1MjQsLTE5MDExNDMxMjMsMT
-kzODUyMzIyNiwtOTc5OTA1MzM0LDE4MTA3MzIwNjYsLTE2NTUy
-NjU2OCwtMTYxNzE2MzQ4MCwtNjM1MDMyMjkzLDEyOTM2MDMyNT
-AsMTI0MjU0NjE4MiwxNDMyNzQ0NzEzLC0xOTY4Nzg1ODgzLC0x
-NDczMzg4NDc4LDE2NDg0MzI1NTksLTEyNzQ3NjcwMCwtOTMyMD
-A3NTIsLTk4MjAyNzc5Nl19
+eyJoaXN0b3J5IjpbMTUyMDU3MDE0NSwtMTkwMTE0MzEyMywxOT
+M4NTIzMjI2LC05Nzk5MDUzMzQsMTgxMDczMjA2NiwtMTY1NTI2
+NTY4LC0xNjE3MTYzNDgwLC02MzUwMzIyOTMsMTI5MzYwMzI1MC
+wxMjQyNTQ2MTgyLDE0MzI3NDQ3MTMsLTE5Njg3ODU4ODMsLTE0
+NzMzODg0NzgsMTY0ODQzMjU1OSwtMTI3NDc2NzAwLC05MzIwMD
+c1MiwtOTgyMDI3Nzk2XX0=
 -->
