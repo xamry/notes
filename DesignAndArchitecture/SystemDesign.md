@@ -53,7 +53,7 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 		 - Partitioning
 		 - Replication
 	 - NOSQL
-		 - 
+		 BASE, Distributed Hash tables (DHT), Node ring with consistent hashing, 
 	 - Distributed caching
 	 - Data Grids
 	 - Concurrency
@@ -61,9 +61,9 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDM2NDA1LC05Nzk5MDUzMzQsMTgxMD
-czMjA2NiwtMTY1NTI2NTY4LC0xNjE3MTYzNDgwLC02MzUwMzIy
-OTMsMTI5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0MzI3NDQ3MTMsLT
-E5Njg3ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQzMjU1OSwtMTI3
-NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
+eyJoaXN0b3J5IjpbMTkzODUyMzIyNiwtOTc5OTA1MzM0LDE4MT
+A3MzIwNjYsLTE2NTUyNjU2OCwtMTYxNzE2MzQ4MCwtNjM1MDMy
+MjkzLDEyOTM2MDMyNTAsMTI0MjU0NjE4MiwxNDMyNzQ0NzEzLC
+0xOTY4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NTksLTEy
+NzQ3NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
 -->
