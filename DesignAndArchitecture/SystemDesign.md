@@ -53,6 +53,7 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 		 - Partitioning
 		 - Replication
 	 - NOSQL
+		 - 
 	 - Distributed caching
 	 - Data Grids
 	 - Concurrency
@@ -60,9 +61,9 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTkwNTMzNCwxODEwNzMyMDY2LC0xNj
-U1MjY1NjgsLTE2MTcxNjM0ODAsLTYzNTAzMjI5MywxMjkzNjAz
-MjUwLDEyNDI1NDYxODIsMTQzMjc0NDcxMywtMTk2ODc4NTg4My
-wtMTQ3MzM4ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkz
-MjAwNzUyLC05ODIwMjc3OTZdfQ==
+eyJoaXN0b3J5IjpbMTQ2MDM2NDA1LC05Nzk5MDUzMzQsMTgxMD
+czMjA2NiwtMTY1NTI2NTY4LC0xNjE3MTYzNDgwLC02MzUwMzIy
+OTMsMTI5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0MzI3NDQ3MTMsLT
+E5Njg3ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQzMjU1OSwtMTI3
+NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
 -->
