@@ -61,13 +61,14 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 		 - Replication
 		 - P2P
 	 - Data Grids (Coherence, Terracotta, GemStone etc)
-		 - Replication, partitioning, 
+		 - Replication, partitioning, continuous availability, invalidation, fail-over, C+P)
 	 - Concurrency
+		 - Shared-state 
  - Behavioral
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTY0Njc1MiwxNTIwNTcwMTQ1LC0xOT
+eyJoaXN0b3J5IjpbLTcxMzUyMTM4OCwxNTIwNTcwMTQ1LC0xOT
 AxMTQzMTIzLDE5Mzg1MjMyMjYsLTk3OTkwNTMzNCwxODEwNzMy
 MDY2LC0xNjU1MjY1NjgsLTE2MTcxNjM0ODAsLTYzNTAzMjI5My
 wxMjkzNjAzMjUwLDEyNDI1NDYxODIsMTQzMjc0NDcxMywtMTk2
