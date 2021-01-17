@@ -28,8 +28,13 @@ Sequential events + Local transaction = Isolation
 
 ## Load Balancing
 
+## Availability Patterns
+### Failover
+### Replication
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjc0NDcxMywtMTk2ODc4NTg4MywtMT
-Q3MzM4ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkzMjAw
-NzUyLC05ODIwMjc3OTZdfQ==
+eyJoaXN0b3J5IjpbLTg4ODEwMDI1MSwxNDMyNzQ0NzEzLC0xOT
+Y4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NTksLTEyNzQ3
+NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
 -->
