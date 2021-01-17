@@ -49,7 +49,7 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 	 - Partitioning
 	 - HTTP Caching
 		 (Reverse proxy, CDN, Generate pre-computed static content) 
-	 - RDBMS Sharding
+	 - RDBMS Sharding	
 		 - Partitioning
 		 - Replication
 	 - NOSQL
@@ -60,9 +60,9 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDczMjA2NiwtMTY1NTI2NTY4LC0xNj
-E3MTYzNDgwLC02MzUwMzIyOTMsMTI5MzYwMzI1MCwxMjQyNTQ2
-MTgyLDE0MzI3NDQ3MTMsLTE5Njg3ODU4ODMsLTE0NzMzODg0Nz
-gsMTY0ODQzMjU1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgy
-MDI3Nzk2XX0=
+eyJoaXN0b3J5IjpbLTk3OTkwNTMzNCwxODEwNzMyMDY2LC0xNj
+U1MjY1NjgsLTE2MTcxNjM0ODAsLTYzNTAzMjI5MywxMjkzNjAz
+MjUwLDEyNDI1NDYxODIsMTQzMjc0NDcxMywtMTk2ODc4NTg4My
+wtMTQ3MzM4ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkz
+MjAwNzUyLC05ODIwMjc3OTZdfQ==
 -->
