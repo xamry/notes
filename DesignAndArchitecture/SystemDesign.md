@@ -30,6 +30,7 @@ Sequential events + Local transaction = Isolation
 
 # Scalability, Availability and Stability Patterns
 https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/18-How_do_I_know_if
+
 ## Scalability Tradeoffs
  - Performance Vs Scalability
  - Latency Vs Throughput
@@ -43,10 +44,10 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  - Master-master
  - Buddy replication
 
-##
+## Scalability Patterns
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzIyNTIwOTYsMTI0MjU0NjE4MiwxND
-MyNzQ0NzEzLC0xOTY4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0
-MzI1NTksLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl
-19
+eyJoaXN0b3J5IjpbMTI5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0Mz
+I3NDQ3MTMsLTE5Njg3ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQz
+MjU1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX
+0=
 -->
