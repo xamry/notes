@@ -55,15 +55,21 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 	 - NOSQL
 		 BASE, Distributed Hash tables (DHT), Node ring with consistent hashing, 
 	 - Distributed caching
+		 - Write-through
+		 - Write-behind
+		 - Eviction policies
+		 - Replication
+		 - P2P
 	 - Data Grids
 	 - Concurrency
  - Behavioral
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODUyMzIyNiwtOTc5OTA1MzM0LDE4MT
-A3MzIwNjYsLTE2NTUyNjU2OCwtMTYxNzE2MzQ4MCwtNjM1MDMy
-MjkzLDEyOTM2MDMyNTAsMTI0MjU0NjE4MiwxNDMyNzQ0NzEzLC
-0xOTY4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NTksLTEy
-NzQ3NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
+eyJoaXN0b3J5IjpbLTE5MDExNDMxMjMsMTkzODUyMzIyNiwtOT
+c5OTA1MzM0LDE4MTA3MzIwNjYsLTE2NTUyNjU2OCwtMTYxNzE2
+MzQ4MCwtNjM1MDMyMjkzLDEyOTM2MDMyNTAsMTI0MjU0NjE4Mi
+wxNDMyNzQ0NzEzLC0xOTY4Nzg1ODgzLC0xNDczMzg4NDc4LDE2
+NDg0MzI1NTksLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4MjAyNz
+c5Nl19
 -->
