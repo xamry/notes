@@ -28,13 +28,18 @@ Sequential events + Local transaction = Isolation
 
 ## Load Balancing
 
+## Scalability 
+
 ## Availability Patterns
 ### Failover
 ### Replication
-
+ - Master-slave
+ - Tree replication
+ - Master-master
+ - Buddy replication
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODEwMDI1MSwxNDMyNzQ0NzEzLC0xOT
+eyJoaXN0b3J5IjpbLTYzMzc0NTIzNywxNDMyNzQ0NzEzLC0xOT
 Y4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NTksLTEyNzQ3
 NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
 -->
