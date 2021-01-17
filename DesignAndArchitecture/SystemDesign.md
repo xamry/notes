@@ -60,16 +60,17 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 		 - Eviction policies (TTL, FIFI, LIFO, Invalidate)
 		 - Replication
 		 - P2P
-	 - Data Grids
+	 - Data Grids (Coherence, Terracotta, GemStone etc)
+		 - Replication, partitioning, 
 	 - Concurrency
  - Behavioral
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDU3MDE0NSwtMTkwMTE0MzEyMywxOT
-M4NTIzMjI2LC05Nzk5MDUzMzQsMTgxMDczMjA2NiwtMTY1NTI2
-NTY4LC0xNjE3MTYzNDgwLC02MzUwMzIyOTMsMTI5MzYwMzI1MC
-wxMjQyNTQ2MTgyLDE0MzI3NDQ3MTMsLTE5Njg3ODU4ODMsLTE0
-NzMzODg0NzgsMTY0ODQzMjU1OSwtMTI3NDc2NzAwLC05MzIwMD
-c1MiwtOTgyMDI3Nzk2XX0=
+eyJoaXN0b3J5IjpbMjAyNTY0Njc1MiwxNTIwNTcwMTQ1LC0xOT
+AxMTQzMTIzLDE5Mzg1MjMyMjYsLTk3OTkwNTMzNCwxODEwNzMy
+MDY2LC0xNjU1MjY1NjgsLTE2MTcxNjM0ODAsLTYzNTAzMjI5My
+wxMjkzNjAzMjUwLDEyNDI1NDYxODIsMTQzMjc0NDcxMywtMTk2
+ODc4NTg4MywtMTQ3MzM4ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0Nz
+Y3MDAsLTkzMjAwNzUyLC05ODIwMjc3OTZdfQ==
 -->
