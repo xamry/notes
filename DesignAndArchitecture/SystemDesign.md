@@ -28,7 +28,11 @@ Sequential events + Local transaction = Isolation
 
 ## Load Balancing
 
-## Scalability 
+https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/18-How_do_I_know_if
+## Scalability Tradeoffs
+ - Performance Vs Scalability
+ - Latency Vs Throughput
+ - Availability Vs Consistency
 
 ## Availability Patterns
 ### Failover
@@ -39,7 +43,7 @@ Sequential events + Local transaction = Isolation
  - Buddy replication
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzc0NTIzNywxNDMyNzQ0NzEzLC0xOT
+eyJoaXN0b3J5IjpbMTI0MjU0NjE4MiwxNDMyNzQ0NzEzLC0xOT
 Y4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NTksLTEyNzQ3
 NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
 -->
