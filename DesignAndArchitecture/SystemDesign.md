@@ -63,15 +63,18 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
 	 - Data Grids (Coherence, Terracotta, GemStone etc)
 		 - Replication, partitioning, continuous availability, invalidation, fail-over, C+P)
 	 - Concurrency
-		 - Shared-state 
+		 - Shared-state concurrency
+		 - Message-passing concurrency
+		 - Dataflow concurrency
+		 - Software Transactional memory (STM)
  - Behavioral
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzUyMTM4OCwxNTIwNTcwMTQ1LC0xOT
-AxMTQzMTIzLDE5Mzg1MjMyMjYsLTk3OTkwNTMzNCwxODEwNzMy
-MDY2LC0xNjU1MjY1NjgsLTE2MTcxNjM0ODAsLTYzNTAzMjI5My
-wxMjkzNjAzMjUwLDEyNDI1NDYxODIsMTQzMjc0NDcxMywtMTk2
-ODc4NTg4MywtMTQ3MzM4ODQ3OCwxNjQ4NDMyNTU5LC0xMjc0Nz
-Y3MDAsLTkzMjAwNzUyLC05ODIwMjc3OTZdfQ==
+eyJoaXN0b3J5IjpbOTc0NTYwNTEsMTUyMDU3MDE0NSwtMTkwMT
+E0MzEyMywxOTM4NTIzMjI2LC05Nzk5MDUzMzQsMTgxMDczMjA2
+NiwtMTY1NTI2NTY4LC0xNjE3MTYzNDgwLC02MzUwMzIyOTMsMT
+I5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0MzI3NDQ3MTMsLTE5Njg3
+ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQzMjU1OSwtMTI3NDc2Nz
+AwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
 -->
