@@ -25,6 +25,7 @@ Generics allows you to parameterize classes, interfaces, and methods to provide 
     
 ## Enhanced for loop (for-each)
 It provides a concise way to iterate over arrays and collections without the need for explicit indexing or iterators.
+Syntax: for(data_type variable : array | collection)    
     
 ## Autoboxing and Unboxing
 Java 5 introduced autoboxing and unboxing, which provide automatic conversion between primitive types and their corresponding wrapper classes. This simplifies code by eliminating the need for manual conversion between primitives and their wrapper classes.
@@ -44,7 +45,7 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODM5NjEzLC0xNTkyNTU0NDUzLC0xMD
-k2NzU3MDk0LDE0ODY2ODkzMDEsLTU5MDgxMjE1NSwtNjY0NDQ2
-NjYwLC0xNjU2MTMzOTkzXX0=
+eyJoaXN0b3J5IjpbLTExODIwMjM0OTIsMjEyODM5NjEzLC0xNT
+kyNTU0NDUzLC0xMDk2NzU3MDk0LDE0ODY2ODkzMDEsLTU5MDgx
+MjE1NSwtNjY0NDQ2NjYwLC0xNjU2MTMzOTkzXX0=
 -->
