@@ -21,11 +21,11 @@ Method references allow you to refer to methods or constructors without invoking
 ## Functional Interfaces: 
 Java 8 introduced a set of functional interfaces, such as Predicate, Function, Consumer, and Supplier, in the java.util.function package. These interfaces provide common functional programming patterns and enable lambda expressions and method references.
     
-Parallel Streams:
+## Parallel Streams:
 Java 8 added the ability to easily parallelize operations on streams. By using parallel streams, developers can take advantage of multicore processors and distribute the workload across multiple threads to achieve better performance for computationally intensive tasks.
     
-CompletableFuture: 
+## CompletableFuture: 
 CompletableFuture is an enhanced version of the Future interface, providing better support for asynchronous programming. It allows chaining of dependent asynchronous tasks and provides methods for handling completion, exceptions, and combining multiple CompletableFuture instances.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MzkxOTYxLDIzMzUwMzA5M119
+eyJoaXN0b3J5IjpbMTkwMDEwODY5MSwyMzM1MDMwOTNdfQ==
 -->
