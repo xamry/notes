@@ -15,10 +15,10 @@ Multi-catch blocks allow you to catch multiple exceptions in a single catch bloc
 ## Binary Literals and Underscores in Numeric Literals
 We can specify binary literals using the prefix "0b" or "0B". Also, we can use underscores in numeric literals to improve readability. For example, you can write large numbers as 1_000_000 instead of 1000000.
 
-## Fork/Join Framework*
+## Fork/Join Framework**
 Ths framework provides support for parallel programming by allowing efficient task decomposition and work distribution across multiple processor cores.
 
-## New file system API (NIO 2.0)
+## New file system API (NIO 2.0)*
 
 ### Working with Path
 A new `java.nio.file` package consists of classes and interfaces such as `Path`, `Paths`, `FileSystem`, `FileSystems` and others.
@@ -26,6 +26,6 @@ A new `java.nio.file` package consists of classes and interfaces such as `Path`,
 ### File change notifications
 The `WatchService` API lets you receive notification events upon changes to the subject (directory or file)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDIzNTIyMSwxMzM3OTg4MDUwLC0xMT
-Q4NTEwMzUyXX0=
+eyJoaXN0b3J5IjpbLTE1NjY4MzYwMDUsMTMzNzk4ODA1MCwtMT
+E0ODUxMDM1Ml19
 -->
