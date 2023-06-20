@@ -54,12 +54,12 @@ Java 5 introduced the java.nio package, which provides enhanced I/O capabilities
 
 ## Static import
 Static import feature allows accessing any static member of a class directly. There is no need to qualify it by the class name. As a result, less coding is required if you have to access any static member of a class often.
-Example: import  static java.lang.System.*;
+Example: `import  static java.lang.System.*;`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMTUzNDkzLC0xNTUxOTk4Mjg2LDIwNz
-MyNDk4ODQsLTEwMjU4MDk3MjQsNTQxNjU3NjQyLDQzMTMyMDMy
-NiwtMzMwODUwMTgsLTEzMDUyMDI1NTksMTAxODI0OTYyMSwyMT
-I4Mzk2MTMsLTE1OTI1NTQ0NTMsLTEwOTY3NTcwOTQsMTQ4NjY4
-OTMwMSwtNTkwODEyMTU1LC02NjQ0NDY2NjAsLTE2NTYxMzM5OT
-NdfQ==
+eyJoaXN0b3J5IjpbMTU3MzYzMjQ2NywtMTU1MTk5ODI4NiwyMD
+czMjQ5ODg0LC0xMDI1ODA5NzI0LDU0MTY1NzY0Miw0MzEzMjAz
+MjYsLTMzMDg1MDE4LC0xMzA1MjAyNTU5LDEwMTgyNDk2MjEsMj
+EyODM5NjEzLC0xNTkyNTU0NDUzLC0xMDk2NzU3MDk0LDE0ODY2
+ODkzMDEsLTU5MDgxMjE1NSwtNjY0NDQ2NjYwLC0xNjU2MTMzOT
+kzXX0=
 -->
