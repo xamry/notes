@@ -6,7 +6,8 @@ We can now use strings in the switch statement. Earlier, only primitive types an
 ## Diamond Operator
 Also called type inference for generic instance creation. It allows you to omit the type parameters when creating an instance of a generic class if the compiler can infer the type from the context.
 
+## Try-with-resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzYzNzIyM119
+eyJoaXN0b3J5IjpbMTM4NDIzNDAyN119
 -->
