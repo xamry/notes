@@ -58,9 +58,9 @@ Example: `import  static java.lang.System.*;`
 
 ## Other changes
 ### Covariant return type
-
+It is now possible to override a method by changing the return type as well, which was not possible earlier, since return type is not considered part of a method signature.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNjMyMzA2LDE1NzM2MzI0NjcsLTE1NT
+eyJoaXN0b3J5IjpbNTU5NjgzMDY1LDE1NzM2MzI0NjcsLTE1NT
 E5OTgyODYsMjA3MzI0OTg4NCwtMTAyNTgwOTcyNCw1NDE2NTc2
 NDIsNDMxMzIwMzI2LC0zMzA4NTAxOCwtMTMwNTIwMjU1OSwxMD
 E4MjQ5NjIxLDIxMjgzOTYxMywtMTU5MjU1NDQ1MywtMTA5Njc1
