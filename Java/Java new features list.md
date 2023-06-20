@@ -29,8 +29,8 @@ The `WatchService` API lets you receive notification events upon changes to the 
 
 ## Other improvements
 ### Dynamism support
-Java is a statically typed language, as against dynamically typed languages such as Ruby, Python and Clojure. A new feature called **invokedynamic** in Java 7 makes VM changes to incorporate non-Java language requirements. A new package, `java.lang.invoke`, consisting of classes such as `MethodHandle`, `CallSite` and others, has been created to extend the support of dynamic languages.
+Java is a statically typed language, as against dynamically typed languages such as Ruby, Python and Clojure. A new feature called **invokedynamic** in Java 7 extends the support of dynamic languages.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU0Mjg3MTIsLTEwODcxMzgzMCwtMT
-U2NjgzNjAwNSwxMzM3OTg4MDUwLC0xMTQ4NTEwMzUyXX0=
+eyJoaXN0b3J5IjpbMTEyMDYzNTM4MCwtMTA4NzEzODMwLC0xNT
+Y2ODM2MDA1LDEzMzc5ODgwNTAsLTExNDg1MTAzNTJdfQ==
 -->
