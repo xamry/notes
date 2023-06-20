@@ -14,6 +14,13 @@ Multi-catch blocks allow you to catch multiple exceptions in a single catch bloc
 
 ## Binary Literals and Underscores in Numeric Literals
 We can specify binary literals using the prefix "0b" or "0B". Also, we can use underscores in numeric literals to improve readability. For example, you can write large numbers as 1_000_000 instead of 1000000.
+
+## Fork/Join Framework
+
+## New file system API (NIO 2.0)
+### Working with Path
+A new `java.nio.file` package consists of classes and interfaces such as `Path`, `Paths`, `FileSystem`, `FileSystems` and others.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzk4ODA1MCwtMTE0ODUxMDM1Ml19
+eyJoaXN0b3J5IjpbLTk2MjU0MDkzMCwxMzM3OTg4MDUwLC0xMT
+Q4NTEwMzUyXX0=
 -->
