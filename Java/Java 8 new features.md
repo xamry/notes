@@ -1,6 +1,6 @@
 # Java 8 New Features
 
-## Functional Interfaces
+## Functional Interfaces**
 Java 8 introduced a set of functional interfaces, such as Predicate, Function, Consumer, and Supplier, in the java.util.function package. These interfaces provide common functional programming patterns and enable lambda expressions and method references.
 
 ## Lambda Expressions**
@@ -30,6 +30,6 @@ Java 8 added the ability to easily parallelize operations on streams. By using p
 ## CompletableFuture: 
 CompletableFuture is an enhanced version of the Future interface, providing better support for asynchronous programming. It allows chaining of dependent asynchronous tasks and provides methods for handling completion, exceptions, and combining multiple CompletableFuture instances.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjEyMTAyMSwxOTAwMTA4NjkxLDIzMz
+eyJoaXN0b3J5IjpbMjA5MzEwNjYyNywxOTAwMTA4NjkxLDIzMz
 UwMzA5M119
 -->
