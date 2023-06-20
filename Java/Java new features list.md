@@ -17,7 +17,7 @@ We can specify binary literals using the prefix "0b" or "0B". Also, we can use u
 
 ## Fork/Join Framework**
 Ths framework provides support for parallel programming by allowing efficient task decomposition and work distribution across multiple processor cores. 
-The core classes supporting the Fork-Join mechanism are `ForkJoinPool` and `ForkJoinTask`. The `ForkJoinPool` is basically a specialized implementation of `ExecutorService` implementing the _work-stealing_ algorithm
+The core classes supporting the Fork-Join mechanism are `ForkJoinPool` and `ForkJoinTask`. The `ForkJoinPool` is basically a specialized implementation of `ExecutorService` implementing the  **work-stealing_ algorithm**.
 
 ## New file system API (NIO 2.0)*
 
@@ -27,6 +27,6 @@ A new `java.nio.file` package consists of classes and interfaces such as `Path`,
 ### File change notifications
 The `WatchService` API lets you receive notification events upon changes to the subject (directory or file)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MDk3MDEsLTE1NjY4MzYwMDUsMTMzNz
-k4ODA1MCwtMTE0ODUxMDM1Ml19
+eyJoaXN0b3J5IjpbLTEwODcxMzgzMCwtMTU2NjgzNjAwNSwxMz
+M3OTg4MDUwLC0xMTQ4NTEwMzUyXX0=
 -->
