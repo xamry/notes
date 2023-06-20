@@ -39,6 +39,12 @@ Varargs feature allows methods to take a variable number of arguments of the sam
     
 ## Annotations
 Annotatons are metadata that can be added to classes, methods, fields, and other program elements. Annotations provide a way to add additional information to the code and can be used by compilers, tools, and frameworks for various purposes. Use @interface to define your own custom annotations.
+
+There are three types of annotations.
+
+1.  Marker Annotation
+2.  Single-Value Annotation
+3.  Multi-Value Annotation
     
 ## Enhanced concurrency support
 Java 5 introduced the java.util.concurrent package, which provides high-level concurrency utilities such as thread pools, concurrent collections, and atomic variables. These utilities make it easier to write concurrent and multithreaded programs.
@@ -46,9 +52,9 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Njc2NjE4LDU0MTY1NzY0Miw0MzEzMj
-AzMjYsLTMzMDg1MDE4LC0xMzA1MjAyNTU5LDEwMTgyNDk2MjEs
-MjEyODM5NjEzLC0xNTkyNTU0NDUzLC0xMDk2NzU3MDk0LDE0OD
-Y2ODkzMDEsLTU5MDgxMjE1NSwtNjY0NDQ2NjYwLC0xNjU2MTMz
-OTkzXX0=
+eyJoaXN0b3J5IjpbLTEwMjU4MDk3MjQsNTQxNjU3NjQyLDQzMT
+MyMDMyNiwtMzMwODUwMTgsLTEzMDUyMDI1NTksMTAxODI0OTYy
+MSwyMTI4Mzk2MTMsLTE1OTI1NTQ0NTMsLTEwOTY3NTcwOTQsMT
+Q4NjY4OTMwMSwtNTkwODEyMTU1LC02NjQ0NDY2NjAsLTE2NTYx
+MzM5OTNdfQ==
 -->
