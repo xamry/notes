@@ -11,6 +11,8 @@ You can declare resources within the try statement, and the JVM will automatical
 
 ## Improved Exception Handling
 Multi-catch blocks allow you to catch multiple exceptions in a single catch block, reducing code duplication.
+
+## Binary Literals and Underscores in Numeric Literals:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg1MTAzNTJdfQ==
+eyJoaXN0b3J5IjpbMjk2NjQwNDk5LC0xMTQ4NTEwMzUyXX0=
 -->
