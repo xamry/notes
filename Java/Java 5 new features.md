@@ -51,10 +51,12 @@ java.util.concurrent package provides high-level concurrency utilities such as t
     
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
+
+## Static import
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwOTU4MDk4LDIwNzMyNDk4ODQsLTEwMj
-U4MDk3MjQsNTQxNjU3NjQyLDQzMTMyMDMyNiwtMzMwODUwMTgs
-LTEzMDUyMDI1NTksMTAxODI0OTYyMSwyMTI4Mzk2MTMsLTE1OT
-I1NTQ0NTMsLTEwOTY3NTcwOTQsMTQ4NjY4OTMwMSwtNTkwODEy
-MTU1LC02NjQ0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
+eyJoaXN0b3J5IjpbLTE2MTc3Mzc3MDUsMjA3MzI0OTg4NCwtMT
+AyNTgwOTcyNCw1NDE2NTc2NDIsNDMxMzIwMzI2LC0zMzA4NTAx
+OCwtMTMwNTIwMjU1OSwxMDE4MjQ5NjIxLDIxMjgzOTYxMywtMT
+U5MjU1NDQ1MywtMTA5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4
+MTIxNTUsLTY2NDQ0NjY2MCwtMTY1NjEzMzk5M119
 -->
