@@ -38,13 +38,13 @@ enum data type, allows you to define a set of named constants. Enumerations prov
 Varargs feature allows methods to take a variable number of arguments of the same type. It simplifies method calls by eliminating the need to explicitly create an array for variable-length argument lists.
     
 ## Annotations
-Annotatons are metadata that can be added to classes, methods, fields, and other program elements. Annotations provide a way to add additional information to the code and can be used by compilers, tools, and frameworks for various purposes. Use @interface to define your own custom annotations.
+Annotatons are metadata that can be added to classes, methods, fields, and other program elements. Annotations provide a way to add additional information to the code and can be used by compilers, tools, and frameworks for various purposes. You can either use in-built annotations such as @override, @deprecated OR use @interface to define your own custom annotations.
 
 There are three types of annotations.
 
-1.  Marker Annotation
-2.  Single-Value Annotation
-3.  Multi-Value Annotation
+1.  Marker Annotation (no method)
+2.  Single-Value Annotation (single method)
+3.  Multi-Value Annotation 
     
 ## Enhanced concurrency support
 Java 5 introduced the java.util.concurrent package, which provides high-level concurrency utilities such as thread pools, concurrent collections, and atomic variables. These utilities make it easier to write concurrent and multithreaded programs.
@@ -52,9 +52,9 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU4MDk3MjQsNTQxNjU3NjQyLDQzMT
-MyMDMyNiwtMzMwODUwMTgsLTEzMDUyMDI1NTksMTAxODI0OTYy
-MSwyMTI4Mzk2MTMsLTE1OTI1NTQ0NTMsLTEwOTY3NTcwOTQsMT
-Q4NjY4OTMwMSwtNTkwODEyMTU1LC02NjQ0NDY2NjAsLTE2NTYx
-MzM5OTNdfQ==
+eyJoaXN0b3J5IjpbMTExNzcwMTk0OSwtMTAyNTgwOTcyNCw1ND
+E2NTc2NDIsNDMxMzIwMzI2LC0zMzA4NTAxOCwtMTMwNTIwMjU1
+OSwxMDE4MjQ5NjIxLDIxMjgzOTYxMywtMTU5MjU1NDQ1MywtMT
+A5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4MTIxNTUsLTY2NDQ0
+NjY2MCwtMTY1NjEzMzk5M119
 -->
