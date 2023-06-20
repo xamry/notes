@@ -38,7 +38,7 @@ enum data type, allows you to define a set of named constants. Enumerations prov
 Varargs feature allows methods to take a variable number of arguments of the same type. It simplifies method calls by eliminating the need to explicitly create an array for variable-length argument lists.
     
 ## Annotations
-Java 5 introduced annotations, which are metadata that can be added to classes, methods, fields, and other program elements. Annotations provide a way to add additional information to the code and can be used by compilers, tools, and frameworks for various purposes.
+Annotatons are metadata that can be added to classes, methods, fields, and other program elements. Annotations provide a way to add additional information to the code and can be used by compilers, tools, and frameworks for various purposes.
     
 ## Enhanced concurrency support
 Java 5 introduced the java.util.concurrent package, which provides high-level concurrency utilities such as thread pools, concurrent collections, and atomic variables. These utilities make it easier to write concurrent and multithreaded programs.
@@ -46,8 +46,8 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMzIwMzI2LC0zMzA4NTAxOCwtMTMwNT
-IwMjU1OSwxMDE4MjQ5NjIxLDIxMjgzOTYxMywtMTU5MjU1NDQ1
-MywtMTA5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4MTIxNTUsLT
-Y2NDQ0NjY2MCwtMTY1NjEzMzk5M119
+eyJoaXN0b3J5IjpbNTQxNjU3NjQyLDQzMTMyMDMyNiwtMzMwOD
+UwMTgsLTEzMDUyMDI1NTksMTAxODI0OTYyMSwyMTI4Mzk2MTMs
+LTE1OTI1NTQ0NTMsLTEwOTY3NTcwOTQsMTQ4NjY4OTMwMSwtNT
+kwODEyMTU1LC02NjQ0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
 -->
