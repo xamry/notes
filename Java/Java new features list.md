@@ -10,7 +10,7 @@ Also called type inference for generic instance creation. It allows you to omit 
 You can declare resources within the try statement, and the JVM will automatically close those resources when they are no longer needed, even if an exception occurs. The resources that should be auto closed must implement `java.lang.AutoCloseable interface
 
 ## Improved Exception Handling
-
+Multi-catch blocks allow you to catch multiple exceptions in a single catch block, reducing code duplication.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTczMjE3NzldfQ==
+eyJoaXN0b3J5IjpbLTExNDg1MTAzNTJdfQ==
 -->
