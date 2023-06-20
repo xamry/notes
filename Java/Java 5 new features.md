@@ -46,15 +46,15 @@ There are three types of annotations.
 2.  Single-Value Annotation (single method)
 3.  Multi-Value Annotation (multiple methods)
     
-## Enhanced concurrency support
+## Enhanced concurrency support**
 Java 5 introduced the java.util.concurrent package, which provides high-level concurrency utilities such as thread pools, concurrent collections, and atomic variables. These utilities make it easier to write concurrent and multithreaded programs.
     
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzI0OTg4NCwtMTAyNTgwOTcyNCw1ND
-E2NTc2NDIsNDMxMzIwMzI2LC0zMzA4NTAxOCwtMTMwNTIwMjU1
-OSwxMDE4MjQ5NjIxLDIxMjgzOTYxMywtMTU5MjU1NDQ1MywtMT
-A5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4MTIxNTUsLTY2NDQ0
-NjY2MCwtMTY1NjEzMzk5M119
+eyJoaXN0b3J5IjpbOTcyNTU2MDYwLDIwNzMyNDk4ODQsLTEwMj
+U4MDk3MjQsNTQxNjU3NjQyLDQzMTMyMDMyNiwtMzMwODUwMTgs
+LTEzMDUyMDI1NTksMTAxODI0OTYyMSwyMTI4Mzk2MTMsLTE1OT
+I1NTQ0NTMsLTEwOTY3NTcwOTQsMTQ4NjY4OTMwMSwtNTkwODEy
+MTU1LC02NjQ0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
 -->
