@@ -1,7 +1,7 @@
 # Java 5 New Features
 
 ## Generics
-Java 5 introduced generics, which allow you to parameterize classes, interfaces, and methods to provide compile-time type safety and reduce the need for explicit type casting. Generics enable the creation of type-safe collections and improve code readability.
+Generics allows you to parameterize classes, interfaces, and methods to provide compile-time type safety and reduce the need for explicit type casting. Generics enable the creation of type-safe collections and improve code readability.
     
 ## Enhanced for loop
 The enhanced for loop, also known as the "for-each" loop, was introduced in Java 5. It provides a concise way to iterate over arrays and collections without the need for explicit indexing or iterators.
@@ -24,5 +24,6 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDQ0NjY2MCwtMTY1NjEzMzk5M119
+eyJoaXN0b3J5IjpbLTE4NDIxMzE1NzgsLTY2NDQ0NjY2MCwtMT
+Y1NjEzMzk5M119
 -->
