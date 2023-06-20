@@ -2,6 +2,12 @@
 
 ## Generics*
 Generics allows you to parameterize classes, interfaces, and methods to provide compile-time type safety and reduce the need for explicit type casting.
+
+### Advantages:
+ - Type-safety
+ - Typecasting not required
+ - Compile-time checking
+
     
 ## Enhanced for loop
 The enhanced for loop, also known as the "for-each" loop, was introduced in Java 5. It provides a concise way to iterate over arrays and collections without the need for explicit indexing or iterators.
@@ -24,6 +30,6 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjY4OTMwMSwtNTkwODEyMTU1LC02Nj
-Q0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
+eyJoaXN0b3J5IjpbLTMzMjk4MDkyMCwxNDg2Njg5MzAxLC01OT
+A4MTIxNTUsLTY2NDQ0NjY2MCwtMTY1NjEzMzk5M119
 -->
