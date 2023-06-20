@@ -44,7 +44,7 @@ There are three types of annotations.
 
 1.  Marker Annotation (no method)
 2.  Single-Value Annotation (single method)
-3.  Multi-Value Annotation 
+3.  Multi-Value Annotation (multiple methods)
     
 ## Enhanced concurrency support
 Java 5 introduced the java.util.concurrent package, which provides high-level concurrency utilities such as thread pools, concurrent collections, and atomic variables. These utilities make it easier to write concurrent and multithreaded programs.
@@ -52,7 +52,7 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzcwMTk0OSwtMTAyNTgwOTcyNCw1ND
+eyJoaXN0b3J5IjpbMjA3MzI0OTg4NCwtMTAyNTgwOTcyNCw1ND
 E2NTc2NDIsNDMxMzIwMzI2LC0zMzA4NTAxOCwtMTMwNTIwMjU1
 OSwxMDE4MjQ5NjIxLDIxMjgzOTYxMywtMTU5MjU1NDQ1MywtMT
 A5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4MTIxNTUsLTY2NDQ0
