@@ -18,9 +18,13 @@ We can specify binary literals using the prefix "0b" or "0B". Also, we can use u
 ## Fork/Join Framework
 
 ## New file system API (NIO 2.0)
+
 ### Working with Path
 A new `java.nio.file` package consists of classes and interfaces such as `Path`, `Paths`, `FileSystem`, `FileSystems` and others.
+
+### File change notifications
+The `WatchService` API lets you receive notification events upon changes to the subject (directory or file)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjU0MDkzMCwxMzM3OTg4MDUwLC0xMT
-Q4NTEwMzUyXX0=
+eyJoaXN0b3J5IjpbNzg4Mzg3MTgyLDEzMzc5ODgwNTAsLTExND
+g1MTAzNTJdfQ==
 -->
