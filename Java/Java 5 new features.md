@@ -21,6 +21,7 @@ Generics allows you to parameterize classes, interfaces, and methods to provide 
  - Wildcard (? extends MyType)
 	 - Upper bounded wildcard  (List<? extends Number>)
 	 - Unbounded wildcards (List<?>)
+	 - Lower bounded wildcard (List<? super Integer>)
 
 
  
@@ -46,6 +47,6 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUxMDEzOTAsMTQ4NjY4OTMwMSwtNT
+eyJoaXN0b3J5IjpbLTEwOTY3NTcwOTQsMTQ4NjY4OTMwMSwtNT
 kwODEyMTU1LC02NjQ0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
 -->
