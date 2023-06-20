@@ -35,7 +35,7 @@ It provide automatic conversion between primitive types and their corresponding 
 enum data type, allows you to define a set of named constants. Enumerations provide type safety and can be used in switch statements and collections.
     
 ## Varargs
-Java 5 introduced the varargs feature, which allows methods to take a variable number of arguments of the same type. It simplifies method calls by eliminating the need to explicitly create an array for variable-length argument lists.
+Varargs feature allows methods to take a variable number of arguments of the same type. It simplifies method calls by eliminating the need to explicitly create an array for variable-length argument lists.
     
 ## Annotations
 Java 5 introduced annotations, which are metadata that can be added to classes, methods, fields, and other program elements. Annotations provide a way to add additional information to the code and can be used by compilers, tools, and frameworks for various purposes.
@@ -46,8 +46,8 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDg1MDE4LC0xMzA1MjAyNTU5LDEwMT
-gyNDk2MjEsMjEyODM5NjEzLC0xNTkyNTU0NDUzLC0xMDk2NzU3
-MDk0LDE0ODY2ODkzMDEsLTU5MDgxMjE1NSwtNjY0NDQ2NjYwLC
-0xNjU2MTMzOTkzXX0=
+eyJoaXN0b3J5IjpbNDMxMzIwMzI2LC0zMzA4NTAxOCwtMTMwNT
+IwMjU1OSwxMDE4MjQ5NjIxLDIxMjgzOTYxMywtMTU5MjU1NDQ1
+MywtMTA5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4MTIxNTUsLT
+Y2NDQ0NjY2MCwtMTY1NjEzMzk5M119
 -->
