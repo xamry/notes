@@ -9,7 +9,7 @@ Lambda expressions introduced a concise syntax for defining anonymous functions.
 ## Stream API**
 The Stream API provides a declarative way to process collections of data in a functional programming style. Streams allow you to perform operations like filtering, mapping, and reducing on collections with ease, making code more readable and concise.
     
-## Default Methods: 
+## Default and Static Methods in interfaces: 
 Default methods, also known as defender methods or virtual extension methods, allow interfaces to have concrete method implementations. This feature enables backward compatibility for existing interfaces while allowing them to evolve by adding new methods.
     
 ## Optional:
@@ -30,6 +30,6 @@ Java 8 added the ability to easily parallelize operations on streams. By using p
 ## CompletableFuture: 
 CompletableFuture is an enhanced version of the Future interface, providing better support for asynchronous programming. It allows chaining of dependent asynchronous tasks and provides methods for handling completion, exceptions, and combining multiple CompletableFuture instances.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzEwNjYyNywxOTAwMTA4NjkxLDIzMz
-UwMzA5M119
+eyJoaXN0b3J5IjpbLTE3MDIxNjU5MzksMjA5MzEwNjYyNywxOT
+AwMTA4NjkxLDIzMzUwMzA5M119
 -->
