@@ -15,7 +15,7 @@ Generics allows you to parameterize classes, interfaces, and methods to provide 
 4.  N - Number
 5.  V - Value
 
-### Some specific uses
+### Uses examples
  - Generic class (MyClass<T>)
  - Generic method (< E > void printArray(E[] elements))
  - Wildcard (? extends MyType)
@@ -47,6 +47,7 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY3NTcwOTQsMTQ4NjY4OTMwMSwtNT
-kwODEyMTU1LC02NjQ0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
+eyJoaXN0b3J5IjpbLTE1OTI1NTQ0NTMsLTEwOTY3NTcwOTQsMT
+Q4NjY4OTMwMSwtNTkwODEyMTU1LC02NjQ0NDY2NjAsLTE2NTYx
+MzM5OTNdfQ==
 -->
