@@ -28,7 +28,7 @@ It provides a concise way to iterate over arrays and collections without the nee
 Syntax: for(data_type variable : array | collection)    
     
 ## Autoboxing and Unboxing
-It provide automatic conversion between primitive types and their corresponding wrapper classes. This simplifies code by eliminating the need for manual conversion between primitives and their wrapper classes.
+It provide automatic conversion between primitive types and their corresponding wrapper classes. The automatic conversion of primitive data types into its equivalent Wrapper type is known as **boxing** and opposite operation is known as **unboxing**.
     
 ## Enumerations
 Java 5 introduced a new enum type, allowing you to define a set of named constants. Enumerations provide type safety and can be used in switch statements and collections.
@@ -45,7 +45,7 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODMxMjk5OTEsMjEyODM5NjEzLC0xNT
-kyNTU0NDUzLC0xMDk2NzU3MDk0LDE0ODY2ODkzMDEsLTU5MDgx
-MjE1NSwtNjY0NDQ2NjYwLC0xNjU2MTMzOTkzXX0=
+eyJoaXN0b3J5IjpbMTAxODI0OTYyMSwyMTI4Mzk2MTMsLTE1OT
+I1NTQ0NTMsLTEwOTY3NTcwOTQsMTQ4NjY4OTMwMSwtNTkwODEy
+MTU1LC02NjQ0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
 -->
