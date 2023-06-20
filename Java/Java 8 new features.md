@@ -21,9 +21,6 @@ Java 8 introduced the java.time package, which provides a comprehensive set of c
 ## Method References: 
 Method references allow you to refer to methods or constructors without invoking them explicitly. They provide a shorthand notation for lambda expressions and help in writing more concise and readable code.
     
-
-
-    
 ## Parallel Streams:
 Java 8 added the ability to easily parallelize operations on streams. By using parallel streams, developers can take advantage of multicore processors and distribute the workload across multiple threads to achieve better performance for computationally intensive tasks.
     
@@ -32,6 +29,6 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 
 ## forEach() method in Iterable interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc4MDM0MDksLTE3MDIxNjU5MzksMj
+eyJoaXN0b3J5IjpbLTE3NTk0NzU4NDcsLTE3MDIxNjU5MzksMj
 A5MzEwNjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5M119
 -->
