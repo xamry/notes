@@ -1,6 +1,6 @@
 # Java 5 New Features
 
-## Generics
+## Generics*
 Generics allows you to parameterize classes, interfaces, and methods to provide compile-time type safety and reduce the need for explicit type casting.
     
 ## Enhanced for loop
@@ -24,6 +24,6 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDgxMjE1NSwtNjY0NDQ2NjYwLC0xNj
-U2MTMzOTkzXX0=
+eyJoaXN0b3J5IjpbMTQ4NjY4OTMwMSwtNTkwODEyMTU1LC02Nj
+Q0NDY2NjAsLTE2NTYxMzM5OTNdfQ==
 -->
