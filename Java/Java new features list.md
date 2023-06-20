@@ -26,7 +26,11 @@ A new `java.nio.file` package consists of classes and interfaces such as `Path`,
 
 ### File change notifications
 The `WatchService` API lets you receive notification events upon changes to the subject (directory or file)
+
+## Other improvements
+### Dynamism support
+Java is a statically typed language, as against dynamically typed languages such as Ruby, Python and Clojure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODcxMzgzMCwtMTU2NjgzNjAwNSwxMz
-M3OTg4MDUwLC0xMTQ4NTEwMzUyXX0=
+eyJoaXN0b3J5IjpbODY4OTUyMjk3LC0xMDg3MTM4MzAsLTE1Nj
+Y4MzYwMDUsMTMzNzk4ODA1MCwtMTE0ODUxMDM1Ml19
 -->
