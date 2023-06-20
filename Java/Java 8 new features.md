@@ -19,16 +19,14 @@ The Optional class provides a way to handle potentially null values in a more ex
 Java 8 introduced the java.time package, which provides a comprehensive set of classes for working with dates, times, durations, and time zones. This new Date/Time API is more intuitive, thread-safe, and offers better performance than the old java.util.Date and java.util.Calendar classes.
     
 ## Method References: 
-Method references allow you to refer to methods or constructors without invoking them explicitly. They provide a shorthand notation for lambda expressions and help in writing more concise and readable code.
-    
-## Parallel Streams:
-Java 8 added the ability to easily parallelize operations on streams. By using parallel streams, developers can take advantage of multicore processors and distribute the workload across multiple threads to achieve better performance for computationally intensive tasks.
+Method references allow you to refer to methods or constructors without invoking them explicitly. They provide a shorthand notation for lambda expressions and help in writing more concise and readable code.   
+
     
 ## CompletableFuture: 
 CompletableFuture is an enhanced version of the Future interface, providing better support for asynchronous programming. It allows chaining of dependent asynchronous tasks and provides methods for handling completion, exceptions, and combining multiple CompletableFuture instances.
 
 ## forEach() method in Iterable interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk0NzU4NDcsLTE3MDIxNjU5MzksMj
-A5MzEwNjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5M119
+eyJoaXN0b3J5IjpbLTE4MTQwMjM1NiwtMTcwMjE2NTkzOSwyMD
+kzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAzMDkzXX0=
 -->
