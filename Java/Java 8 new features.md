@@ -29,7 +29,9 @@ Java 8 added the ability to easily parallelize operations on streams. By using p
     
 ## CompletableFuture: 
 CompletableFuture is an enhanced version of the Future interface, providing better support for asynchronous programming. It allows chaining of dependent asynchronous tasks and provides methods for handling completion, exceptions, and combining multiple CompletableFuture instances.
+
+## forEach() method in Iterable interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDIxNjU5MzksMjA5MzEwNjYyNywxOT
-AwMTA4NjkxLDIzMzUwMzA5M119
+eyJoaXN0b3J5IjpbLTExOTc4MDM0MDksLTE3MDIxNjU5MzksMj
+A5MzEwNjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5M119
 -->
