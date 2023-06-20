@@ -53,11 +53,11 @@ java.util.concurrent package provides high-level concurrency utilities such as t
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 
 ## Static import
-Static import feature allows accessing any static member of a class directly. There is no need to qualify it by the class name.
+Static import feature allows accessing any static member of a class directly. There is no need to qualify it by the class name. As a result, less coding is required if you have to access any static member of a class often.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTUzMjA1MywyMDczMjQ5ODg0LC0xMD
-I1ODA5NzI0LDU0MTY1NzY0Miw0MzEzMjAzMjYsLTMzMDg1MDE4
-LC0xMzA1MjAyNTU5LDEwMTgyNDk2MjEsMjEyODM5NjEzLC0xNT
-kyNTU0NDUzLC0xMDk2NzU3MDk0LDE0ODY2ODkzMDEsLTU5MDgx
-MjE1NSwtNjY0NDQ2NjYwLC0xNjU2MTMzOTkzXX0=
+eyJoaXN0b3J5IjpbLTE1NTE5OTgyODYsMjA3MzI0OTg4NCwtMT
+AyNTgwOTcyNCw1NDE2NTc2NDIsNDMxMzIwMzI2LC0zMzA4NTAx
+OCwtMTMwNTIwMjU1OSwxMDE4MjQ5NjIxLDIxMjgzOTYxMywtMT
+U5MjU1NDQ1MywtMTA5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4
+MTIxNTUsLTY2NDQ0NjY2MCwtMTY1NjEzMzk5M119
 -->
