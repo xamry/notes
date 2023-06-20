@@ -23,7 +23,7 @@ Generics allows you to parameterize classes, interfaces, and methods to provide 
 	 - Unbounded wildcards (List<?>)
 	 - Lower bounded wildcard (List<? super Integer>) 
     
-## Enhanced for loop
+## Enhanced for loop (for-each)
 The enhanced for loop, also known as the "for-each" loop, was introduced in Java 5. It provides a concise way to iterate over arrays and collections without the need for explicit indexing or iterators.
     
 ## Autoboxing and Unboxing
@@ -44,7 +44,7 @@ Java 5 introduced the java.util.concurrent package, which provides high-level co
 ## Enhanced I/O support
 Java 5 introduced the java.nio package, which provides enhanced I/O capabilities, including non-blocking I/O, scatter/gather I/O operations, and file system access improvements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxMjk2NTQ1LC0xNTkyNTU0NDUzLC0xMD
-k2NzU3MDk0LDE0ODY2ODkzMDEsLTU5MDgxMjE1NSwtNjY0NDQ2
-NjYwLC0xNjU2MTMzOTkzXX0=
+eyJoaXN0b3J5IjpbMTg4ODg4OTAxMSwtMTU5MjU1NDQ1MywtMT
+A5Njc1NzA5NCwxNDg2Njg5MzAxLC01OTA4MTIxNTUsLTY2NDQ0
+NjY2MCwtMTY1NjEzMzk5M119
 -->
