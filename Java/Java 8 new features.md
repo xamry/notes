@@ -1,6 +1,6 @@
 # Java 8 New Features
 
-## Default and Static Methods in interfaces: 
+## Default and Static Methods in interfaces
 From Java 8, interfaces are enhanced to have a method with implementation. We can use `default` and `static` keyword to create interfaces with method implementation.
 
 ## Functional Interfaces**
@@ -28,7 +28,7 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM3NjU3MTcsLTEzODkwNzMxOTUsOD
-UxNzQ3NDAwLC0xODE0MDIzNTYsLTE3MDIxNjU5MzksMjA5MzEw
-NjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5M119
+eyJoaXN0b3J5IjpbMzM1Nzg5MywtMTE2Mzc2NTcxNywtMTM4OT
+A3MzE5NSw4NTE3NDc0MDAsLTE4MTQwMjM1NiwtMTcwMjE2NTkz
+OSwyMDkzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAzMDkzXX0=
 -->
