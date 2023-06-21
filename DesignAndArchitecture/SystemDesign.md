@@ -27,6 +27,13 @@ Queues between microservice calls
 Sequential events + Local transaction = Isolation
 
 ## Load Balancing
+Load balancers distribute incoming client requests to computing resources such as application servers and databases.
+Load balancers can be implemented with hardware (expensive) or with software such as HAProxy.
+Additional benefits : SSL termination, Session persistence
+To protect against failures, it's common to set up multiple load balancers, either in active-passive or active-active mode.
+Load balancers can route traffic based on various metrics, including: Random, Least loaded, Session/cookies, Round robin or weighted round robin, Layer 4, Layer 7
+Horizontal scaling via load balancers: Load balancers can also help with horizontal scaling, improving performance and availability.
+
 
 # Scalability, Availability and Stability Patterns
 https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/18-How_do_I_know_if
@@ -102,13 +109,59 @@ Active-active (Master-Master): In active-active, both servers are managing traff
 		 - Software Transactional memory (STM)
  - Behavioral
  
+## CDN
+
+- Push CDN : Push CDNs receive new content whenever changes occur on your server. You take full responsibility for providing content, uploading directly to the CDN and rewriting URLs to point to the CDN. 
+- Pull CDN: Pull CDNs grab new content from your server when the first user requests the content. You leave the content on your server and rewrite URLs to point to the CDN. 
+
+## Reverse Proxy
+
+A reverse proxy is a web server that centralizes internal services and provides unified interfaces to the public.
+Additional benefits: Increased security, increased scalablity and flexibility, SSL termination, compression, caching, serve static content directly
+
+## Caching
+
+- Client caching
+- CDN caching
+- Web server caching
+- Database caching
+- Application caching
+
+Data categories in cache:
+⦁	Row level
+⦁	Query-level
+⦁	Fully-formed serializable objects
+⦁	Fully-rendered HTML
+
+When to update a cache: (Strategies)
+⦁	Cache-aside
+⦁	Write-through
+⦁	Write-behind (or Write-back)
+⦁	Refresh-ahead
+
+Asynchronism
+========================
+Message queues (Redis, SQL, RabbitMQ)
+Task Queues (Celery)
+
+Remote Procedure Call
+=========================
+Popular RPC frameworks: Protobuf, Thrift, and Avro.
+
+Representational state transfer (REST)
+=====================================
+four qualities of a RESTful interface:
+⦁	Identify resources (URI in HTTP) - use the same URI regardless of any operation.
+⦁	Change with representations (Verbs in HTTP) - use verbs, headers, and body.
+⦁	Self-descriptive error message (status response in HTTP) - Use status codes, don't reinvent the wheel.
+⦁	HATEOAS (HTML interface for HTTP) - your web service should be fully accessible in a browser.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjE1NTMzNyw5NzQ1NjA1MSwxNTIwNT
-cwMTQ1LC0xOTAxMTQzMTIzLDE5Mzg1MjMyMjYsLTk3OTkwNTMz
-NCwxODEwNzMyMDY2LC0xNjU1MjY1NjgsLTE2MTcxNjM0ODAsLT
-YzNTAzMjI5MywxMjkzNjAzMjUwLDEyNDI1NDYxODIsMTQzMjc0
-NDcxMywtMTk2ODc4NTg4MywtMTQ3MzM4ODQ3OCwxNjQ4NDMyNT
-U5LC0xMjc0NzY3MDAsLTkzMjAwNzUyLC05ODIwMjc3OTZdfQ==
-
+eyJoaXN0b3J5IjpbLTE0MTczNTMwOCwyMDgyMTU1MzM3LDk3ND
+U2MDUxLDE1MjA1NzAxNDUsLTE5MDExNDMxMjMsMTkzODUyMzIy
+NiwtOTc5OTA1MzM0LDE4MTA3MzIwNjYsLTE2NTUyNjU2OCwtMT
+YxNzE2MzQ4MCwtNjM1MDMyMjkzLDEyOTM2MDMyNTAsMTI0MjU0
+NjE4MiwxNDMyNzQ0NzEzLC0xOTY4Nzg1ODgzLC0xNDczMzg4ND
+c4LDE2NDg0MzI1NTksLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4
+MjAyNzc5Nl19
 -->
