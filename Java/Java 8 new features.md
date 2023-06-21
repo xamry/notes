@@ -14,7 +14,7 @@ Functional Interfaces are also called SAM (Single Abstract Method) interfaces.
 Lambda expressions introduced a concise syntax for defining anonymous functions. They enable **functional programming** by treating functions as first-class citizens, allowing the use of functional interfaces and enabling the use of functional programming constructs like streams.
     
 ## Stream API**
-The Stream API java.util.Stream provides a declarative way to process collections of data in a functional programming style. Streams allow you to perform operations like filtering, mapping, and reducing on collections with ease, making code more readable and concise.
+The Stream API `java.util.stream` provides a declarative way to process collections of data in a functional programming style. Streams allow you to perform operations like filtering, mapping, and reducing on collections with ease, making code more readable and concise.
     
 ## Optional:
 The Optional class provides a way to handle potentially null values in a more expressive and safe manner. It encourages developers to explicitly handle cases where a value may be absent, reducing the likelihood of null pointer exceptions.
@@ -38,10 +38,10 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDM3Mzc1OCw0NTE5MTg0ODAsLTEyMz
-MyODk2NSwtMjM5MDIwMjI5LDEwNTg3MTU1OTUsMzI0MzQyMTQx
-LDc4NTc2NDkzLC0xNzAzNjI1MDUxLDMzNTc4OTMsLTExNjM3Nj
-U3MTcsLTEzODkwNzMxOTUsODUxNzQ3NDAwLC0xODE0MDIzNTYs
-LTE3MDIxNjU5MzksMjA5MzEwNjYyNywxOTAwMTA4NjkxLDIzMz
-UwMzA5M119
+eyJoaXN0b3J5IjpbLTE1NTM2NDM0OTAsNDUxOTE4NDgwLC0xMj
+MzMjg5NjUsLTIzOTAyMDIyOSwxMDU4NzE1NTk1LDMyNDM0MjE0
+MSw3ODU3NjQ5MywtMTcwMzYyNTA1MSwzMzU3ODkzLC0xMTYzNz
+Y1NzE3LC0xMzg5MDczMTk1LDg1MTc0NzQwMCwtMTgxNDAyMzU2
+LC0xNzAyMTY1OTM5LDIwOTMxMDY2MjcsMTkwMDEwODY5MSwyMz
+M1MDMwOTNdfQ==
 -->
