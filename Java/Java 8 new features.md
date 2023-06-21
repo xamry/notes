@@ -27,7 +27,8 @@ Method references allow you to refer to methods or constructors without invoking
 There are four variants of method references.
 
  1. ### Reference to a Static Method: ContainingClass::methodName
- 2. 
+ 2. ### Reference to an Instance Method: containingInstance::methodName
+ 3. ### Reference to a Constructor: ClassName::new
 
     
 ## CompletableFuture: 
@@ -36,9 +37,9 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMyODk2NSwtMjM5MDIwMjI5LDEwNT
-g3MTU1OTUsMzI0MzQyMTQxLDc4NTc2NDkzLC0xNzAzNjI1MDUx
-LDMzNTc4OTMsLTExNjM3NjU3MTcsLTEzODkwNzMxOTUsODUxNz
-Q3NDAwLC0xODE0MDIzNTYsLTE3MDIxNjU5MzksMjA5MzEwNjYy
-NywxOTAwMTA4NjkxLDIzMzUwMzA5M119
+eyJoaXN0b3J5IjpbOTU0NDE3NDE2LC0xMjMzMjg5NjUsLTIzOT
+AyMDIyOSwxMDU4NzE1NTk1LDMyNDM0MjE0MSw3ODU3NjQ5Mywt
+MTcwMzYyNTA1MSwzMzU3ODkzLC0xMTYzNzY1NzE3LC0xMzg5MD
+czMTk1LDg1MTc0NzQwMCwtMTgxNDAyMzU2LC0xNzAyMTY1OTM5
+LDIwOTMxMDY2MjcsMTkwMDEwODY5MSwyMzM1MDMwOTNdfQ==
 -->
