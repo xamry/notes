@@ -31,6 +31,17 @@ Sequential events + Local transaction = Isolation
 # Scalability, Availability and Stability Patterns
 https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/18-How_do_I_know_if
 
+## Scaling
+
+### Vertical scaling 	
+### Horizontal scaling
+	* Load balancer, sticky session via external database or persistence cache
+	* Cloning one instance via image (AMI) to ensure all nodes have the same codebase.
+	* Database scaling. (NoSQL, Master-slave, Read replica, partitioning, federation)
+	* Caching (im-memory- memcached/ redis) [Cached database queries, cached objects- recommended)
+	* Asyncronism (Pre-building static pages beforehand, using a queue for a time consuming job and processing those jobs by an army of worker threads)
+
+
 ## Scalability Tradeoffs
 ###  Performance Vs Scalability
 A service is said to be scalable if when we increase the resources in a system, it results in increased performance in a manner proportional to resources added. Increasing performance in general means serving more units of work, but it can also be to handle larger units of work, such as when datasets grow.
@@ -93,7 +104,7 @@ Active-active (Master-Master): In active-active, both servers are managing traff
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzUxODY1Nyw5NzQ1NjA1MSwxNTIwNT
+eyJoaXN0b3J5IjpbMjA4MjE1NTMzNyw5NzQ1NjA1MSwxNTIwNT
 cwMTQ1LC0xOTAxMTQzMTIzLDE5Mzg1MjMyMjYsLTk3OTkwNTMz
 NCwxODEwNzMyMDY2LC0xNjU1MjY1NjgsLTE2MTcxNjM0ODAsLT
 YzNTAzMjI5MywxMjkzNjAzMjUwLDEyNDI1NDYxODIsMTQzMjc0
