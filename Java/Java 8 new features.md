@@ -26,8 +26,9 @@ Method references allow you to refer to methods or constructors without invoking
 CompletableFuture is an enhanced version of the Future interface, providing better support for asynchronous programming. It allows chaining of dependent asynchronous tasks and provides methods for handling completion, exceptions, and combining multiple CompletableFuture instances.
 
 ## forEach() method in Iterable interface
+Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxNzQ3NDAwLC0xODE0MDIzNTYsLTE3MD
-IxNjU5MzksMjA5MzEwNjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5
-M119
+eyJoaXN0b3J5IjpbLTEzODkwNzMxOTUsODUxNzQ3NDAwLC0xOD
+E0MDIzNTYsLTE3MDIxNjU5MzksMjA5MzEwNjYyNywxOTAwMTA4
+NjkxLDIzMzUwMzA5M119
 -->
