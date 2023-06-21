@@ -1,6 +1,7 @@
 # Java 8 New Features
 
-
+## Default and Static Methods in interfaces: 
+Default methods, also known as defender methods or virtual extension methods, allow interfaces to have concrete method implementations. This feature enables backward compatibility for existing interfaces while allowing them to evolve by adding new methods.
 
 ## Functional Interfaces**
 Java 8 introduced a set of functional interfaces, such as Predicate, Function, Consumer, and Supplier, in the java.util.function package. These interfaces provide common functional programming patterns and enable lambda expressions and method references.
@@ -29,7 +30,7 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 
 ## forEach() method in Iterable interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1NzgzNzEyLC0xODE0MDIzNTYsLTE3MD
-IxNjU5MzksMjA5MzEwNjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5
-M119
+eyJoaXN0b3J5IjpbLTE0NTE4NDYxNDYsLTE4MTQwMjM1NiwtMT
+cwMjE2NTkzOSwyMDkzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAz
+MDkzXX0=
 -->
