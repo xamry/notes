@@ -4,6 +4,7 @@
 From Java 8, interfaces are enhanced to have a method with implementation. We can use `default` and `static` keyword to create interfaces with method implementation.
 
 ## Functional Interfaces**
+An interface with exactly one abstract method becomes a Functional Interface. We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface.
 Java 8 introduced a set of functional interfaces, such as Predicate, Function, Consumer, and Supplier, in the java.util.function package. These interfaces provide common functional programming patterns and enable lambda expressions and method references.
 
 ## Lambda Expressions**
@@ -28,7 +29,8 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1Nzg5MywtMTE2Mzc2NTcxNywtMTM4OT
-A3MzE5NSw4NTE3NDc0MDAsLTE4MTQwMjM1NiwtMTcwMjE2NTkz
-OSwyMDkzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAzMDkzXX0=
+eyJoaXN0b3J5IjpbLTE2MTgwMjgxNzMsMzM1Nzg5MywtMTE2Mz
+c2NTcxNywtMTM4OTA3MzE5NSw4NTE3NDc0MDAsLTE4MTQwMjM1
+NiwtMTcwMjE2NTkzOSwyMDkzMTA2NjI3LDE5MDAxMDg2OTEsMj
+MzNTAzMDkzXX0=
 -->
