@@ -26,10 +26,10 @@ Java 8 introduced the java.time package, which provides a comprehensive set of c
 Method references allow you to refer to methods or constructors without invoking them explicitly. They provide a shorthand notation for lambda expressions and help in writing more concise and readable code.   
 There are four variants of method references.
 
- 1. ### Reference to a Static Method: ContainingClass::methodName
- 2. ### Reference to an Instance Method: containingInstance::methodName
- 3. ### Reference to an Instance Method of an Object of a Particular Type: ContainingType::methodName
- 4. ### Reference to a Constructor: ClassName::new
+ 1. ### Reference to a Static Method: `ContainingClass::methodName`
+ 2. ### Reference to an Instance Method: `containingInstance::methodName`
+ 3. ### Reference to an Instance Method of an Object of a Particular Type: `ContainingType::methodName`
+ 4. ### Reference to a Constructor: `ClassName::new`
 
     
 ## CompletableFuture: 
@@ -38,7 +38,7 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1Njc3NDQwLC0xMjMzMjg5NjUsLTIzOT
+eyJoaXN0b3J5IjpbNDUxOTE4NDgwLC0xMjMzMjg5NjUsLTIzOT
 AyMDIyOSwxMDU4NzE1NTk1LDMyNDM0MjE0MSw3ODU3NjQ5Mywt
 MTcwMzYyNTA1MSwzMzU3ODkzLC0xMTYzNzY1NzE3LC0xMzg5MD
 czMTk1LDg1MTc0NzQwMCwtMTgxNDAyMzU2LC0xNzAyMTY1OTM5
