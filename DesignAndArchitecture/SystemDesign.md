@@ -139,17 +139,17 @@ When to update a cache: (Strategies)
 ⦁	Write-behind (or Write-back)
 ⦁	Refresh-ahead
 
-Asynchronism
-========================
+## Asynchronism
+
 Message queues (Redis, SQL, RabbitMQ)
 Task Queues (Celery)
 
-Remote Procedure Call
-=========================
+## Remote Procedure Call
+
 Popular RPC frameworks: Protobuf, Thrift, and Avro.
 
-Representational state transfer (REST)
-=====================================
+## Representational state transfer (REST)
+
 four qualities of a RESTful interface:
 ⦁	Identify resources (URI in HTTP) - use the same URI regardless of any operation.
 ⦁	Change with representations (Verbs in HTTP) - use verbs, headers, and body.
@@ -157,11 +157,11 @@ four qualities of a RESTful interface:
 ⦁	HATEOAS (HTML interface for HTTP) - your web service should be fully accessible in a browser.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTczNTMwOCwyMDgyMTU1MzM3LDk3ND
-U2MDUxLDE1MjA1NzAxNDUsLTE5MDExNDMxMjMsMTkzODUyMzIy
-NiwtOTc5OTA1MzM0LDE4MTA3MzIwNjYsLTE2NTUyNjU2OCwtMT
-YxNzE2MzQ4MCwtNjM1MDMyMjkzLDEyOTM2MDMyNTAsMTI0MjU0
-NjE4MiwxNDMyNzQ0NzEzLC0xOTY4Nzg1ODgzLC0xNDczMzg4ND
-c4LDE2NDg0MzI1NTksLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4
-MjAyNzc5Nl19
+eyJoaXN0b3J5IjpbNjMyMjEyNjgsMjA4MjE1NTMzNyw5NzQ1Nj
+A1MSwxNTIwNTcwMTQ1LC0xOTAxMTQzMTIzLDE5Mzg1MjMyMjYs
+LTk3OTkwNTMzNCwxODEwNzMyMDY2LC0xNjU1MjY1NjgsLTE2MT
+cxNjM0ODAsLTYzNTAzMjI5MywxMjkzNjAzMjUwLDEyNDI1NDYx
+ODIsMTQzMjc0NDcxMywtMTk2ODc4NTg4MywtMTQ3MzM4ODQ3OC
+wxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkzMjAwNzUyLC05ODIw
+Mjc3OTZdfQ==
 -->
