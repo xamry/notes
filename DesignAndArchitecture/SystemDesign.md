@@ -32,9 +32,21 @@ Sequential events + Local transaction = Isolation
 https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/18-How_do_I_know_if
 
 ## Scalability Tradeoffs
- - Performance Vs Scalability
- - Latency Vs Throughput
- - Availability Vs Consistency
+###  Performance Vs Scalability
+A service is said to be scalable if when we increase the resources in a system, it results in increased performance in a manner proportional to resources added. Increasing performance in general means serving more units of work, but it can also be to handle larger units of work, such as when datasets grow.
+- If you have a performance problem, your system is slow for a single user.
+- If you have a scalability problem, your system is fast for a single user but slow under heavy load.
+
+### Latency Vs Throughput
+ Latency is the time to perform some action or to produce some result.
+Throughput is the number of such actions or results per unit of time.
+Generally, you should aim for maximal throughput with acceptable latency.
+
+### Availability Vs Consistency
+ - Consistency - Every read receives the most recent write or an error (Weak/Strong/Eventual)
+Availability - Every request receives a response, without guarantee that it contains the most recent version of the information
+Partition Tolerance - The system continues to operate despite arbitrary partitioning due to network failures
+
 
 ## Availability Patterns
 ### Failover
@@ -71,10 +83,11 @@ https://www2.slideshare.net/jboner/scalability-availability-stability-patterns/1
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NTYwNTEsMTUyMDU3MDE0NSwtMTkwMT
-E0MzEyMywxOTM4NTIzMjI2LC05Nzk5MDUzMzQsMTgxMDczMjA2
-NiwtMTY1NTI2NTY4LC0xNjE3MTYzNDgwLC02MzUwMzIyOTMsMT
-I5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0MzI3NDQ3MTMsLTE5Njg3
-ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQzMjU1OSwtMTI3NDc2Nz
-AwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
+eyJoaXN0b3J5IjpbLTIxMzY4NjUyMjIsOTc0NTYwNTEsMTUyMD
+U3MDE0NSwtMTkwMTE0MzEyMywxOTM4NTIzMjI2LC05Nzk5MDUz
+MzQsMTgxMDczMjA2NiwtMTY1NTI2NTY4LC0xNjE3MTYzNDgwLC
+02MzUwMzIyOTMsMTI5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0MzI3
+NDQ3MTMsLTE5Njg3ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQzMj
+U1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
+
 -->
