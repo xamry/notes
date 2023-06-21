@@ -1,5 +1,7 @@
 # Java 8 New Features
 
+
+
 ## Functional Interfaces**
 Java 8 introduced a set of functional interfaces, such as Predicate, Function, Consumer, and Supplier, in the java.util.function package. These interfaces provide common functional programming patterns and enable lambda expressions and method references.
 
@@ -9,8 +11,8 @@ Lambda expressions introduced a concise syntax for defining anonymous functions.
 ## Stream API**
 The Stream API provides a declarative way to process collections of data in a functional programming style. Streams allow you to perform operations like filtering, mapping, and reducing on collections with ease, making code more readable and concise.
     
-## Default and Static Methods in interfaces: 
-Default methods, also known as defender methods or virtual extension methods, allow interfaces to have concrete method implementations. This feature enables backward compatibility for existing interfaces while allowing them to evolve by adding new methods.
+
+
     
 ## Optional:
 The Optional class provides a way to handle potentially null values in a more expressive and safe manner. It encourages developers to explicitly handle cases where a value may be absent, reducing the likelihood of null pointer exceptions.
@@ -27,6 +29,7 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 
 ## forEach() method in Iterable interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQwMjM1NiwtMTcwMjE2NTkzOSwyMD
-kzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAzMDkzXX0=
+eyJoaXN0b3J5IjpbMjk1NzgzNzEyLC0xODE0MDIzNTYsLTE3MD
+IxNjU5MzksMjA5MzEwNjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5
+M119
 -->
