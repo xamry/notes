@@ -43,10 +43,14 @@ Throughput is the number of such actions or results per unit of time.
 Generally, you should aim for maximal throughput with acceptable latency.
 
 ### Availability Vs Consistency
- - Consistency - Every read receives the most recent write or an error (Weak/Strong/Eventual)
+Consistency - Every read receives the most recent write or an error (Weak/Strong/Eventual)
 Availability - Every request receives a response, without guarantee that it contains the most recent version of the information
 Partition Tolerance - The system continues to operate despite arbitrary partitioning due to network failures
 
+CP - consistency and partition tolerance (Atomic read and writes)
+AP - availability and partition tolerance   (Eventual consistency)
+
+## Consistency Patterns
 
 ## Availability Patterns
 ### Failover
@@ -83,11 +87,10 @@ Partition Tolerance - The system continues to operate despite arbitrary partitio
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY4NjUyMjIsOTc0NTYwNTEsMTUyMD
-U3MDE0NSwtMTkwMTE0MzEyMywxOTM4NTIzMjI2LC05Nzk5MDUz
-MzQsMTgxMDczMjA2NiwtMTY1NTI2NTY4LC0xNjE3MTYzNDgwLC
-02MzUwMzIyOTMsMTI5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0MzI3
-NDQ3MTMsLTE5Njg3ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQzMj
-U1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
-
+eyJoaXN0b3J5IjpbNDg5MTE0MzYzLDk3NDU2MDUxLDE1MjA1Nz
+AxNDUsLTE5MDExNDMxMjMsMTkzODUyMzIyNiwtOTc5OTA1MzM0
+LDE4MTA3MzIwNjYsLTE2NTUyNjU2OCwtMTYxNzE2MzQ4MCwtNj
+M1MDMyMjkzLDEyOTM2MDMyNTAsMTI0MjU0NjE4MiwxNDMyNzQ0
+NzEzLC0xOTY4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NT
+ksLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
 -->
