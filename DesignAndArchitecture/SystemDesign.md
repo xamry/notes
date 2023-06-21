@@ -61,9 +61,9 @@ Active-passive (Master-Slave): With active-passive fail-over, heartbeats are sen
 Active-active (Master-Master): In active-active, both servers are managing traffic, spreading the load between them.
 
 ### Replication
- - Master-slave
+ - Master-slave: The master serves reads and writes, replicating writes to one or more slaves, which serve only reads. 
  - Tree replication
- - Master-master
+ - Master-master : Both masters serve reads and writes and coordinate with each other on writes. If either master goes down, the system can continue to operate with both reads and writes.
  - Buddy replication
 
 ## Scalability Patterns
@@ -93,10 +93,11 @@ Active-active (Master-Master): In active-active, both servers are managing traff
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4NTQzNTY5LDk3NDU2MDUxLDE1MjA1Nz
-AxNDUsLTE5MDExNDMxMjMsMTkzODUyMzIyNiwtOTc5OTA1MzM0
-LDE4MTA3MzIwNjYsLTE2NTUyNjU2OCwtMTYxNzE2MzQ4MCwtNj
-M1MDMyMjkzLDEyOTM2MDMyNTAsMTI0MjU0NjE4MiwxNDMyNzQ0
-NzEzLC0xOTY4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NT
-ksLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
+eyJoaXN0b3J5IjpbLTIyNzUxODY1Nyw5NzQ1NjA1MSwxNTIwNT
+cwMTQ1LC0xOTAxMTQzMTIzLDE5Mzg1MjMyMjYsLTk3OTkwNTMz
+NCwxODEwNzMyMDY2LC0xNjU1MjY1NjgsLTE2MTcxNjM0ODAsLT
+YzNTAzMjI5MywxMjkzNjAzMjUwLDEyNDI1NDYxODIsMTQzMjc0
+NDcxMywtMTk2ODc4NTg4MywtMTQ3MzM4ODQ3OCwxNjQ4NDMyNT
+U5LC0xMjc0NzY3MDAsLTkzMjAwNzUyLC05ODIwMjc3OTZdfQ==
+
 -->
