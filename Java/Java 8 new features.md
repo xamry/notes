@@ -12,9 +12,6 @@ Lambda expressions introduced a concise syntax for defining anonymous functions.
 ## Stream API**
 The Stream API provides a declarative way to process collections of data in a functional programming style. Streams allow you to perform operations like filtering, mapping, and reducing on collections with ease, making code more readable and concise.
     
-
-
-    
 ## Optional:
 The Optional class provides a way to handle potentially null values in a more expressive and safe manner. It encourages developers to explicitly handle cases where a value may be absent, reducing the likelihood of null pointer exceptions.
     
@@ -30,7 +27,7 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 
 ## forEach() method in Iterable interface
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE4NDYxNDYsLTE4MTQwMjM1NiwtMT
-cwMjE2NTkzOSwyMDkzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAz
-MDkzXX0=
+eyJoaXN0b3J5IjpbODUxNzQ3NDAwLC0xODE0MDIzNTYsLTE3MD
+IxNjU5MzksMjA5MzEwNjYyNywxOTAwMTA4NjkxLDIzMzUwMzA5
+M119
 -->
