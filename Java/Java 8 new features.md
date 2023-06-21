@@ -4,7 +4,7 @@
 From Java 8, interfaces are enhanced to have a method with implementation. We can use `default` and `static` keyword to create interfaces with method implementation. Default methods can be overriden while static methods can't.
 
 ## Functional Interfaces**
-An interface with exactly one abstract method becomes a Functional Interface. We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface, but we should, in order to avoid accidental addition of abstract methods in the functional interfaces. Functional interfaces provide common **functional programming patterns**. Since functional interfaces have only one method, lambda expressions can easily provide the method implementation.
+An interface with exactly one abstract method becomes a Functional Interface. The only abstract method is called  We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface, but we should, in order to avoid accidental addition of abstract methods in the functional interfaces. Functional interfaces provide common **functional programming patterns**. Since functional interfaces have only one method, lambda expressions can easily provide the method implementation.
 java.lang.Runnable with a single abstract method run() is a great example of a functional interface.
 Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function`, `Consumer`, and `Supplier`, in the `java.util.function` package.
 
@@ -38,10 +38,10 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDgzMDg4NCwtMTU1MzY0MzQ5MCw0NT
-E5MTg0ODAsLTEyMzMyODk2NSwtMjM5MDIwMjI5LDEwNTg3MTU1
-OTUsMzI0MzQyMTQxLDc4NTc2NDkzLC0xNzAzNjI1MDUxLDMzNT
-c4OTMsLTExNjM3NjU3MTcsLTEzODkwNzMxOTUsODUxNzQ3NDAw
-LC0xODE0MDIzNTYsLTE3MDIxNjU5MzksMjA5MzEwNjYyNywxOT
-AwMTA4NjkxLDIzMzUwMzA5M119
+eyJoaXN0b3J5IjpbLTQxNzU3MDkyOSwtMTc0ODMwODg0LC0xNT
+UzNjQzNDkwLDQ1MTkxODQ4MCwtMTIzMzI4OTY1LC0yMzkwMjAy
+MjksMTA1ODcxNTU5NSwzMjQzNDIxNDEsNzg1NzY0OTMsLTE3MD
+M2MjUwNTEsMzM1Nzg5MywtMTE2Mzc2NTcxNywtMTM4OTA3MzE5
+NSw4NTE3NDc0MDAsLTE4MTQwMjM1NiwtMTcwMjE2NTkzOSwyMD
+kzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAzMDkzXX0=
 -->
