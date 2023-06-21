@@ -6,7 +6,7 @@ From Java 8, interfaces are enhanced to have a method with implementation. We ca
 ## Functional Interfaces**
 An interface with exactly one abstract method becomes a Functional Interface. We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface, but we should, in order to avoid accidental addition of abstract methods in the functional interfaces. Functional interfaces provide common **functional programming patterns**. Since functional interfaces have only one method, lambda expressions can easily provide the method implementation.
 java.lang.Runnable with a single abstract method run() is a great example of a functional interface.
-Java 8 introduced a set of functional interfaces, such as Predicate, Function, Consumer, and Supplier, in the `java.util.function` package.
+Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function`, `Consumer`, and `Supplier`, in the `java.util.function` package.
 
 Functional Interfaces are also called SAM (Single Abstract Method) interfaces.
 
@@ -38,10 +38,10 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM2NDM0OTAsNDUxOTE4NDgwLC0xMj
-MzMjg5NjUsLTIzOTAyMDIyOSwxMDU4NzE1NTk1LDMyNDM0MjE0
-MSw3ODU3NjQ5MywtMTcwMzYyNTA1MSwzMzU3ODkzLC0xMTYzNz
-Y1NzE3LC0xMzg5MDczMTk1LDg1MTc0NzQwMCwtMTgxNDAyMzU2
-LC0xNzAyMTY1OTM5LDIwOTMxMDY2MjcsMTkwMDEwODY5MSwyMz
-M1MDMwOTNdfQ==
+eyJoaXN0b3J5IjpbLTE3NDgzMDg4NCwtMTU1MzY0MzQ5MCw0NT
+E5MTg0ODAsLTEyMzMyODk2NSwtMjM5MDIwMjI5LDEwNTg3MTU1
+OTUsMzI0MzQyMTQxLDc4NTc2NDkzLC0xNzAzNjI1MDUxLDMzNT
+c4OTMsLTExNjM3NjU3MTcsLTEzODkwNzMxOTUsODUxNzQ3NDAw
+LC0xODE0MDIzNTYsLTE3MDIxNjU5MzksMjA5MzEwNjYyNywxOT
+AwMTA4NjkxLDIzMzUwMzA5M119
 -->
