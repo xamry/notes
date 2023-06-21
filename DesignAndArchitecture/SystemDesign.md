@@ -57,6 +57,9 @@ Strong consistency - After a write, reads will see it. Data is replicated synchr
 
 ## Availability Patterns
 ### Failover
+Active-passive (Master-Slave): With active-passive fail-over, heartbeats are sent between the active and the passive server on standby. If the heartbeat is interrupted, the passive server takes over the active's IP address and resumes service.
+Active-active (Master-Master): In active-active, both servers are managing traffic, spreading the load between them.
+
 ### Replication
  - Master-slave
  - Tree replication
@@ -90,11 +93,10 @@ Strong consistency - After a write, reads will see it. Data is replicated synchr
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTgzNjE0MjEsOTc0NTYwNTEsMTUyMD
-U3MDE0NSwtMTkwMTE0MzEyMywxOTM4NTIzMjI2LC05Nzk5MDUz
-MzQsMTgxMDczMjA2NiwtMTY1NTI2NTY4LC0xNjE3MTYzNDgwLC
-02MzUwMzIyOTMsMTI5MzYwMzI1MCwxMjQyNTQ2MTgyLDE0MzI3
-NDQ3MTMsLTE5Njg3ODU4ODMsLTE0NzMzODg0NzgsMTY0ODQzMj
-U1OSwtMTI3NDc2NzAwLC05MzIwMDc1MiwtOTgyMDI3Nzk2XX0=
-
+eyJoaXN0b3J5IjpbODM4NTQzNTY5LDk3NDU2MDUxLDE1MjA1Nz
+AxNDUsLTE5MDExNDMxMjMsMTkzODUyMzIyNiwtOTc5OTA1MzM0
+LDE4MTA3MzIwNjYsLTE2NTUyNjU2OCwtMTYxNzE2MzQ4MCwtNj
+M1MDMyMjkzLDEyOTM2MDMyNTAsMTI0MjU0NjE4MiwxNDMyNzQ0
+NzEzLC0xOTY4Nzg1ODgzLC0xNDczMzg4NDc4LDE2NDg0MzI1NT
+ksLTEyNzQ3NjcwMCwtOTMyMDA3NTIsLTk4MjAyNzc5Nl19
 -->
