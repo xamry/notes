@@ -30,7 +30,10 @@ This is the most widely used Architecture of Data Warehouse.
 3.  **Top-Tier:** The top tier is a front-end client layer. Top tier is the tools and API that you connect and get data out from the data warehouse. It could be Query tools, reporting tools, managed query tools, Analysis tools and Data mining tools.
 
 ![Data Warehouse Architecture](https://www.guru99.com/images/1/022218_0735_DataWarehou2.png)
+
+## Metadata
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNTcyOCwtMTMxNjA1MjYwOCwtMTI5Mz
-I0NDI0OCw3NzQ3MjgxMDMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3NDE2MjAzNDMsODMwNTcyOCwtMTMxNj
+A1MjYwOCwtMTI5MzI0NDI0OCw3NzQ3MjgxMDMsNzMwOTk4MTE2
+XX0=
 -->
