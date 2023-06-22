@@ -8,7 +8,11 @@ Star schema is a data warehouse schema where there is only one “fact table" an
 Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tree like structure with many nesting levels. Snowflake schema is easier to maintain but queries require more joins.
 
 ## Mutidimensional Data Model
-### 
+### Fact
+A "fact" is a numeric value that a business wishes to count or sum. 
+
+### Dimension
+A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. Dimensions are a set of level properties that describe a specific aspect of a business, used for analyzing the factual measures.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTA4NzQ3MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTg0MzcxNTgwMCwtMjA4ODc0NjYxMl19
 -->
