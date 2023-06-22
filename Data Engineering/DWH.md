@@ -32,8 +32,9 @@ This is the most widely used Architecture of Data Warehouse.
 ![Data Warehouse Architecture](https://www.guru99.com/images/1/022218_0735_DataWarehou2.png)
 
 ## Metadata
+Metadata is data about data which defines the data warehouse. It is used for building, maintaining and managing the data warehouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE2MjAzNDMsODMwNTcyOCwtMTMxNj
-A1MjYwOCwtMTI5MzI0NDI0OCw3NzQ3MjgxMDMsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbMTMyNjM2MTE1Myw4MzA1NzI4LC0xMzE2MD
+UyNjA4LC0xMjkzMjQ0MjQ4LDc3NDcyODEwMyw3MzA5OTgxMTZd
+fQ==
 -->
