@@ -45,8 +45,8 @@ An example of slowly changing dimension is a Resource dimension where attributes
  3. Type 3: Add additional column to maintain history (e.g. prior department)
 
 ## Conformed Dimension
-
+Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDkyMzY3NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjg0NjY3Njc0LC0yMDg4NzQ2NjEyXX0=
 -->
