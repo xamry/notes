@@ -46,9 +46,6 @@ In OLAP, for analytical processing. Focussed on making retrievals easy.
 ## Dimension
 A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. In simple terms, they give **who**, **what**, **where** of a fact.
 
-
-
-
 ### Conformed Dimension
 Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
 
@@ -131,7 +128,7 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzgzNjIzMSwtNDgzMjIzNjEwLDIwMT
+eyJoaXN0b3J5IjpbLTM2ODE2MzAxMSwtNDgzMjIzNjEwLDIwMT
 k2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIy
 ODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1Ny
 wxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2
