@@ -1,20 +1,32 @@
 # OLAP
 OLAP stands for Online Analytical Processing. It is a technology used in business intelligence systems to analyze and query multidimensional data. OLAP provides a way to organize and manipulate large volumes of data to support complex analysis and decision-making.
 
-## Schema Types
-### Star Schema
+# Schema Types
+## Star Schema
 Star schema is a data warehouse schema where there is only one “fact table" and many de-normalized dimension tables. Fact table contains primary keys from all the dimension tables and idwbitraining@gmail.com 6 other statistical columns (facts)
-### Snowflake Schema
+## Snowflake Schema
 Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tree like structure with many nesting levels. Snowflake schema is easier to maintain but queries require more joins.
 
-## Mutidimensional Data Model
-### Fact
-A "fact" is a numeric value that a business wishes to count or sum. 
+# Mutidimensional Data Model
 
-### Dimension
+## Dimension
 A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. Dimensions are a set of level properties that describe a specific aspect of a business, used for analyzing the factual measures.
 
-### Fact Table 
+### Slowly Changing Dimension
+Slowly changing dimensions refers to the change in dimensional attributes over time. 
+
+An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc.
+
+#### Types of Slowly Changing Dimension
+
+ 1. Type 1:  Update the existing row (no history)
+ 2. Type 2:  Add a new dimension row (history maintained)
+ 3. Type 3: Add additional column to maintain history (e.g. prior department)
+
+### Conformed Dimension
+Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
+
+## Fact Table 
 A Fact Table in a dimensional model consists of one or more numeric facts of importance to a business. Examples of facts are as follows:  
 the number of products sold 
 the value of products sold
@@ -33,20 +45,9 @@ Semi-additive facts are facts that can be summed up for some of the dimensions i
 ### Non-Additive: 
 Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table (Room Temperature)
 
-## Slowly Changing Dimension
-Slowly changing dimensions refers to the change in dimensional attributes over time. 
 
-An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc.
 
-### Types of Slowly Changing Dimension
-
- 1. Type 1:  Update the existing row (no history)
- 2. Type 2:  Add a new dimension row (history maintained)
- 3. Type 3: Add additional column to maintain history (e.g. prior department)
-
-## Conformed Dimension
-Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NjY3Njc0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTcwNTQxMzY5NywtMjA4ODc0NjYxMl19
 -->
