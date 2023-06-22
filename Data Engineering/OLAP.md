@@ -77,11 +77,17 @@ Semi-additive facts are facts that can be summed up for some of the dimensions i
 #### Non-Additive: 
 Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table (Room Temperature)
 
+# OLAP Operations
+1.  Roll-up
+2.  Drill-down
+3.  Slice and dice
+4.  Pivot (rotate)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTIxOTkwMywtMTQ0MDYxNTM4NSwtMj
-E1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgz
-LDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMjM3NDkyMjEsLTE0NDA2MTUzODUsLTIxNT
+QzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4Mywx
+NzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
 -->
