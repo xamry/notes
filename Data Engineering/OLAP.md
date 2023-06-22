@@ -3,6 +3,7 @@ OLAP stands for Online Analytical Processing. It is a technology used in busines
 
 ## OLAP Technology Types
 ### MOLAP
+Multidimensional OLAP enables end-users to model data in a multidimensional environment, rather than providing a multidimensional view of relational data. It stored data in a cube.
 
 ### ROLAP
 Relational OLAP is a type of analytical processing that leverages the capabilities of a RDBMS to perform OLAP tasks.
@@ -74,7 +75,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzEyMzg5OCwxNDY3NjEwMTI0LDUwNT
+eyJoaXN0b3J5IjpbMjAwNDYxNzg0MSwxNDY3NjEwMTI0LDUwNT
 UzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEy
 XX0=
 -->
