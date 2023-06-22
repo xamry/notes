@@ -36,10 +36,10 @@ Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tr
 
 # Modelling Techniques
 ## ER Model 
-In OLTP, for RDBMS
+In OLTP, for RDBMS. Focussed on normalization to reduce redundancy.
 
 ## Dimensional Modeling
-In OLAP, for analytical processing.
+In OLAP, for analytical processing. Focussed on making retrievals easy.
 
 # Mutidimensional Data Model
 
@@ -130,10 +130,10 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzQzMjUxOSwtNzk0MDI5MTAyLDE0MD
-A2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC0xOTE5NzE3
-MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMxMDE4NDAsLT
-E5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzODUsLTIxNTQz
-MjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNz
-kxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzkyMjE1NzAyLC03OTQwMjkxMDIsMTQwMD
+YyMjg0OCwxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcy
+NTcsMTM3Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMT
+k0NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMy
+NTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OT
+E1NjI1MDYsLTIwODg3NDY2MTJdfQ==
 -->
