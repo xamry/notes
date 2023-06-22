@@ -19,6 +19,7 @@ DOLAP systems often allow users to store and manage data locally on their deskto
 Web OLAP is OLAP system accessible via the web browser. 
 
 ### Mobile OLAP
+Mobile OLAP helps users to access and analyze OLAP data using their mobile devices.
 
 ### HTAP
 Hybrid Transactional/Analytical Processing refers to a database architecture that combines OLTP and OLAP capabilities within a single system. Different approaches such as in-memory databases, columnar databases, or distributed processing frameworks may be used to achieve HTAP capabilities.
@@ -119,9 +120,10 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1OTQ1NDg4LDEzMTEzMTY5MjgsMTI1OT
-Y4NDk1NSwtMTkxOTcxNzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2
-NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xND
-QwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1Mzcy
-NDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5MjIzODIxOTksMTMxMTMxNjkyOCwxMj
+U5Njg0OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2
+NTY2LDEyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLT
+E0NDA2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUz
+NzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX
+0=
 -->
