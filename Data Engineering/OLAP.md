@@ -68,6 +68,12 @@ A dimension which is located in fact table is known as Degenerated dimension. Th
 #### Multi-Valued Dimension
 A multi-valued dimension, also known as a multivalued attribute or repeating group, refers to a dimension attribute that can have multiple values associated with a single occurrence of an entity in a data model. Multiple values are stored directly within a single record of the dimension attribute.
 
+#### Outrigger Dimension
+
+#### Shrunken Dimension
+
+#### Role-playing Dimension
+
 #### Slowly Changing Dimension
 Slowly changing dimensions refers to the change in dimensional attributes over time. 
 
@@ -136,11 +142,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTU4MTQ2MSwtNDgzMjIzNjEwLDIwMT
-k2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIy
-ODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1Ny
-wxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2
-NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1ND
-QsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2
-MjUwNl19
+eyJoaXN0b3J5IjpbLTk5MDg0MTcyOCwxNTY1NTgxNDYxLC00OD
+MyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5
+MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC
+0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMx
+MDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzOD
+UsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgy
+NTk4M119
 -->
