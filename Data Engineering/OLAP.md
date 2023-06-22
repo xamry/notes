@@ -46,16 +46,8 @@ In OLAP, for analytical processing. Focussed on making retrievals easy.
 ## Dimension
 A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. In simple terms, they give **who**, **what**, **where** of a fact.
 
-### Slowly Changing Dimension
-Slowly changing dimensions refers to the change in dimensional attributes over time. 
 
-An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc.
 
-#### Types of Slowly Changing Dimension
-
- 1. Type 1:  Update the existing row (no history)
- 2. Type 2:  Add a new dimension row (history maintained)
- 3. Type 3: Add additional column to maintain history (e.g. prior department)
 
 ### Conformed Dimension
 Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
@@ -68,6 +60,17 @@ A dimension which is located in fact table is known as Degenerated dimension. Th
 
 ### Multi-Valued Dimension
 A multi-valued dimension, also known as a multivalued attribute or repeating group, refers to a dimension attribute that can have multiple values associated with a single occurrence of an entity in a data model. Multiple values are stored directly within a single record of the dimension attribute.
+
+### Slowly Changing Dimension
+Slowly changing dimensions refers to the change in dimensional attributes over time. 
+
+An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc.
+
+#### Types of Slowly Changing Dimension
+
+ 1. Type 1:  Update the existing row (no history)
+ 2. Type 2:  Add a new dimension row (history maintained)
+ 3. Type 3: Add additional column to maintain history (e.g. prior department)
 
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
@@ -130,7 +133,7 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMzgwOTUyLDIwMTk2NTU4MTgsLTE0Mz
+eyJoaXN0b3J5IjpbMjE4ODMyNTkwLDIwMTk2NTU4MTgsLTE0Mz
 gxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIyODQ4LDEzMTEzMTY5
 MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMzc3NzgxNTU2LD
 I3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5
