@@ -41,7 +41,7 @@ In OLTP, for RDBMS. Focussed on normalization to reduce redundancy.
 ### Dimensional Modeling
 In OLAP, for analytical processing. Focussed on making retrievals easy.
 
-Steps of dimensional modelling: (The model should describe the Why, How much, When/Where/Who and What of your business process)
+Steps of dimensional modelling: 
 1.  Identify Business Process
 2.  Identify Grain (level of detail)
 3.  Identify Dimensions
@@ -157,11 +157,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjkzNjI4NTMsMTU2NTU4MTQ2MSwtND
-gzMjIzNjEwLDIwMTk2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAy
-OTEwMiwxNDAwNjIyODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NS
-wtMTkxOTcxNzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIz
-MTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mz
-g1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4
-MjU5ODNdfQ==
+eyJoaXN0b3J5IjpbMTc2MTQyMDY1MywxNTY1NTgxNDYxLC00OD
+MyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5
+MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC
+0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMx
+MDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzOD
+UsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgy
+NTk4M119
 -->
