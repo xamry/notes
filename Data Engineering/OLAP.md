@@ -3,7 +3,7 @@ OLAP stands for Online Analytical Processing. It is a technology used in busines
 
 ## OLAP Technology Types
 ### MOLAP
-Multidimensional OLAP enables end-users to model data in a multidimensional environment, rather than providing a multidimensional view of relational data. It stored data in a cube.
+Multidimensional OLAP enables end-users to model data in a multidimensional environment, rather than providing a multidimensional view of relational data. It stored data in a cube (or also called **Hypercube**).
 
 ### ROLAP
 Relational OLAP is a type of analytical processing that leverages the capabilities of a RDBMS to perform OLAP tasks.
@@ -56,6 +56,8 @@ A multi-valued dimension, also known as a multivalued attribute or repeating gro
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
 
+### Measure
+
 ### Fact Table 
 A Fact Table in a dimensional model consists of one or more numeric facts of importance to a business. Examples of facts are as follows:  
 the number of products sold 
@@ -79,7 +81,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA2MTUzODUsLTIxNTQzMjU0NCwxND
-Y3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2
-LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTQxNTIxOTkwMywtMTQ0MDYxNTM4NSwtMj
+E1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgz
+LDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ==
 -->
