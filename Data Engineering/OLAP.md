@@ -37,6 +37,13 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 Slowly changing dimensions refers to the change in dimensional attributes over time. 
 
 An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc.
+
+### Types of Slowly Changing Dimension
+
+ 1. Type 1: 
+ 2. Type 2: 
+ 3. Type 3: 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMzM3NzkwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTc4NTY3NzM3NCwtMjA4ODc0NjYxMl19
 -->
