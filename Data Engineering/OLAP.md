@@ -82,6 +82,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 Roll-up is also known as “consolidation” or “aggregation.”
 
 ## Drill-down
+In drill-down data is fragmented into smaller parts. It is the opposite of the rollup process.
 ## Slice and dice
 ## Pivot (rotate)
 
@@ -89,7 +90,8 @@ Roll-up is also known as “consolidation” or “aggregation.”
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0ND
-A2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0
-MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjI3Mzg0MjE3LC0xOTQ2NjAwODAzLDIzNz
+Q5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEy
+NCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4OD
+c0NjYxMl19
 -->
