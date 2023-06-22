@@ -35,6 +35,7 @@ Star schema is a data warehouse schema where there is only one “fact table" an
 Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tree like structure with many nesting levels. Snowflake schema is easier to maintain but queries require more joins.
 
 ### Galaxy Schema
+A **Galaxy Schema** contains two fact table that share dimension tables between them. It is also called Fact Constellation Schema. The schema is viewed as a collection of stars hence the name Galaxy Schema.
 
 ## Modelling Techniques
 ### ER Model 
@@ -159,11 +160,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzMzMjI0MywxNzYxNDIwNjUzLDE1Nj
-U1ODE0NjEsLTQ4MzIyMzYxMCwyMDE5NjU1ODE4LC0xNDM4MTg1
-NjEwLC03OTQwMjkxMDIsMTQwMDYyMjg0OCwxMzExMzE2OTI4LD
-EyNTk2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNzc5
-NzY1NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMS
-wtMTQ0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1
-NTM3MjQwXX0=
+eyJoaXN0b3J5IjpbLTE3NTQzMjA0MTUsMTc2MTQyMDY1MywxNT
+Y1NTgxNDYxLC00ODMyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4
+NTYxMCwtNzk0MDI5MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOC
+wxMjU5Njg0OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3
+OTc2NTY2LDEyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMj
+EsLTE0NDA2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUw
+NTUzNzI0MF19
 -->
