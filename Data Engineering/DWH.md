@@ -25,7 +25,10 @@ Its a replica of OLTP system and so the need of this, is to reduce the burden on
 
 ## Data Warehouse Architectures
 ### Centralized (EDW) Architecture
-Only one 
+Single central EDW database
+
+### Federated (Single department data mart) Architecture
+Mu
 
 ## Three-Tier Data Warehouse Architecture
 This is the most widely used Architecture of Data Warehouse.
@@ -48,7 +51,7 @@ Metadata can be classified into following categories:
 1.  **Technical Meta Data**: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
 2.  **Business Meta Data:**  This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjA1NTI0NCw4NzYyNzIwMzUsODMwNT
-cyOCwtMTMxNjA1MjYwOCwtMTI5MzI0NDI0OCw3NzQ3MjgxMDMs
-NzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NjQ3MDU4NDMsODc2MjcyMDM1LDgzMD
+U3MjgsLTEzMTYwNTI2MDgsLTEyOTMyNDQyNDgsNzc0NzI4MTAz
+LDczMDk5ODExNl19
 -->
