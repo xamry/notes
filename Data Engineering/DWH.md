@@ -38,8 +38,13 @@ Metadata helps to answer the following questions
 -   Where did the data come from?
 -   How many times do data get reloaded?
 -   What transformations were applied with cleansing?
+
+Metadata can be classified into following categories:
+
+1.  **Technical Meta Data**: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
+2.  **Business Meta Data:**  This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTgyNDE4Myw4MzA1NzI4LC0xMzE2MD
-UyNjA4LC0xMjkzMjQ0MjQ4LDc3NDcyODEwMyw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbODc2MjcyMDM1LDgzMDU3MjgsLTEzMTYwNT
+I2MDgsLTEyOTMyNDQyNDgsNzc0NzI4MTAzLDczMDk5ODExNl19
+
 -->
