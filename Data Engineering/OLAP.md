@@ -5,6 +5,7 @@ OLAP stands for Online Analytical Processing. It is a technology used in busines
 ### MOLAP
 
 ### ROLAP
+Relational OLAP is a type of analytical processing that leverages the capabilities of a RDBMS to perform OLAP tasks.
 
 ### HOLAP
 
@@ -73,6 +74,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4Mj
-U5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTQ0NzEyMzg5OCwxNDY3NjEwMTI0LDUwNT
+UzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEy
+XX0=
 -->
