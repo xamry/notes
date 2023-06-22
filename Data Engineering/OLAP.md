@@ -100,9 +100,10 @@ Drill-through provides the ability to access detailed data underlying a summary 
 Drill through provides a way to explore specific subsets of data in more depth without cluttering the main report or visualization with excessive details.
     
 ## Calculated Measures
-OLAP systems often support the creation of calculated measures, which are derived or computed measures based on existing measures and calculations. Calculated measures enable users to perform mathematical operations, apply formulas, and create custom calculations for analysis.
+Calculated measures are derived or computed measures based on existing measures and calculations. Calculated measures enable users to perform mathematical operations, apply formulas, and create custom calculations for analysis.
     
-3.  Ranking: Ranking involves sorting data based on a particular measure to determine its relative position or rank within a dimension. It helps identify top performers, best-selling products, or other patterns in the data.
+## Ranking
+Ranking involves sorting data based on a particular measure to determine its relative position or rank within a dimension. It helps identify top performers, best-selling products, or other patterns in the data.
     
 4.  Filtering: Filtering allows users to limit the data displayed in a cube or report based on specific conditions or criteria. It helps focus the analysis on subsets of data that meet certain requirements.
     
@@ -111,9 +112,10 @@ OLAP systems often support the creation of calculated measures, which are derive
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3ODg3MTc4LDEzMTEzMTY5MjgsMTI1OT
-Y4NDk1NSwtMTkxOTcxNzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2
-NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xND
-QwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1Mzcy
-NDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5MzUxMTkzMjIsMTMxMTMxNjkyOCwxMj
+U5Njg0OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2
+NTY2LDEyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLT
+E0NDA2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUz
+NzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX
+0=
 -->
