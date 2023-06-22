@@ -40,10 +40,12 @@ An example of slowly changing dimension is a Resource dimension where attributes
 
 ### Types of Slowly Changing Dimension
 
- 1. Type 1: 
- 2. Type 2: 
- 3. Type 3: 
+ 1. Type 1:  Update the existing row (no history)
+ 2. Type 2:  Add a new dimension row (history maintained)
+ 3. Type 3: Add additional column to maintain history (e.g. prior department)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTY3NzM3NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTgzMzU4ODQ4NywtMjA4ODc0NjYxMl19
 -->
