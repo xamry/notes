@@ -34,6 +34,11 @@ Star schema is a data warehouse schema where there is only one “fact table" an
 ## Snowflake Schema
 Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tree like structure with many nesting levels. Snowflake schema is easier to maintain but queries require more joins.
 
+# Modelling Techniques
+## ER Model 
+
+## Dimensional Modeling
+
 # Mutidimensional Data Model
 
 ## Dimension
@@ -123,10 +128,10 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDYyMjg0OCwxMzExMzE2OTI4LDEyNT
-k2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNzc5NzY1
-NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMT
-Q0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3
-MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTg4MTIwMjgzOSwxNDAwNjIyODQ4LDEzMT
+EzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMzc3Nzgx
+NTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLD
+IzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYx
+MDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMj
+A4ODc0NjYxMl19
 -->
