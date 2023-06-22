@@ -27,18 +27,18 @@ Spatial OLAP is created to facilitate management of both spatial and non-spatial
 ### HTAP
 Hybrid Transactional/Analytical Processing refers to a database architecture that combines OLTP and OLAP capabilities within a single system. Different approaches such as in-memory databases, columnar databases, or distributed processing frameworks may be used to achieve HTAP capabilities.
 
-# Schema Types
-## Star Schema
+## Schema Types
+### Star Schema
 Star schema is a data warehouse schema where there is only one “fact table" and many de-normalized dimension tables. Fact table contains primary keys from all the dimension tables and idwbitraining@gmail.com 6 other statistical columns (facts)
 
-## Snowflake Schema
+### Snowflake Schema
 Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tree like structure with many nesting levels. Snowflake schema is easier to maintain but queries require more joins.
 
-# Modelling Techniques
-## ER Model 
+## Modelling Techniques
+### ER Model 
 In OLTP, for RDBMS. Focussed on normalization to reduce redundancy.
 
-## Dimensional Modeling
+### Dimensional Modeling
 In OLAP, for analytical processing. Focussed on making retrievals easy.
 
 # Elements of Mutidimensional Data Model
@@ -130,10 +130,10 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxND
-AwNjIyODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcx
-NzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC
-0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0
-MzI1NDQsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMT
-c5MTU2MjUwNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjAxOTY1NTgxOCwtMTQzODE4NTYxMCwtNz
+k0MDI5MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0
+OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LD
+EyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2
+MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MC
+wzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
 -->
