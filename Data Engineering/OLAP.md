@@ -89,6 +89,8 @@ An example of slowly changing dimension is a Resource dimension where attributes
  2. Type 2:  Add a new dimension row (history maintained)
  3. Type 3: Add additional column to maintain history (e.g. prior department)
 
+### Dimensional Modelling
+
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
 
@@ -148,11 +150,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2Nzg0MDI0LDE1NjU1ODE0NjEsLTQ4Mz
-IyMzYxMCwyMDE5NjU1ODE4LC0xNDM4MTg1NjEwLC03OTQwMjkx
-MDIsMTQwMDYyMjg0OCwxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLT
-E5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEw
-MTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NS
-wtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1
-OTgzXX0=
+eyJoaXN0b3J5IjpbLTI3ODE3MDQyOSwxNTY1NTgxNDYxLC00OD
+MyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5
+MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC
+0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMx
+MDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzOD
+UsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgy
+NTk4M119
 -->
