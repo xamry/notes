@@ -16,7 +16,7 @@ HOLAP systems store larger quantities of detailed data in the relational tables 
 DOLAP systems often allow users to store and manage data locally on their desktop machines and it enables users to perform analytical tasks and interact with data locally on their own desktop or laptop machines.
 
 ### HTAP
-
+Hybrid Transactional/Analytical Processing. It refers to a database architecture that combines real-time transaction processing (OLTP) and analytical processing (OLAP) capabilities within a single system.
 # Schema Types
 ## Star Schema
 Star schema is a data warehouse schema where there is only one “fact table" and many de-normalized dimension tables. Fact table contains primary keys from all the dimension tables and idwbitraining@gmail.com 6 other statistical columns (facts)
@@ -78,7 +78,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE0ODY0OTUsLTIxNTQzMjU0NCwxND
-Y3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2
-LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTczNTc4OTg0OCwtMjE1NDMyNTQ0LDE0Nj
+c2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYs
+LTIwODg3NDY2MTJdfQ==
 -->
