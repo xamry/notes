@@ -32,6 +32,11 @@ Semi-additive facts are facts that can be summed up for some of the dimensions i
 
 ### Non-Additive: 
 Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table (Room Temperature)
+
+## Slowly Changing Dimension
+Slowly changing dimensions refers to the change in dimensional attributes over time. 
+
+An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjQ3NzY3NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzkwMzM3NzkwLC0yMDg4NzQ2NjEyXX0=
 -->
