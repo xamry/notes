@@ -24,9 +24,9 @@ Data mart is usually sponsored at the department level and developed with a spec
 Its a replica of OLTP system and so the need of this, is to reduce the burden on production system (OLTP) while fetching data for loading targets. Hence its a mandate Requirement for every Warehouse.
 
 ## Three-Tier Data Warehouse Architecture
-
+This is the most widely used Architecture of Data Warehouse.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzUzMDYzOSwtMTI5MzI0NDI0OCw3Nz
-Q3MjgxMDMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTUwODIyMDg5LC0xMjkzMjQ0MjQ4LDc3ND
+cyODEwMyw3MzA5OTgxMTZdfQ==
 -->
