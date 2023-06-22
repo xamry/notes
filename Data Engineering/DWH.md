@@ -28,7 +28,9 @@ This is the most widely used Architecture of Data Warehouse.
 1.  **Bottom Tier:**  The database of the Datawarehouse servers as the bottom tier. It is usually a relational database system. Data is cleansed, transformed, and loaded into this layer using back-end tools.
 2.  **Middle Tier:** The middle tier in Data warehouse is an OLAP server which is implemented using either ROLAP or MOLAP model. For a user, this application tier presents an abstracted view of the database.
 3.  **Top-Tier:** The top tier is a front-end client layer. Top tier is the tools and API that you connect and get data out from the data warehouse. It could be Query tools, reporting tools, managed query tools, Analysis tools and Data mining tools.
+
+![Data Warehouse Architecture](https://www.guru99.com/images/1/022218_0735_DataWarehou2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTYwNTI2MDgsLTEyOTMyNDQyNDgsNz
-c0NzI4MTAzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODMwNTcyOCwtMTMxNjA1MjYwOCwtMTI5Mz
+I0NDI0OCw3NzQ3MjgxMDMsNzMwOTk4MTE2XX0=
 -->
