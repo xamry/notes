@@ -96,7 +96,8 @@ Dicing provides a more detailed and focused view of the data by narrowing down t
 In Pivot, you rotate the data axes to provide a alternate presentation of data. It involves changing the orientation or structure of the cube to provide different perspectives on the data.
 
 ## Drill-through
-Drill-through provides the ability to access detailed data underlying a summary value. It allows users to navigate from a summarized value to the transactional-level data for deeper analysis.
+Drill-through provides the ability to access detailed data underlying a summary value. It allows users to navigate from a summarized value to the transactional-level data for deeper analysis (usually in a different window).
+Drill through provides a way to explore specific subsets of data in more depth without cluttering the main report or visualization with excessive details.
     
 2.  Calculated Measures: OLAP systems often support the creation of calculated measures, which are derived or computed measures based on existing measures and calculations. Calculated measures enable users to perform mathematical operations, apply formulas, and create custom calculations for analysis.
     
@@ -109,9 +110,9 @@ Drill-through provides the ability to access detailed data underlying a summary 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMz
-c3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAw
-ODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMT
-Q2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUw
-NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC0xOT
+E5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMxMDE4
+NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzODUsLT
+IxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4
+MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
 -->
