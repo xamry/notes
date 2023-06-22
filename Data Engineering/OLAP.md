@@ -13,6 +13,7 @@ Hybrid OLAP is the product of the attempt to incorporate the best features of MO
 HOLAP systems store larger quantities of detailed data in the relational tables while the aggregations are stored in the pre-calculated cubes.
 
 ### DOLAP
+DOLAP systems often allow users to store and manage data locally on their desktop machines and it enables users to perform analytical tasks and interact with data locally on their own desktop or laptop machines.
 
 ### HTAP
 
@@ -77,7 +78,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNT
-UzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEy
-XX0=
+eyJoaXN0b3J5IjpbLTEwNDE0ODY0OTUsLTIxNTQzMjU0NCwxND
+Y3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2
+LC0yMDg4NzQ2NjEyXX0=
 -->
