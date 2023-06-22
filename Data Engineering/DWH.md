@@ -33,8 +33,13 @@ This is the most widely used Architecture of Data Warehouse.
 
 ## Metadata
 Metadata is data about data which defines the data warehouse. It is used for building, maintaining and managing the data warehouse.
+Metadata helps to answer the following questions
+-   What tables, attributes, and keys does the Data Warehouse contain?
+-   Where did the data come from?
+-   How many times do data get reloaded?
+-   What transformations were applied with cleansing?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjM2MTE1Myw4MzA1NzI4LC0xMzE2MD
+eyJoaXN0b3J5IjpbMTQ2MTgyNDE4Myw4MzA1NzI4LC0xMzE2MD
 UyNjA4LC0xMjkzMjQ0MjQ4LDc3NDcyODEwMyw3MzA5OTgxMTZd
 fQ==
 -->
