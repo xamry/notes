@@ -83,15 +83,18 @@ Roll-up is also known as “consolidation” or “aggregation.”
 
 ## Drill-down
 In drill-down data is fragmented into smaller parts. It is the opposite of the rollup process.
-## Slice and dice
+
+## Slice 
+## Dice
+
 ## Pivot (rotate)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3Mzg0MjE3LC0xOTQ2NjAwODAzLDIzNz
-Q5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEy
-NCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMz
+c0OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAx
+MjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwOD
+g3NDY2MTJdfQ==
 -->
