@@ -19,6 +19,8 @@ Data is stable in a data warehouse. More data is added but data is never removed
 
 ## Data Mart
 Data mart is usually sponsored at the department level and developed with a specific details or subject in mind, a Data Mart is a subset of data warehouse with a focused objective.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDYxODQyMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzc0NzI4MTAzLDczMDk5ODExNl19
 -->
