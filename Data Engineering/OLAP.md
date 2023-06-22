@@ -99,7 +99,8 @@ In Pivot, you rotate the data axes to provide a alternate presentation of data. 
 Drill-through provides the ability to access detailed data underlying a summary value. It allows users to navigate from a summarized value to the transactional-level data for deeper analysis (usually in a different window).
 Drill through provides a way to explore specific subsets of data in more depth without cluttering the main report or visualization with excessive details.
     
-2.  Calculated Measures: OLAP systems often support the creation of calculated measures, which are derived or computed measures based on existing measures and calculations. Calculated measures enable users to perform mathematical operations, apply formulas, and create custom calculations for analysis.
+## Calculated Measures
+OLAP systems often support the creation of calculated measures, which are derived or computed measures based on existing measures and calculations. Calculated measures enable users to perform mathematical operations, apply formulas, and create custom calculations for analysis.
     
 3.  Ranking: Ranking involves sorting data based on a particular measure to determine its relative position or rank within a dimension. It helps identify top performers, best-selling products, or other patterns in the data.
     
@@ -110,9 +111,9 @@ Drill through provides a way to explore specific subsets of data in more depth w
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC0xOT
-E5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMxMDE4
-NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzODUsLT
-IxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4
-MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzU3ODg3MTc4LDEzMTEzMTY5MjgsMTI1OT
+Y4NDk1NSwtMTkxOTcxNzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2
+NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xND
+QwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1Mzcy
+NDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
 -->
