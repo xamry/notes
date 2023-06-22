@@ -41,7 +41,7 @@ In OLTP, for RDBMS. Focussed on normalization to reduce redundancy.
 ## Dimensional Modeling
 In OLAP, for analytical processing. Focussed on making retrievals easy.
 
-# Mutidimensional Data Model
+# Elements of Mutidimensional Data Model
 
 ## Dimension
 A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. Dimensions are a set of level properties that describe a specific aspect of a business, used for analyzing the factual measures.
@@ -130,10 +130,10 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMjE1NzAyLC03OTQwMjkxMDIsMTQwMD
-YyMjg0OCwxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcy
-NTcsMTM3Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMT
-k0NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMy
-NTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OT
-E1NjI1MDYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxND
+AwNjIyODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcx
+NzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC
+0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0
+MzI1NDQsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMT
+c5MTU2MjUwNiwtMjA4ODc0NjYxMl19
 -->
