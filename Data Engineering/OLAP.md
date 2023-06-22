@@ -44,7 +44,7 @@ In OLAP, for analytical processing. Focussed on making retrievals easy.
 # Elements of Mutidimensional Data Model
 
 ## Dimension
-A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. Dimensions are a set of level properties that describe a specific aspect of a business, used for analyzing the factual measures.
+A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. In simple terms, they give **who**, **what**, **where** of a fact.
 
 ### Slowly Changing Dimension
 Slowly changing dimensions refers to the change in dimensional attributes over time. 
@@ -130,10 +130,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTY1NTgxOCwtMTQzODE4NTYxMCwtNz
-k0MDI5MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0
-OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LD
-EyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2
-MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MC
-wzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbODAzMzgwOTUyLDIwMTk2NTU4MTgsLTE0Mz
+gxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIyODQ4LDEzMTEzMTY5
+MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMzc3NzgxNTU2LD
+I3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5
+MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNC
+w1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4ODc0
+NjYxMl19
 -->
