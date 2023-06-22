@@ -41,6 +41,15 @@ In OLTP, for RDBMS. Focussed on normalization to reduce redundancy.
 ### Dimensional Modeling
 In OLAP, for analytical processing. Focussed on making retrievals easy.
 
+Steps of dimensional modelling:
+1.  Identify Business Process
+2.  Identify Grain (level of detail)
+3.  Identify Dimensions
+4.  Identify Facts
+5.  Build Star
+
+The model should describe the Why, How much, When/Where/Who and What of your business process
+
 # Elements of Mutidimensional Data Model
 
 ## Dimension
@@ -88,8 +97,6 @@ An example of slowly changing dimension is a Resource dimension where attributes
  1. Type 1:  Update the existing row (no history)
  2. Type 2:  Add a new dimension row (history maintained)
  3. Type 3: Add additional column to maintain history (e.g. prior department)
-
-### Dimensional Modelling
 
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
@@ -150,7 +157,7 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODE3MDQyOSwxNTY1NTgxNDYxLC00OD
+eyJoaXN0b3J5IjpbMTAyMTg3MDY4OSwxNTY1NTgxNDYxLC00OD
 MyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5
 MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC
 0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMx
