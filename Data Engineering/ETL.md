@@ -7,8 +7,9 @@ ETL stands for Extract, Transform, Load. It refers to a process used in data int
 3. ETL is easy to implement, whereas ELT requires niche skills to implement and maintain.
 4. In case of ETL, Transformations are done in ETL server/staging area. In case of ELT, transformation is done directly in the target system (DWH).
 5. ETL - Data first loaded into staging and later loaded into target system. Time intensive. ELT- Data loaded into target system only once. Faster.
+6. ETL - Does not support data lake. ELT- Allows use of Data lake with unstructured data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDAzOTM4NywtODIzMjMzMjcwLC0xOT
+eyJoaXN0b3J5IjpbMTg3NDI5MDQzMCwtODIzMjMzMjcwLC0xOT
 kwNzQzNDkwLC00Njc3MTI2NjQsLTI5NDgzOTQ2Nyw3MzA5OTgx
 MTZdfQ==
 -->
