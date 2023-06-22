@@ -93,12 +93,12 @@ Here you select **2 or more dimensions** and a new sub-cube is created by filter
 Dicing provides a more detailed and focused view of the data by narrowing down the analysis based on multiple criteria.
 
 ## Pivot (rotate)
-In Pivot, you rotate the data axes to provide a alternate presentation of data. 
+In Pivot, you rotate the data axes to provide a alternate presentation of data. It involves changing the orientation or structure of the cube to provide different perspectives on the data.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMzMjU0MzEsMTM3Nzc4MTU1NiwyNz
+eyJoaXN0b3J5IjpbLTE5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNz
 c5NzY1NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIy
 MSwtMTQ0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNT
 A1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2
