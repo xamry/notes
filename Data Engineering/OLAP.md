@@ -16,7 +16,7 @@ HOLAP systems store larger quantities of detailed data in the relational tables 
 DOLAP systems often allow users to store and manage data locally on their desktop machines and it enables users to perform analytical tasks and interact with data locally on their own desktop or laptop machines.
 
 ### HTAP
-Hybrid Transactional/Analytical Processing refers to a database architecture that combines OLTP and OLAP capabilities within a single system.
+Hybrid Transactional/Analytical Processing refers to a database architecture that combines OLTP and OLAP capabilities within a single system. Different approaches such as in-memory databases, columnar databases, or distributed processing frameworks may be used to achieve HTAP capabilities.
 
 # Schema Types
 ## Star Schema
@@ -79,7 +79,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzQ4NjkwMSwtMjE1NDMyNTQ0LDE0Nj
-c2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYs
-LTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE0NDA2MTUzODUsLTIxNTQzMjU0NCwxND
+Y3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2
+LC0yMDg4NzQ2NjEyXX0=
 -->
