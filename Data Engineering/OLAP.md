@@ -75,8 +75,6 @@ An example of slowly changing dimension is a Resource dimension where attributes
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
 
-
-
 ### Fact Table 
 A Fact Table in a dimensional model consists of one or more numeric facts of importance to a business. A Fact Table contains
 1.  Measures
@@ -133,11 +131,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzE5NzYxOCwtNDgzMjIzNjEwLDIwMT
-k2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIy
-ODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1Ny
-wxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2
-NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1ND
-QsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2
-MjUwNl19
+eyJoaXN0b3J5IjpbLTIwNzU5OTU4MTgsLTQ4MzIyMzYxMCwyMD
+E5NjU1ODE4LC0xNDM4MTg1NjEwLC03OTQwMjkxMDIsMTQwMDYy
+Mjg0OCwxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcyNT
+csMTM3Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMTk0
+NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMyNT
+Q0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1
+NjI1MDZdfQ==
 -->
