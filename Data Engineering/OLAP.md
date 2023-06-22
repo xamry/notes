@@ -15,6 +15,11 @@ HOLAP systems store larger quantities of detailed data in the relational tables 
 ### DOLAP
 DOLAP systems often allow users to store and manage data locally on their desktop machines and it enables users to perform analytical tasks and interact with data locally on their own desktop or laptop machines.
 
+### WOLAP
+Web OLAP is OLAP system accessible via the web browser. 
+
+### Mobile OLAP
+
 ### HTAP
 Hybrid Transactional/Analytical Processing refers to a database architecture that combines OLTP and OLAP capabilities within a single system. Different approaches such as in-memory databases, columnar databases, or distributed processing frameworks may be used to achieve HTAP capabilities.
 
@@ -108,15 +113,15 @@ Ranking involves sorting data based on a particular measure to determine its rel
 ## Filtering
 Filtering allows users to limit the data displayed in a cube or report based on specific conditions or criteria. It helps focus the analysis on subsets of data that meet certain requirements.
     
-5.  Forecasting: Some OLAP systems offer forecasting capabilities to predict future trends and values based on historical data. Forecasting algorithms and models are used to generate predictions and support decision-making processes.
+## Forecasting
+Some OLAP systems offer forecasting capabilities to predict future trends and values based on historical data. Forecasting algorithms and models are used to generate predictions and support decision-making processes.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDgxNjI4NCwxMzExMzE2OTI4LDEyNT
-k2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNzc5NzY1
-NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMT
-Q0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3
-MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMjU1OTQ1NDg4LDEzMTEzMTY5MjgsMTI1OT
+Y4NDk1NSwtMTkxOTcxNzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2
+NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xND
+QwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1Mzcy
+NDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
 -->
