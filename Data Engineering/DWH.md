@@ -30,6 +30,8 @@ Single central EDW database
 ### Federated (Single department data mart) Architecture
 Multiple data marts instead of an EDW, each for corresponding department.
 
+### 
+
 ## Three-Tier Data Warehouse Architecture
 This is the most widely used Architecture of Data Warehouse.
 1.  **Bottom Tier:**  The database of the Datawarehouse servers as the bottom tier. It is usually a relational database system. Data is cleansed, transformed, and loaded into this layer using back-end tools.
@@ -51,7 +53,7 @@ Metadata can be classified into following categories:
 1.  **Technical Meta Data**: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
 2.  **Business Meta Data:**  This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTcyMzA2MzEsODc2MjcyMDM1LDgzMD
-U3MjgsLTEzMTYwNTI2MDgsLTEyOTMyNDQyNDgsNzc0NzI4MTAz
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzY3MjgzOTkyLDg3NjI3MjAzNSw4MzA1Nz
+I4LC0xMzE2MDUyNjA4LC0xMjkzMjQ0MjQ4LDc3NDcyODEwMyw3
+MzA5OTgxMTZdfQ==
 -->
