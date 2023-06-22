@@ -26,28 +26,31 @@ An example of slowly changing dimension is a Resource dimension where attributes
 ### Conformed Dimension
 Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
 
-## Fact Table 
+## Fact
+A "fact" is a numeric value that a business wishes to count or sum. 
+
+### Fact Table 
 A Fact Table in a dimensional model consists of one or more numeric facts of importance to a business. Examples of facts are as follows:  
 the number of products sold 
 the value of products sold
 the number of products produced 
 the number of service calls received
 
-## Types of Facts
+### Types of Facts
 There are three types of facts: 
 
-### Additive: 
+#### Additive: 
 Additive facts are facts that can be summed up through all of the dimensions in the fact table (Quantity Sold, Dollars Sold) 
 
-### Semi-Additive: 
+#### Semi-Additive: 
 Semi-additive facts are facts that can be summed up for some of the dimensions in the fact table, but not the others (Account Balance, Inventory levels) 
 
-### Non-Additive: 
+#### Non-Additive: 
 Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table (Room Temperature)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTQxMzY5NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNDg5NDQxMzA1LC0yMDg4NzQ2NjEyXX0=
 -->
