@@ -79,7 +79,7 @@ A "fact" is a numeric value that a business wishes to count or sum.
 
 ### Fact Table 
 A Fact Table in a dimensional model consists of one or more numeric facts of importance to a business. A Fact Table contains
-1.  Measurements/facts
+1.  Measures
 2.  Foreign key to dimension table
 
 ### Types of Facts
@@ -131,11 +131,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzIyMzYxMCwyMDE5NjU1ODE4LC0xND
-M4MTg1NjEwLC03OTQwMjkxMDIsMTQwMDYyMjg0OCwxMzExMzE2
-OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3Nzc4MTU1Ni
-wyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0
-OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMj
-QsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1NjYwNzg1NjAsLTQ4MzIyMzYxMCwyMD
+E5NjU1ODE4LC0xNDM4MTg1NjEwLC03OTQwMjkxMDIsMTQwMDYy
+Mjg0OCwxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcyNT
+csMTM3Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMTk0
+NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMyNT
+Q0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1
+NjI1MDZdfQ==
 -->
