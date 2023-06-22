@@ -9,8 +9,9 @@ ETL stands for Extract, Transform, Load. It refers to a process used in data int
 5. ETL - Data first loaded into staging and later loaded into target system. Time intensive. ELT- Data loaded into target system only once. Faster.
 6. ETL - Does not support data lake. ELT- Allows use of Data lake with unstructured data.
 7. ETL - High costs for small and medium businesses. ELT - Low entry costs using online SaaS platforms.
+8. ETL - The process is used for over two decades. It is well documented and best practices easily available. ELT - Relatively new concept and complex to implement.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMzY5NjU2LC04MjMyMzMyNzAsLTE5OT
+eyJoaXN0b3J5IjpbNjcyMTc1OTg1LC04MjMyMzMyNzAsLTE5OT
 A3NDM0OTAsLTQ2NzcxMjY2NCwtMjk0ODM5NDY3LDczMDk5ODEx
 Nl19
 -->
