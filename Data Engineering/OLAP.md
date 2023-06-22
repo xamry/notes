@@ -64,9 +64,7 @@ A multi-valued dimension, also known as a multivalued attribute or repeating gro
 #### Slowly Changing Dimension
 Slowly changing dimensions refers to the change in dimensional attributes over time. 
 
-An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc. There are 
-
-##### Types of Slowly Changing Dimension
+An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc. There are three types of Slowly Changing Dimension:
 
  1. Type 1:  Update the existing row (no history)
  2. Type 2:  Add a new dimension row (history maintained)
@@ -131,7 +129,7 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDU2NTU4LC00ODMyMjM2MTAsMjAxOT
+eyJoaXN0b3J5IjpbNTk4NjY3Njc5LC00ODMyMjM2MTAsMjAxOT
 Y1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5MTAyLDE0MDA2MjI4
 NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC0xOTE5NzE3MjU3LD
 EzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMxMDE4NDAsLTE5NDY2
