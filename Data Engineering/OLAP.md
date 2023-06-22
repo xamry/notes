@@ -36,6 +36,7 @@ Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tr
 
 # Modelling Techniques
 ## ER Model 
+In OLTP, for RDBMS
 
 ## Dimensional Modeling
 
@@ -128,7 +129,7 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTIwMjgzOSwxNDAwNjIyODQ4LDEzMT
+eyJoaXN0b3J5IjpbLTc5NDAyOTEwMiwxNDAwNjIyODQ4LDEzMT
 EzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMzc3Nzgx
 NTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLD
 IzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYx
