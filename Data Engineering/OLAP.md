@@ -88,15 +88,15 @@ In drill-down data is fragmented into smaller parts. It is the opposite of the r
 Here, **one** dimension is selected, and a new sub-cube is created by selecting one or more values from that dimension. This is usually done by filtering dimension value(s).
 
 ## Dice
-
+Here you select **2 or more dimensions** that result in the creation of a sub-cube.
 ## Pivot (rotate)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTA5NjkwMiwyNzc5NzY1NjYsMTIyMz
-EwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4
-NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2OD
-I1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNzQxMzUzOTY3LDI3Nzk3NjU2NiwxMjIzMT
+AxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1
+LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4Mj
+U5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
 -->
