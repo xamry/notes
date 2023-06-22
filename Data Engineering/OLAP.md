@@ -78,11 +78,9 @@ A "fact" is a numeric value that a business wishes to count or sum.
 ### Measure
 
 ### Fact Table 
-A Fact Table in a dimensional model consists of one or more numeric facts of importance to a business. Examples of facts are as follows:  
-the number of products sold 
-the value of products sold
-the number of products produced 
-the number of service calls received
+A Fact Table in a dimensional model consists of one or more numeric facts of importance to a business. A Fact Table contains
+1.  Measurements/facts
+2.  Foreign key to dimension table
 
 ### Types of Facts
 There are three types of facts: 
@@ -133,11 +131,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4ODMyNTkwLDIwMTk2NTU4MTgsLTE0Mz
-gxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIyODQ4LDEzMTEzMTY5
-MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMzc3NzgxNTU2LD
-I3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5
-MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNC
-w1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbLTQ4MzIyMzYxMCwyMDE5NjU1ODE4LC0xND
+M4MTg1NjEwLC03OTQwMjkxMDIsMTQwMDYyMjg0OCwxMzExMzE2
+OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3Nzc4MTU1Ni
+wyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0
+OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMj
+QsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3
+NDY2MTJdfQ==
 -->
