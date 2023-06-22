@@ -89,14 +89,15 @@ Here, **one** dimension is selected, and a new sub-cube is created by filtering 
 
 ## Dice
 Here you select **2 or more dimensions** and a new sub-cube is created by filtering one or more values from those dimensions.
+Dicing provides a more detailed and focused view of the data by narrowing down the analysis based on multiple criteria.
 ## Pivot (rotate)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzUxNTc1NiwyNzc5NzY1NjYsMTIyMz
-EwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4
-NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2OD
-I1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbODcyMzI5MTI1LDI3Nzk3NjU2NiwxMjIzMT
+AxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1
+LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4Mj
+U5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
 -->
