@@ -29,6 +29,9 @@ Conformed Dimensions (CD): these dimensions are something that is built once in 
 ### Junk Dimension
 A "junk" dimension is a collection of random transactional codes, flags and/or text attributes that are unrelated to any particular dimension.
 
+### De Generated Dimension
+A dimension which is located in fact table known as Degenerated dimension
+
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
 
@@ -55,6 +58,6 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzkwODIzOCwxNzkxNTYyNTA2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4OD
+c0NjYxMl19
 -->
