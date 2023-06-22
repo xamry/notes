@@ -17,6 +17,7 @@ DOLAP systems often allow users to store and manage data locally on their deskto
 
 ### HTAP
 Hybrid Transactional/Analytical Processing refers to a database architecture that combines OLTP and OLAP capabilities within a single system.
+
 # Schema Types
 ## Star Schema
 Star schema is a data warehouse schema where there is only one “fact table" and many de-normalized dimension tables. Fact table contains primary keys from all the dimension tables and idwbitraining@gmail.com 6 other statistical columns (facts)
@@ -78,7 +79,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMDcxMzAzLC0yMTU0MzI1NDQsMTQ2Nz
-YxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwt
-MjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTg3MzQ4NjkwMSwtMjE1NDMyNTQ0LDE0Nj
+c2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYs
+LTIwODg3NDY2MTJdfQ==
 -->
