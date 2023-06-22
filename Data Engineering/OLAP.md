@@ -9,6 +9,8 @@ Multidimensional OLAP enables end-users to model data in a multidimensional envi
 Relational OLAP is a type of analytical processing that leverages the capabilities of a RDBMS to perform OLAP tasks.
 
 ### HOLAP
+HOLAP is the product of the attempt to incorporate the best features of MOLAP and ROLAP into a single architecture.
+HOLAP systems store larger quantities of detailed data in the relational tables while the aggregations are stored in the pre-calculated cubes.
 
 ### DOLAP
 
@@ -75,7 +77,7 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDYxNzg0MSwxNDY3NjEwMTI0LDUwNT
-UzNzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEy
-XX0=
+eyJoaXN0b3J5IjpbLTEyMzc3ODQ0MTIsMTQ2NzYxMDEyNCw1MD
+U1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYx
+Ml19
 -->
