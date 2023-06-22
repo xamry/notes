@@ -46,24 +46,27 @@ In OLAP, for analytical processing. Focussed on making retrievals easy.
 ## Dimension
 A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. In simple terms, they give **who**, **what**, **where** of a fact.
 
-### Conformed Dimension
+### Dimension Table
+
+### Types of Dimensions
+#### Conformed Dimension
 Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
 
-### Junk Dimension
+#### Junk Dimension
 A "junk" dimension is a collection of random transactional codes, flags and/or text attributes that are unrelated to any particular dimension.
 
-### De-generated Dimension
+#### De-generated Dimension
 A dimension which is located in fact table is known as Degenerated dimension. There are cases where a dimension attribute is not complex enough to warrant its own dimension table. Instead, it is directly included as an attribute in the fact table. This attribute becomes a degenerated dimension. Example: Transaction ID, Invoice ID etc.
 
-### Multi-Valued Dimension
+#### Multi-Valued Dimension
 A multi-valued dimension, also known as a multivalued attribute or repeating group, refers to a dimension attribute that can have multiple values associated with a single occurrence of an entity in a data model. Multiple values are stored directly within a single record of the dimension attribute.
 
-### Slowly Changing Dimension
+#### Slowly Changing Dimension
 Slowly changing dimensions refers to the change in dimensional attributes over time. 
 
-An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc.
+An example of slowly changing dimension is a Resource dimension where attributes of a particular employee change over time like their designation changes or dept changes etc. There are 
 
-#### Types of Slowly Changing Dimension
+##### Types of Slowly Changing Dimension
 
  1. Type 1:  Update the existing row (no history)
  2. Type 2:  Add a new dimension row (history maintained)
@@ -128,11 +131,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODE2MzAxMSwtNDgzMjIzNjEwLDIwMT
-k2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIy
-ODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1Ny
-wxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2
-NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1ND
-QsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2
-MjUwNl19
+eyJoaXN0b3J5IjpbMjEwNDU2NTU4LC00ODMyMjM2MTAsMjAxOT
+Y1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5MTAyLDE0MDA2MjI4
+NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC0xOTE5NzE3MjU3LD
+EzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMxMDE4NDAsLTE5NDY2
+MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzODUsLTIxNTQzMjU0NC
+wxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNzkxNTYy
+NTA2XX0=
 -->
