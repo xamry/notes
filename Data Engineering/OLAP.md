@@ -47,7 +47,14 @@ In OLAP, for analytical processing. Focussed on making retrievals easy.
 A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. In simple terms, they give **who**, **what**, **where** of a fact.
 
 ### Dimension Table
-
+-   A dimension table contains dimensions of a fact.
+-   They are joined to fact table via a foreign key.
+-   Dimension tables are de-normalized tables.
+-   The Dimension Attributes are the various columns in a dimension table
+-   Dimensions offers descriptive characteristics of the facts with the help of their attributes
+-   No set limit set for given for number of dimensions
+-   The dimension can also contain one or more hierarchical relationships
+- 
 ### Types of Dimensions
 #### Conformed Dimension
 Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
@@ -129,11 +136,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4NjY3Njc5LC00ODMyMjM2MTAsMjAxOT
-Y1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5MTAyLDE0MDA2MjI4
-NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC0xOTE5NzE3MjU3LD
-EzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMxMDE4NDAsLTE5NDY2
-MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzODUsLTIxNTQzMjU0NC
-wxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNzkxNTYy
-NTA2XX0=
+eyJoaXN0b3J5IjpbMTU2NTU4MTQ2MSwtNDgzMjIzNjEwLDIwMT
+k2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIy
+ODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1Ny
+wxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2
+NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1ND
+QsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2
+MjUwNl19
 -->
