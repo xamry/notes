@@ -44,8 +44,9 @@ An example of slowly changing dimension is a Resource dimension where attributes
  2. Type 2:  Add a new dimension row (history maintained)
  3. Type 3: Add additional column to maintain history (e.g. prior department)
 
+## Conformed Dimension
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzU4ODQ4NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTcyNDkyMzY3NiwtMjA4ODc0NjYxMl19
 -->
