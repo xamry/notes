@@ -39,6 +39,7 @@ Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tr
 In OLTP, for RDBMS
 
 ## Dimensional Modeling
+In OLAP, for analytical processing.
 
 # Mutidimensional Data Model
 
@@ -129,10 +130,10 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDAyOTEwMiwxNDAwNjIyODQ4LDEzMT
-EzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMzc3Nzgx
-NTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAwODAzLD
-IzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMTQ2NzYx
-MDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUwNiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTkxNzQzMjUxOSwtNzk0MDI5MTAyLDE0MD
+A2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC0xOTE5NzE3
+MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMxMDE4NDAsLT
+E5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzODUsLTIxNTQz
+MjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgyNTk4MywxNz
+kxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
 -->
