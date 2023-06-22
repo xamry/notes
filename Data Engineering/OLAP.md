@@ -1,6 +1,17 @@
 # OLAP
 OLAP stands for Online Analytical Processing. It is a technology used in business intelligence systems to analyze and query multidimensional data. OLAP provides a way to organize and manipulate large volumes of data to support complex analysis and decision-making.
 
+# OLAP Technology Types
+## MOLAP
+
+## ROLAP
+
+## HOLAP
+
+## DOLAP
+
+## H
+
 # Schema Types
 ## Star Schema
 Star schema is a data warehouse schema where there is only one “fact table" and many de-normalized dimension tables. Fact table contains primary keys from all the dimension tables and idwbitraining@gmail.com 6 other statistical columns (facts)
@@ -62,6 +73,6 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NTA3MDkyLDUwNTUzNzI0MCwzNjgyNT
-k4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTM0NzUzMTYwNyw1MDU1MzcyNDAsMzY4Mj
+U5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
 -->
