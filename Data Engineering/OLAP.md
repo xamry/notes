@@ -80,7 +80,7 @@ A Fact Table in a dimensional model consists of one or more numeric facts of imp
 1.  Measures
 2.  Foreign key to dimension table
 
-### Measure
+### Measures
 
 ### Types of Facts
 There are three types of facts: 
@@ -131,11 +131,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU5OTU4MTgsLTQ4MzIyMzYxMCwyMD
-E5NjU1ODE4LC0xNDM4MTg1NjEwLC03OTQwMjkxMDIsMTQwMDYy
-Mjg0OCwxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcyNT
-csMTM3Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMTk0
-NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMyNT
-Q0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1
-NjI1MDZdfQ==
+eyJoaXN0b3J5IjpbMTU0MzgzNjIzMSwtNDgzMjIzNjEwLDIwMT
+k2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAyOTEwMiwxNDAwNjIy
+ODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NSwtMTkxOTcxNzI1Ny
+wxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2
+NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1ND
+QsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2
+MjUwNl19
 -->
