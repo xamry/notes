@@ -85,7 +85,8 @@ Roll-up is also known as “consolidation” or “aggregation.”
 In drill-down data is fragmented into smaller parts. It is the opposite of the rollup process.
 
 ## Slice 
-Here, **one** dimension is selected, and a new sub-cube is created by filtering one or more values from that dimension.
+Here, **one** dimension is selected, and a new sub-cube is created by filtering one or more values from that dimension. 
+Slicing essentially "slices" the cube along the specified dimension, reducing the cube's size and focusing the analysis on a particular section of the data.
 
 ## Dice
 Here you select **2 or more dimensions** and a new sub-cube is created by filtering one or more values from those dimensions.
@@ -96,7 +97,7 @@ Dicing provides a more detailed and focused view of the data by narrowing down t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMzI5MTI1LDI3Nzk3NjU2NiwxMjIzMT
+eyJoaXN0b3J5IjpbLTEyODUyMTkwLDI3Nzk3NjU2NiwxMjIzMT
 AxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1
 LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4Mj
 U5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
