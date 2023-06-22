@@ -4,6 +4,7 @@ OLAP stands for Online Analytical Processing. It is a technology used in busines
 # Schema Types
 ## Star Schema
 Star schema is a data warehouse schema where there is only one “fact table" and many de-normalized dimension tables. Fact table contains primary keys from all the dimension tables and idwbitraining@gmail.com 6 other statistical columns (facts)
+
 ## Snowflake Schema
 Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tree like structure with many nesting levels. Snowflake schema is easier to maintain but queries require more joins.
 
@@ -61,6 +62,6 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTQ0MTU2Miw1MDU1MzcyNDAsMzY4Mj
-U5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNDA0NTA3MDkyLDUwNTUzNzI0MCwzNjgyNT
+k4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
 -->
