@@ -20,6 +20,18 @@ the number of products sold
 the value of products sold
 the number of products produced 
 the number of service calls received
+
+## Types of Facts
+There are three types of facts: 
+
+### Additive: 
+Additive facts are facts that can be summed up through all of the dimensions in the fact table (Quantity Sold, Dollars Sold) 
+
+### Semi-Additive: 
+Semi-additive facts are facts that can be summed up for some of the dimensions in the fact table, but not the others (Account Balance, Inventory levels) 
+
+### Non-Additive: 
+Non-additive facts are facts that cannot be summed up for any of the dimensions present in the fact table (Room Temperature)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODg2NDA5OCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTM5NjQ3NzY3NiwtMjA4ODc0NjYxMl19
 -->
