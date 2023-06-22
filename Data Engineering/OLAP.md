@@ -39,7 +39,7 @@ Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tr
 In OLTP, for RDBMS. Focussed on normalization to reduce redundancy.
 
 ### Dimensional Modeling
-In OLAP, for analytical processing. Focussed on making retrievals easy.
+In OLAP, for analytical processing. Focussed on making retrievals easy. 
 
 Steps of dimensional modelling: 
 1.  Identify Business Process
@@ -53,7 +53,7 @@ The model should describe the Why, How much, When/Where/Who and What of your bus
 # Elements of Mutidimensional Data Model
 
 ## Dimension
-A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. In simple terms, they give **who**, **what**, **where** of a fact.
+A "dimension" is essentially an entry point for getting at the facts. Dimensions are things of interest to the business. In simple terms, they give **who**, **what**, **where** of a fact. Dimensions are nouns like date, store, inventory, etc.
 
 ### Dimension Table
 -   A dimension table contains dimensions of a fact.
@@ -157,11 +157,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTQyMDY1MywxNTY1NTgxNDYxLC00OD
-MyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4NTYxMCwtNzk0MDI5
-MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMjU5Njg0OTU1LC
-0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2NTY2LDEyMjMx
-MDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLTE0NDA2MTUzOD
-UsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUzNzI0MCwzNjgy
-NTk4M119
+eyJoaXN0b3J5IjpbNTg0NTQyMjEsMTc2MTQyMDY1MywxNTY1NT
+gxNDYxLC00ODMyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4NTYx
+MCwtNzk0MDI5MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOCwxMj
+U5Njg0OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2
+NTY2LDEyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLT
+E0NDA2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUz
+NzI0MF19
 -->
