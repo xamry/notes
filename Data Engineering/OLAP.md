@@ -10,7 +10,7 @@ OLAP stands for Online Analytical Processing. It is a technology used in busines
 
 ## DOLAP
 
-## H
+## HTAP
 
 # Schema Types
 ## Star Schema
@@ -73,6 +73,6 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzUzMTYwNyw1MDU1MzcyNDAsMzY4Mj
-U5ODMsMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjQ4OTEyMjcwLDUwNTUzNzI0MCwzNjgyNT
+k4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX0=
 -->
