@@ -23,6 +23,10 @@ Data mart is usually sponsored at the department level and developed with a spec
 ## ODS (Operational Data Sources)
 Its a replica of OLTP system and so the need of this, is to reduce the burden on production system (OLTP) while fetching data for loading targets. Hence its a mandate Requirement for every Warehouse.
 
+## Data Warehouse Architectures
+### Centralized (EDW) Architecture
+Only one 
+
 ## Three-Tier Data Warehouse Architecture
 This is the most widely used Architecture of Data Warehouse.
 1.  **Bottom Tier:**  The database of the Datawarehouse servers as the bottom tier. It is usually a relational database system. Data is cleansed, transformed, and loaded into this layer using back-end tools.
@@ -44,7 +48,7 @@ Metadata can be classified into following categories:
 1.  **Technical Meta Data**: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
 2.  **Business Meta Data:**  This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2MjcyMDM1LDgzMDU3MjgsLTEzMTYwNT
-I2MDgsLTEyOTMyNDQyNDgsNzc0NzI4MTAzLDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbLTU5MjA1NTI0NCw4NzYyNzIwMzUsODMwNT
+cyOCwtMTMxNjA1MjYwOCwtMTI5MzI0NDI0OCw3NzQ3MjgxMDMs
+NzMwOTk4MTE2XX0=
 -->
