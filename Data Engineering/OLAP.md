@@ -95,12 +95,23 @@ Dicing provides a more detailed and focused view of the data by narrowing down t
 ## Pivot (rotate)
 In Pivot, you rotate the data axes to provide a alternate presentation of data. It involves changing the orientation or structure of the cube to provide different perspectives on the data.
 
+## Drill-through
+Drill-through provides the ability to access detailed data underlying a summary value. It allows users to navigate from a summarized value to the transactional-level data for deeper analysis.
+    
+2.  Calculated Measures: OLAP systems often support the creation of calculated measures, which are derived or computed measures based on existing measures and calculations. Calculated measures enable users to perform mathematical operations, apply formulas, and create custom calculations for analysis.
+    
+3.  Ranking: Ranking involves sorting data based on a particular measure to determine its relative position or rank within a dimension. It helps identify top performers, best-selling products, or other patterns in the data.
+    
+4.  Filtering: Filtering allows users to limit the data displayed in a cube or report based on specific conditions or criteria. It helps focus the analysis on subsets of data that meet certain requirements.
+    
+5.  Forecasting: Some OLAP systems offer forecasting capabilities to predict future trends and values based on historical data. Forecasting algorithms and models are used to generate predictions and support decision-making processes.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNz
-c5NzY1NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIy
-MSwtMTQ0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNT
-A1NTM3MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbMTI1OTY4NDk1NSwtMTkxOTcxNzI1NywxMz
+c3NzgxNTU2LDI3Nzk3NjU2NiwxMjIzMTAxODQwLC0xOTQ2NjAw
+ODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mzg1LC0yMTU0MzI1NDQsMT
+Q2NzYxMDEyNCw1MDU1MzcyNDAsMzY4MjU5ODMsMTc5MTU2MjUw
+NiwtMjA4ODc0NjYxMl19
 -->
