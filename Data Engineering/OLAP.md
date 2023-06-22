@@ -21,6 +21,9 @@ Web OLAP is OLAP system accessible via the web browser.
 ### Mobile OLAP
 Mobile OLAP helps users to access and analyze OLAP data using their mobile devices.
 
+### SOLAP
+Spatial OLAP is created to facilitate management of both spatial and non-spatial data in a Geographic Information system (GIS)
+
 ### HTAP
 Hybrid Transactional/Analytical Processing refers to a database architecture that combines OLTP and OLAP capabilities within a single system. Different approaches such as in-memory databases, columnar databases, or distributed processing frameworks may be used to achieve HTAP capabilities.
 
@@ -120,10 +123,10 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIzODIxOTksMTMxMTMxNjkyOCwxMj
-U5Njg0OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2
-NTY2LDEyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLT
-E0NDA2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUz
-NzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX
-0=
+eyJoaXN0b3J5IjpbMTQwMDYyMjg0OCwxMzExMzE2OTI4LDEyNT
+k2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNzc5NzY1
+NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMT
+Q0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3
+MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ
+==
 -->
