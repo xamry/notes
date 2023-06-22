@@ -65,10 +65,6 @@ A "junk" dimension is a collection of random transactional codes, flags and/or t
 #### De-generated Dimension
 A dimension which is located in fact table is known as Degenerated dimension. There are cases where a dimension attribute is not complex enough to warrant its own dimension table. Instead, it is directly included as an attribute in the fact table. This attribute becomes a degenerated dimension. Example: Transaction ID, Invoice ID etc.
 
-#### Swappable Dimension
-
-#### Step Dimension
-
 #### Multi-Valued Dimension
 A multi-valued dimension, also known as a multivalued attribute or repeating group, refers to a dimension attribute that can have multiple values associated with a single occurrence of an entity in a data model. Multiple values are stored directly within a single record of the dimension attribute.
 
@@ -79,6 +75,10 @@ A multi-valued dimension, also known as a multivalued attribute or repeating gro
 #### Role-playing Dimension
 
 #### Dimension to Dimension Table
+
+#### Swappable Dimension
+
+#### Step Dimension
 
 #### Slowly Changing Dimension
 Slowly changing dimensions refers to the change in dimensional attributes over time. 
@@ -148,11 +148,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc0Njg4NTAsMTU2NTU4MTQ2MSwtND
-gzMjIzNjEwLDIwMTk2NTU4MTgsLTE0MzgxODU2MTAsLTc5NDAy
-OTEwMiwxNDAwNjIyODQ4LDEzMTEzMTY5MjgsMTI1OTY4NDk1NS
-wtMTkxOTcxNzI1NywxMzc3NzgxNTU2LDI3Nzk3NjU2NiwxMjIz
-MTAxODQwLC0xOTQ2NjAwODAzLDIzNzQ5MjIxLC0xNDQwNjE1Mz
-g1LC0yMTU0MzI1NDQsMTQ2NzYxMDEyNCw1MDU1MzcyNDAsMzY4
-MjU5ODNdfQ==
+eyJoaXN0b3J5IjpbNzA2Nzg0MDI0LDE1NjU1ODE0NjEsLTQ4Mz
+IyMzYxMCwyMDE5NjU1ODE4LC0xNDM4MTg1NjEwLC03OTQwMjkx
+MDIsMTQwMDYyMjg0OCwxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLT
+E5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEw
+MTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NS
+wtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3MjQwLDM2ODI1
+OTgzXX0=
 -->
