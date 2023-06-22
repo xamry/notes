@@ -32,6 +32,8 @@ A "junk" dimension is a collection of random transactional codes, flags and/or t
 ### De-generated Dimension
 A dimension which is located in fact table is known as Degenerated dimension. There are cases where a dimension attribute is not complex enough to warrant its own dimension table. Instead, it is directly included as an attribute in the fact table. This attribute becomes a degenerated dimension. Example: Transaction ID, Invoice ID etc.
 
+### Multi-Valued Dimension
+
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
 
@@ -58,6 +60,6 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjI1MTk2MiwzNjgyNTk4MywxNzkxNT
-YyNTA2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNTA1NTM3MjQwLDM2ODI1OTgzLDE3OTE1Nj
+I1MDYsLTIwODg3NDY2MTJdfQ==
 -->
