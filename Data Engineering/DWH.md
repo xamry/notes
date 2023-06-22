@@ -22,6 +22,8 @@ Data mart is usually sponsored at the department level and developed with a spec
 
  - Data mart are simpler to implement when compared to corporate Datawarehouse.
  - Compared to Data Warehouse, a datamart is agile.
+ - Data Mart helps to enhance user’s response time due to reduction in volume of data
+ - It provides easy access to frequently requested data.
 
 ## ODS (Operational Data Sources)
 Its a replica of OLTP system and so the need of this, is to reduce the burden on production system (OLTP) while fetching data for loading targets. Hence its a mandate Requirement for every Warehouse.
@@ -57,7 +59,7 @@ Metadata can be classified into following categories:
 1.  **Technical Meta Data**: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
 2.  **Business Meta Data:**  This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNzUzOTgzLC0xNjI0NjQwMzU5LDg3Nj
-I3MjAzNSw4MzA1NzI4LC0xMzE2MDUyNjA4LC0xMjkzMjQ0MjQ4
-LDc3NDcyODEwMyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTgzNDk5NjA0NCwtMTYyNDY0MDM1OSw4Nz
+YyNzIwMzUsODMwNTcyOCwtMTMxNjA1MjYwOCwtMTI5MzI0NDI0
+OCw3NzQ3MjgxMDMsNzMwOTk4MTE2XX0=
 -->
