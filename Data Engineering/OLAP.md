@@ -105,17 +105,18 @@ Calculated measures are derived or computed measures based on existing measures 
 ## Ranking
 Ranking involves sorting data based on a particular measure to determine its relative position or rank within a dimension. It helps identify top performers, best-selling products, or other patterns in the data.
     
-4.  Filtering: Filtering allows users to limit the data displayed in a cube or report based on specific conditions or criteria. It helps focus the analysis on subsets of data that meet certain requirements.
+## Filtering
+Filtering allows users to limit the data displayed in a cube or report based on specific conditions or criteria. It helps focus the analysis on subsets of data that meet certain requirements.
     
 5.  Forecasting: Some OLAP systems offer forecasting capabilities to predict future trends and values based on historical data. Forecasting algorithms and models are used to generate predictions and support decision-making processes.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUxMTkzMjIsMTMxMTMxNjkyOCwxMj
-U5Njg0OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3OTc2
-NTY2LDEyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMjEsLT
-E0NDA2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUwNTUz
-NzI0MCwzNjgyNTk4MywxNzkxNTYyNTA2LC0yMDg4NzQ2NjEyXX
-0=
+eyJoaXN0b3J5IjpbMTM2MDgxNjI4NCwxMzExMzE2OTI4LDEyNT
+k2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3Nzc4MTU1NiwyNzc5NzY1
+NjYsMTIyMzEwMTg0MCwtMTk0NjYwMDgwMywyMzc0OTIyMSwtMT
+Q0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0Njc2MTAxMjQsNTA1NTM3
+MjQwLDM2ODI1OTgzLDE3OTE1NjI1MDYsLTIwODg3NDY2MTJdfQ
+==
 -->
