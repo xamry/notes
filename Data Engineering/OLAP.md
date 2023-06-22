@@ -26,6 +26,8 @@ An example of slowly changing dimension is a Resource dimension where attributes
 ### Conformed Dimension
 Conformed Dimensions (CD): these dimensions are something that is built once in your model and can be reused multiple times with different fact tables. Example: Time dimension
 
+### Junk Dimension
+
 ## Fact
 A "fact" is a numeric value that a business wishes to count or sum. 
 
@@ -52,5 +54,5 @@ Non-additive facts are facts that cannot be summed up for any of the dimensions 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5NDQxMzA1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTc5MTU2MjUwNiwtMjA4ODc0NjYxMl19
 -->
