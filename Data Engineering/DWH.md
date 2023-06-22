@@ -27,6 +27,9 @@ Data mart is usually sponsored at the department level and developed with a spec
 
 ### Types of Data Mart
 
+ 1. Dependent Data Marts: Dependent data marts are built directly from the data warehouse and rely on the data warehouse for their data. They are created by filtering and aggregating data from the data warehouse to meet the requirements of a particular department.
+ 2. Independent Data Marts: Independent data marts are standalone data marts that are created and maintained separately from the data warehouse. They may contain data from multiple sources, not just the data warehouse.
+
 ## ODS (Operational Data Sources)
 Its a replica of OLTP system and so the need of this, is to reduce the burden on production system (OLTP) while fetching data for loading targets. Hence its a mandate Requirement for every Warehouse.
 
@@ -61,7 +64,7 @@ Metadata can be classified into following categories:
 1.  **Technical Meta Data**: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
 2.  **Business Meta Data:**  This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjA0NTg0NywtMTYyNDY0MDM1OSw4Nz
-YyNzIwMzUsODMwNTcyOCwtMTMxNjA1MjYwOCwtMTI5MzI0NDI0
-OCw3NzQ3MjgxMDMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTY3Mjc4ODI5NSwxMDgyMDQ1ODQ3LC0xNj
+I0NjQwMzU5LDg3NjI3MjAzNSw4MzA1NzI4LC0xMzE2MDUyNjA4
+LC0xMjkzMjQ0MjQ4LDc3NDcyODEwMyw3MzA5OTgxMTZdfQ==
 -->
