@@ -37,6 +37,8 @@ Unlike Star-Schema, Snowflake schema contain normalized dimension tables in a tr
 ### Galaxy Schema
 A **Galaxy Schema** contains two fact table that share dimension tables between them. It is also called Fact Constellation Schema. The schema is viewed as a collection of stars hence the name Galaxy Schema.
 
+### Star Cluster schema
+
 ## Modelling Techniques
 ### ER Model 
 In OLTP, for RDBMS. Focussed on normalization to reduce redundancy.
@@ -160,11 +162,11 @@ Some OLAP systems offer forecasting capabilities to predict future trends and va
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQzMjA0MTUsMTc2MTQyMDY1MywxNT
-Y1NTgxNDYxLC00ODMyMjM2MTAsMjAxOTY1NTgxOCwtMTQzODE4
-NTYxMCwtNzk0MDI5MTAyLDE0MDA2MjI4NDgsMTMxMTMxNjkyOC
-wxMjU5Njg0OTU1LC0xOTE5NzE3MjU3LDEzNzc3ODE1NTYsMjc3
-OTc2NTY2LDEyMjMxMDE4NDAsLTE5NDY2MDA4MDMsMjM3NDkyMj
-EsLTE0NDA2MTUzODUsLTIxNTQzMjU0NCwxNDY3NjEwMTI0LDUw
-NTUzNzI0MF19
+eyJoaXN0b3J5IjpbLTkyMTk1NzY2MSwtMTc1NDMyMDQxNSwxNz
+YxNDIwNjUzLDE1NjU1ODE0NjEsLTQ4MzIyMzYxMCwyMDE5NjU1
+ODE4LC0xNDM4MTg1NjEwLC03OTQwMjkxMDIsMTQwMDYyMjg0OC
+wxMzExMzE2OTI4LDEyNTk2ODQ5NTUsLTE5MTk3MTcyNTcsMTM3
+Nzc4MTU1NiwyNzc5NzY1NjYsMTIyMzEwMTg0MCwtMTk0NjYwMD
+gwMywyMzc0OTIyMSwtMTQ0MDYxNTM4NSwtMjE1NDMyNTQ0LDE0
+Njc2MTAxMjRdfQ==
 -->
