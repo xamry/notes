@@ -6,7 +6,7 @@ From Java 8, interfaces are enhanced to have a method with implementation. We ca
 ## Functional Interfaces**
 An interface with exactly one abstract method becomes a Functional Interface. The only abstract method is called functional method. We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface, but we should, in order to avoid accidental addition of abstract methods in the functional interfaces. Functional interfaces provide common **functional programming patterns**. Since functional interfaces have only one method, lambda expressions can easily provide the method implementation.
 java.lang.Runnable with a single abstract method run() is a great example of a functional interface.
-Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function`, `Consumer`, and `Supplier`, in the `java.util.function` package.
+Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function`, `Consumer`, and `Supplier`, in the `java.util.function` package, which satisfes most developers' needs in providing target types for lambda expressions and method references.
 
 Functional Interfaces are also called SAM (Single Abstract Method) interfaces.
 
@@ -38,10 +38,11 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzEzMzM0NSwtMTc0ODMwODg0LC0xNT
-UzNjQzNDkwLDQ1MTkxODQ4MCwtMTIzMzI4OTY1LC0yMzkwMjAy
-MjksMTA1ODcxNTU5NSwzMjQzNDIxNDEsNzg1NzY0OTMsLTE3MD
-M2MjUwNTEsMzM1Nzg5MywtMTE2Mzc2NTcxNywtMTM4OTA3MzE5
-NSw4NTE3NDc0MDAsLTE4MTQwMjM1NiwtMTcwMjE2NTkzOSwyMD
-kzMTA2NjI3LDE5MDAxMDg2OTEsMjMzNTAzMDkzXX0=
+eyJoaXN0b3J5IjpbLTc0NjgyOTUxOCwtNjk3MTMzMzQ1LC0xNz
+Q4MzA4ODQsLTE1NTM2NDM0OTAsNDUxOTE4NDgwLC0xMjMzMjg5
+NjUsLTIzOTAyMDIyOSwxMDU4NzE1NTk1LDMyNDM0MjE0MSw3OD
+U3NjQ5MywtMTcwMzYyNTA1MSwzMzU3ODkzLC0xMTYzNzY1NzE3
+LC0xMzg5MDczMTk1LDg1MTc0NzQwMCwtMTgxNDAyMzU2LC0xNz
+AyMTY1OTM5LDIwOTMxMDY2MjcsMTkwMDEwODY5MSwyMzM1MDMw
+OTNdfQ==
 -->
