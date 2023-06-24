@@ -4,7 +4,7 @@
 From Java 8, interfaces are enhanced to have a method with implementation. We can use `default` and `static` keyword to create interfaces with method implementation. Default methods can be overriden while static methods can't.
 
 ## Functional Interfaces**
-An interface with exactly one abstract method becomes a Functional Interface. The only abstract method is called functional method. We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface, but we should, in order to avoid accidental addition of abstract methods in the functional interfaces. Functional interfaces provide common **functional programming patterns**. Since functional interfaces have only one method, lambda expressions can easily provide the method implementation.
+An interface with exactly one abstract method becomes a Functional Interface. The only abstract method is called **functional method**. We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface, but we should, in order to avoid accidental addition of abstract methods in the functional interfaces. Functional interfaces provide common **functional programming patterns**. Since functional interfaces have only one method, lambda expressions can easily provide the method implementation.
 java.lang.Runnable with a single abstract method run() is a great example of a functional interface.
 Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function`, `Consumer`, and `Supplier`, in the `java.util.function` package, which satisfes most developers' needs in providing target types for lambda expressions and method references.
 
@@ -38,11 +38,11 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjgyOTUxOCwtNjk3MTMzMzQ1LC0xNz
-Q4MzA4ODQsLTE1NTM2NDM0OTAsNDUxOTE4NDgwLC0xMjMzMjg5
-NjUsLTIzOTAyMDIyOSwxMDU4NzE1NTk1LDMyNDM0MjE0MSw3OD
-U3NjQ5MywtMTcwMzYyNTA1MSwzMzU3ODkzLC0xMTYzNzY1NzE3
-LC0xMzg5MDczMTk1LDg1MTc0NzQwMCwtMTgxNDAyMzU2LC0xNz
-AyMTY1OTM5LDIwOTMxMDY2MjcsMTkwMDEwODY5MSwyMzM1MDMw
-OTNdfQ==
+eyJoaXN0b3J5IjpbLTEwMjM5NjQ0OTQsLTc0NjgyOTUxOCwtNj
+k3MTMzMzQ1LC0xNzQ4MzA4ODQsLTE1NTM2NDM0OTAsNDUxOTE4
+NDgwLC0xMjMzMjg5NjUsLTIzOTAyMDIyOSwxMDU4NzE1NTk1LD
+MyNDM0MjE0MSw3ODU3NjQ5MywtMTcwMzYyNTA1MSwzMzU3ODkz
+LC0xMTYzNzY1NzE3LC0xMzg5MDczMTk1LDg1MTc0NzQwMCwtMT
+gxNDAyMzU2LC0xNzAyMTY1OTM5LDIwOTMxMDY2MjcsMTkwMDEw
+ODY5MV19
 -->
