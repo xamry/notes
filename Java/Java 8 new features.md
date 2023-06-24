@@ -12,7 +12,7 @@ Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function
 Lambda expressions introduced a concise syntax for defining anonymous functions. They enable **functional programming** by treating functions as first-class citizens, allowing the use of functional interfaces and enabling the use of functional programming constructs like streams.
     
 ## Stream API**
-The Stream API `java.util.stream` provides a declarative way to process collections of data in a functional programming style. Streams allow you to perform operations like filtering, mapping, and reducing on collections with ease, making code more readable and concise.
+The Stream API `java.util.stream` provides a declarative way to process collections of data in a functional programming style. Streams allow you to perform operations like *filtering*, *mapping*, and *reducing* on collections with ease, making code more readable and concise.
     
 ## Optional:
 The Optional class provides a way to handle potentially null values in a more expressive and safe manner. It encourages developers to explicitly handle cases where a value may be absent, reducing the likelihood of null pointer exceptions.
@@ -36,11 +36,11 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTY2OTQ2MTgsLTc0NjgyOTUxOCwtNj
-k3MTMzMzQ1LC0xNzQ4MzA4ODQsLTE1NTM2NDM0OTAsNDUxOTE4
-NDgwLC0xMjMzMjg5NjUsLTIzOTAyMDIyOSwxMDU4NzE1NTk1LD
-MyNDM0MjE0MSw3ODU3NjQ5MywtMTcwMzYyNTA1MSwzMzU3ODkz
-LC0xMTYzNzY1NzE3LC0xMzg5MDczMTk1LDg1MTc0NzQwMCwtMT
-gxNDAyMzU2LC0xNzAyMTY1OTM5LDIwOTMxMDY2MjcsMTkwMDEw
-ODY5MV19
+eyJoaXN0b3J5IjpbLTI5NDA4NTIwLC0xMDU2Njk0NjE4LC03ND
+Y4Mjk1MTgsLTY5NzEzMzM0NSwtMTc0ODMwODg0LC0xNTUzNjQz
+NDkwLDQ1MTkxODQ4MCwtMTIzMzI4OTY1LC0yMzkwMjAyMjksMT
+A1ODcxNTU5NSwzMjQzNDIxNDEsNzg1NzY0OTMsLTE3MDM2MjUw
+NTEsMzM1Nzg5MywtMTE2Mzc2NTcxNywtMTM4OTA3MzE5NSw4NT
+E3NDc0MDAsLTE4MTQwMjM1NiwtMTcwMjE2NTkzOSwyMDkzMTA2
+NjI3XX0=
 -->
