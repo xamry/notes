@@ -156,12 +156,16 @@ four qualities of a RESTful interface:
 ⦁	Self-descriptive error message (status response in HTTP) - Use status codes, don't reinvent the wheel.
 ⦁	HATEOAS (HTML interface for HTTP) - your web service should be fully accessible in a browser.
 
+Sharding
+Distributed concensus (2PC, 3PC, MVCC, SAGA)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMjEyNjgsMjA4MjE1NTMzNyw5NzQ1Nj
-A1MSwxNTIwNTcwMTQ1LC0xOTAxMTQzMTIzLDE5Mzg1MjMyMjYs
-LTk3OTkwNTMzNCwxODEwNzMyMDY2LC0xNjU1MjY1NjgsLTE2MT
-cxNjM0ODAsLTYzNTAzMjI5MywxMjkzNjAzMjUwLDEyNDI1NDYx
-ODIsMTQzMjc0NDcxMywtMTk2ODc4NTg4MywtMTQ3MzM4ODQ3OC
-wxNjQ4NDMyNTU5LC0xMjc0NzY3MDAsLTkzMjAwNzUyLC05ODIw
-Mjc3OTZdfQ==
+eyJoaXN0b3J5IjpbLTUzNTU3MDc5Myw2MzIyMTI2OCwyMDgyMT
+U1MzM3LDk3NDU2MDUxLDE1MjA1NzAxNDUsLTE5MDExNDMxMjMs
+MTkzODUyMzIyNiwtOTc5OTA1MzM0LDE4MTA3MzIwNjYsLTE2NT
+UyNjU2OCwtMTYxNzE2MzQ4MCwtNjM1MDMyMjkzLDEyOTM2MDMy
+NTAsMTI0MjU0NjE4MiwxNDMyNzQ0NzEzLC0xOTY4Nzg1ODgzLC
+0xNDczMzg4NDc4LDE2NDg0MzI1NTksLTEyNzQ3NjcwMCwtOTMy
+MDA3NTJdfQ==
 -->
