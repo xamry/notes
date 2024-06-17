@@ -8,6 +8,11 @@ An interface with exactly one abstract method becomes a Functional Interface. Th
 java.lang.Runnable with a single abstract method run() is a great example of a functional interface.
 Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function`, `Consumer`, and `Supplier`, in the `java.util.function` package, which satisfies most developers' needs in providing target types for lambda expressions and method references.
 
+Predicate: boolean test(T t);
+Function: R apply(T t);
+Consumer: void accept(T t);
+Supplier: T get();
+
 ## Lambda Expressions**
 Lambda expressions introduced a concise syntax for defining anonymous functions. They enable **functional programming** by treating functions as first-class citizens, allowing the use of functional interfaces and enabling the use of functional programming constructs like streams.
     
@@ -36,11 +41,11 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAyODMyODksLTI5NDA4NTIwLC0xMD
-U2Njk0NjE4LC03NDY4Mjk1MTgsLTY5NzEzMzM0NSwtMTc0ODMw
-ODg0LC0xNTUzNjQzNDkwLDQ1MTkxODQ4MCwtMTIzMzI4OTY1LC
-0yMzkwMjAyMjksMTA1ODcxNTU5NSwzMjQzNDIxNDEsNzg1NzY0
-OTMsLTE3MDM2MjUwNTEsMzM1Nzg5MywtMTE2Mzc2NTcxNywtMT
-M4OTA3MzE5NSw4NTE3NDc0MDAsLTE4MTQwMjM1NiwtMTcwMjE2
-NTkzOV19
+eyJoaXN0b3J5IjpbLTEyMTg2MTExNjQsLTE1OTAyODMyODksLT
+I5NDA4NTIwLC0xMDU2Njk0NjE4LC03NDY4Mjk1MTgsLTY5NzEz
+MzM0NSwtMTc0ODMwODg0LC0xNTUzNjQzNDkwLDQ1MTkxODQ4MC
+wtMTIzMzI4OTY1LC0yMzkwMjAyMjksMTA1ODcxNTU5NSwzMjQz
+NDIxNDEsNzg1NzY0OTMsLTE3MDM2MjUwNTEsMzM1Nzg5MywtMT
+E2Mzc2NTcxNywtMTM4OTA3MzE5NSw4NTE3NDc0MDAsLTE4MTQw
+MjM1Nl19
 -->
