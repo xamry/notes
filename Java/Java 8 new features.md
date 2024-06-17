@@ -5,7 +5,7 @@ From Java 8, interfaces are enhanced to have a method with implementation. We ca
 
 ## Functional Interfaces**
 An interface with exactly one abstract method becomes a Functional Interface. The only abstract method is called **functional method** or  **SAM** (Single Abstract Method). We don’t have to use @FunctionalInterface annotation to mark an interface as a Functional Interface, but we should, in order to avoid accidental addition of abstract methods in the functional interfaces. Functional interfaces provide common **functional programming patterns**. Since functional interfaces have only one method, lambda expressions can easily provide the method implementation.
-java.lang.Runnable with a single abstract method run() is a great example of a functional interface.
+java.lang.Runnable with a single abstract method run() is a great example of a functional interface. Comparable, ActionListener and Callable were also converted to Functional Interfaces in Java 8.
 Java 8 introduced a set of functional interfaces, such as `Predicate`, `Function`, `Consumer`, and `Supplier`, in the `java.util.function` package, which satisfies most developers' needs in providing target types for lambda expressions and method references.
 
 **Predicate**: boolean test(T t);
@@ -41,11 +41,11 @@ CompletableFuture is an enhanced version of the Future interface, providing bett
 ## forEach() method in Iterable interface
 Java 8 has introduced forEach method in `java.lang.Iterable` interface so that while writing code we focus on business logic. The forEach method takes `java.util.function.Consumer`object as an argument, so it helps in having our business logic at a separate location that we can reuse.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDUzMDY2MCwtMTU5MDI4MzI4OSwtMj
-k0MDg1MjAsLTEwNTY2OTQ2MTgsLTc0NjgyOTUxOCwtNjk3MTMz
-MzQ1LC0xNzQ4MzA4ODQsLTE1NTM2NDM0OTAsNDUxOTE4NDgwLC
-0xMjMzMjg5NjUsLTIzOTAyMDIyOSwxMDU4NzE1NTk1LDMyNDM0
-MjE0MSw3ODU3NjQ5MywtMTcwMzYyNTA1MSwzMzU3ODkzLC0xMT
-YzNzY1NzE3LC0xMzg5MDczMTk1LDg1MTc0NzQwMCwtMTgxNDAy
-MzU2XX0=
+eyJoaXN0b3J5IjpbNzI3MDQ4NDQ0LDEzMDQ1MzA2NjAsLTE1OT
+AyODMyODksLTI5NDA4NTIwLC0xMDU2Njk0NjE4LC03NDY4Mjk1
+MTgsLTY5NzEzMzM0NSwtMTc0ODMwODg0LC0xNTUzNjQzNDkwLD
+Q1MTkxODQ4MCwtMTIzMzI4OTY1LC0yMzkwMjAyMjksMTA1ODcx
+NTU5NSwzMjQzNDIxNDEsNzg1NzY0OTMsLTE3MDM2MjUwNTEsMz
+M1Nzg5MywtMTE2Mzc2NTcxNywtMTM4OTA3MzE5NSw4NTE3NDc0
+MDBdfQ==
 -->
