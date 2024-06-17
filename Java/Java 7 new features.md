@@ -16,7 +16,7 @@ Multi-catch blocks allow you to catch multiple exceptions in a single catch bloc
 We can specify binary literals using the prefix "0b" or "0B". Also, we can use underscores in numeric literals to improve readability. For example, you can write large numbers as 1_000_000 instead of 1000000.
 
 ## Fork/Join Framework**
-Ths framework provides support for parallel programming by allowing efficient task decomposition and work distribution across multiple processor cores. 
+This framework provides support for parallel programming by allowing efficient task decomposition and work distribution across multiple processor cores. 
 The core classes supporting the Fork-Join mechanism are `ForkJoinPool` and `ForkJoinTask`. The `ForkJoinPool` is basically a specialized implementation of `ExecutorService` implementing the  **work-stealing_ algorithm**.
 
 ## New file system API (NIO 2.0)*
@@ -31,5 +31,5 @@ The `WatchService` API lets you receive notification events upon changes to the 
 ### Dynamism support
 Java is a statically typed language, as against dynamically typed languages such as Ruby, Python and Clojure. A new feature called **invokedynamic** in Java 7 extends the support of dynamic languages.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDYzNTM4MF19
+eyJoaXN0b3J5IjpbLTg1MjYyNjI0NywxMTIwNjM1MzgwXX0=
 -->
